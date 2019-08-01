@@ -2,17 +2,17 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" >
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
-  <link href="/tag/fables/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="/tag/develop/feed.xml" rel="self" type="application/atom+xml" />
   <link href="/" rel="alternate" type="text/html" />
-  <updated>2019-07-31T16:51:26+08:00</updated>
-  <id>/tag/fables/feed.xml</id>
+  <updated>2019-08-01T13:59:02+08:00</updated>
+  <id>/tag/develop/feed.xml</id>
 
   
   
   
 
   
-    <title type="html">Tran | </title>
+    <title type="html">Elm’blog | </title>
   
 
   
@@ -98,7 +98,7 @@
       
 
       
-        <category term="fables" />
+        <category term="develop" />
       
 
       
