@@ -16,7 +16,7 @@ which can also be forked as a boilerplate for older versions of Jekyll.
 
 ## Credits
 
-- [Simple Texture][https://github.com/yizeng/jekyll-theme-simple-texture]
+- [Simple Texture](https://github.com/yizeng/jekyll-theme-simple-texture)
   + [YiZeng' blog](https://yizeng.me/blog)
 
 - [Jekyll][Jekyll]
