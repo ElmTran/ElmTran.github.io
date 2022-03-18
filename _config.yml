@@ -53,7 +53,7 @@ home:
 blog:
   cc_license: http://creativecommons.org/licenses/by-sa/4.0/ # A link to CC License of your choice.
   cc_license_image: /assets/images/theme/cc-by-sa.png # An image of your CC License. 
-  footer_content: 余家贫。
+  footer_content: You hair is winter fire,<br/>January embers,<br/>My heart burns there, too.
 
 # disqus 评论系统
 disqus:
