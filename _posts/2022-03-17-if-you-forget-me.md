@@ -1,3 +1,12 @@
+---
+layout: post
+title: "If You Forget Me."
+description: "I want you to know one thing."
+categories: [life]
+tags: [poem, love, life]
+redirect_from:
+  - /2022/03/17/
+---
 # If You Forget Me. <font size=2>Pablo Neruda</font>  
 
 (如果你忘了我 帕布罗·聂鲁达)
@@ -54,10 +63,10 @@ For I shall already have forgotten you.
 If you think it long and mad,  
 我生命中，  
 
-the wind of banners　that passes through my life,  
+the wind of banners that passes through my life,  
 过往的猎猎疾风如果你嫌弃它过于悠长，疯狂，  
 
-And you decide to leave me　at the shore of the heart where I have roots,  
+And you decide to leave me at the shore of the heart where I have roots,  
 而决意离我而去在我爱情所深埋的心之岸，  
 
 Remember, that on that day, at that hour,  

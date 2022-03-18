@@ -1,6 +1,9 @@
-# Simple Texture Jekyll Theme
+# Personal Blog Based on Simple Texture
+
 
 ![Gem Version](https://img.shields.io/gem/v/jekyll-theme-simple-texture.svg)
+
+This is a personal blog based on Simple Texture.
 
 Simple Texture is a gem-based responsive simple texture styled Jekyll theme for [Jekyll][Jekyll] 3.3 or above,
 which can also be forked as a boilerplate for older versions of Jekyll.
@@ -9,89 +12,12 @@ which can also be forked as a boilerplate for older versions of Jekyll.
 
 - Starter-kit demo:
 <https://yizeng.github.io/jekyll-theme-simple-texture/>
-- My own personal blog: <https://yizeng.me/blog>
-
-![Screenshot - Home](assets/images/screenshots/homepage.png)
-
-![Screenshot - Blog](assets/images/screenshots/post.png)
-
-## Installation
-
-### As a Jekyll theme gem (Jekyll >= 3.3)
-
-If you are creating a new website or blog,
-please follow the commands below first:
-
-1. Install Jekyll and [Bundler][Bundler]
-
-       gem install jekyll bundler
-
-2. Create a new Jekyll app
-
-       jekyll new jekyllapp
-
-3. Enter the new directory
-
-       cd jekyllapp
-
-4. Then follow the instructions below like existing Jekyll app.
-
-Then for existing Jekyll apps,
-
-1. Install Bundler if haven't done so.
-
-       gem install bundler
-
-1. Remove Jekyll auto-generated default pages `404.html`, `about.markdown` and `index.markdown` or any your custom layouts or existing theme files.
-
-1. Remove the existing `Gemfile.lock`.
-
-1. Download the respository [here](https://github.com/yizeng/jekyll-theme-simple-texture/archive/master.zip)
-and locate `starter-kit` folder,
-or download `starter-kit` folder directly [here](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/yizeng/jekyll-theme-simple-texture/tree/master/starter-kit).
-
-1. Put everything in the `starter-kit` in the root directory,
-i.e. `jekyllapp` in this example.
-
-1. Run `bundle install` to install dependencies.
-
-1. Run Jekyll with `bundle exec jekyll serve`
-
-1. Hack away at <http://localhost:4000>!
-
-### As a fork
-
-1. Fork the repo [here](https://github.com/yizeng/jekyll-theme-simple-texture#fork-destination-box)
-
-2. Clone the repo just forked.
-
-       git clone git@github.com:[YOUR_USERNAME]/jekyll-theme-simple-texture.git
-
-3. Delete `starter-kit` folder and `jekyll-theme-simple-texture.gemspec` file (they're for people installing via gem)
-
-4. Install Bundler if haven't done so.
-
-       gem install bundler
-
-5. Update the `Gemfile` to look like the following:
-
-   ```ruby
-   source "https://rubygems.org"
-
-   gem "github-pages", group: :jekyll_plugins
-   ```
-
-6. Run `bundle install` to install dependencies.
-
-7. Run Jekyll with `bundle exec jekyll serve`
-
-8. Hack away at <http://localhost:4000>!
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at <https://github.com/yizeng/jekyll-theme-simple-texture>. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+- My blog site: <https://elmtran.github.io/>
 
 ## Credits
+
+- [Simple Texture][https://github.com/yizeng/jekyll-theme-simple-texture]
+  + [YiZeng' blog](https://yizeng.me/blog)
 
 - [Jekyll][Jekyll]
   + [jekyll-feed](https://github.com/jekyll/jekyll-feed)
