@@ -48,7 +48,7 @@ author:
       url:
 home:
   section1: <h1>Elmtran's Blog</h1>
-  section2: <h2>Your hair is winter fire,<br/>January embers,<br/>My heart burns there, too.</h2>
+  section2: <h3>Your hair is winter fire,<br/><br/>January embers,<br/><br/>My heart burns there, too.</h3>
   section3: <div class="social-links"><a class="ico-github btn" href="https://github.com/ElmTran" title="View on GitHub"></a></div>
 blog:
   cc_license: http://creativecommons.org/licenses/by-sa/4.0/ # A link to CC License of your choice.
