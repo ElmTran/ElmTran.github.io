@@ -3,7 +3,7 @@ layout: post
 title: "If You Forget Me."
 description: "I want you to know one thing."
 categories: [life]
-tags: [poem, love, life]
+tags: [poem, love]
 redirect_from:
   - /2022/03/17/
 ---
