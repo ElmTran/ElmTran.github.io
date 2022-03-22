@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "端口转发"
+title: "Port Forwarding"
 description: "三种端口转发及ssh实现"
 categories: [technology]
 tags: [port forwarding, ssh, tennel]
