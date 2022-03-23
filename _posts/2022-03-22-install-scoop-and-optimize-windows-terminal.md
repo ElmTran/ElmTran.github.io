@@ -38,15 +38,13 @@ redirect_from:
 - 常用来源
 
     scoop bucket add extras
-    scoop bucket add main 
-    scoop bucket addnerd-fonts
-    scoop bucket add scoop-completion
+    scoop bucket add nerd-fonts
     scoop bucket add versions
 
 - 常用软件
 
     scoop install 7zip broot curl dark git sudo vim quicklook scoop-completion colortool
-    scoop install Cascadia-Code FiraCode-NF -g
+    scoop install FiraCode-NF -g
 ```
 
 ## Beautify powershell  
