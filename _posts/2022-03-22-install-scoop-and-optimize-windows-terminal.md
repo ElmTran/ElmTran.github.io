@@ -54,6 +54,8 @@ redirect_from:
   Install-Module posh-git
   Install-Module oh-my-posh
   Install-Module DirColors
+  Install-Module PSReadLine -AllowPrerelease -Force
+  Install-Module -AllowClobber Get-ChildItemColor -force
   ```
 
 - 开启`Prompt`

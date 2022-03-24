@@ -3,7 +3,7 @@ layout: post
 title: "Some Tools for Python, Updating~"
 description: "Python相关内容，持续更新中~"
 categories: [technology]
-tags: [python, programming languages]
+tags: [python, programming language]
 redirect_from:
   - /2022/03/23/
 ---
