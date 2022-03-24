@@ -52,6 +52,32 @@ redirect_from:
     [] | 上一部分末尾 |
     ][ | 下一部分开头 |
 
+- 插入操作
+    按键 | 功能 | 备注
+    ---------|----------|---------
+    a | 光标后插入 |
+    A | 行末插入 |
+    i | 光标前插入 |
+    o | 下方新开行 |
+    O | 上方新开行 |
+    : r [filename] | 在下方插入文件内容 |
+    : r ![command] | 在下方插入命令输出内容 |
+
+- 删除操作
+    按键 | 功能 | 备注
+    ---------|----------|---------
+    x | 删除光标处字符 |
+    dw | 删除一个词 |
+    d$ | 删除至行尾 |
+    d0 | 删除至行首 |
+    d) | 删除至句末 |
+    dgg | 删除至文章开始 |
+    dG | 删除至文章结束 |
+    dd | 删除该行 |
+    3dd | 删除三行 |
+    r{text} | 光标处字符替换成{text} |
+    R 输入字符将替换光标处文字 | 覆写模式
+    
 ## 参考链接
 - [Vim Vi键盘图](https://blog.gomyck.com/posts/vimKeyboard/), GOMYCK
 - [Vim快捷键速查表](https://linux.cn/article-8144-1.html), Himanshu Arora, LCTT Martin♡Adele
