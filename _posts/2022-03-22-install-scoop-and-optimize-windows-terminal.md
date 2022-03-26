@@ -78,15 +78,17 @@ redirect_from:
     Import-Module posh-git
     Import-Module oh-my-posh
     Import-Module DirColors
-    Set-PoshPrompt M365Princess
+    Set-PoshPrompt -Theme M365Princess
     Set-PSReadLineOption -PredictionSource History # 设置预测文本来源为历史记录
     Set-PSReadlineKeyHandler -Key Tab -Function Complete # 设置 Tab 键补全
     Set-PSReadLineKeyHandler -Key "Ctrl+d" -Function MenuComplete # 设置 Ctrl+d 为菜单补全和 Intellisense
     Set-PSReadLineKeyHandler -Key "Ctrl+z" -Function Undo # 设置 Ctrl+z 为撤销
-    Set-PSReadLineKeyHandler -Key UpArrow -Function HistorySearchBackward # 设置向上键为后向搜索历史录
+    Set-PSReadLineKeyHandler -Key UpArrow -Function HistorySearchBackward # 设置向上键为后向搜索历史记录
     Set-PSReadLineKeyHandler -Key DownArrow -Function HistorySearchForward # 设置向下键为前向搜索历史纪录
-
-    '%USERNAME%\scoop\apps\scoop-completion\0.2.3\Scoop-Completion.psd1' # 设置scoop-completion
+    Set-PSReadLineOption -Colors @{ InlinePrediction = "#666666" }
+    Set-PSReadLineOption -BellStyle none
+    Set-PSReadLineOption -HistorySearchCursorMovesToEnd
+    '{User}\scoop\apps\scoop-completion\0.2.3\Scoop-Completion.psd1' # 设置scoop-completion
 
     If (-Not (Test-Path Variable:PSise)) {
         Import-Module Get-ChildItemColor
