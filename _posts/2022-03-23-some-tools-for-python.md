@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Some Tools for Python, Updating~"
-description: "Python相关内容，持续更新中~"
+title: "Some Tools for Python"
+description: "Python相关内容"
 categories: [technology]
 tags: [python, programming language]
 redirect_from:
