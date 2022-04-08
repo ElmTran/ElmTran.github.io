@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Vim Quick Table, Updating~"
-description: "Vim速查表, 更新中"
+title: "Vim Quick Table"
+description: "Vim速查表"
 categories: [technology]
 tags: [vim, text editor, efficiency]
 redirect_from:

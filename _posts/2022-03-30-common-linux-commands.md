@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Linux commands, Updating~"
-description: "Linux命令速查表，更新中~"
+title: "Common Linux commands"
+description: "Linux命令速查表"
 categories: [technology]
 tags: [linux, bash, shell, efficiency]
 redirect_from:
