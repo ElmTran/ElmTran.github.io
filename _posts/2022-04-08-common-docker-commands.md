@@ -12,7 +12,7 @@ redirect_from:
 
 ### 镜像
 - 拉取镜像  
-  `$ docker pull [选项] [Docker Registry 地址[:端口号]/]仓库名[:标签]`
+  `docker pull [选项] [Docker Registry 地址[:端口号]/]仓库名[:标签]`
 
 - 查看镜像  
   `docker image ls`
@@ -92,4 +92,4 @@ redirect_from:
 
 - 查看日志  
   `docker-compose logs [container]`  
-  `-f`参数查看实时日志  
+  查看实时日志使用`-f`参数  
