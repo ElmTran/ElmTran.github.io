@@ -69,14 +69,27 @@ redirect_from:
      `ONBUILD <其他指令>`  
     - LABEL 添加元数据  
      `LABEL <key>=<value> <key>=<value> <key>=<value> ...`
-    - SHELL 指定shell
+    - SHELL 指定shell  
      `SHELL ["executable", "parameters"]`
 
-  - 多阶段构建(待施工)
+  - [多阶段构建](https://yeasy.gitbook.io/docker_practice/image/multistage-builds)
   - 其他  
     - 构建支持多架构的镜像
-    - 其他镜像制作方法（待施工）
-
+        - 创建manifest列表  
+          `docker manifest create MANIFEST_LIST MANIFEST [MANIFEST...]`
+        - 设置manifest列表  
+          `docker manifest annotate [OPTIONS] MANIFEST_LIST MANIFEST`
+        - 查看manifest列表  
+          `docker manifest inspect <镜像名>`
+        - 推送manifest列表  
+          `docker manifest push <镜像名>`
+    - 其他镜像制作方法
+        - 从rootfs压缩包导入:  
+          `docker import [选项] <文件>|<URL>|- [<仓库名>[:<标签>]]`
+        - 导出镜像:  
+          `docker save`
+        - 导入镜像:  
+          `docker load`
 ### 容器
 
 - 对比改动  
@@ -131,3 +144,4 @@ redirect_from:
 ## 参考链接
 - [Dockerfile 官方文档](https://docs.docker.com/engine/reference/builder/)
 - [Dockerfile 实践文档](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
+- [Docker镜像 实现原理](https://yeasy.gitbook.io/docker_practice/image/internal)
