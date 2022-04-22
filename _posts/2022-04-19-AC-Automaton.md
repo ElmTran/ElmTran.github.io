@@ -40,7 +40,7 @@ class AcAutomaton():
         p.end = True
         p.word = word
 
-    def _build(self):
+    def build(self):
         """
         @attention: 构建自动机
         @return:
@@ -90,7 +90,7 @@ if __name__ == "__main__":
     content = "劝君莫惜金缕衣，劝君惜取少年时。"
     for word in words:
         ac.insert(word)
-    ac._build()
+    ac.build()
     print(ac.match(content))
 
 ```

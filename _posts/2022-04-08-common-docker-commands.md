@@ -38,7 +38,40 @@ redirect_from:
         ...
     ```
 
-  - Dockerfile指令(待施工)
+  - Dockerfile指令
+    - COPY: 从源路径中的文件/目录复制到新的一层镜像的目标路径  
+     `COPY [--chown=<user>:<group>] <源路径>...<目标路径>`
+    - ADD: 更高级的url，和COPY的格式类似，但是源路径可以是url，如果是tar文件，格式是gzip,bzip2,xz的情况，会自动解压。
+    - CMD: 容器启动命令  
+     `CMD <命令>`  
+     `CMD ["可执行文件", "参数1", "参数2", ...]`  
+     `CMD ["参数1", "参数2", ...]`（用于指定ENTRYPOINT指令的参数）  
+     这类格式在被解析时会被解析成json格式，所以这里只能用双引号。
+    - ENTRYPOINT: 和RUN类似，让镜像变得像命令一样使用，应用运行前的准备。
+     `<ENTRYPOINT> "<CMD>"`
+    - ENV: 设置环境变量  
+     `ENV <key> <value>`  
+     `ENV <key1>=<value1> <key2>=<value2>`  
+    - ARG: 设置环境变量，容器运行后将失效  
+     `ARG <参数名>[=<默认值>]`  
+    - VOLUME 挂载匿名卷  
+     `VOLUME ["<路径1>","<路径2>"...]  
+    - EXPOSE 开放端口  
+     `EXPOSE <端口1> [<端口2>...]`  
+    - WORKDIR 指定工作目录  
+     `WORKDIR <工作目录路径>`  
+    - USER 指定当前用户  
+     `USER <用户名> [:<用户组>]`  
+    - HEALTHCHECK 健康检查  
+     `HEALTHCHECK [选项] CMD <命令>`  
+     `HEALTHCHECK NONE`
+    - ONBUILD 构建下一级镜像的时候执行  
+     `ONBUILD <其他指令>`  
+    - LABEL 添加元数据  
+     `LABEL <key>=<value> <key>=<value> <key>=<value> ...`
+    - SHELL 指定shell
+     `SHELL ["executable", "parameters"]`
+
   - 多阶段构建(待施工)
   - 其他  
     - 构建支持多架构的镜像
@@ -93,3 +126,8 @@ redirect_from:
 - 查看日志  
   `docker-compose logs [container]`  
   查看实时日志使用`-f`参数  
+
+
+## 参考链接
+- [Dockerfile 官方文档](https://docs.docker.com/engine/reference/builder/)
+- [Dockerfile 实践文档](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
