@@ -26,8 +26,16 @@ redirect_from:
   - `apt-cache policy nano`
 
 
+- 查找包含字符串的python文件
+  - `find . -type f -name '*.py'|xargs grep 'xxx'`  
+
 ## 修改操作
 
 - history命令优化
 
   - `curl -L http://hengyunabc.github.io/bash_completion_install.sh | sh`
+
+## 命令
+
+- xargs命令: 管道传参，将前面命令的标准输出转换成标准输入作为后边命令的参数。  
+  `<command1> | xargs <command2>`

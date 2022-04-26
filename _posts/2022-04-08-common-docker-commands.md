@@ -92,6 +92,41 @@ redirect_from:
           `docker load`
 ### 容器
 
+- 启动容器  
+  `docker run`: 新建并启动  
+  `docker container start`: 启动一个终止(exited)的容器  
+  `-d`: 守护态  
+  `-i`: 交互模式  
+  `-t`: 分配一个终端
+
+- 终止容器  
+  `docker container stop`  
+
+- 重启容器  
+  `docker container restart`  
+
+- 进入容器  
+  `docker attach`: 从stdin退出，会导致容器终止。  
+  `docker exec`: 不会导致容器终止  
+
+- 导出容器  
+  `docker export`: 快照将丢弃所有的历史记录和元信息
+
+- 导入容器  
+  `docker import`: 可以重新指定标签等元信息  
+
+- 删除容器
+  `docker container rm`
+
+- 清空容器
+  `docker container prune`
+
+- 查看容器信息  
+  `docker container ls`
+
+- 查看容器日志  
+  `docker container logs [container_id or container_name]`
+
 - 对比改动  
   `docker diff [container]`  
 
@@ -140,7 +175,21 @@ redirect_from:
   `docker-compose logs [container]`  
   查看实时日志使用`-f`参数  
 
+### 仓库
 
+- 登录: `docker login`
+
+- 登出: `docker logout`
+
+- 查找镜像: `docker search`
+
+- 标记镜像: `docker tag`
+
+- 上传镜像: `docker push`
+
+- [Docker Compose创建私有仓库](https://yeasy.gitbook.io/docker_practice/repository/registry_auth)
+
+- [Nexus3创建私有仓库](https://yeasy.gitbook.io/docker_practice/repository/nexus3_registry)
 ## 参考链接
 - [Dockerfile 官方文档](https://docs.docker.com/engine/reference/builder/)
 - [Dockerfile 实践文档](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
