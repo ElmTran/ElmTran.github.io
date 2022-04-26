@@ -55,7 +55,7 @@ redirect_from:
     - ARG: 设置环境变量，容器运行后将失效  
      `ARG <参数名>[=<默认值>]`  
     - VOLUME 挂载匿名卷  
-     `VOLUME ["<路径1>","<路径2>"...]  
+     `VOLUME ["<路径1>","<路径2>"...]`  
     - EXPOSE 开放端口  
      `EXPOSE <端口1> [<端口2>...]`  
     - WORKDIR 指定工作目录  
@@ -115,10 +115,10 @@ redirect_from:
 - 导入容器  
   `docker import`: 可以重新指定标签等元信息  
 
-- 删除容器
+- 删除容器  
   `docker container rm`
 
-- 清空容器
+- 清空容器  
   `docker container prune`
 
 - 查看容器信息  
