@@ -175,6 +175,19 @@ redirect_from:
   `docker-compose logs [container]`  
   查看实时日志使用`-f`参数  
 
+### Docker Swarm
+
+- 初始化: `docker swarm init`
+
+- 查看当前网络: `docker network ls`
+
+- 查看节点: `docker node ls`
+
+- 查看服务: `docker service ps <service-name>`
+
+- 更新服务: `docker service update <service-name>`  
+  `-force`: 参数强制更新(重启)
+
 ### 仓库
 
 - 登录: `docker login`
