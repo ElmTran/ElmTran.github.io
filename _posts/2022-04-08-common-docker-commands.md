@@ -90,6 +90,25 @@ redirect_from:
           `docker save`
         - 导入镜像:  
           `docker load`
+
+### Docker Buildx
+- 使用文件缓存  
+  `--mount=type=cache, target=[container_path], id=[cache_id]`
+
+- 挂载镜像或上阶段文件  
+  `--mount=type=bind`
+
+- 挂载tmpfs
+  `--mount=type=tmpfs`
+
+- 挂载密钥
+  `--mount=type=secret`
+
+- 挂载ssh密钥
+  `--mount=type=ssh`
+
+- 构建镜像
+  `docker buildx build`
 ### 容器
 
 - 启动容器  
@@ -144,6 +163,12 @@ redirect_from:
 - 构建并启动  
   `docker-compose up -d [container]`  
 
+- 拉取服务依赖镜像  
+  `docker-compose pull`
+
+- 推送服务依赖镜像
+  `docker-compose push`
+
 - 删除容器和镜像  
   `docker-compose down`  
 
@@ -168,13 +193,123 @@ redirect_from:
 - 删除容器  
   `docker-compose rm [container]`   
 
-- 执行命令  
+- 执行命令(进入容器)  
   `docker-compose exec [container] [command]`  
+
+- 在指定服务上执行一个命令  
+  `docker-compose run`
+
+- 强制停止容器
+  `docker-compose kill`
+
+- 设置规模  
+  `docker-compose scale`
+
+- 查看容器进程  
+  `docker-compose top`
 
 - 查看日志  
   `docker-compose logs [container]`  
   查看实时日志使用`-f`参数  
 
+- 指定模板  
+  `-f,--file [file]`
+
+- 指定项目名称  
+  `-p, --project [project]`
+
+- 输出更多调试信息  
+  `--verbose`
+
+- 查看所有镜像  
+  `--images`
+
+## Docker-compose 模板
+- 构建镜像
+  `build`
+
+- 控制内核能力
+  `cap_add, cap_drop`
+
+- 默认执行命令
+  `command`
+
+- 指定父组
+  `cgroup_parent`
+
+- 指定容器名称
+  `container_name`
+
+- 指定设备映射关系
+  `devices`
+
+- 解决依赖关系
+  `depends_on`
+
+- 设置dns
+  `dns`
+
+- 设置搜索域
+  `dns-search`
+
+- 挂载tmpfs到文件系统
+  `tmpfs`
+
+- 指定环境变量文件
+  `env_file`
+
+- 指定环境变量内容
+  `environment`
+
+- 暴露端口
+  `expose`
+
+- 链接到外部容器
+  `external_links`
+
+- 指定额外的host名称映射信息
+  `external_hosts`
+
+- 健康检查
+  `healthcheck`
+
+- 指定镜像
+  `image`
+
+- 添加元数据
+  `labels`
+
+- 日志配置
+  `logging`
+
+- 网络模式
+  `network_model`
+
+- 连接网络
+  `networks`
+
+- 暴露端口信息
+  `ports`
+
+- 存储敏感信息
+  `secrets`
+
+- 指定容器模板标签的默认属性(用户、角色、类型、等级等)
+  `security_opt`
+
+- 指定其他信号停止容器
+  `stop_signal`
+
+- 配置容器内容参数
+  `sysctls`
+
+- 指定ulimits限制值
+  `ulimits`
+
+- 挂载目录
+  `volumes`
+
+- [其他指令](https://yeasy.gitbook.io/docker_practice/compose/compose_file)
 ### Docker Swarm
 
 - 初始化: `docker swarm init`
@@ -203,6 +338,50 @@ redirect_from:
 - [Docker Compose创建私有仓库](https://yeasy.gitbook.io/docker_practice/repository/registry_auth)
 
 - [Nexus3创建私有仓库](https://yeasy.gitbook.io/docker_practice/repository/nexus3_registry)
+
+### 数据管理
+- 创建数据卷  
+  `docker volume create [volume]`  
+
+- 查看所有数据卷  
+  `docker volume ls`
+
+- 查看数据卷信息   
+  `docker volume inspect [volume]`  
+
+- 启动挂载数据卷的容器  
+  `--mount source=[volume], target=[container_path]`  
+
+- 挂载本地目录  
+  `--mount type=bind, source=[host_path], target=[container_path]`
+
+- 删除数据卷  
+  `docker volume rm [volume]`  
+
+- 清理无主数据卷  
+  `docker volume prune`
+
+### 网络管理
+- 端口映射  
+  `-p [ip:host_port:container_port]/[ip::container_port]/[host_port:container_port]`
+
+- 查看映射  
+  `docker port`
+
+- 自定义docker网络  
+  `docker network create -d [netType] [netName]`
+
+- 连接自定义网络
+  `--network [netName]`
+
+- 配置dns  
+  修改全部dns：更改`/etc/docker/daemon.json`文件
+  指定容器dns：`-h HOSTNAME/--hostname=HOSTNAME`或者`--dns=IP_ADDRESS`
+  设置搜索域：`--dns-search=DOMAIN`
+
+- [高级网络配置](https://yeasy.gitbook.io/docker_practice/advanced_network)
+
+
 ## 参考链接
 - [Dockerfile 官方文档](https://docs.docker.com/engine/reference/builder/)
 - [Dockerfile 实践文档](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)

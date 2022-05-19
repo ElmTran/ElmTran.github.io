@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-```
+```python
 class Node():
     static = 0
 
