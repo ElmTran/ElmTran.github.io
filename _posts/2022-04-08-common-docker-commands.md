@@ -314,15 +314,36 @@ redirect_from:
 
 - 初始化: `docker swarm init`
 
+- 增加工作节点: `docker swarm join --token`
+
 - 查看当前网络: `docker network ls`
 
 - 查看节点: `docker node ls`
 
-- 查看服务: `docker service ps <service-name>`
+- 新建服务: `docker service create`
+
+- 查看服务列表: `docker service ls`
+
+- 查看服务详情: `docker service ps <service-name>`
+
+- 查看服务日志: `docker service logs`
 
 - 更新服务: `docker service update <service-name>`  
-  `-force`: 参数强制更新(重启)
+  `--force`: 参数强制更新(重启)
 
+- 回退服务: `docker service rollback`
+
+- 服务扩容: `docker service scale`
+
+- 移除服务: `docker service rm`
+
+- 使用docker-compose: `docker stack deploy -c docker-compose.yml <name>`
+
+- 创建密钥: `openssl rand -base64 20 | docker secret create`
+
+- 查看密钥: `docker secret ls`
+
+- 配置文件: `docker config`
 ### 仓库
 
 - 登录: `docker login`
