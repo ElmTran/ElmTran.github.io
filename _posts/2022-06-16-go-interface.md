@@ -10,8 +10,7 @@ redirect_from:
 
 # 概念理解
 - 定义一个接口
-
-    ```Golang
+    ```go
     type Duck interface {
         Quack() // 鸭子叫
         DuckGo() // 鸭子走
@@ -40,7 +39,7 @@ redirect_from:
     这只聪明的可达鸭虽然是鸭嘴兽但是他能做鸭子做的事，所以他可以也是一直鸭子(接口)
 
 - 使用接口调用
-    ```Go
+    ```go
     func DoDuck(d Duck) {
         d.Quack()
         d.DuckGo()
@@ -54,7 +53,6 @@ redirect_from:
 
 # 空接口
 - 用法
-  
     ```go
     // 用法1 赋予任意类型的值
     type i interface{}
