@@ -9,5 +9,9 @@ redirect_from:
 ---
 
 - windows输入法切换插件被重置或不生效  
-  修复方案：  
-  修改注册表`\HKEY_USERS\.DEFAULT\Control Panel\Input Method\Hot Keys\`与`\HKEY_CURRENT_USER\Control Panel\Input Method\Hot Keys`一致
+    修复方案：修改注册表  
+
+    使 `\HKEY_USERS\.DEFAULT\Control Panel\Input Method\Hot Keys\`  
+
+    与 `\HKEY_CURRENT_USER\Control Panel\Input Method\Hot Keys\`  
+    保持一致。
