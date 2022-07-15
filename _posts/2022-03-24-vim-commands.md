@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Vim Quick Table"
+title: "Vim Commands"
 description: "Vim速查表"
 categories: [technology]
 tags: [vim, text editor, efficiency]

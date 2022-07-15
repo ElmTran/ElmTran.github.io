@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Set Up Go Development Environment"
+title: "Go Dev Environment"
 description: "搭建go开发环境"
 categories: [technology]
 tags: [Go, Programming Language, Development]

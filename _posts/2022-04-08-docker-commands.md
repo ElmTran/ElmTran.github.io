@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Common Docker Commands"
+title: "Docker Commands"
 description: "Docker命令速查表"
 categories: [technology]
 tags: [docker, docker-compose, docker-swarm]

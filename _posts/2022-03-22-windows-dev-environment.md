@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Install Scoop and Optimize Windows Terminal"
+title: "Windows Dev Environment"
 description: "安装scoop和美化windows terminal"
 categories: [technology]
 tags: [windows, scoop, windows terminal, efficiency]

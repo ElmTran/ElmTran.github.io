@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Some Tools for Python"
+title: "Python Tools"
 description: "Python相关内容"
 categories: [technology]
 tags: [python, programming language]

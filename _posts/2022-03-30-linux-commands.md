@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Common Linux commands"
+title: "Linux commands"
 description: "Linux命令速查表"
 categories: [technology]
 tags: [linux, bash, shell, efficiency]

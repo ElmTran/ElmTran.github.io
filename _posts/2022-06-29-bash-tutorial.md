@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Bash Note"
+title: "Bash Tutorial"
 description: "bash笔记"
 categories: [technology]
 tags: [Shell, Bash, Script, Linux]
