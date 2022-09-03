@@ -5,7 +5,7 @@ description: "一些有用的链接"
 categories: [technology]
 tags: [learning, technology, links]
 redirect_from:
-  - /2022/09/22/
+  - /2022/09/03/
 ---
 
 ## API
