@@ -9,6 +9,7 @@ redirect_from:
 ---
 
 ## API
+
 - [少数派](https://sspai.com/post/67568)
 
 - [天气API接口文档 · 免费天气api接口 · 看云](https://www.kancloud.cn/ccjin/yingq/603579)
@@ -41,7 +42,7 @@ redirect_from:
 
 - [fangzesheng/free-api: 收集免费的接口服务,做一个api的搬运工](https://github.com/fangzesheng/free-api)
 
-- [Universal Micro Services | M3Oa](https://www.m3o.com/)
+- [Universal Micro Services \| M3Oa](https://www.m3o.com/)
 
 - [Api列表 穆仙念，人到中年](https://www.mxnzp.com/doc/list)
 
@@ -51,7 +52,7 @@ redirect_from:
 
 - [接口大全-免费API,收集所有免费的API](https://www.free-api.com/)
 
-- [API Shop，专业的数据交易平台 | API免费调用，行业数据下载，数据定制](https://www.apishop.net/#/)
+- [API Shop，专业的数据交易平台 \| API免费调用，行业数据下载，数据定制](https://www.apishop.net/#/)
 
 - [万维易源-互联网API入口](https://www.showapi.com/apiShow/apiMap)
 
@@ -84,7 +85,7 @@ redirect_from:
 
 - [Open Access Library (OALib)](https://www.oalib.com/)
 
-- [Sci-Hub文献检索 | 科学是照亮世界的火把](https://sci-hub.org.cn/)
+- [Sci-Hub文献检索 \| 科学是照亮世界的火把](https://sci-hub.org.cn/)
 
 - [谷粉学术](https://gfsoso.99lb.net/)
 
@@ -96,7 +97,7 @@ redirect_from:
 
 ## 工具
 ### 格式转换/媒体
-- [Jpeg.io | Convert any major image format into a highly optimized JPEG](https://www.jpeg.io/)
+- [Jpeg.io \| Convert any major image format into a highly optimized JPEG](https://www.jpeg.io/)
 
 - [在线图片压缩_视频转GIF软件_GIF裁剪合成工具-图贴士](https://www.tutieshi.com/)
 
@@ -125,8 +126,8 @@ redirect_from:
 
 - [ColorSpace - Color Palettes Generator and Color Gradient Tool  色彩空间 配色在线工具](https://mycolor.space/)
 
-- [The easiest CSS color gradients generator | Colorffy](https://colorffy.com/)
+- [The easiest CSS color gradients generator \| Colorffy](https://colorffy.com/)
 
-- [Boss设计 | 收集国外设计素材网站的资源平台。](https://www.bossdesign.cn/)
+- [Boss设计 \| 收集国外设计素材网站的资源平台。](https://www.bossdesign.cn/)
 
 ## (PENDING)
