@@ -137,7 +137,7 @@ redirect_from:
 - [softpedia](https://www.softpedia.com/)
 
 ### 书籍
-- [Free eBooks | Project Gutenberg](https://www.gutenberg.org/)
+- [Project Gutenberg](https://www.gutenberg.org/)
 
 - [Free-eBooks.net ](https://www.free-ebooks.net/)
 
@@ -167,7 +167,7 @@ redirect_from:
 
 - [Library Genesis](http://libgen.rs/search.php)
 
-- [Free Computer books Download | Online computer ebooks | online free computer science ebooks](http://www.freebookcentre.net/)
+- [Free Computer books Download \| Online computer ebooks \| online free computer science ebooks](http://www.freebookcentre.net/)
 
 - [WuxiaWorld](https://www.wuxiaworld.com/)
 
@@ -297,9 +297,9 @@ redirect_from:
 
 - [Stories - NovelAI](https://ai.nya.la/stories)
 
-- [koishijs/novelai-bot: Generate images by NovelAI | 基于 NovelAI 的画图机器人](https://github.com/koishijs/novelai-bot)
+- [novelai-bot: Generate images by NovelAI](https://github.com/koishijs/novelai-bot)
 
-- [介绍 | NovelAI Bot](https://novelai.koishi.chat/)
+- [介绍 \| NovelAI Bot](https://novelai.koishi.chat/)
 
 - [AUTOMATIC1111/stable-diffusion-webui: Stable Diffusion web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
 
@@ -379,7 +379,7 @@ redirect_from:
 
 - [Shorter URL](http://upyun.online/)
 
-- [Kutt | Modern Open Source URL shortener.](https://kutt.it/)
+- [Kutt \| Modern Open Source URL shortener.](https://kutt.it/)
 
 - [Magic Urls](https://sud.pw/)
 
