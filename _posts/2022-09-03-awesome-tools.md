@@ -66,7 +66,9 @@ redirect_from:
 - [proquest-高质量论文数据库](www.proquest.com)
 
 - [科塔学术](https://site.sciping.com/)
+
 ## 书籍
+
 - [Project Gutenberg](https://www.gutenberg.org/)
 
 - [Free-eBooks.net ](https://www.free-ebooks.net/)
@@ -696,6 +698,7 @@ redirect_from:
 - [阅流](https://yueliu.link/4wS1oN)
 
 - [undesign](https://undesign.learn.uno/)
+
 ## 生活
 
 - 旅行
@@ -715,6 +718,7 @@ redirect_from:
 - [家用电器维修](https://www.zhixiu.net/)
 
 - [程序员做饭指南](https://github.com/Anduin2017/HowToCook)
+
 ## 工作
 
 - [remotive](https://remotive.com)
