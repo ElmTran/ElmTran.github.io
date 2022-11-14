@@ -357,13 +357,7 @@ redirect_from:
 
 - [SmsForwarder 短信转发](https://github.com/pppscn/SmsForwarder)
 
-### 编程语言
-
-  - GO
-
-    - [Introduction-to-Golang](https://github.com/0voice/Introduction-to-Golang)
-
-### API
+#### API
 
 - [少数派](https://sspai.com/post/67568)
 
@@ -431,7 +425,7 @@ redirect_from:
 
 - [随机地址生成](https://www.addresscopy.com/)
 
-### 短网址
+#### 短网址
 - [短网址](http://suo.im/)
 
 - [免费短网址生成器](http://suo.nz/)
@@ -488,6 +482,11 @@ redirect_from:
 
 - [亲爱的](https://qinai.de/)
 
+### 编程语言
+
+  - GO
+
+    - [Introduction-to-Golang](https://github.com/0voice/Introduction-to-Golang)
 ## 英语
 ### 写作
 
