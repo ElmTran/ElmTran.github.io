@@ -64,6 +64,18 @@ redirect_from:
 
 - [python http](http://httpbin.org/#/)
 
+- [Random User Generator 提供虚假用户列表](https://randomuser.me/)
+
+- [advice](https://api.adviceslip.com/advice)
+
+- [User icons](https://avatars.dicebear.com/docs)
+
+- [Сurrent weather and forecast - OpenWeatherMap](https://openweathermap.org/)
+
+- [电影数据库 API](https://developers.themoviedb.org/3/getting-started/introduction)
+
+- [随机地址生成](https://www.addresscopy.com/)
+
 ## 论文/学术
 - [数字图书馆。搜索书籍。免费下载书籍](https://zh.b-ok.cc/)
 
@@ -109,34 +121,20 @@ redirect_from:
 
 - [Science gov for Science - Government Science Portal](https://www.science.gov/)
 
-## 工具
-### 格式转换/媒体
-- [Jpeg.io \| Convert any major image format into a highly optimized JPEG](https://www.jpeg.io/)
+- [文献鸟](https://www.storkapp.me)
 
-- [在线图片压缩_视频转GIF软件_GIF裁剪合成工具-图贴士](https://www.tutieshi.com/)
+- [Researcher](www.researcher-app.com)
 
-- [在线图片压缩工具(jpg、jpeg、png、gif)无损压缩90%-压缩图](https://www.yasuotu.com/)
+- [学术创新](www.xueshuchuangxin.com)
 
-- [图片压缩_图片在线压缩_批量压缩工具-NiaoAPI](http://www.niaoapi.com/)
+- [Semantic Scholar-文献检索](www.semanticscholar.org)
 
-- [无需上传文件也可在线处理图片](https://imagestool.com/zh_CN/)
+- [OXFord Academic](https://academic.oup.com/)
 
-### office
+- [proquest-高质量论文数据库](www.proquest.com)
 
-- [E5 自动续订软件](https://e5renew.com/) ps: [密钥获取](https://blog.csdn.net/qq_33212020/article/details/119747634)
-
-
-### 资源
-
-- [400 多个站点和资源库](https://iamjesushusbands.gumroad.com/l/resource-lib)
-
-- [The Only List of Website and Resources You Will Ever Need](https://iamjesushusbands.medium.com/the-only-list-of-website-and-resources-you-will-ever-need-fc79873d38e4)
-
-- [The Free Learning List](https://freelearninglist.org/)
-
-- [softpedia](https://www.softpedia.com/)
-
-### 书籍
+- [科塔学术](https://site.sciping.com/)
+## 书籍
 - [Project Gutenberg](https://www.gutenberg.org/)
 
 - [Free-eBooks.net ](https://www.free-ebooks.net/)
@@ -182,6 +180,165 @@ redirect_from:
 - [Ink East](https://inkeast.com/)
 
 - [Talk to Books](https://books.google.com/talktobooks/)
+
+- [zlibrary地址检测](https://zlib.pro/)
+
+- [鸠摩读书](https://www.jiumodiary.com/)
+
+- [goodreads](https://www.goodreads.com/)
+
+- [zlibrary镜像](https://www.ooopn.com/tool/zlibrary/)
+
+- [zlibrary 中文资源](https://bk.hallowlib.org/)
+
+- [Zlibrary最新地址  民间搜集](https://find.looks.wang)
+
+- 官方链接
+  - [z-lib.org](z-lib.org)
+  - [https://1lib.domains/](https://1lib.domains/)
+  - [https://libsolutions.domains/](https://libsolutions.domains/)
+  - [https://zh.booklist.is/](https://zh.booklist.is/)
+  - [https://zh.bookshome.world/](https://zh.bookshome.world/)
+  - [https://zh.zlibrary.org/](https://zh.zlibrary.org/)
+  - [https://zh.singlelogin.me/](https://zh.singlelogin.me/)
+  - [https://b-ok.cc/](https://b-ok.cc/)
+
+- [Zhelper 帮助文档](https://v2.zhelper.net/)
+
+- [Zhelper V3 网址列表](https://v3.zhelper.net/)
+
+- [Zlibrary 地址 | Zlib 检测](https://zlib.pro/)
+
+- [Z-Library 镜像 - 小白工具箱 ](https://www.ooopn.com/tool/zlibrary/)
+
+- [易书论坛 #论坛](https://bbs.yibook.org/)
+
+- [镜像站](https://bk.hallowlib.org/)
+
+- 历史
+
+  - [https://www.worldhistory.org/全球历史百科全书](https://www.worldhistory.org/)
+
+  - [全历史](https://www.allhistory.com/)
+
+  - [识典古籍](https://www.shidianguji.com/)
+
+  - [妖纪](https://www.cbaigui.com/)
+
+  - [西窗烛](http://www.xcz.im/zh-cn/)
+
+  - [书格](https://new.shuge.org/)
+
+## 工具
+### 格式转换/媒体
+- [Jpeg.io \| Convert any major image format into a highly optimized JPEG](https://www.jpeg.io/)
+
+- [在线图片压缩_视频转GIF软件_GIF裁剪合成工具-图贴士](https://www.tutieshi.com/)
+
+- [在线图片压缩工具(jpg、jpeg、png、gif)无损压缩90%-压缩图](https://www.yasuotu.com/)
+
+- [图片压缩_图片在线压缩_批量压缩工具-NiaoAPI](http://www.niaoapi.com/)
+
+- [无需上传文件也可在线处理图片](https://imagestool.com/zh_CN/)
+
+- [改图神器-无损放大](https://img.logosc.cn/bigjpg)
+
+- [十六进制颜色代码表，图表及调色板 - Encycolorpedia](https://encycolorpedia.cn/)
+
+- [ColorSpace - Color Palettes Generator and Color Gradient Tool  色彩空间 配色在线工具](https://mycolor.space/)
+
+- [The easiest CSS color gradients generator \| Colorffy](https://colorffy.com/)
+
+- [制图](http://figma.com)
+
+- [无损放大](http://bigjpg.com)
+
+- [寻找矢量图片](http://iconfont.cn)
+
+- [寻找配色](http://colorhunt.co)
+
+- [套壳效果](http://pika.style)
+
+- [人声消除和隔离](https://vocalremover.org/ch/)
+
+- [压力巨大-图片压缩](https://www.yalijuda.com/)
+
+- [OCR识别](https://pearocr.com/)
+
+- [智影](https://zenvideo.qq.com/)
+
+- [Batch AI Photo sharpener](https://bggenerator.com/batch_ai_photo_sharpener.html)
+
+### office
+
+- [E5 自动续订软件](https://e5renew.com/) ps: [密钥获取](https://blog.csdn.net/qq_33212020/article/details/119747634)
+
+- 官方工具部署激活
+
+  - [office 软件部署工具](https://www.microsoft.com/en-us/download/details.aspx)
+  
+  - [office 版本自定义工具](https://config.office.com/deploymentsettings)
+  
+  - [基于KMS的 GVLK](https://learn.microsoft.com/zh-cn/deployoffice/vlactivation/gvlks)
+
+  - [视频教程](https://www.youtube.com/watch?v=VSjRx7Hoa60)
+
+- [HelloWindows](http://hellowindows.cn/)
+
+- [CMWTAT_Digital_Edition](https://github.com/TGSAN/CMWTAT_Digital_Edition)
+
+- [云萌](https://cmwtat.cloudmoe.com/cn.html)
+
+### 资源
+
+- [400 多个站点和资源库](https://iamjesushusbands.gumroad.com/l/resource-lib)
+
+- [The Only List of Website and Resources You Will Ever Need](https://iamjesushusbands.medium.com/the-only-list-of-website-and-resources-you-will-ever-need-fc79873d38e4)
+
+- [The Free Learning List](https://freelearninglist.org/)
+
+- [softpedia](https://www.softpedia.com/)
+
+- [Screen Plays](https://screenplays.io/)
+
+- [IMSDb](https://imsdb.com/)
+
+- [Office官方模板站](https://www.officeplus.cn/)
+
+- [BBC 声音数据库](https://sound-effects.bbcrewind.co.uk/)
+
+- [FreeMbook Search](https://freembook.com/)
+
+- [Filmot - 字幕和视频元数据搜索引擎 Youtube 字幕](https://filmot.com/)
+
+- [Photoshop教程](https://www.photoshoplady.com/)
+
+- [黑鹰](https://www.lxapk.com/)
+
+- [调色lut-提取码:k5e4](https://pan.baidu.com/share/init?surl=PFVwWXNbOsIx5ROjPeJKwQ)
+
+- [藏宝阁](https://noisevip.cn/12876.html)
+
+- [ShareX-截图工具](https://getsharex.com/)
+
+- [电影分级lut](https://noise.lanzoul.com/ifQ7Z0frridg)
+
+- [20个lut](https://noisevip.cn/14350.html)
+
+### 文件
+- [TinyWow Tool](https://tinywow.com/)
+
+- [ilovePDF](https://www.ilovepdf.com/zh-cn)
+
+- [EPUB to PDF](https://cloudconvert.com/epub-to-pdf)
+
+- [德语 OCR](https://convertio.co/zh/ocr/german/)
+
+- [PDF to Word](https://smallpdf.com/cn/pdf-to-word)
+
+- [PDF To Markdown](https://pdf2md.morethan.io/)
+
+- [PDF to WORD](https://www.ilovepdf.com/zh-cn/pdf_to_word#Popover19-toggle)
 
 ### 临时存储
 
@@ -245,10 +402,156 @@ redirect_from:
 - [富贵论坛](https://www.fglt.net/)
 
 - [A5新媒体](https://xmt.a5.net/)
+软件
+### 开发工具
 
-#tools
+- [smarGate-内网穿透工具](https://github.com/lazy-luo/smarGate)
+
+- 算法
+
+  - [The Algorithms](https://the-algorithms.com/)
+
+  - [Github Algorithms](https://github.com/orgs/TheAlgorithms/repositories)
+
+- [唇记-语音交互编辑器](https://github.com/ZhichuCen/ChunJi)
+
+- [Hacker New 深度检索](https://deephn.org/)
+
+- [Powershell模块](https://github.com/farag2/Sophia-Script-for-Windows)
+
+- [Quick Reference & Quick Reference](https://wangchujiang.com/reference/index.html)
+
+- [Linux command search](https://github.com/jaywcjlove/linux-command)
+
+- [快速参考备忘单](https://github.com/jaywcjlove/reference)
+
+- 编程语言
+
+  - GO
+
+    - [Introduction-to-Golang](https://github.com/0voice/Introduction-to-Golang)
+
+- [SmsForwarder 短信转发](https://github.com/pppscn/SmsForwarder)
+
+## 英语
+### 写作
+
+- 语法错误检测\|同类句转换\|Rephraser\|编辑相关
+  - [talk to book](https://books.google.com/talktobooks/)
+
+  - [cliche finder](https://www.clichefinder.net/)
+
+  - [Academic Phrasebank](https://www.phrasebank.manchester.ac.uk/using-cautious-language/)
+
+  - [QuillBot AI](https://quillbot.com/)
+
+  - [Grammarly](https://app.grammarly.com/ddocs/1779550646)
+
+  - [Hemingway](https://hemingwayapp.com/)
+
+  - [Telegraph](https://telegra.ph/)
+
+  - [QuillBot](https://quillbot.com/)
+
+  - [Phrasekbank](https://www.phrasebank.manchester.ac.uk/)
+
+  - [Rephraser](https://www.gingersoftware.com/products/sentence-rephraser)
+
+  - [参考文献](https://wordvice.cn/citation-generator/)
+
+  - [写作猫](https://www.xiezuomao.com/)
+
+  - [Wordtune](https://www.wordtune.com/)
+
+  - [CopyAI](https://www.copy.ai/)
+
+  - [WriterSonic](https://writesonic.com/)
+
+- 释义溯源相关\|俚语辞典\|Linggle\|相关的平行文本搜索\|单词用法
+
+  - [Define](https://www.google.com/search?q=define:)
+
+  - [Linguee](https://www.linguee.com/)
+
+  - [UrbanDic](https://www.urbandictionary.com/)
+
+  - [Etymonline](https://www.etymonline.com/)
+
+  - [FreeDic](https://www.thefreedictionary.com/)
+
+  - [SlangDic](http://onlineslangdictionary.com/)
+
+  - [Linggle](https://www.linggle.com/)
+
+  - [SentenceStack](https://sentencestack.com/)
+
+- 语法增强和替换\|同义词、反义词\|韵律\|Rhyme
+
+  - [Thesaurus](https://www.powerthesaurus.org/)
+
+  - [WordHippo](https://www.wordhippo.com/)
+
+  - [Synonym](https://www.synonym.com/synonyms/love)
+
+  - [AbbreviationsDic](https://www.allacronyms.com/)
+
+  - [Abbreviations](https://www.abbreviations.com/)
+
+  - [RhymeZone](https://www.rhymezone.com/)
+
+  - [Rhyme](https://www.rhymer.com/)
+
+### 听力
+
+- [ELLLO](https://www.elllo.org/)
+
+
+### 口语
+
+### 考试资料
+
+- [雅思真题免费在线测试](https://ieltsonlinetests.com/zh-hans/ielts-exam-library#all-test)
+
+- [英语学习导航](https://www.up-6.com/)
+
+- [lingq](https://t.me/isaiahsystem/49)
+
+- [Burning Vocabulary](https://t.me/isaiahsystem/163)
+
+- [Youtube双字幕](https://t.me/isaiahsystem/184)
+
+- [沙拉查词](https://saladict.crimx.com/)
+
+- [雪球英语](https://mobile.twitter.com/iwilldev)
+
+- [Anki](https://apps.ankiweb.net/)
+
+- [Supermemo](https://www.yuque.com/supermemo/wiki/help)
+
+- [英语进阶库](https://github.com/byoungd/English-level-up-tips)
+
+- [Don't learn languages—acquire them](https://t.me/isaiahsystem/51)
+
+- [如何提高英语水平](https://linghao.io/posts/improve-english#Popover19-toggle)
+
+## 搜索引擎
+
+- [Brave](https://search.brave.com/)
+
+- [KeywordSea-关键字搜索引擎](https://keywordsea.com/)
+
+- [all search](https://allsear.ch/)
+
+- [小舒同学](https://explorer.xiaoshuapp.com/)
+
+- [Metaphor](https://metaphor.systems/)
+
+- [Product Hunt-产品检索](https://www.producthunt.com/)
+
+- [similarsites-相似搜索](https://www.similarsites.com/)
 
 ## 设计/创意
+
 - [在线免费制作Logo，定制专属于你的Logo设计 – DesignEvo](https://www.designevo.com/cn/)
 
 - [LOGO设计神器；公司logo在线设计生成器 - 标小智LOGO神器](https://www.logosc.cn/)
@@ -265,25 +568,9 @@ redirect_from:
 
 - [Picular](https://picular.co/)
 
-- [十六进制颜色代码表，图表及调色板 - Encycolorpedia](https://encycolorpedia.cn/)
-
-- [ColorSpace - Color Palettes Generator and Color Gradient Tool  色彩空间 配色在线工具](https://mycolor.space/)
-
-- [The easiest CSS color gradients generator \| Colorffy](https://colorffy.com/)
-
 - [Boss设计 \| 收集国外设计素材网站的资源平台。](https://www.bossdesign.cn/)
 
 - [ContentIdeas: Find Unlimited Content Ideas From the Web ](https://contentideas.io/)
-
-- [制图](http://figma.com)
-
-- [无损放大](http://bigjpg.com)
-
-- [寻找矢量图片](http://iconfont.cn)
-
-- [寻找配色](http://colorhunt.co)
-
-- [套壳效果](http://pika.style)
 
 - [nipponcolors](https://nipponcolors.com/)
 
@@ -309,11 +596,109 @@ redirect_from:
 
 - [AIは人間に勝てるのか? 話題のnovelAIのやり方も解説 - YouTube](https://www.youtube.com/watch?v=-m0vSm-QGQA)
 
+- [AI-generated photography](https://nyx.gallery/)
+
+- [AI生成艺术工具](https://imgeditor.zmo.ai/)
+
+- [吉卜力工作室图片](https://www.openculture.com/2020/12/studio-ghibli-makes-1178-images-free-to-download.html)
+
+- [Danbooru](https://danbooru.donmai.us/)
+
+- [OpenArt](https://openart.ai/)
+
+- [PromptOmonia](https://promptomania.com/prompt-builder/)
+
+- [Stable Diffusion 的简单中文指南](https://stable-diffusion-book.vercel.app/)
+
+- [SD RESOURCE GOLDMINE-AI作画超级收录](https://rentry.org/sdupdates)
+
+- [DALL·E](https://openai.com/dall-e-2/)
+
+- [Imagen: Text-to-Image Diffusion Models](https://imagen.research.google/)
+
+- [NUWA-Infinity](https://nuwa-infinity.microsoft.com)
+
+- [Log in | StabilityAI](https://stabilityai.us.auth0.com)
+
+- [Stability.Ai](https://stability.ai/blog/stable-diffusion-public-release?continueFlag=707adb537436231458302f4b5e702dae)
+
+- [文心一格 - AI艺术和创意辅助平台](https://yige.baidu.com/)
+
+- [Midjourney](https://www.midjourney.com/home/)
+
+- [6pen Art](https://6pen.art/)
+
+- [Tiamat内测🤩](https://tiamat-ai.feishu.cn/share/base/shrcn2uXL8wNiveykIFYqWSzsPf)
+
+- [NovelAI](https://ai.nya.la/login)
+
+- [🤖 🖼 AI Art Generator, AI Art Maker - NightCafe Creator](https://creator.nightcafe.studio/?code=UNITEAI)
+
+- [Deep Dream Generator](https://deepdreamgenerator.com/)
+
+- [Artbreeder](https://www.artbreeder.com/)
+
+- [GAN Art](https://ganart-io.web.app/)
+
+- [AI Image Generator API | DeepAI](https://deepai.org/machine-learning-model/text2img)
+
+- [starryai](https://www.starryai.com/)
+
+- [Photo Editor: Fotor](https://www.fotor.com/)
+
+- [Runway](https://runwayml.com/)
+
+- [Dream by WOMBO](https://www.wombo.art/)
+
+- [google arts and culture](https://artsandculture.google.com/)
+
+- [pixabay](https://pixabay.com/)
+
+- [阅流](https://yueliu.link/4wS1oN)
+
+- [undesign](https://undesign.learn.uno/)
 ## 生活
 
-- [旅行者博客](https://travel.getnomad.app/)
+- 旅行
+
+  - [旅行者博客](https://travel.getnomad.app/)
+
+  - [Elude](https://elude.co/)
+
+  - [marriott](https://www.marriott.com/default.mi)
+
+  - [Booking](https://www.booking.com/)
+
+  - [Kayak](https://www.kayak.com/)
+
+- [音乐和酒](http://drinkify.org/)
+
+- [家用电器维修](https://www.zhixiu.net/)
+
+- [程序员做饭指南](https://github.com/Anduin2017/HowToCook)
+## 工作
+
+- [remotive](https://remotive.com)
+
+- [linkin面试题](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes)
 
 - [立党的转码/润学/移民/找工作笔记](https://lidangzzz.github.io/How-to-run/)
+
+- [google面试模拟器](https://grow.google/certificates/interview-warmup/)
+
+- [Jobo-职业检索](https://www.jobbot.me/)
+
+- [pathrise-就业指导](https://www.pathrise.com/)
+
+- [flowcv-简历生成](https://flowcv.com/)
+
+- [pramp-面试指导](https://www.pramp.com/#/)
+
+- [Remote OK-中远程工作](https://remoteok.com/)
+
+- [Big Interview-interview mock](https://biginterview.com/)
+
+- [Interview Warmup](https://grow.google/certificates/interview-warmup/)
 
 ## 投资
 - [confluence](https://www.confluence.vc/)
@@ -331,6 +716,10 @@ redirect_from:
 
 - [跨平台的开源家庭娱乐系统](https://kodi.tv/)
 
+- [绝版游戏保护工程](https://github.com/skywind3000/preserve-cd)
+## 电影
+
+- [41T 4K 电影资源](https://www.aliyundrive.com/s/aEEGWV4hF33)
 
 ## 短网址
 - [短网址](http://suo.im/)
@@ -389,11 +778,17 @@ redirect_from:
 
 - [亲爱的](https://qinai.de/)
 
-## 统计分析
+## 统计和分析
 
 - [statista](https://www.statista.com/)
 
-## Telegram Bot
+- [快速下载中文数据集](https://github.com/CYang828/datasetstation)
+
+- [Tableau综合分享](https://www.vizwiz.com/vizwiz.com)
+
+- [Global 地球仪](http://globe.cid.harvard.edu/)
+
+## Telegram
 
 ### OCR
 - [TexifyBot](https://telegram.me/TexifyBot)
@@ -457,4 +852,33 @@ redirect_from:
 
 - [soutubot](https://telegram.me/soutubot)
 
-## (PENDING)
+### 搜书
+
+- [zlibrary2bot](https://telegram.me/zlibrary2bot)
+
+- [firstlibrarybot](https://telegram.me/firstlibrarybot)
+
+### 搜索
+
+- [TG三方搜索](https://cse.google.com/cse?cx=004805129374225513871:p8lhfo0g3hg)
+
+- [TG三方搜索2](https://meow.tg/private/voidrss)
+
+- [Bot 检索](https://botostore.com/collections/best-official-chatbots-verified-with-blue-badges-by-telegram/)
+
+## 优秀博客/网站
+
+- [Smashing Magazine](https://www.smashingmagazine.com/)
+
+- [Save web](https://github.com/saveweb)
+
+- [德里达写作习惯](https://mindyourwriting.wordpress.com/2015/10/26/how-famous-researchers-work-derrida/)
+
+- [品云机场导航](https://52.mk/)
+
+- [DAC 导航](https://nwuzmed.ga/)
+
+- [PornDude-色情网站导航\#NSFW](https://theporndude.com/zh)
+- [PornDude-色情网站导航](https://theporndude.com/zh)
+- [中文newsletter](https://www.notion.so/700273d587b8412f83743160ab6b4e74?v=682827618e2642a197c849515053dfce)
+
