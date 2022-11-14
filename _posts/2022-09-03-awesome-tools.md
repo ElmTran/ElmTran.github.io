@@ -8,74 +8,6 @@ redirect_from:
   - /2022/09/03/
 ---
 
-## API
-
-- [少数派](https://sspai.com/post/67568)
-
-- [天气API接口文档 · 免费天气api接口 · 看云](https://www.kancloud.cn/ccjin/yingq/603579)
-
-- [JSON API免费接口-BeJSON.com](https://www.bejson.com/knownjson/webInterface/)
-
-- [免费API接口汇总](https://segmentfault.com/a/1190000017047048)
-
-- [免费第三方API平台整合 - 小莹莹](https://www.cnblogs.com/liuying1995/p/6723185.html)
-
-- [分享一些开放的免费的API接口](https://blog.csdn.net/huxinrun/article/details/84788763)
-
-- [各大平台的免费api接口](https://blog.csdn.net/qq_36570464/article/details/82561056)
-
-- [收集的免费API接口](https://www.cnblogs.com/chen0307/p/9634848.html)
-
-- [免费实用的API接口](https://www.jianshu.com/p/12c2fb8cab66)
-
-- [以前整理的网络上免费API接口 - annie123](https://www.cnblogs.com/annie00/p/5852873.html)
-
-- [免费开放API接口_瞳話cium的博客](https://blog.csdn.net/weixin_42330073/article/details/86541973)
-
-- [整理搜集免费的API接口网址_冰雪为融的博客](https://blog.csdn.net/lhjuejiang/article/details/80684366)
-
-- [API Store - 创信API数据接口调用服务平台](https://apis.jxcxin.cn/)
-
-- [Ten▪️Api](https://tenapi.cn/)
-
-- [接口大全-免费API,收集所有免费的API](https://www.free-api.com/)
-
-- [fangzesheng/free-api: 收集免费的接口服务,做一个api的搬运工](https://github.com/fangzesheng/free-api)
-
-- [Universal Micro Services \| M3Oa](https://www.m3o.com/)
-
-- [Api列表 穆仙念，人到中年](https://www.mxnzp.com/doc/list)
-
-- [抖音快手小红书去水印解析API接口-小凡科技公共API系统](http://api.xiaofany.com/)
-
-- [简介 - 小凡科技公共API系统 - 易文档](https://easydoc.net/doc/92263726/9lAvlou2/4GP6sMIO)
-
-- [接口大全-免费API,收集所有免费的API](https://www.free-api.com/)
-
-- [API Shop，专业的数据交易平台 \| API免费调用，行业数据下载，数据定制](https://www.apishop.net/#/)
-
-- [万维易源-互联网API入口](https://www.showapi.com/apiShow/apiMap)
-
-- [company apis](https://www.thecompaniesapi.com/)
-
-- [apify](https://apify.com/)
-
-- [crawlee](https://crawlee.dev/)
-
-- [python http](http://httpbin.org/#/)
-
-- [Random User Generator 提供虚假用户列表](https://randomuser.me/)
-
-- [advice](https://api.adviceslip.com/advice)
-
-- [User icons](https://avatars.dicebear.com/docs)
-
-- [Сurrent weather and forecast - OpenWeatherMap](https://openweathermap.org/)
-
-- [电影数据库 API](https://developers.themoviedb.org/3/getting-started/introduction)
-
-- [随机地址生成](https://www.addresscopy.com/)
-
 ## 论文/学术
 - [数字图书馆。搜索书籍。免费下载书籍](https://zh.b-ok.cc/)
 
@@ -206,8 +138,6 @@ redirect_from:
 - [Zhelper 帮助文档](https://v2.zhelper.net/)
 
 - [Zhelper V3 网址列表](https://v3.zhelper.net/)
-
-- [Zlibrary 地址 | Zlib 检测](https://zlib.pro/)
 
 - [Z-Library 镜像 - 小白工具箱 ](https://www.ooopn.com/tool/zlibrary/)
 
@@ -402,7 +332,7 @@ redirect_from:
 - [富贵论坛](https://www.fglt.net/)
 
 - [A5新媒体](https://xmt.a5.net/)
-软件
+
 ### 开发工具
 
 - [smarGate-内网穿透工具](https://github.com/lazy-luo/smarGate)
@@ -423,15 +353,140 @@ redirect_from:
 
 - [Linux command search](https://github.com/jaywcjlove/linux-command)
 
-- [快速参考备忘单](https://github.com/jaywcjlove/reference)
+- [快速参考备忘单](https://github.com/jaywcjlove/referencu)
 
-- 编程语言
+- [SmsForwarder 短信转发](https://github.com/pppscn/SmsForwarder)
+
+### 编程语言
 
   - GO
 
     - [Introduction-to-Golang](https://github.com/0voice/Introduction-to-Golang)
 
-- [SmsForwarder 短信转发](https://github.com/pppscn/SmsForwarder)
+### API
+
+- [少数派](https://sspai.com/post/67568)
+
+- [天气API接口文档 · 免费天气api接口 · 看云](https://www.kancloud.cn/ccjin/yingq/603579)
+
+- [JSON API免费接口-BeJSON.com](https://www.bejson.com/knownjson/webInterface/)
+
+- [免费API接口汇总](https://segmentfault.com/a/1190000017047048)
+
+- [免费第三方API平台整合 - 小莹莹](https://www.cnblogs.com/liuying1995/p/6723185.html)
+
+- [分享一些开放的免费的API接口](https://blog.csdn.net/huxinrun/article/details/84788763)
+
+- [各大平台的免费api接口](https://blog.csdn.net/qq_36570464/article/details/82561056)
+
+- [收集的免费API接口](https://www.cnblogs.com/chen0307/p/9634848.html)
+
+- [免费实用的API接口](https://www.jianshu.com/p/12c2fb8cab66)
+
+- [以前整理的网络上免费API接口 - annie123](https://www.cnblogs.com/annie00/p/5852873.html)
+
+- [免费开放API接口_瞳話cium的博客](https://blog.csdn.net/weixin_42330073/article/details/86541973)
+
+- [整理搜集免费的API接口网址_冰雪为融的博客](https://blog.csdn.net/lhjuejiang/article/details/80684366)
+
+- [API Store - 创信API数据接口调用服务平台](https://apis.jxcxin.cn/)
+
+- [Ten▪️Api](https://tenapi.cn/)
+
+- [接口大全-免费API,收集所有免费的API](https://www.free-api.com/)
+
+- [fangzesheng/free-api: 收集免费的接口服务,做一个api的搬运工](https://github.com/fangzesheng/free-api)
+
+- [Universal Micro Services \| M3Oa](https://www.m3o.com/)
+
+- [Api列表 穆仙念，人到中年](https://www.mxnzp.com/doc/list)
+
+- [抖音快手小红书去水印解析API接口-小凡科技公共API系统](http://api.xiaofany.com/)
+
+- [简介 - 小凡科技公共API系统 - 易文档](https://easydoc.net/doc/92263726/9lAvlou2/4GP6sMIO)
+
+- [接口大全-免费API,收集所有免费的API](https://www.free-api.com/)
+
+- [API Shop，专业的数据交易平台 \| API免费调用，行业数据下载，数据定制](https://www.apishop.net/#/)
+
+- [万维易源-互联网API入口](https://www.showapi.com/apiShow/apiMap)
+
+- [company apis](https://www.thecompaniesapi.com/)
+
+- [apify](https://apify.com/)
+
+- [crawlee](https://crawlee.dev/)
+
+- [python http](http://httpbin.org/#/)
+
+- [Random User Generator 提供虚假用户列表](https://randomuser.me/)
+
+- [advice](https://api.adviceslip.com/advice)
+
+- [User icons](https://avatars.dicebear.com/docs)
+
+- [Сurrent weather and forecast - OpenWeatherMap](https://openweathermap.org/)
+
+- [电影数据库 API](https://developers.themoviedb.org/3/getting-started/introduction)
+
+- [随机地址生成](https://www.addresscopy.com/)
+
+### 短网址
+- [短网址](http://suo.im/)
+
+- [免费短网址生成器](http://suo.nz/)
+
+- [EPS短网址](https://anran.gs/T/dwz/)
+
+- [百度短网址](https://dwz.cn/)
+
+- [新浪短网址](https://sina.lt/)
+
+- [腾讯百度新浪短网址的API](https://www.xiaodao0.com/i-wz-31188834.html)
+
+- [dh6.ink](https://dh6.ink/)
+
+- [短网址](https://www.ft12.com/)
+
+- [小码短链接生成器](https://xiaomark.com/)
+
+- [emoji短网址](https://e.mezw.com/)
+
+- [Urlify 短链接](https://urlify.cn/)
+
+- [PlexusMD](https://pxmd.co/)
+
+- [colors.to Link Shortener](https://colors.to/)
+
+- [U.NU](https://u.nu/)
+
+- [短网址生成](http://aad.tw/)
+
+- [厘短链](https://dlj.li/)
+
+- [知链短链](https://zhiurl.cn/)
+
+- [mtw网址缩短转换服务](http://mtw.so/)
+
+- [020短链](https://020.name/)
+
+- [短网址](https://sina.lt/)
+
+- [URL Shortener](http://gg.gg/)
+
+- [短网址](https://9-u.cn/)
+
+- [Shorter URL](http://upyun.online/)
+
+- [Kutt \| Modern Open Source URL shortener.](https://kutt.it/)
+
+- [Magic Urls](https://sud.pw/)
+
+- [SooRun - 专业的网址缩短和分析平台](https://soo.run/)
+
+- [GENERATE SHORT URL](https://x007.in/)
+
+- [亲爱的](https://qinai.de/)
 
 ## 英语
 ### 写作
@@ -505,7 +560,6 @@ redirect_from:
 
 - [ELLLO](https://www.elllo.org/)
 
-
 ### 口语
 
 ### 考试资料
@@ -533,22 +587,6 @@ redirect_from:
 - [Don't learn languages—acquire them](https://t.me/isaiahsystem/51)
 
 - [如何提高英语水平](https://linghao.io/posts/improve-english#Popover19-toggle)
-
-## 搜索引擎
-
-- [Brave](https://search.brave.com/)
-
-- [KeywordSea-关键字搜索引擎](https://keywordsea.com/)
-
-- [all search](https://allsear.ch/)
-
-- [小舒同学](https://explorer.xiaoshuapp.com/)
-
-- [Metaphor](https://metaphor.systems/)
-
-- [Product Hunt-产品检索](https://www.producthunt.com/)
-
-- [similarsites-相似搜索](https://www.similarsites.com/)
 
 ## 设计/创意
 
@@ -618,7 +656,7 @@ redirect_from:
 
 - [NUWA-Infinity](https://nuwa-infinity.microsoft.com)
 
-- [Log in | StabilityAI](https://stabilityai.us.auth0.com)
+- [APStabilityAI](https://stabilityai.us.auth0.com)
 
 - [Stability.Ai](https://stability.ai/blog/stable-diffusion-public-release?continueFlag=707adb537436231458302f4b5e702dae)
 
@@ -640,7 +678,7 @@ redirect_from:
 
 - [GAN Art](https://ganart-io.web.app/)
 
-- [AI Image Generator API | DeepAI](https://deepai.org/machine-learning-model/text2img)
+- [AI Image Generator API \| DeepAI](https://deepai.org/machine-learning-model/text2img)
 
 - [starryai](https://www.starryai.com/)
 
@@ -700,6 +738,17 @@ redirect_from:
 
 - [Interview Warmup](https://grow.google/certificates/interview-warmup/)
 
+## 游戏
+- [igg](https://igg-games.com/)
+
+- [跨平台的开源家庭娱乐系统](https://kodi.tv/)
+
+- [绝版游戏保护工程](https://github.com/skywind3000/preserve-cd)
+
+## 电影
+
+- [41T 4K 电影资源](https://www.aliyundrive.com/s/aEEGWV4hF33)
+
 ## 投资
 - [confluence](https://www.confluence.vc/)
 
@@ -710,73 +759,6 @@ redirect_from:
 - [compile.blog](https://compile.blog/)
 
 - [moneywise](https://moneywise.com/)
-
-## 游戏
-- [igg](https://igg-games.com/)
-
-- [跨平台的开源家庭娱乐系统](https://kodi.tv/)
-
-- [绝版游戏保护工程](https://github.com/skywind3000/preserve-cd)
-## 电影
-
-- [41T 4K 电影资源](https://www.aliyundrive.com/s/aEEGWV4hF33)
-
-## 短网址
-- [短网址](http://suo.im/)
-
-- [免费短网址生成器](http://suo.nz/)
-
-- [EPS短网址](https://anran.gs/T/dwz/)
-
-- [百度短网址](https://dwz.cn/)
-
-- [新浪短网址](https://sina.lt/)
-
-- [腾讯百度新浪短网址的API](https://www.xiaodao0.com/i-wz-31188834.html)
-
-- [dh6.ink](https://dh6.ink/)
-
-- [短网址](https://www.ft12.com/)
-
-- [小码短链接生成器](https://xiaomark.com/)
-
-- [emoji短网址](https://e.mezw.com/)
-
-- [Urlify 短链接](https://urlify.cn/)
-
-- [PlexusMD](https://pxmd.co/)
-
-- [colors.to Link Shortener](https://colors.to/)
-
-- [U.NU](https://u.nu/)
-
-- [短网址生成](http://aad.tw/)
-
-- [厘短链](https://dlj.li/)
-
-- [知链短链](https://zhiurl.cn/)
-
-- [mtw网址缩短转换服务](http://mtw.so/)
-
-- [020短链](https://020.name/)
-
-- [短网址](https://sina.lt/)
-
-- [URL Shortener](http://gg.gg/)
-
-- [短网址](https://9-u.cn/)
-
-- [Shorter URL](http://upyun.online/)
-
-- [Kutt \| Modern Open Source URL shortener.](https://kutt.it/)
-
-- [Magic Urls](https://sud.pw/)
-
-- [SooRun - 专业的网址缩短和分析平台](https://soo.run/)
-
-- [GENERATE SHORT URL](https://x007.in/)
-
-- [亲爱的](https://qinai.de/)
 
 ## 统计和分析
 
@@ -879,6 +861,22 @@ redirect_from:
 - [DAC 导航](https://nwuzmed.ga/)
 
 - [PornDude-色情网站导航\#NSFW](https://theporndude.com/zh)
-- [PornDude-色情网站导航](https://theporndude.com/zh)
+
 - [中文newsletter](https://www.notion.so/700273d587b8412f83743160ab6b4e74?v=682827618e2642a197c849515053dfce)
+
+## 搜索引擎
+
+- [Brave](https://search.brave.com/)
+
+- [KeywordSea-关键字搜索引擎](https://keywordsea.com/)
+
+- [all search](https://allsear.ch/)
+
+- [小舒同学](https://explorer.xiaoshuapp.com/)
+
+- [Metaphor](https://metaphor.systems/)
+
+- [Product Hunt-产品检索](https://www.producthunt.com/)
+
+- [similarsites-相似搜索](https://www.similarsites.com/)
 
