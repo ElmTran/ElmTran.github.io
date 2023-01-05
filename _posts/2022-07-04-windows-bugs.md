@@ -15,3 +15,14 @@ redirect_from:
 
     与 `\HKEY_CURRENT_USER\Control Panel\Input Method\Hot Keys\`  
     保持一致。
+
+
+- 照片打不开，显示file system error
+
+    修复方案：install Media Feature Pack
+
+    Setting-APP-Optional Features-Media Feature Pack
+
+- 输入法不显示
+
+    取消勾选 Use the desktop language bar when it's available

@@ -67,6 +67,8 @@ redirect_from:
 
 - [科塔学术](https://site.sciping.com/)
 
+- [connected papers](https://www.connectedpapers.com/)
+
 ## 书籍
 
 - [Project Gutenberg](https://www.gutenberg.org/)
@@ -127,6 +129,14 @@ redirect_from:
 
 - [Zlibrary最新地址  民间搜集](https://find.looks.wang)
 
+- [中文书库](https://bk.hallowlib.org/)
+
+- [无名图书](https://www.book123.info/)
+
+- [zlibsearch](https://zlib.knat.network/)
+
+- [Internet Archive](https://archive.org/)
+
 - 官方链接
   - [z-lib.org](z-lib.org)
   - [https://1lib.domains/](https://1lib.domains/)
@@ -161,6 +171,9 @@ redirect_from:
 
   - [书格](https://new.shuge.org/)
 
+- [老画报](http://www.laohuabao.com/index.html)
+
+- [浙江图书馆-连环画](http://wx.zhlhh.com/zhejianglib)
 ## 工具
 ### 格式转换/媒体
 - [Jpeg.io \| Convert any major image format into a highly optimized JPEG](https://www.jpeg.io/)
@@ -200,6 +213,12 @@ redirect_from:
 - [智影](https://zenvideo.qq.com/)
 
 - [Batch AI Photo sharpener](https://bggenerator.com/batch_ai_photo_sharpener.html)
+
+- [图片压缩](https://www.picdiet.com/zh-cn)
+
+- [作图](https://www.lucidchart.com/pages/)
+
+- [diagrams](https://app.diagrams.net/)
 
 ### office
 
@@ -257,6 +276,30 @@ redirect_from:
 
 - [20个lut](https://noisevip.cn/14350.html)
 
+- [saas替代方案](https://saasblocks.io/)
+
+- [nirsoft-开发者小工具](http://www.nirsoft.net/)
+
+- [虚拟身份生成](https://www.verif.tools/en/?gn=PW3mnGJ6Fiot)
+
+- alist
+
+  - [小雅](http://alist.xiaoya.pro)
+
+  - [晴园](https://alist.aqingyuan.repl.co)
+
+  - [Puppet Studio](https://www.kugutsu.ml)
+
+  - [七米蓝](https://al.chirmyram.com)
+
+  - [Banana的资源站](https://alist.advanced360.top)
+
+  - [小瑞](https://ruipan.bestruirui.repl.co/)
+
+  - [Arley's Drive](https://pan.arley.cn/)
+
+  - [微资源](https://apps.weixinqqq.com/)
+
 ### 文件
 - [TinyWow Tool](https://tinywow.com/)
 
@@ -272,7 +315,9 @@ redirect_from:
 
 - [PDF to WORD](https://www.ilovepdf.com/zh-cn/pdf_to_word#Popover19-toggle)
 
-### 临时存储
+- [PDF24](https://tools.pdf24.org/zh/)
+
+### 云存储
 
 - [Userscloud](https://userscloud.com/)
 
@@ -285,6 +330,22 @@ redirect_from:
 - [Zippyshare.com - Free File Hosting](https://www.zippyshare.com/)
 
 - [File Hosting and Sharing Service](https://www.filecad.com/)
+
+- [Cryptee](https://crypt.ee/)
+
+- [e2ee](https://e2ee-cloud.com/)
+
+- [filen](https://filen.io/)
+
+- [nextcloud](https://nextcloud.com/)
+
+- [MEGA](https://mega.io/)
+
+- [Peergos](https://peergos.org/)
+
+- [UploadGram](https://f-droid.org/packages/com.pato05.uploadgram/)
+
+- [Tahoe](https://www.tahoe-lafs.org/trac/tahoe-lafs)
 
 ### 临时邮箱
 
@@ -339,6 +400,10 @@ redirect_from:
 
 - [smarGate-内网穿透工具](https://github.com/lazy-luo/smarGate)
 
+- [正则表达式生成](https://www.w3cschool.cn/tools/index?name=create_reog)
+
+- [转换工具](https://www.iamwawa.cn/daxiaoxie.html)
+
 - 算法
 
   - [The Algorithms](https://the-algorithms.com/)
@@ -358,6 +423,77 @@ redirect_from:
 - [快速参考备忘单](https://github.com/jaywcjlove/referencu)
 
 - [SmsForwarder 短信转发](https://github.com/pppscn/SmsForwarder)
+
+- [命令行使用教程](https://github.com/xuxiaodong/usingcli-book)
+
+- [域名检查](https://user.urlzt.com/comdet)
+
+- [查找全网用户名](https://www.handlefinder.com/)
+
+- [UIverse-前端ui库](https://uiverse.io/)
+
+- [json to go](https://mholt.github.io/json-to-go/)
+
+- [text to slices](https://cn.sli.dev/)
+
+- [低代码工具](https://www.nocode.tech/)
+
+- [控制台命令协作备忘录](https://tldr.sh/)
+
+- [域名查询](https://domains.ray.st/)
+
+- [stack share](https://stackshare.io/)
+
+- [表格格式转换](https://tableconvert.com/)
+
+- [html2singlefile](https://github.com/gildas-lormeau/SingleFile)
+#### AI
+
+  - [FUTUREPEDIA-AI工具聚合](https://www.futurepedia.io/)
+
+  - [Ruturn your text into images](https://imaginator.developer-service.io/)
+
+  - [Duffison Land](https://www.diffusion.land/)
+
+  - [ArtAPI](https://artpai.xyz/#/)
+
+  - [NovelAI (@novelaiofficial) / Twitter](https://twitter.com/novelaiofficial)
+
+  - [NovelAI - The GPT-powered AI Storyteller](https://novelai.net/)
+
+  - [NovelAI](https://www.reddit.com/r/NovelAi/)
+
+  - [Stories - NovelAI](https://ai.nya.la/stories)
+
+  - [novelai-bot: Generate images by NovelAI](https://github.com/koishijs/novelai-bot)
+
+  - [介绍 \| NovelAI Bot](https://novelai.koishi.chat/)
+
+  - [AUTOMATIC1111/stable-diffusion-webui: Stable Diffusion web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
+
+  - [Stable Diffusion - InstallGentoo Wiki](https://wiki.installgentoo.com/wiki/Stable_Diffusion#Clothing)
+
+  - [Clothes Research - NovelAI](https://unideer.notion.site/Clothes-Research-NovelAI-ae4219aebcd742ea89aaa553c00e7b40)
+
+  - [AIは人間に勝てるのか? 話題のnovelAIのやり方も解説 - YouTube](https://www.youtube.com/watch?v=-m0vSm-QGQA)
+
+  - [AI-generated photography](https://nyx.gallery/)
+
+  - [AI生成艺术工具](https://imgeditor.zmo.ai/)
+
+  - [midjourney](https://discord.com/invite/midjourney)
+
+  - [AI Image Generator API \| DeepAI](https://deepai.org/machine-learning-model/text2img)
+
+  - [starryai](https://www.starryai.com/)
+
+  - [chatgpt api](https://github.com/acheong08/ChatGPT)
+
+  - [learnChatGPT](https://www.learngpt.com/)
+
+  - [hugging face](https://huggingface.co/)
+
+  - [chatgpt中文调教指南](https://github.com/PlexPt/awesome-chatgpt-prompts-zh)
 
 #### API
 
@@ -427,9 +563,11 @@ redirect_from:
 
 - [随机地址生成](https://www.addresscopy.com/)
 
-#### 短网址
+- [ApyHub: The Developer API Utility Belt](https://apyhub.com/)
 
-- [短网址](http://suo.im/)
+- [json2form](https://github.com/xaboy/form-create)
+
+#### 短网址
 
 - [免费短网址生成器](http://suo.nz/)
 
@@ -441,23 +579,9 @@ redirect_from:
 
 - [腾讯百度新浪短网址的API](https://www.xiaodao0.com/i-wz-31188834.html)
 
-- [dh6.ink](https://dh6.ink/)
-
-- [短网址](https://www.ft12.com/)
-
-- [小码短链接生成器](https://xiaomark.com/)
-
 - [emoji短网址](https://e.mezw.com/)
 
-- [Urlify 短链接](https://urlify.cn/)
-
-- [PlexusMD](https://pxmd.co/)
-
 - [colors.to Link Shortener](https://colors.to/)
-
-- [U.NU](https://u.nu/)
-
-- [短网址生成](http://aad.tw/)
 
 - [厘短链](https://dlj.li/)
 
@@ -491,11 +615,17 @@ redirect_from:
 
     - [Introduction-to-Golang](https://github.com/0voice/Introduction-to-Golang)
 
+  - python
+
+    - [extending-python-with-rust](https://maxwellrules.com/programming/rusty-python.html)
+
 ## 英语
 ### 写作
 
 - 语法错误检测\|同类句转换\|Rephraser\|编辑相关
   - [talk to book](https://books.google.com/talktobooks/)
+
+  - [ask my book](https://askmybook.com/)
 
   - [cliche finder](https://www.clichefinder.net/)
 
@@ -524,6 +654,8 @@ redirect_from:
   - [CopyAI](https://www.copy.ai/)
 
   - [WriterSonic](https://writesonic.com/)
+
+  - [Write&Improve](https://writeandimprove.com/)
 
 - 释义溯源相关\|俚语辞典\|Linggle\|相关的平行文本搜索\|单词用法
 
@@ -563,7 +695,11 @@ redirect_from:
 
 - [ELLLO](https://www.elllo.org/)
 
+- [美国之音](https://www.51voa.com/)
+
 ### 口语
+
+- [todays phrase](https://www.bbc.co.uk/learningenglish/chinese/features/todays-phrase)
 
 ### 考试资料
 
@@ -591,6 +727,28 @@ redirect_from:
 
 - [如何提高英语水平](https://linghao.io/posts/improve-english#Popover19-toggle)
 
+- [cities 词伙或句伙](https://telegra.ph/cities%E7%9B%B8%E5%85%B3%E8%AF%8D%E4%BC%99%E5%8F%8A%E5%8F%A5%E4%BC%99%E7%BF%BB%E8%AF%91-11-17)
+
+- [animals 词伙或句伙](https://telegra.ph/animals%E7%9B%B8%E5%85%B3%E8%AF%8D%E4%BC%99%E5%8F%8A%E5%8F%A5%E4%BC%99%E7%BF%BB%E8%AF%91-11-28)
+
+- [crime 词伙或句伙](https://telegra.ph/crime%E7%9B%B8%E5%85%B3%E8%AF%8D%E4%BC%99%E5%8F%8A%E5%8F%A5%E4%BC%99%E7%BF%BB%E8%AF%91-11-29)
+
+- [开源雅思](https://www.ieltsday.com/)
+
+- [Busuu-游戏学习英语](https://www.busuu.com/)
+
+- [口语学习平台](https://speechling.com/)
+
+- [背单词平台](https://www.memrise.com/)
+
+- [外教1对1](https://www.mondly.com/)
+
+- [italk-语言学习社区](https://www.italki.com/)
+
+- [Tandem-语言交换软件](https://www.tandem.net/)
+
+- [老烤鸭](http://www.laokaoya.com/)
+
 ## 设计/创意
 
 - [在线免费制作Logo，定制专属于你的Logo设计 – DesignEvo](https://www.designevo.com/cn/)
@@ -616,30 +774,6 @@ redirect_from:
 - [nipponcolors](https://nipponcolors.com/)
 
 - [Miscrosoft Designer](https://designer.microsoft.com/)
-
-- [NovelAI (@novelaiofficial) / Twitter](https://twitter.com/novelaiofficial)
-
-- [NovelAI - The GPT-powered AI Storyteller](https://novelai.net/)
-
-- [NovelAI](https://www.reddit.com/r/NovelAi/)
-
-- [Stories - NovelAI](https://ai.nya.la/stories)
-
-- [novelai-bot: Generate images by NovelAI](https://github.com/koishijs/novelai-bot)
-
-- [介绍 \| NovelAI Bot](https://novelai.koishi.chat/)
-
-- [AUTOMATIC1111/stable-diffusion-webui: Stable Diffusion web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
-
-- [Stable Diffusion - InstallGentoo Wiki](https://wiki.installgentoo.com/wiki/Stable_Diffusion#Clothing)
-
-- [Clothes Research - NovelAI](https://unideer.notion.site/Clothes-Research-NovelAI-ae4219aebcd742ea89aaa553c00e7b40)
-
-- [AIは人間に勝てるのか? 話題のnovelAIのやり方も解説 - YouTube](https://www.youtube.com/watch?v=-m0vSm-QGQA)
-
-- [AI-generated photography](https://nyx.gallery/)
-
-- [AI生成艺术工具](https://imgeditor.zmo.ai/)
 
 - [吉卜力工作室图片](https://www.openculture.com/2020/12/studio-ghibli-makes-1178-images-free-to-download.html)
 
@@ -681,10 +815,6 @@ redirect_from:
 
 - [GAN Art](https://ganart-io.web.app/)
 
-- [AI Image Generator API \| DeepAI](https://deepai.org/machine-learning-model/text2img)
-
-- [starryai](https://www.starryai.com/)
-
 - [Photo Editor: Fotor](https://www.fotor.com/)
 
 - [Runway](https://runwayml.com/)
@@ -719,6 +849,22 @@ redirect_from:
 
 - [程序员做饭指南](https://github.com/Anduin2017/HowToCook)
 
+- [摄影无忌](https://ww.xitek.com/)
+
+- [lastfm-音乐艺术家](https://www.last.fm/)
+
+- [mp3bst-音乐下载](https://mp3bst.com/)
+
+- [apeflac-无损音乐下载](http://www.ape-flac.com/)
+
+- [sacdr](https://sacdr.net/)
+
+- [弹幕网-追番](https://girigirilove.com/)
+
+- [loudreader-浏览器阅读器](https://www.loudreader.com/)
+
+- [直播资源](https://github.com/youshandefeiyang/IPTV)
+
 ## 工作
 
 - [remotive](https://remotive.com)
@@ -743,12 +889,44 @@ redirect_from:
 
 - [Interview Warmup](https://grow.google/certificates/interview-warmup/)
 
+- [载互助](https://zzn.li/jobs)
+
+- [招人公司](https://docs.google.com/spreadsheets/d/1u9li-f7j9_XABMN5GE80kqpfa_mtj3Gq1UPx8Mgp2Hg/htmlview?pru=AAABhIHUjFE*eczCzlTjBRe3PXqkjZL8jg)
+
+- [Career up club](https://docs.google.com/spreadsheets/d/1HCd3V9gY0oikrgpWysrmmxzbTm9jjypMkqFTmjko7SI/edit#gid=0)
+
+- [SVLC help form](https://forms.gle/qqrSgMXWp6a7V9hB7 )
+
+- [Ming Dao](https://docs.google.com/forms/d/e/1FAIpQLSdfbjzTBiDLw9Bw3c20yWAGLVPnKSBpaqf9QuYIowi-X2XlzA/viewform)
+
+- [被动简历](https://rxresu.me/)
+
+- [coverletter](https://coverletterwrite.com/)
+
+- [远程工作](https://dynamitejobs.com/)
+
+- [电鸭](https://eleduck.com/)
+
+- [wwr](https://weworkremotely.com/)
+
+- [remotive](https://remotive.com/)
+
+- [remoteio](https://www.remote.io/)
+
+- [jobspresso](https://jobspresso.co/)
+
+- [interview-handbook](https://github.com/yangshun/tech-interview-handbook)
+
 ## 游戏
 - [igg](https://igg-games.com/)
 
 - [跨平台的开源家庭娱乐系统](https://kodi.tv/)
 
 - [绝版游戏保护工程](https://github.com/skywind3000/preserve-cd)
+
+- [byrutor](https://s1.byrutor.com/)
+
+- [游戏天堂](https://www.zzzz688.com/)
 
 ## 电影
 
@@ -869,6 +1047,10 @@ redirect_from:
 
 - [中文newsletter](https://www.notion.so/700273d587b8412f83743160ab6b4e74?v=682827618e2642a197c849515053dfce)
 
+- [feddd-rss订阅源](https://feeddd.org/feeds)
+
+- [directory-博客收集](https://ooh.directory/)
+
 ## 搜索引擎
 
 - [Brave](https://search.brave.com/)
@@ -885,3 +1067,4 @@ redirect_from:
 
 - [similarsites-相似搜索](https://www.similarsites.com/)
 
+- [程序员搜索引擎](https://phind.com/)
