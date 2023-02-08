@@ -69,6 +69,12 @@ redirect_from:
 
 - [connected papers](https://www.connectedpapers.com/)
 
+- [Google Scholar](https://scholar.google.com/)
+
+- [elicit-文献检索](https://elicit.org/)
+
+- [Promptable-gpt3工作流](https://promptable.ai/)
+
 ## 书籍
 
 - [Project Gutenberg](https://www.gutenberg.org/)
@@ -157,6 +163,12 @@ redirect_from:
 
 - [镜像站](https://bk.hallowlib.org/)
 
+- [zlibrary镜像](https://zlibsearch.1kbtool.com/)
+
+- [易书搜索](https://search.yibook.org/)
+
+- []
+
 - 历史
 
   - [https://www.worldhistory.org/全球历史百科全书](https://www.worldhistory.org/)
@@ -220,6 +232,8 @@ redirect_from:
 
 - [diagrams](https://app.diagrams.net/)
 
+- [VideoFK-下载视频工具](https://www.videofk.com/zh-CN/online-video-download)
+
 ### office
 
 - [E5 自动续订软件](https://e5renew.com/) ps: [密钥获取](https://blog.csdn.net/qq_33212020/article/details/119747634)
@@ -239,6 +253,8 @@ redirect_from:
 - [CMWTAT_Digital_Edition](https://github.com/TGSAN/CMWTAT_Digital_Edition)
 
 - [云萌](https://cmwtat.cloudmoe.com/cn.html)
+
+- [便携软件管理](https://portableappk.com/)
 
 ### 资源
 
@@ -447,6 +463,11 @@ redirect_from:
 - [表格格式转换](https://tableconvert.com/)
 
 - [html2singlefile](https://github.com/gildas-lormeau/SingleFile)
+
+- [AI生成sql](https://aihelperbot.com/)
+
+- [脚本集合](https://github.com/runningcheese/Awesome-Userscripts)
+
 #### AI
 
   - [FUTUREPEDIA-AI工具聚合](https://www.futurepedia.io/)
@@ -495,6 +516,23 @@ redirect_from:
 
   - [chatgpt中文调教指南](https://github.com/PlexPt/awesome-chatgpt-prompts-zh)
 
+  - [gptzero - 检查是否由GPT-3生成的文本](https://etedward-gptzero-main-zqgfwb.streamlit.app/)
+
+  - [AI写作-RWKV模型](https://www.tuio.cc/d/92)
+
+  - [generate music from text](https://google-research.github.io/seanet/musiclm/examples/)
+
+  - [gptdemo](https://gpt3demo.com/)
+
+  - [emailhelper](https://email-helper.vercel.app/)
+
+  - [openaibot](https://github.com/LlmKira/Openaibot)
+
+  - [全球AI指数监控](https://ourworldindata.org/artificial-intelligence)
+
+  - [perplexity-ai问答](https://www.perplexity.ai/)
+
+  - []
 #### API
 
 - [少数派](https://sspai.com/post/67568)
@@ -657,6 +695,8 @@ redirect_from:
 
   - [Write&Improve](https://writeandimprove.com/)
 
+  - [rephrasely](https://rephrasely.com/)
+
 - 释义溯源相关\|俚语辞典\|Linggle\|相关的平行文本搜索\|单词用法
 
   - [Define](https://www.google.com/search?q=define:)
@@ -696,6 +736,8 @@ redirect_from:
 - [ELLLO](https://www.elllo.org/)
 
 - [美国之音](https://www.51voa.com/)
+
+- [youglish-包含单词的youtube视频](https://youglish.com/)
 
 ### 口语
 
@@ -916,6 +958,16 @@ redirect_from:
 - [jobspresso](https://jobspresso.co/)
 
 - [interview-handbook](https://github.com/yangshun/tech-interview-handbook)
+
+- [freelancer-自由职业和众包](https://www.freelancer.com/)
+
+- [glassdoor-匿名公司评价](https://www.glassdoor.com/Salaries/index.htm)
+
+- [upwork-自由职业接单](https://www.upwork.com/)
+
+- [hubstaff-远程工作](https://talent.hubstaff.com/)
+
+- 
 
 ## 游戏
 - [igg](https://igg-games.com/)
