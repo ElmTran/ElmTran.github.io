@@ -167,8 +167,6 @@ redirect_from:
 
 - [易书搜索](https://search.yibook.org/)
 
-- []
-
 - 历史
 
   - [https://www.worldhistory.org/全球历史百科全书](https://www.worldhistory.org/)
@@ -532,7 +530,6 @@ redirect_from:
 
   - [perplexity-ai问答](https://www.perplexity.ai/)
 
-  - []
 #### API
 
 - [少数派](https://sspai.com/post/67568)
