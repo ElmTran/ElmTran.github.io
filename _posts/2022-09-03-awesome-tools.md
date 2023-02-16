@@ -466,6 +466,7 @@ redirect_from:
 
 - [脚本集合](https://github.com/runningcheese/Awesome-Userscripts)
 
+- [无代码画廊](https://nocode.gallery/)
 #### AI
 
   - [FUTUREPEDIA-AI工具聚合](https://www.futurepedia.io/)
@@ -881,6 +882,8 @@ redirect_from:
 - 旅行
 
   - [旅行者博客](https://travel.getnomad.app/)
+
+  - [AI生成旅游攻略](https://getaiway.com/)
 
   - [Elude](https://elude.co/)
 
