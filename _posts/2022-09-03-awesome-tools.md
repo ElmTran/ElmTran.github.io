@@ -530,6 +530,44 @@ redirect_from:
 
   - [perplexity-ai问答](https://www.perplexity.ai/)
 
+  - [chatgpt api](https://api.aa1.cn/special/chatgpt)
+
+  - [ai分析论文](https://app.humata.ai/)
+
+  - [ai提取书籍和视频摘要](https://tosummary.com/)
+
+  - [bearly-ai阅读](https://bearly.ai/)
+
+  - [OpenArt](https://openart.ai/)
+
+  - [PromptOmonia](https://promptomania.com/prompt-builder/)
+
+  - [Stable Diffusion 的简单中文指南](https://stable-diffusion-book.vercel.app/)
+
+  - [SD RESOURCE GOLDMINE-AI作画超级收录](https://rentry.org/sdupdates)
+
+  - [DALL·E](https://openai.com/dall-e-2/)
+
+  - [Imagen: Text-to-Image Diffusion Models](https://imagen.research.google/)
+
+  - [NUWA-Infinity](https://nuwa-infinity.microsoft.com)
+
+  - [APStabilityAI](https://stabilityai.us.auth0.com)
+
+  - [Stability.Ai](https://stability.ai/blog/stable-diffusion-public-release?continueFlag=707adb537436231458302f4b5e702dae)
+
+  - [文心一格 - AI艺术和创意辅助平台](https://yige.baidu.com/)
+
+  - [Midjourney](https://www.midjourney.com/home/)
+
+  - [6pen Art](https://6pen.art/)
+
+  - [Tiamat内测🤩](https://tiamat-ai.feishu.cn/share/base/shrcn2uXL8wNiveykIFYqWSzsPf)
+
+  - [NovelAI](https://ai.nya.la/login)
+
+  - [🤖 🖼 AI Art Generator, AI Art Maker - NightCafe Creator](https://creator.nightcafe.studio/?code=UNITEAI)
+
 #### API
 
 - [少数派](https://sspai.com/post/67568)
@@ -817,36 +855,6 @@ redirect_from:
 - [吉卜力工作室图片](https://www.openculture.com/2020/12/studio-ghibli-makes-1178-images-free-to-download.html)
 
 - [Danbooru](https://danbooru.donmai.us/)
-
-- [OpenArt](https://openart.ai/)
-
-- [PromptOmonia](https://promptomania.com/prompt-builder/)
-
-- [Stable Diffusion 的简单中文指南](https://stable-diffusion-book.vercel.app/)
-
-- [SD RESOURCE GOLDMINE-AI作画超级收录](https://rentry.org/sdupdates)
-
-- [DALL·E](https://openai.com/dall-e-2/)
-
-- [Imagen: Text-to-Image Diffusion Models](https://imagen.research.google/)
-
-- [NUWA-Infinity](https://nuwa-infinity.microsoft.com)
-
-- [APStabilityAI](https://stabilityai.us.auth0.com)
-
-- [Stability.Ai](https://stability.ai/blog/stable-diffusion-public-release?continueFlag=707adb537436231458302f4b5e702dae)
-
-- [文心一格 - AI艺术和创意辅助平台](https://yige.baidu.com/)
-
-- [Midjourney](https://www.midjourney.com/home/)
-
-- [6pen Art](https://6pen.art/)
-
-- [Tiamat内测🤩](https://tiamat-ai.feishu.cn/share/base/shrcn2uXL8wNiveykIFYqWSzsPf)
-
-- [NovelAI](https://ai.nya.la/login)
-
-- [🤖 🖼 AI Art Generator, AI Art Maker - NightCafe Creator](https://creator.nightcafe.studio/?code=UNITEAI)
 
 - [Deep Dream Generator](https://deepdreamgenerator.com/)
 
