@@ -418,6 +418,10 @@ redirect_from:
 
 - [转换工具](https://www.iamwawa.cn/daxiaoxie.html)
 
+- [regex generator](https://regex-generator.olafneumann.org)
+
+- [正则大全](https://any-rule.vercel.app/)
+
 - 算法
 
   - [The Algorithms](https://the-algorithms.com/)
@@ -568,6 +572,8 @@ redirect_from:
   - [NovelAI](https://ai.nya.la/login)
 
   - [🤖 🖼 AI Art Generator, AI Art Maker - NightCafe Creator](https://creator.nightcafe.studio/?code=UNITEAI)
+
+  - [AI场景](https://www.mojidoc.com/05dbc-uvhdkr22fjazlowmiihngdoxvq-00b/?utm_medium=snsl&utm_source=telegram&utm_content=0214)
 
 #### API
 
