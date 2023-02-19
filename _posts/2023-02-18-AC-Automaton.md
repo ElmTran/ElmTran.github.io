@@ -5,7 +5,7 @@ description: "Implement AC Automaton in python"
 categories: [technology]
 tags: [Aho–Corasick algorithm, python, string-searching]
 redirect_from:
-  - /2022/04/19/
+  - /2023/02/18/
 ---
 
 
