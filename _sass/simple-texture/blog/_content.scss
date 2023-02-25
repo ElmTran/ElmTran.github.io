@@ -760,8 +760,11 @@
         width: 280px;
         position: -webkit-sticky;
         position: sticky;
-        margin: 150px 0 80px 30px;
+        top: 150px;
+        margin-bottom: 80px;
         height: fit-content;
+        margin-left: 30px;
+        opacity: 0.8;
 
         h2 {
             font-family: fantasy;
