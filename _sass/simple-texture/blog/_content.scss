@@ -9,9 +9,9 @@
 
         &:hover {
             -webkit-transition: all .3s ease-in-out;
-               -moz-transition: all .3s ease-in-out;
-                 -o-transition: all .3s ease-in-out;
-                    transition: all .3s ease-in-out;
+            -moz-transition: all .3s ease-in-out;
+            -o-transition: all .3s ease-in-out;
+            transition: all .3s ease-in-out;
 
             color: $color-text;
             background-color: $color-hover-transparent;
@@ -43,9 +43,9 @@
 
         cursor: pointer;
         -webkit-transition: all .3s ease-in-out;
-           -moz-transition: all .3s ease-in-out;
-             -o-transition: all .3s ease-in-out;
-                transition: all .3s ease-in-out;
+        -moz-transition: all .3s ease-in-out;
+        -o-transition: all .3s ease-in-out;
+        transition: all .3s ease-in-out;
         text-align: center;
         vertical-align: inherit;
         white-space: nowrap;
@@ -166,13 +166,16 @@
 
             border: none;
             background-color: $color-code-background;
+
             &:hover {
                 border: none;
             }
+
             td {
                 border: none;
                 background-color: $color-code-background;
             }
+
             .gutter {
                 padding-right: 0;
                 padding-left: 0;
@@ -199,21 +202,21 @@
             height: 6px;
 
             -webkit-border-radius: 5px;
-               -moz-border-radius: 5px;
-                    border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
         }
 
         &::-webkit-scrollbar-track {
             -webkit-border-radius: 5px;
-               -moz-border-radius: 5px;
-                    border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
             background-color: $color-code-background;
         }
 
         &::-webkit-scrollbar-thumb:horizontal {
             -webkit-border-radius: 5px;
-               -moz-border-radius: 5px;
-                    border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
             background-color: $color-box-border;
         }
     }
@@ -247,7 +250,7 @@
         margin-left: auto;
     }
 
-    li > p {
+    li>p {
         margin: 0;
     }
 
@@ -264,7 +267,7 @@
 
         margin-top: 26px;
 
-        border-top: 1px dashed rgba(0,0,0,.8);
+        border-top: 1px dashed rgba(0, 0, 0, .8);
 
         ol {
             margin-top: 26px;
@@ -319,21 +322,21 @@
             height: 8px;
 
             -webkit-border-radius: 5px;
-               -moz-border-radius: 5px;
-                    border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
         }
 
         &::-webkit-scrollbar-track {
             -webkit-border-radius: 5px;
-               -moz-border-radius: 5px;
-                    border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
             background-color: $color-box-border;
         }
 
         &::-webkit-scrollbar-thumb:horizontal {
             -webkit-border-radius: 5px;
-               -moz-border-radius: 5px;
-                    border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
             background-color: $color-meta-link-hover;
         }
     }
@@ -358,26 +361,28 @@
                     height: 6px;
 
                     -webkit-border-radius: 5px;
-                       -moz-border-radius: 5px;
-                            border-radius: 5px;
+                    -moz-border-radius: 5px;
+                    border-radius: 5px;
                 }
 
                 &::-webkit-scrollbar-track {
                     -webkit-border-radius: 5px;
-                       -moz-border-radius: 5px;
-                            border-radius: 5px;
+                    -moz-border-radius: 5px;
+                    border-radius: 5px;
                     background-color: $color-code-background;
                 }
 
                 &::-webkit-scrollbar-thumb:horizontal {
                     -webkit-border-radius: 5px;
-                       -moz-border-radius: 5px;
-                            border-radius: 5px;
+                    -moz-border-radius: 5px;
+                    border-radius: 5px;
                     background-color: $color-box-border;
                 }
+
                 table {
                     border: none;
                     background-color: $color-code-background;
+
                     td {
                         font-family: $fonts-code;
                         font-size: 12px;
@@ -455,13 +460,13 @@
                 padding: 3px 6px;
 
                 -webkit-user-select: none;
-                   -moz-user-select: none;
-                    -ms-user-select: none;
-                        user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
                 -webkit-transition-duration: .2s;
-                   -moz-transition-duration: .2s;
-                     -o-transition-duration: .2s;
-                        transition-duration: .2s;
+                -moz-transition-duration: .2s;
+                -o-transition-duration: .2s;
+                transition-duration: .2s;
                 vertical-align: bottom;
 
                 color: $color-text;
@@ -496,8 +501,8 @@
 
                     border: 1px solid $color-text;
                     -webkit-border-radius: 10px;
-                       -moz-border-radius: 10px;
-                            border-radius: 10px;
+                    -moz-border-radius: 10px;
+                    border-radius: 10px;
                     background-color: $color-inline-code-background;
                 }
             }
@@ -614,8 +619,8 @@
 
                     color: white;
                     -webkit-border-radius: 10px;
-                       -moz-border-radius: 10px;
-                            border-radius: 10px;
+                    -moz-border-radius: 10px;
+                    border-radius: 10px;
                     background-color: $color-hover;
                 }
 
@@ -661,9 +666,9 @@
 
                 &:hover {
                     -webkit-transition: all .1s ease-out;
-                       -moz-transition: all .1s ease-out;
-                         -o-transition: all .1s ease-out;
-                            transition: all .1s ease-out;
+                    -moz-transition: all .1s ease-out;
+                    -o-transition: all .1s ease-out;
+                    transition: all .1s ease-out;
 
                     background-color: transparent;
                 }
@@ -719,11 +724,12 @@
                     border: none;
 
                     filter: alpha(opacity=30);
+
                     &:hover {
                         -webkit-transition: all .3s ease-out;
-                           -moz-transition: all .3s ease-out;
-                             -o-transition: all .3s ease-out;
-                                transition: all .3s ease-out;
+                        -moz-transition: all .3s ease-out;
+                        -o-transition: all .3s ease-out;
+                        transition: all .3s ease-out;
 
                         opacity: 1.0;
                         background: transparent;
@@ -740,4 +746,41 @@
             }
         }
     }
+}
+
+.scroll-nav__list,
+.scroll-nav__sub-list {
+    margin: 0;
+    padding-left: 1.4em;
+    list-style-type: none;
+    line-height: 20px;
+}
+
+
+
+.scroll-nav__item {
+    margin-bottom: 5px;
+    list-style-type: none;
+}
+
+.scroll-nav__item--active>a {
+    //padding: 5px;
+    font-weight: bold;
+    position: relative;
+    color: #000000;
+    //background: $red;
+    text-decoration: none;
+
+    //transition: 0.5s;
+    &:hover {
+        color: $black
+    }
+}
+
+.scroll-nav__link {
+    color: $black;
+    text-decoration: none;
+    //display: block;
+    //margin: 0 auto;
+    //padding-left: 42px;
 }

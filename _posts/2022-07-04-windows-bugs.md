@@ -26,3 +26,8 @@ redirect_from:
 - 输入法不显示
 
     取消勾选 Use the desktop language bar when it's available
+
+- cpu休眠bug（正在测试）】
+
+    registry key: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\Dwm
+    item: OverlayTestMode

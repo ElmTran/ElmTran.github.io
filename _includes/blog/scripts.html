@@ -1,89 +1,89 @@
 <script>
-$(document).ready(function () {
-    var offset = 50,
-        duration = 500,
-        width = 960;
-    $(window).scroll(function () {
-        if ($(window).width() > width) {
-            if ($(this).scrollTop() > offset) {
-                $('footer').css('top', '20px');
-                $('footer .back-to-top').fadeIn(duration);
-            } else {
+    $(document).ready(function () {
+        var offset = 50,
+            duration = 500,
+            width = 960;
+        $(window).scroll(function () {
+            if ($(window).width() > width) {
+                if ($(this).scrollTop() > offset) {
+                    $('footer').css('top', '20px');
+                    $('footer .back-to-top').fadeIn(duration);
+                } else {
+                    $('footer').css('top', 'auto');
+                    $('footer .back-to-top').fadeOut(duration);
+                }
+            }
+        });
+        $(window).resize(function () {
+            if ($(window).width() < width) {
                 $('footer').css('top', 'auto');
                 $('footer .back-to-top').fadeOut(duration);
             }
-        }
-    });
-    $(window).resize(function () {
-        if ($(window).width() < width) {
-            $('footer').css('top', 'auto');
-            $('footer .back-to-top').fadeOut(duration);
-        }
-        if ($(window).width() >= width && $(this).scrollTop() > offset) {
-            $('footer').css('top', '20px');
-            $('footer .back-to-top').fadeIn(duration);
-        }
-    });
+            if ($(window).width() >= width && $(this).scrollTop() > offset) {
+                $('footer').css('top', '20px');
+                $('footer .back-to-top').fadeIn(duration);
+            }
+        });
 
-    $('footer .back-to-top, .gotop').on('click', function (event) {
-        event.preventDefault();
-        $('html, body').animate({
-            scrollTop: 0
-        }, duration);
-        return false;
-    });
+        $('footer .back-to-top, .gotop').on('click', function (event) {
+            event.preventDefault();
+            $('html, body').animate({
+                scrollTop: 0
+            }, duration);
+            return false;
+        });
 
-    $('.show-hidden').on('click', function () {
-        $(this).parent().next().toggleClass("hidden");
-        $(this).toggleClass("hidden");
+        $('.show-hidden').on('click', function () {
+            $(this).parent().next().toggleClass("hidden");
+            $(this).toggleClass("hidden");
+        });
     });
-});
 </script>
 
 <!-- Show menu overlay + Jekyll Simple Search option -->
 <script src="{{ site.baseurl }}/assets/javascripts/jekyll-search.jquery.js"></script>
 <script>
-$(document).ready(function () {
-    $('.search-field').simpleJekyllSearch({
-      jsonFile: '{{ site.baseurl }}/search.json',
-      template: '<li><a href="{{ site.baseurl }}{url}">{title} <span class="entry-date"><time datetime="{date}">{shortdate}</time></span></a></li>',
-      searchResults: '.search-wrapper .results',
-      searchResultsTitle: '<h4>{{ site.data.i18n[site.lang].search_results }}</h4>',
-      noResults: '<p>{{ site.data.i18n[site.lang].search_not_found }}</p>'
-    });
-});
-
-(function ($, window, undefined) {
-    var closeOverlay = function () {
-        $('.nav-wrapper, .search-wrapper').removeAttr('style');
-        $(".nav-form, .search-form").removeClass('active');
-        $("body").removeClass('nav-overlay search-overlay');
-    };
-
-    $('.nav-global .btn-search').on('click', function () {
-        $('.search-wrapper').css({display: "block"});
-        $(".search-form").addClass('active');
-        $(".search-form").find('input').focus();
-        $("body").addClass('search-overlay');
+    $(document).ready(function () {
+        $('.search-field').simpleJekyllSearch({
+            jsonFile: '{{ site.baseurl }}/search.json',
+            template: '<li><a href="{{ site.baseurl }}{url}">{title} <span class="entry-date"><time datetime="{date}">{shortdate}</time></span></a></li>',
+            searchResults: '.search-wrapper .results',
+            searchResultsTitle: '<h4>{{ site.data.i18n[site.lang].search_results }}</h4>',
+            noResults: '<p>{{ site.data.i18n[site.lang].search_not_found }}</p>'
+        });
     });
 
-    $('.nav-global .btn-menu').on('click', function () {
-        $('.nav-wrapper').css({display: "block"});
-        $(".nav-form").addClass('active');
-        $(".nav-form .search-field").prop('disabled', true);
-        $("body").addClass('nav-overlay');
-    });
+    (function ($, window, undefined) {
+        var closeOverlay = function () {
+            $('.nav-wrapper, .search-wrapper').removeAttr('style');
+            $(".nav-form, .search-form").removeClass('active');
+            $("body").removeClass('nav-overlay search-overlay');
+        };
 
-    $('.nav-wrapper .btn-close, .search-wrapper .btn-close').on('click', function () {
-        closeOverlay();
-    });
+        $('.nav-global .btn-search').on('click', function () {
+            $('.search-wrapper').css({ display: "block" });
+            $(".search-form").addClass('active');
+            $(".search-form").find('input').focus();
+            $("body").addClass('search-overlay');
+        });
 
-    $(document).on('keyup', function (e) {
-        if (e.keyCode === 27) {
+        $('.nav-global .btn-menu').on('click', function () {
+            $('.nav-wrapper').css({ display: "block" });
+            $(".nav-form").addClass('active');
+            $(".nav-form .search-field").prop('disabled', true);
+            $("body").addClass('nav-overlay');
+        });
+
+        $('.nav-wrapper .btn-close, .search-wrapper .btn-close').on('click', function () {
             closeOverlay();
-        }
-    });
-})(jQuery, window);
+        });
+
+        $(document).on('keyup', function (e) {
+            if (e.keyCode === 27) {
+                closeOverlay();
+            }
+        });
+    })(jQuery, window);
 </script>
 
 <script src='//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.min.js'></script>
@@ -110,5 +110,19 @@ $(document).ready(function () {
     });
     $(document).ready(function () {
         $(".post-image > img").unveil(450);
+    });
+</script>
+
+<script src="https://unpkg.com/scrollnav@3.0.1/dist/scrollnav.min.umd.js"></script>
+
+<script>
+    const ct = document.querySelector('.unit-body');  //".post-content"指向文章内容所在的div，需根据实际情况修改
+    scrollnav.init(ct, {
+        debug: false,
+        easingStyle: 'linear',
+        //section为一级目录，subsection为二级目录
+        //以下两行意为h3为一级目录，h4为二级目录（个人只需要一级目录，所以注释了二级目录）
+        sections: ($('.unit-body > h1').length > 0) ? 'h3' : 'h4',
+        //subSections: ($('.post-content > h1').length>0) ? 'h4' : 'h5',
     });
 </script>

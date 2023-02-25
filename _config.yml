@@ -37,9 +37,9 @@ author:
     - name: github
       url: https://github.com/ElmTran
     - name: instagram
-      url:
+      url: https://www.instagram.com/elmtran/
     - name: linkedin
-      url:
+      url: https://www.linkedin.com/in/elmtran/
     - name: stackoverflow
       url:
     - name: twitter
@@ -53,7 +53,7 @@ home:
 blog:
   cc_license: http://creativecommons.org/licenses/by-sa/4.0/ # A link to CC License of your choice.
   cc_license_image: /assets/images/theme/cc-by-sa.png # An image of your CC License. 
-  footer_content: I'm just a nobody.
+  footer_content: Train hard, turn up, run your best.
 
 # disqus 评论系统
 disqus:
