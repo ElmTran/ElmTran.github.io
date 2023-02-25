@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "R language"
-description: "R language"
+title: "R Language"
+description: "R Language"
 categories: [technology]
 tags: [learning, technology, R, programming, data science]
 redirect_from:
