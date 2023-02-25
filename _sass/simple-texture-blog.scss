@@ -18,12 +18,47 @@ body {
     color: $color-text;
 }
 
-.body .unit-body {
-    padding: 12px 26px 26px 36px;
+.body {
+    display: flex;
+    flex-direction: row;
 
-    border-top: 1px solid rgba(255, 255, 255, .6);
-    background: #FFFFFF;
-    box-shadow: $color-box-border 0 0 9px;
+    .unit-body {
+        padding: 12px 26px 26px 36px;
+    
+        border-top: 1px solid rgba(255, 255, 255, .6);
+        background: #FFFFFF;
+        box-shadow: $color-box-border 0 0 9px;
+    }
+
+    .unit-nav {
+        padding: 10px;
+        border-left: 2px solid #efefef;
+        width: 280px;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 80px;
+        margin-bottom: 80px;
+        height: fit-content;
+        margin-left: 30px;
+        h2 {
+            font-family: fantasy;
+            color: #e32e00;
+        }
+        ul{
+            margin-left: 20px;
+            list-style-type: revert;
+            font-size: 14px;
+            line-height: 24px;
+            color: #005b81;
+            a{
+                color: #005b81;
+                &:hover{
+                    color: #e32e00;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
 }
 
 .h1,

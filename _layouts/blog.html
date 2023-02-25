@@ -35,7 +35,10 @@
                     </div>
                 </div>
             </div>
-            {% include blog/sidebar.html %}
+            <div class="unit-nav">
+                <h2>Contents</h2>
+                {% include toc.html html=content %}
+            </div>
         </div>
         {% include blog/footer.html %}
     </div>
