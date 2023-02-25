@@ -4,6 +4,7 @@
     flex-direction: row;
 
     .unit-article {
+        width: auto;
         a {
             font-size: .95em;
 
@@ -763,6 +764,7 @@
         margin-bottom: 80px;
         height: fit-content;
         margin-left: 30px;
+        background: #c2c2c2;
 
         h2 {
             font-family: fantasy;
