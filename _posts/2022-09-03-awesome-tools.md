@@ -296,6 +296,8 @@ redirect_from:
 
 - [虚拟身份生成](https://www.verif.tools/en/?gn=PW3mnGJ6Fiot)
 
+- [Bypass Paywalls-绕过付费墙](https://gitlab.com/magnolia1234/bypass-paywalls-chrome-clean)
+
 - alist
 
   - [小雅](http://alist.xiaoya.pro)
@@ -471,6 +473,8 @@ redirect_from:
 - [脚本集合](https://github.com/runningcheese/Awesome-Userscripts)
 
 - [无代码画廊](https://nocode.gallery/)
+
+- [Carrd-无代码网站](https://carrd.co/)
 #### AI
 
   - [FUTUREPEDIA-AI工具聚合](https://www.futurepedia.io/)
@@ -574,6 +578,12 @@ redirect_from:
   - [🤖 🖼 AI Art Generator, AI Art Maker - NightCafe Creator](https://creator.nightcafe.studio/?code=UNITEAI)
 
   - [AI场景](https://www.mojidoc.com/05dbc-uvhdkr22fjazlowmiihngdoxvq-00b/?utm_medium=snsl&utm_source=telegram&utm_content=0214)
+
+  - [500 Best AI Tools](https://vaulted-polonium-23c.notion.site/500-Best-AI-Tools-e954b36bf688404ababf74a13f98d126)
+
+  - [Geliloe - AI Design](https://www.usegalileo.ai/)
+
+  - [SuperImage-图片放大](https://github.com/Lucchetto/SuperImage)
 
 #### API
 
@@ -833,6 +843,8 @@ redirect_from:
 
 - [老烤鸭](http://www.laokaoya.com/)
 
+- [Lingoes-词典库](http://www.lingoes.cn/zh/dictionary/index.html)
+
 ## 设计/创意
 
 - [在线免费制作Logo，定制专属于你的Logo设计 – DesignEvo](https://www.designevo.com/cn/)
@@ -882,6 +894,8 @@ redirect_from:
 - [阅流](https://yueliu.link/4wS1oN)
 
 - [undesign](https://undesign.learn.uno/)
+
+- [Streamline-图标](https://www.streamlinehq.com/)
 
 ## 生活
 
