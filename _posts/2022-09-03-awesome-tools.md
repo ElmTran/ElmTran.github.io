@@ -424,6 +424,8 @@ redirect_from:
 
 - [正则大全](https://any-rule.vercel.app/)
 
+- [AyugeSpiderTools-Scrapy扩展库](https://ayugespidertools.readthedocs.io/en/latest/)
+
 - 算法
 
   - [The Algorithms](https://the-algorithms.com/)
@@ -584,6 +586,12 @@ redirect_from:
   - [Geliloe - AI Design](https://www.usegalileo.ai/)
 
   - [SuperImage-图片放大](https://github.com/Lucchetto/SuperImage)
+
+  - [自托管ChatGPTweb](https://github.com/869413421/chatgpt-web)
+
+  - [自托管ChatGPT应用](https://github.com/bitswired/ai-chat-app)
+
+  - [chatpdf](https://www.chatpdf.com/)
 
 #### API
 
