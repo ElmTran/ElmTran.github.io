@@ -783,6 +783,12 @@ redirect_from:
 
   - [Rhyme](https://www.rhymer.com/)
 
+- 查重
+
+  - [copyscape](https://www.copyscape.com/)
+
+  - [plagiarism](http://plagiarisma.net/)
+
 ### 听力
 
 - [ELLLO](https://www.elllo.org/)
