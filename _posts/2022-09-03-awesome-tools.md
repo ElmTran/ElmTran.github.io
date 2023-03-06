@@ -73,8 +73,6 @@ redirect_from:
 
 - [elicit-文献检索](https://elicit.org/)
 
-- [Promptable-gpt3工作流](https://promptable.ai/)
-
 ## 书籍
 
 - [Project Gutenberg](https://www.gutenberg.org/)
@@ -523,8 +521,6 @@ redirect_from:
 
   - [hugging face](https://huggingface.co/)
 
-  - [chatgpt中文调教指南](https://github.com/PlexPt/awesome-chatgpt-prompts-zh)
-
   - [gptzero - 检查是否由GPT-3生成的文本](https://etedward-gptzero-main-zqgfwb.streamlit.app/)
 
   - [AI写作-RWKV模型](https://www.tuio.cc/d/92)
@@ -592,6 +588,18 @@ redirect_from:
   - [自托管ChatGPT应用](https://github.com/bitswired/ai-chat-app)
 
   - [chatpdf](https://www.chatpdf.com/)
+
+  - [catgpt-ai翻译和润色](https://ai.okmiku.com/translate)
+
+  - [chatgpt-telegram-bot - 无需服务器版本](https://github.com/TBXark/ChatGPT-Telegram-Workers)
+
+  - [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts)
+
+  - [chatgpt中文调教指南](https://github.com/PlexPt/awesome-chatgpt-prompts-zh)
+
+  - [Promptable-gpt3工作流](https://promptable.ai/)
+
+  - [gpt-shortcuts](https://github.com/rockbenben/ChatGPT-Shortcut)
 
 #### API
 
@@ -797,6 +805,8 @@ redirect_from:
 
   - [plagiarism](http://plagiarisma.net/)
 
+  - [duplichecker](https://www.duplichecker.com/)
+
 ### 听力
 
 - [ELLLO](https://www.elllo.org/)
@@ -918,6 +928,8 @@ redirect_from:
   - [旅行者博客](https://travel.getnomad.app/)
 
   - [AI生成旅游攻略](https://getaiway.com/)
+
+  - [旅游规划](https://eightydays.me/)
 
   - [Elude](https://elude.co/)
 
