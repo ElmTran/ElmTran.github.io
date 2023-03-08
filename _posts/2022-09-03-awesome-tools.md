@@ -601,6 +601,18 @@ redirect_from:
 
   - [gpt-shortcuts](https://github.com/rockbenben/ChatGPT-Shortcut)
 
+  - [100+ Teachers Prompt Templates](https://ignacio-velasquez.notion.site/ignacio-velasquez/100-Teachers-Prompt-Templates-697882b7b57e4396af16b8e93554b510)
+
+  - [Talk to AI characters](https://inworld.ai/arcade)
+
+  - [ai chat for your documents](https://www.askcorpora.com/)
+
+  - [researchchat](https://github.com/mukulpatnaik/researchgpt)
+
+  - [paper digest-ai论文摘要](https://www.paper-digest.com/)
+
+  - [researchrabbit-论文图谱关系](https://www.researchrabbit.ai/)
+
 #### API
 
 - [少数派](https://sspai.com/post/67568)
@@ -731,6 +743,8 @@ redirect_from:
 - 语法错误检测\|同类句转换\|Rephraser\|编辑相关
   - [talk to book](https://books.google.com/talktobooks/)
 
+  - [ask a book](https://socrates.govindgnana.com/)
+
   - [ask my book](https://askmybook.com/)
 
   - [cliche finder](https://www.clichefinder.net/)
@@ -764,6 +778,10 @@ redirect_from:
   - [Write&Improve](https://writeandimprove.com/)
 
   - [rephrasely](https://rephrasely.com/)
+
+  - [Literature Review-根据关键词自动生成文献综述](https://www.paperdigest.org/review/)
+
+  - [The AI Research Assistant](https://elicit.org/)
 
 - 释义溯源相关\|俚语辞典\|Linggle\|相关的平行文本搜索\|单词用法
 
