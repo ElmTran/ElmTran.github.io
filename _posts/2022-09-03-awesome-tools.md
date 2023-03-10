@@ -440,6 +440,8 @@ redirect_from:
 
 - [Linux command search](https://github.com/jaywcjlove/linux-command)
 
+- [Command.dev](https://www.commands.dev/)
+
 - [快速参考备忘单](https://github.com/jaywcjlove/referencu)
 
 - [SmsForwarder 短信转发](https://github.com/pppscn/SmsForwarder)
@@ -520,8 +522,6 @@ redirect_from:
   - [learnChatGPT](https://www.learngpt.com/)
 
   - [hugging face](https://huggingface.co/)
-
-  - [gptzero - 检查是否由GPT-3生成的文本](https://etedward-gptzero-main-zqgfwb.streamlit.app/)
 
   - [AI写作-RWKV模型](https://www.tuio.cc/d/92)
 
@@ -612,6 +612,22 @@ redirect_from:
   - [paper digest-ai论文摘要](https://www.paper-digest.com/)
 
   - [researchrabbit-论文图谱关系](https://www.researchrabbit.ai/)
+
+  - [visual-chatgpt-可交互图像](https://github.com/microsoft/visual-chatgpt)
+
+  - AI检测
+
+      - [gptzero - 检查是否由GPT-3生成的文本](https://etedward-gptzero-main-zqgfwb.streamlit.app/)
+
+      - [AI Content Detector](https://chatgptdemo.com/product-category/text/ai-content-detection-text/)
+
+      - [Content at Scale](https://contentatscale.ai/ai-content-detector/?)
+
+      - [detectgpt](https://www.thomas.io/detect-gpt?)
+
+      - [gptkit](https://gptkit.ai/?ref=HN)
+
+      - [AI Text Classifier](https://platform.openai.com/ai-text-classifier)
 
 #### API
 
