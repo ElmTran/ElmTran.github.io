@@ -165,6 +165,8 @@ redirect_from:
 
 - [易书搜索](https://search.yibook.org/)
 
+- [openlibary](https://openlibrary.org/)
+
 - 历史
 
   - [https://www.worldhistory.org/全球历史百科全书](https://www.worldhistory.org/)
@@ -295,6 +297,8 @@ redirect_from:
 - [虚拟身份生成](https://www.verif.tools/en/?gn=PW3mnGJ6Fiot)
 
 - [Bypass Paywalls-绕过付费墙](https://gitlab.com/magnolia1234/bypass-paywalls-chrome-clean)
+
+- [opensourcealternative](https://www.opensourcealternative.to/)
 
 - alist
 
@@ -615,6 +619,24 @@ redirect_from:
 
   - [visual-chatgpt-可交互图像](https://github.com/microsoft/visual-chatgpt)
 
+  - [rightbrain-ai绘画](https://rightbrain.art/text2Image)
+
+  - [chatyoutube](https://chatyoutube.com/)
+
+  - [manitas-手指动作识别](https://github.com/nacmartin/manitas)
+
+  - [luciaai-ai写作平台](https://luciaai.com/)
+
+  - [whisper-windows](https://github.com/Const-me/Whisper)
+
+  - [wonder-真人CG制作](https://wonderdynamics.com/)
+
+  - [GPT-NeoXT-Chat-Base-20B-开源LLM](https://huggingface.co/togethercomputer/GPT-NeoXT-Chat-Base-20B)
+
+  - [paper qa](https://github.com/whitead/paper-qa)
+
+  - [chatmind](https://www.chatmind.tech/)
+
   - AI检测
 
       - [gptzero - 检查是否由GPT-3生成的文本](https://etedward-gptzero-main-zqgfwb.streamlit.app/)
@@ -628,6 +650,14 @@ redirect_from:
       - [gptkit](https://gptkit.ai/?ref=HN)
 
       - [AI Text Classifier](https://platform.openai.com/ai-text-classifier)
+
+      - [AIGC-X](http://ai.sklccc.com/AIGC-X/#/try)
+
+      - [writecream](https://www.writecream.com/ai-content-detector/)
+
+      - [smodin-包括抄袭检查](https://smodin.io/zh-cn/ai%E5%86%85%E5%AE%B9%E6%A3%80%E6%B5%8B%E5%99%A8)
+
+      - [copyleaks-包括剽窃检查](https://copyleaks.com/zh/ai-content-detector/)
 
 #### API
 
@@ -700,6 +730,8 @@ redirect_from:
 - [ApyHub: The Developer API Utility Belt](https://apyhub.com/)
 
 - [json2form](https://github.com/xaboy/form-create)
+
+- [公告API排名](https://apirank.dev/)
 
 #### 短网址
 
@@ -1093,6 +1125,7 @@ redirect_from:
 
 - [Global 地球仪](http://globe.cid.harvard.edu/)
 
+- [kodytools-在线计算器和转换器中心](https://www.kodytools.com/)
 ## Telegram
 
 ### OCR
