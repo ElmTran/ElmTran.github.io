@@ -254,6 +254,7 @@ redirect_from:
 
 - [便携软件管理](https://portableappk.com/)
 
+- [Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts)
 ### 资源
 
 - [400 多个站点和资源库](https://iamjesushusbands.gumroad.com/l/resource-lib)
@@ -299,6 +300,8 @@ redirect_from:
 - [Bypass Paywalls-绕过付费墙](https://gitlab.com/magnolia1234/bypass-paywalls-chrome-clean)
 
 - [opensourcealternative](https://www.opensourcealternative.to/)
+
+- [Jay仓库-互联网资源](https://www.likejay.cn/)
 
 - alist
 
@@ -637,6 +640,34 @@ redirect_from:
 
   - [chatmind](https://www.chatmind.tech/)
 
+  - [chat chat-支持聊天和pdf分析等](https://chat.okis.dev/)
+
+  - [chatdoc-与文档交互](https://chatdoc.com/)
+
+  - [headshotpro-ai生成专业头像](https://www.headshotpro.com/)
+
+  - [deepagency-ai生成模特照片](https://www.deepagency.com/)
+
+  - [photoai-ai生成照片](https://photoai.com/)
+
+  - [invokeai-开源绘画](https://github.com/invoke-ai/InvokeAI)
+
+  - [Cursor-基于gpt4生成代码](https://www.cursor.so/)
+
+  - [codeuim-代码辅助](https://codeium.com/)
+
+  - [参考亿下-生成参考文献](https://ref.article.cool/)
+
+  - [alpaca-斯坦福开源ai模型](https://github.com/antimatter15/alpaca.cpp)
+
+  - [durable-ai生成网站](https://durable.co/)
+
+  - [chatbox-openai跨平台桌面客户端](https://github.com/Bin-Huang/chatbox)
+
+  - [chaty-chatgpt命令行](https://github.com/cosin2077/chaty)
+
+  - [chatgpt学习宝典](https://gpt.candobear.com/)
+
   - AI检测
 
       - [gptzero - 检查是否由GPT-3生成的文本](https://etedward-gptzero-main-zqgfwb.streamlit.app/)
@@ -784,6 +815,10 @@ redirect_from:
   - python
 
     - [extending-python-with-rust](https://maxwellrules.com/programming/rusty-python.html)
+
+  - rust
+
+    - [Comprehensive Rust-tutorials](https://google.github.io/comprehensive-rust/)
 
 ## 英语
 ### 写作
@@ -1087,9 +1122,8 @@ redirect_from:
 
 - [hubstaff-远程工作](https://talent.hubstaff.com/)
 
-- 
-
 ## 游戏
+
 - [igg](https://igg-games.com/)
 
 - [跨平台的开源家庭娱乐系统](https://kodi.tv/)
@@ -1099,6 +1133,8 @@ redirect_from:
 - [byrutor](https://s1.byrutor.com/)
 
 - [游戏天堂](https://www.zzzz688.com/)
+
+- [webrcade-老游戏模拟器](https://www.webrcade.com/)
 
 ## 电影
 
