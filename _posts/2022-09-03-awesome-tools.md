@@ -9,6 +9,7 @@ redirect_from:
 ---
 
 ## 论文/学术
+
 - [数字图书馆。搜索书籍。免费下载书籍](https://zh.b-ok.cc/)
 
 - [SCI-Hub论文下载可用网址链接（实时更新） - YoviSun工具集](https://tool.yovisun.com/scihub/)
@@ -184,8 +185,10 @@ redirect_from:
 - [老画报](http://www.laohuabao.com/index.html)
 
 - [浙江图书馆-连环画](http://wx.zhlhh.com/zhejianglib)
+
 ## 工具
 ### 格式转换/媒体
+
 - [Jpeg.io \| Convert any major image format into a highly optimized JPEG](https://www.jpeg.io/)
 
 - [在线图片压缩_视频转GIF软件_GIF裁剪合成工具-图贴士](https://www.tutieshi.com/)
@@ -255,6 +258,7 @@ redirect_from:
 - [便携软件管理](https://portableappk.com/)
 
 - [Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts)
+
 ### 资源
 
 - [400 多个站点和资源库](https://iamjesushusbands.gumroad.com/l/resource-lib)
@@ -389,6 +393,7 @@ redirect_from:
 - [https://dropmail.me/en/](https://dropmail.me/en/)
 
 ### 虚拟服务
+
 - [在花商店](https://id.zaihuamall.com)
 
 - [清风阁](https://shop.owo233.xyz)
@@ -484,6 +489,9 @@ redirect_from:
 - [无代码画廊](https://nocode.gallery/)
 
 - [Carrd-无代码网站](https://carrd.co/)
+
+- [waitlist-wtf](https://www.waitlist.wtf/)
+
 #### AI
 
   - [FUTUREPEDIA-AI工具聚合](https://www.futurepedia.io/)
@@ -667,6 +675,14 @@ redirect_from:
   - [chaty-chatgpt命令行](https://github.com/cosin2077/chaty)
 
   - [chatgpt学习宝典](https://gpt.candobear.com/)
+
+  - [jenni.ai-ai写作](https://jenni.ai/)
+
+  - [resemble-语音合成](https://www.resemble.ai/)
+
+  - [chatGPT Sidebar](https://chrome.google.com/webstore/detail/chatgpt-sidebar-support-g/difoiogjjojoaoomphldepapgpbgkhkb)
+
+  - [gpt4-pdf-chatbot-langchain](https://github.com/mayooear/gpt4-pdf-chatbot-langchain)
 
   - AI检测
 
