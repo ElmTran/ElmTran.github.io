@@ -746,6 +746,12 @@ redirect_from:
 
     - [Phenaki](https://phenaki.video/)
 
+    - [avatarworld](https://www.avatarworld.cn/autoDraw/)
+
+    - [veed](https://www.veed.io/)
+
+    - [lumen5](ttps://lumen5.com/)
+
   - AI音频
 
     - [whisper-windows](https://github.com/Const-me/Whisper)
@@ -762,11 +768,13 @@ redirect_from:
 
     - [Descript](https://www.descript.com/)
 
-    - [Descript](https://www.descript.com/)
-
     - [AudioLM](https://google-research.github.io/seanet/audiolm/examples/)
 
     - [Voicemod](https://www.voicemod.net/)
+
+    - [synthesys](https://synthesys.ai/golive)
+
+    - [rephrase](https://www.rephrase.ai/)
 
   - 3D模型
 
