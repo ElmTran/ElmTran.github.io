@@ -74,6 +74,8 @@ redirect_from:
 
 - [elicit-文献检索](https://elicit.org/)
 
+- [magazinelib](https://magazinelib.com/)
+
 ## 书籍
 
 - [Project Gutenberg](https://www.gutenberg.org/)
@@ -267,7 +269,7 @@ redirect_from:
 
 - [Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts)
 
-### 资源
+### 资源/素材
 
 - [400 多个站点和资源库](https://iamjesushusbands.gumroad.com/l/resource-lib)
 
@@ -314,6 +316,8 @@ redirect_from:
 - [opensourcealternative](https://www.opensourcealternative.to/)
 
 - [Jay仓库-互联网资源](https://www.likejay.cn/)
+
+- [新CG儿](https://www.newcger.com/)
 
 - alist
 
@@ -719,6 +723,9 @@ redirect_from:
       - [midjourney教程](https://www.uisdc.com/midjourney)
 
       - [midjourney关键词](https://github.com/willwulfken/MidJourney-Styles-and-Keywords-Reference)
+
+      - [AI越狱](https://www.jailbreakchat.com/)
+
     - code copilot
 
       - [Cursor-基于gpt4生成代码](https://www.cursor.so/)
@@ -728,6 +735,7 @@ redirect_from:
       - [codeuim-代码辅助](https://codeium.com/)
 
       - [durable-ai生成网站](https://durable.co/)
+
   - AI视频
 
     - [NUWA-Infinity](https://nuwa-infinity.microsoft.com)
