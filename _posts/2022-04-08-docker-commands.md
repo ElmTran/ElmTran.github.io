@@ -344,6 +344,9 @@ redirect_from:
 - 查看密钥: `docker secret ls`
 
 - 配置文件: `docker config`
+
+- 环境变量必须通过'--env-file'显式指定，且不要在envorinment中重复指定相同的变量
+
 ### 仓库
 
 - 登录: `docker login`
