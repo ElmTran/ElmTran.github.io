@@ -180,4 +180,17 @@ textarea {
     }
 }
 
+.web-links {
+    $icon-size: 64px;
+    a {
+        display: inline-block;
+
+        width: $icon-size;
+        height: $icon-size;
+        margin: 40px, 18px, 18px;
+
+        background-size: $icon-size $icon-size;
+    }
+}
+
 @import 'simple-texture/home/responsive';

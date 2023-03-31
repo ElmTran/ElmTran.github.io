@@ -83,13 +83,13 @@ $size: 48;
     .ico-alist {
         @include get-ico-image(alist);
 
-        background-color: #000000;
+        background-color: #bdbdbd00;
     }
 
     .ico-chat {
         @include get-ico-image(chat);
 
-        background-color: #000000;
+        background-color: #bdbdbd00;
     }
 
     .ico-telegram {
@@ -100,12 +100,12 @@ $size: 48;
     .ico-dufs {
         @include get-ico-image(dufs);
 
-        background-color: #000000;
+        background-color: #bdbdbd00;
     }
 
     .ico-aria {
         @include get-ico-image(aria);
 
-        background-color: #bdbdbd;
+        background-color: #bdbdbd00;
     }
 }
