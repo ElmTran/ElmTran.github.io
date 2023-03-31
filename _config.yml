@@ -40,16 +40,26 @@ author:
       url: https://www.instagram.com/elmtran/
     - name: linkedin
       url: https://www.linkedin.com/in/elmtran/
+    - name: telegram
+      url: https://t.me/mzfbwu/
     - name: stackoverflow
       url:
     - name: twitter
       url: 
     - name: vk
       url:
+  websites:
+    - name: aria
+      url: https://drive.elmtran.live/download/
+    - name: dufs
+      url: https://drive.elmtran.live/files/
+    - name: alist
+      url: https://alist.elmtran.live/
+    - name: chat
+      url: https://chat.elmtran.live/
 home:
   section1: <h1>Elmtran's Blog</h1>
   section2: <h3>Your hair is winter fire,<br/><br/>January embers,<br/><br/>My heart burns there, too.</h3>
-  section3: <div class="social-links"><a class="ico-github btn" href="https://github.com/ElmTran" title="View on GitHub"></a></div>
 blog:
   cc_license: http://creativecommons.org/licenses/by-sa/4.0/ # A link to CC License of your choice.
   cc_license_image: /assets/images/theme/cc-by-sa.png # An image of your CC License. 

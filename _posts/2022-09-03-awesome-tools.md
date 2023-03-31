@@ -249,6 +249,8 @@ redirect_from:
 
 - [E5 自动续订软件](https://e5renew.com/) ps: [密钥获取](https://blog.csdn.net/qq_33212020/article/details/119747634)
 
+- [E5 自动续订web](https://mrmad.com.tw/office-365-e5-and-onedrive-5tb-free)
+
 - 官方工具部署激活
 
   - [office 软件部署工具](https://www.microsoft.com/en-us/download/details.aspx)

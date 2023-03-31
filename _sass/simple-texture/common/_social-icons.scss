@@ -79,4 +79,33 @@ $size: 48;
 
         background-color: #6383A8;
     }
+
+    .ico-alist {
+        @include get-ico-image(alist);
+
+        background-color: #00ff40;
+    }
+
+    .ico-chat {
+        @include get-ico-image(chat);
+
+        background-color: #141414;
+    }
+
+    .ico-telegram {
+        @include get-ico-image(telegram);
+
+        background-color: #00b3ff;
+    }
+    .ico-dufs {
+        @include get-ico-image(dufs);
+
+        background-color: #FFA500;
+    }
+
+    .ico-aria {
+        @include get-ico-image(aria);
+
+        background-color: #cf6c6c;
+    }
 }

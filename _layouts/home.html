@@ -33,7 +33,15 @@
         <div class="headings animated fadeInLeft">
             {% if site.home.section1 %}{{ site.home.section1 }}{% endif %}
             {% if site.home.section2 %}{{ site.home.section2 }}{% endif %}
-            {% if site.home.section3 %}{{ site.home.section3 }}{% endif %}
+        </div>
+
+        <div class="social-links">
+            {% for link in site.author.websites %}
+            {% if link.url %}
+            <a class="btn ico-{{ link.name }}" href="{{ link.url }}" rel="me" target="_blank"
+                title="{{ link.name }}"></a>
+            {% endif %}
+            {% endfor %}
         </div>
         <a class="btn-continue animated bounce" title="{{ site.data.i18n[site.lang].more }}" href="#social"></a>
     </div>
