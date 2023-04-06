@@ -12,8 +12,6 @@ redirect_from:
 
 ### AI Text
 
-  - [chatgpt api](https://github.com/acheong08/ChatGPT)
-
   - [hugging face](https://huggingface.co/)
 
   - [AI写作-RWKV模型](https://www.tuio.cc/d/92)
