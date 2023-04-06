@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "GPT Prompts"
-description: "GPT Prompts"
+description: "There are some useful prompts edited by me or collected from the Internet for GPT."
 categories: [technology]
 tags: [prompts, AI, GPT, LLM]
 redirect_from:

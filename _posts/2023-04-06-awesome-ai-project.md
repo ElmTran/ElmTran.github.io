@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Awesome AI Project"
-description: "Awesome AI Project"
+description: "This is a collection of some awesome AI projects."
 categories: [technology]
 tags: [learning, technology, AI, GPT, LLM]
 redirect_from:
