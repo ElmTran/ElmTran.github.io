@@ -8,9 +8,7 @@ redirect_from:
   - /2023/04/06/
 ---
 
-## AI
-
-### AI Text
+## AI Text
 
   - [hugging face](https://huggingface.co/)
 
@@ -104,7 +102,7 @@ redirect_from:
 
   - [Bookai-chat](https://www.bookai.chat/)
 
-### AI检测
+## AI检测
 
   - [gptzero - 检查是否由GPT-3生成的文本](https://etedward-gptzero-main-zqgfwb.streamlit.app/)
 
@@ -126,7 +124,7 @@ redirect_from:
 
   - [copyleaks-包括剽窃检查](https://copyleaks.com/zh/ai-content-detector/)
 
-### Code Copilot
+## Code Copilot
 
   - [Cursor-基于gpt4生成代码](https://www.cursor.so/)
 
@@ -138,7 +136,7 @@ redirect_from:
 
   - [Cody](https://docs.sourcegraph.com/cody#install-cody)
 
-### AI Design
+## AI Design
 
   - [Ruturn your text into images](https://imaginator.developer-service.io/)
 
@@ -214,7 +212,7 @@ redirect_from:
 
   - [chatppt](https://chat-ppt.com/)
 
-### AI Tools
+## AI Tools
 
   - [FUTUREPEDIA-AI工具聚合](https://www.futurepedia.io/)
 
@@ -242,7 +240,7 @@ redirect_from:
 
   - [AI and ML Dev Tools](https://jewel-marscapone-8fd.notion.site/a24780ea7d10451ea4fee4b6205c07ee?v=123b67df79ef49b8b07146bf94d2f54f)
 
-### AI Video
+## AI Video
 
   - [NUWA-Infinity](https://nuwa-infinity.microsoft.com)
 
@@ -268,7 +266,7 @@ redirect_from:
 
   - [fliki](https://fliki.ai/)
 
-### AI Audio & Voice
+## AI Audio & Voice
 
   - [whisper-windows](https://github.com/Const-me/Whisper)
 
@@ -292,7 +290,7 @@ redirect_from:
 
   - [rephrase](https://www.rephrase.ai/)
 
-### AI 3D & Animation
+## AI 3D & Animation
 
   - [DreamFusion](https://dreamfusion3d.github.io/)
 
@@ -302,7 +300,7 @@ redirect_from:
 
   - [wonder-真人CG制作](https://wonderdynamics.com/)
 
-### Prompts and Guides
+## Prompts and Guides
 
   - [prompthero](https://prompthero.com/)
 
@@ -332,7 +330,7 @@ redirect_from:
 
   - [AI模特prompt-NSFW](https://chilloutai.com/nsfw)
 
-### AI News
+## AI News
 
   - [AI论文速递](https://briefgpt.xyz/)
 
@@ -348,7 +346,7 @@ redirect_from:
 
   - [Vicuna-Model](https://huggingface.co/chavinlo/vicuna)
 
-### API
+## API
 
   - [OpenAI API](https://platform.openai.com/overview)
 
