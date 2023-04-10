@@ -108,4 +108,10 @@ $size: 48;
 
         background-color: #bdbdbd00;
     }
+
+    .ico-e5 {
+        @include get-ico-image(e5);
+
+        background-color: #bdbdbd00;
+    }
 }
