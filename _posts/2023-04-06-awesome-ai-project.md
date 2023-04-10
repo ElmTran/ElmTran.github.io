@@ -102,6 +102,8 @@ redirect_from:
 
   - [Bookai-chat](https://www.bookai.chat/)
 
+  - [Chat with Large Language Models](https://chat.lmsys.org/)
+
 ## AI检测
 
   - [gptzero - 检查是否由GPT-3生成的文本](https://etedward-gptzero-main-zqgfwb.streamlit.app/)
