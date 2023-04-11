@@ -23,8 +23,8 @@ sass:
 # Site Data
 url: # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: # the subpath of your site, e.g. /blog
-title: Elmtran's Blog
-description: "There's nothing here."
+title: Mengqing's Blog
+description: "Train hard, turn up, run your best, and the rest will take care of itself."
 keywords: 'jekyll,theme,gem-based,blog'
 author:
   name:
@@ -60,7 +60,7 @@ author:
     - name: e5
       url: https://e5renew.elmtran.live/
 home:
-  section1: <h1>Elmtran's Blog</h1>
+  section1: <h1>Mengqing's Blog</h1>
   section2: <h3>Your hair is winter fire,<br/><br/>January embers,<br/><br/>My heart burns there, too.</h3>
 blog:
   cc_license: http://creativecommons.org/licenses/by-sa/4.0/ # A link to CC License of your choice.
