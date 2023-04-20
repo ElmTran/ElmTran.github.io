@@ -104,6 +104,12 @@ redirect_from:
 
   - [Chat with Large Language Models](https://chat.lmsys.org/)
 
+  - [yakGPT-支持语音](https://github.com/yakGPT/yakGPT)
+
+  - [vercel ai playground](https://play.vercel.ai/)
+
+  - [polyglot](https://github.com/liou666/polyglot)
+
 ## AI检测
 
   - [gptzero - 检查是否由GPT-3生成的文本](https://etedward-gptzero-main-zqgfwb.streamlit.app/)
@@ -137,6 +143,12 @@ redirect_from:
   - [durable-ai生成网站](https://durable.co/)
 
   - [Cody](https://docs.sourcegraph.com/cody#install-cody)
+
+  - [tabby-自部署](https://github.com/TabbyML/tabby)
+
+  - [wolverine-程序自我修复](https://github.com/biobootloader/wolverine)
+
+  - [codewhisperer](https://aws.amazon.com/codewhisperer/)
 
 ## AI Design
 
@@ -214,6 +226,12 @@ redirect_from:
 
   - [chatppt](https://chat-ppt.com/)
 
+  - [segment anything-AI抠图](https://segment-anything.com/)
+
+  - [designtools.ai](https://designtools.ai/)
+
+  - [civitai-AI模型分享社区NSFW](https://civitai.com/)
+
 ## AI Tools
 
   - [FUTUREPEDIA-AI工具聚合](https://www.futurepedia.io/)
@@ -241,6 +259,20 @@ redirect_from:
   - [gpt-sites-国内可用镜像探测](https://lzw.me/x/chatgpt-sites/)
 
   - [AI and ML Dev Tools](https://jewel-marscapone-8fd.notion.site/a24780ea7d10451ea4fee4b6205c07ee?v=123b67df79ef49b8b07146bf94d2f54f)
+
+  - [SQLKiller](https://www.sqlkiller.com/)
+
+  - [cheetah-远程面试工具](https://github.com/leetcode-mafia/cheetah)
+
+  - [amymind-AI思维导图](https://amymind.com/)
+
+  - [autoGPT](https://github.com/Torantulino/Auto-GPT)
+
+  - [AgentAI](https://agentgpt.reworkd.ai/)
+
+  - [regex.ai](https://regex.ai/)
+
+  - [chat2stats](https://2stats.chat/)
 
 ## AI Video
 
@@ -332,6 +364,24 @@ redirect_from:
 
   - [AI模特prompt-NSFW](https://chilloutai.com/nsfw)
 
+  - [Guide for prompt writing](https://boostpixels.com/guide)
+
+  - [LLMs Guide](https://www.ruxu.dev/articles/ai/maximizing-the-potential-of-llms/)
+
+  - [OPS/OpenPromptStudio-提示词图形管理工具](https://moonvy.com/apps/ops/)
+
+  - [提示工程指南](https://www.promptingguide.ai/zh)
+
+  - [learnprompt](https://learnprompting.org/zh-Hans/docs/intro)
+
+  - [KREA — create better prompts.](https://search.krea.ai/)
+
+  - [Discover and Generate AI Art | OpenArt](https://openart.ai/discovery)
+
+  - [Lexica](https://lexica.art/)
+
+  - [Discover, Upload and Share AI Generated Art](https://arthub.ai/)
+
 ## AI News
 
   - [AI论文速递](https://briefgpt.xyz/)
@@ -348,6 +398,13 @@ redirect_from:
 
   - [Vicuna-Model](https://huggingface.co/chavinlo/vicuna)
 
+  - [Claude](https://www.anthropic.com/)
+
+  - [Open-Assistant](https://github.com/LAION-AI/Open-Assistant)
+
+  - [all AI news](https://allainews.com/)
+
+  - [hackertab.dev](https://now.hackertab.dev/)
 ## API
 
   - [OpenAI API](https://platform.openai.com/overview)

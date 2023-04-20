@@ -271,6 +271,8 @@ redirect_from:
 
 - [Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts)
 
+- [Github-Next](https://blocks.githubnext.com/)
+
 ### 资源/素材
 
 - [400 多个站点和资源库](https://iamjesushusbands.gumroad.com/l/resource-lib)
@@ -286,8 +288,6 @@ redirect_from:
 - [IMSDb](https://imsdb.com/)
 
 - [Office官方模板站](https://www.officeplus.cn/)
-
-- [BBC 声音数据库](https://sound-effects.bbcrewind.co.uk/)
 
 - [FreeMbook Search](https://freembook.com/)
 
@@ -322,6 +322,8 @@ redirect_from:
 - [新CG儿](https://www.newcger.com/)
 
 - [sts-bcut-语音转字幕](https://github.com/Forgot-Dream/STS-Bcut)
+
+- [loudreader-浏览器阅读器](https://www.loudreader.com/)
 
 - alist
 
@@ -452,6 +454,8 @@ redirect_from:
 
 - [AyugeSpiderTools-Scrapy扩展库](https://ayugespidertools.readthedocs.io/en/latest/)
 
+- [PyGWalker-数据分析可视化库](https://github.com/Kanaries/pygwalker)
+
 - 算法
 
   - [The Algorithms](https://the-algorithms.com/)
@@ -507,6 +511,10 @@ redirect_from:
 - [waitlist-wtf](https://www.waitlist.wtf/)
 
 - [域名比价](https://zh-hans.tld-list.com/)
+
+- [MathB.in-在线数学编辑器](https://mathb.in/)
+
+- [mono-域名比价](https://mono.domains/)
 
 #### API
 
@@ -844,22 +852,6 @@ redirect_from:
 
 ## 生活
 
-- 旅行
-
-  - [旅行者博客](https://travel.getnomad.app/)
-
-  - [AI生成旅游攻略](https://getaiway.com/)
-
-  - [旅游规划](https://eightydays.me/)
-
-  - [Elude](https://elude.co/)
-
-  - [marriott](https://www.marriott.com/default.mi)
-
-  - [Booking](https://www.booking.com/)
-
-  - [Kayak](https://www.kayak.com/)
-
 - [音乐和酒](http://drinkify.org/)
 
 - [Nightwave Plaza](https://plaza.one/)
@@ -880,9 +872,43 @@ redirect_from:
 
 - [弹幕网-追番](https://girigirilove.com/)
 
-- [loudreader-浏览器阅读器](https://www.loudreader.com/)
-
 - [直播资源](https://github.com/youshandefeiyang/IPTV)
+
+- [白噪声](https://t.me/isaiahsystem/465)
+
+- [Coderadio](https://coderadio.freecodecamp.org/)
+
+## World Wide Web
+
+- 旅行
+
+  - [旅行者博客](https://travel.getnomad.app/)
+
+  - [AI生成旅游攻略](https://getaiway.com/)
+
+  - [旅游规划](https://eightydays.me/)
+
+  - [Elude](https://elude.co/)
+
+  - [marriott](https://www.marriott.com/default.mi)
+
+  - [Booking](https://www.booking.com/)
+
+  - [Kayak](https://www.kayak.com/)
+
+- [Radio Garden-世界各地广播频道](https://radio.garden/visit/susupe/2x7wJD11)
+
+- [BBC 声音数据库](https://sound-effects.bbcrewind.co.uk/)
+
+- [randomstreetview-随机街景](https://randomstreetview.com/)
+
+- [Drive & Listen](http://driveandlisten.herokuapp.com/)
+
+- [beachnearby](https://beachnearby.com/)
+
+- [whereshouldilive](https://www.whereshouldilive.co/)
+
+- [spacetravel](https://bigthink.com/the-future/space-travel-spirituality/)
 
 ## 工作
 
@@ -944,6 +970,10 @@ redirect_from:
 
 - [hubstaff-远程工作](https://talent.hubstaff.com/)
 
+- [日本求职网站](https://japan-dev.com/jobs)
+
+- [日本面向英语求职](https://www.tokyodev.com/)
+
 ## 游戏
 
 - [igg](https://igg-games.com/)
@@ -963,6 +993,8 @@ redirect_from:
 ## 电影
 
 - [41T 4K 电影资源](https://www.aliyundrive.com/s/aEEGWV4hF33)
+
+- [小纸条-开放资源网站](https://u.gitcafe.net/)
 
 ## 投资
 - [confluence](https://www.confluence.vc/)
