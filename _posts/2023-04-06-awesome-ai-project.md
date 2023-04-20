@@ -376,7 +376,7 @@ redirect_from:
 
   - [KREA — create better prompts.](https://search.krea.ai/)
 
-  - [Discover and Generate AI Art | OpenArt](https://openart.ai/discovery)
+  - [Discover and Generate AI Art](https://openart.ai/discovery)
 
   - [Lexica](https://lexica.art/)
 
