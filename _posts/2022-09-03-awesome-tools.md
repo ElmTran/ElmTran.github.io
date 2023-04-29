@@ -307,8 +307,6 @@ redirect_from:
 
 - [20个lut](https://noisevip.cn/14350.html)
 
-- [saas替代方案](https://saasblocks.io/)
-
 - [nirsoft-开发者小工具](http://www.nirsoft.net/)
 
 - [虚拟身份生成](https://www.verif.tools/en/?gn=PW3mnGJ6Fiot)
@@ -324,6 +322,20 @@ redirect_from:
 - [sts-bcut-语音转字幕](https://github.com/Forgot-Dream/STS-Bcut)
 
 - [loudreader-浏览器阅读器](https://www.loudreader.com/)
+
+- [alternativeto-软件替代方案](https://alternativeto.net/)
+
+- [portableapps-便携软件](https://portableapps.com/apps)
+
+- [fileagle-安全下载平台](https://www.fileeagle.com/zh-CN/)
+
+- [saas替代方案](https://saasblocks.io/)
+
+- [open-source-alternatives](https://www.opensourcealternative.to/)
+
+- [sourceforge-开源软件](https://sourceforge.net/)
+
+- [altapps](https://zh.altapps.net/)
 
 - alist
 
@@ -455,6 +467,8 @@ redirect_from:
 - [AyugeSpiderTools-Scrapy扩展库](https://ayugespidertools.readthedocs.io/en/latest/)
 
 - [PyGWalker-数据分析可视化库](https://github.com/Kanaries/pygwalker)
+
+- [nginx-ui](https://github.com/0xJacky/nginx-ui)
 
 - 算法
 
@@ -590,6 +604,8 @@ redirect_from:
 
 - [公告API排名](https://apirank.dev/)
 
+- [Nango-oauth](https://github.com/NangoHQ/nango)
+
 #### 短网址
 
 - [免费短网址生成器](http://suo.nz/)
@@ -637,6 +653,8 @@ redirect_from:
   - GO
 
     - [Introduction-to-Golang](https://github.com/0voice/Introduction-to-Golang)
+
+    - [wails-跨平台桌面应用程序](https://github.com/wailsapp/wails)
 
   - python
 
@@ -850,6 +868,8 @@ redirect_from:
 
 - [Streamline-图标](https://www.streamlinehq.com/)
 
+- [clipdrop-lighting](https://clipdrop.co/relight)
+
 ## 生活
 
 - [音乐和酒](http://drinkify.org/)
@@ -867,6 +887,8 @@ redirect_from:
 - [mp3bst-音乐下载](https://mp3bst.com/)
 
 - [apeflac-无损音乐下载](http://www.ape-flac.com/)
+
+- [NCS](https://ncs.io/music)
 
 - [sacdr](https://sacdr.net/)
 
@@ -974,6 +996,7 @@ redirect_from:
 
 - [日本面向英语求职](https://www.tokyodev.com/)
 
+- [visa-job-hq](https://www.visajobshq.com/)
 ## 游戏
 
 - [igg](https://igg-games.com/)
@@ -1018,6 +1041,12 @@ redirect_from:
 - [Global 地球仪](http://globe.cid.harvard.edu/)
 
 - [kodytools-在线计算器和转换器中心](https://www.kodytools.com/)
+
+- [rawgraphs](https://www.rawgraphs.io/)
+
+- [echarts](https://echarts.apache.org/zh/index.html)
+
+- [create-chart-可视化数据大屏](https://github.com/food-billboard/create-chart)
 
 ## Telegram
 

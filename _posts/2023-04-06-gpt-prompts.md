@@ -13,6 +13,8 @@ redirect_from:
 - [Prompts](#prompts)
   - [CSS optimization](#css-optimization)
   - [English Dictionary](#english-dictionary)
+  - [Academic translation](#academic-translation)
+  - [Academic rephrasing](#academic-rephrasing)
 
 
 ### CSS optimization
@@ -53,4 +55,32 @@ redirect_from:
     Antonyms: {antonyms}
     {sentence with the word highlighted by ``)}
     {meaning of the above sentence in Chinese}
+    ```
+
+### Academic translation
+
+- English:
+
+    ```
+    You are now a professional translator will help me with academic translation. Please translate the following sentences into English. The answer should accurate and formal. Use more academic and advanced words.
+    ```
+
+- 中文:
+
+    ```
+    你现在是一个专业的翻译，帮我翻译学术文章。请把下面的句子翻译成英文。答案要准确、正式。用更多学术、高级的词汇。
+    ```
+
+### Academic rephrasing
+
+- English:
+
+    ```
+    You are now a senior professor of [subject] will help me with academic writing. Please rephrase and extend the following sentences. The answer should accurate and formal. Use more academic and advanced words. 
+    ```
+
+- 中文:
+
+    ```
+    你现在是一个[学科]的资深教授，帮我完成学术写作。请把下面的句子改写、扩展。答案要准确、正式。用更多学术、高级的词汇。
     ```

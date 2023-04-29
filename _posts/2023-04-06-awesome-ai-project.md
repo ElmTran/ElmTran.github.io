@@ -110,6 +110,21 @@ redirect_from:
 
   - [polyglot](https://github.com/liou666/polyglot)
 
+  - [webcopilot-writing](https://www.webcopilot.ai/)
+
+  - [eloise-writing](https://eloise.ai/)
+
+  - [giiso-writing](https://www.giiso.com/#/)
+
+  - [nichesss-writing](https://nichesss.com/)
+
+  - [heyfriday-writing](https://www.heyfriday.cn/home)
+
+  - [huggingchat](https://huggingface.co/chat/)
+
+  - [microsoft-grammar-check](https://www.microsoft.com/zh-cn/microsoft-365/microsoft-editor/grammar-checker)
+
+  - [ask-anything](https://github.com/OpenGVLab/Ask-Anything)
 ## AI检测
 
   - [gptzero - 检查是否由GPT-3生成的文本](https://etedward-gptzero-main-zqgfwb.streamlit.app/)
@@ -232,6 +247,8 @@ redirect_from:
 
   - [civitai-AI模型分享社区NSFW](https://civitai.com/)
 
+  - [upscayl-图像增强](https://github.com/upscayl/upscayl)
+
 ## AI Tools
 
   - [FUTUREPEDIA-AI工具聚合](https://www.futurepedia.io/)
@@ -273,6 +290,8 @@ redirect_from:
   - [regex.ai](https://regex.ai/)
 
   - [chat2stats](https://2stats.chat/)
+
+  - [Klu-ai搜索](https://klu.so/)
 
 ## AI Video
 
@@ -323,6 +342,10 @@ redirect_from:
   - [synthesys](https://synthesys.ai/golive)
 
   - [rephrase](https://www.rephrase.ai/)
+
+  - [playlistgenius](https://www.playlistgeniusai.com/)
+
+  - [bark-AI文字转语音](https://github.com/suno-ai/bark)
 
 ## AI 3D & Animation
 
@@ -382,6 +405,8 @@ redirect_from:
 
   - [Discover, Upload and Share AI Generated Art](https://arthub.ai/)
 
+  - [chatfiles-个人语料库](https://github.com/guangzhengli/ChatFiles)
+
 ## AI News
 
   - [AI论文速递](https://briefgpt.xyz/)
@@ -405,6 +430,8 @@ redirect_from:
   - [all AI news](https://allainews.com/)
 
   - [hackertab.dev](https://now.hackertab.dev/)
+
+  - [chatbene](https://chatbene.com/)
 ## API
 
   - [OpenAI API](https://platform.openai.com/overview)
