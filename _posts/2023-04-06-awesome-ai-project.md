@@ -125,6 +125,12 @@ redirect_from:
   - [microsoft-grammar-check](https://www.microsoft.com/zh-cn/microsoft-365/microsoft-editor/grammar-checker)
 
   - [ask-anything](https://github.com/OpenGVLab/Ask-Anything)
+
+  - [Pi-持续聊天帮助英语学习](https://heypi.com/talk)
+
+  - [gpt4free](https://github.com/xtekky/gpt4free)
+
+  - [subtxt](https://subtxt.app/)
 ## AI检测
 
   - [gptzero - 检查是否由GPT-3生成的文本](https://etedward-gptzero-main-zqgfwb.streamlit.app/)
@@ -164,6 +170,10 @@ redirect_from:
   - [wolverine-程序自我修复](https://github.com/biobootloader/wolverine)
 
   - [codewhisperer](https://aws.amazon.com/codewhisperer/)
+
+  - [starcoder-huggingface发布的代码副舵](https://github.com/bigcode-project/starcoder)
+
+  - [spell-box](https://spellbox.app/)
 
 ## AI Design
 
@@ -249,6 +259,8 @@ redirect_from:
 
   - [upscayl-图像增强](https://github.com/upscayl/upscayl)
 
+  - [logomaker](https://logomakerr.ai/)
+
 ## AI Tools
 
   - [FUTUREPEDIA-AI工具聚合](https://www.futurepedia.io/)
@@ -293,6 +305,13 @@ redirect_from:
 
   - [Klu-ai搜索](https://klu.so/)
 
+  - [Translate-videos](https://www.translate.video/)
+
+  - [flowchart-ai流程图](https://github.com/tone-row/flowchart-fun)
+
+  - [ebook-translator](https://github.com/bookfere/Ebook-Translator-Calibre-Plugin)
+
+  - [gitfluence](https://www.gitfluence.com/)
 ## AI Video
 
   - [NUWA-Infinity](https://nuwa-infinity.microsoft.com)
@@ -318,6 +337,12 @@ redirect_from:
   - [lumen5](ttps://lumen5.com/)
 
   - [fliki](https://fliki.ai/)
+
+  - [vidyo](https://vidyo.ai/)
+
+  - [shuffll](https://shuffll.com/futurepedia/)
+
+  - [kreadai](https://www.kreadoai.com/)
 
 ## AI Audio & Voice
 
@@ -346,6 +371,14 @@ redirect_from:
   - [playlistgenius](https://www.playlistgeniusai.com/)
 
   - [bark-AI文字转语音](https://github.com/suno-ai/bark)
+
+  - [听悟](https://www.tingwu.cn/)
+
+  - [audyo](https://www.audyo.ai/)
+
+  - [play.ht](https://play.ht/)
+
+  - [ai歌手](https://threadreaderapp.com/thread/1655437368474877952.html)
 
 ## AI 3D & Animation
 
@@ -407,6 +440,17 @@ redirect_from:
 
   - [chatfiles-个人语料库](https://github.com/guangzhengli/ChatFiles)
 
+  - [LangGPT-high_quality_prompts](https://github.com/yzfly/LangGPT)
+
+  - [MJ-Prompts-Generator](https://yesu.tech/)
+
+  - [privateGPT](https://github.com/imartinez/privateGPT)
+
+  - [noonshot](https://prompt.noonshot.com/)
+
+  - [betterprompt](https://better.avatarprompt.net/)
+
+  - [使用gpt写AIGC prompt](https://tob-design.yuque.com/kxcufk/mj/ufz8vr12rsq3lfoy)
 ## AI News
 
   - [AI论文速递](https://briefgpt.xyz/)

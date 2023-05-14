@@ -337,6 +337,10 @@ redirect_from:
 
 - [altapps](https://zh.altapps.net/)
 
+- [repack-Adobe](https://repack.me/)
+
+- [monkrus-Adobe](https://w14.monkrus.ws/)
+
 - alist
 
   - [小雅](http://alist.xiaoya.pro)
@@ -470,6 +474,10 @@ redirect_from:
 
 - [nginx-ui](https://github.com/0xJacky/nginx-ui)
 
+- [找脚本](https://www.zhaojiaoben.cn/)
+
+- [horuspass-文本加密共享(阅后即焚)](https://horuspass.com/send)
+
 - 算法
 
   - [The Algorithms](https://the-algorithms.com/)
@@ -529,6 +537,8 @@ redirect_from:
 - [MathB.in-在线数学编辑器](https://mathb.in/)
 
 - [mono-域名比价](https://mono.domains/)
+
+- [progress-up-带进度的多文件上传js库](https://progress-up.live/)
 
 #### API
 
@@ -605,6 +615,8 @@ redirect_from:
 - [公告API排名](https://apirank.dev/)
 
 - [Nango-oauth](https://github.com/NangoHQ/nango)
+
+- [讯飞开放平台](https://www.xfyun.cn/)
 
 #### 短网址
 
@@ -816,6 +828,8 @@ redirect_from:
 
 - [EngFluent](https://engfluent.com/blog/)
 
+- [trancy-沉浸式场景](https://learn.trancy.org/aitalk-center)
+
 ## 设计/创意
 
 - [在线免费制作Logo，定制专属于你的Logo设计 – DesignEvo](https://www.designevo.com/cn/)
@@ -899,6 +913,8 @@ redirect_from:
 - [白噪声](https://t.me/isaiahsystem/465)
 
 - [Coderadio](https://coderadio.freecodecamp.org/)
+
+- [体育赛事直播](http://www.sjb.asia/), [配套去广告脚本](https://greasyfork.org/zh-CN/scripts/465829-%E4%BD%93%E8%82%B2%E7%9B%B4%E6%92%AD%E7%AB%99%E5%A2%9E%E5%BC%BA%E8%84%9A%E6%9C%AC)
 
 ## World Wide Web
 
@@ -997,6 +1013,8 @@ redirect_from:
 - [日本面向英语求职](https://www.tokyodev.com/)
 
 - [visa-job-hq](https://www.visajobshq.com/)
+
+- [编程满天星](https://itmtx.cn/question)
 ## 游戏
 
 - [igg](https://igg-games.com/)
