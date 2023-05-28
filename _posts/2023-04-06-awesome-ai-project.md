@@ -131,6 +131,14 @@ redirect_from:
   - [gpt4free](https://github.com/xtekky/gpt4free)
 
   - [subtxt](https://subtxt.app/)
+
+  - [quickai](https://github.com/FISHers6/QuickAI)
+
+  - [v2sub-ai_subtitle](http://www.aizimuji.com/)
+
+  - [trinka-ai_writer](https://www.trinka.ai/)
+
+
 ## AI检测
 
   - [gptzero - 检查是否由GPT-3生成的文本](https://etedward-gptzero-main-zqgfwb.streamlit.app/)
@@ -261,6 +269,10 @@ redirect_from:
 
   - [logomaker](https://logomakerr.ai/)
 
+  - [adobe-firefly](https://www.adobe.com/sensei/generative-ai/firefly.html?sdid=FHRLZBDJ&mv=social&mv2=paid-owned)
+
+  - [DragGAN](https://github.com/XingangPan/DragGAN)
+
 ## AI Tools
 
   - [FUTUREPEDIA-AI工具聚合](https://www.futurepedia.io/)
@@ -312,6 +324,15 @@ redirect_from:
   - [ebook-translator](https://github.com/bookfere/Ebook-Translator-Calibre-Plugin)
 
   - [gitfluence](https://www.gitfluence.com/)
+
+  - [pdfgear-内置ai的pdf工具](https://www.pdfgear.com/)
+
+  - [ValidatorAI-验证创业想法](https://validatorai.com/)
+
+  - [DB-GPT](https://github.com/csunny/DB-GPT)
+
+  - [chatall-齐叨](https://github.com/sunner/ChatALL)
+
 ## AI Video
 
   - [NUWA-Infinity](https://nuwa-infinity.microsoft.com)
@@ -343,6 +364,8 @@ redirect_from:
   - [shuffll](https://shuffll.com/futurepedia/)
 
   - [kreadai](https://www.kreadoai.com/)
+
+  - [motionit-generate-video-slides-with-ai](https://www.motionit.ai/)  
 
 ## AI Audio & Voice
 
@@ -379,6 +402,8 @@ redirect_from:
   - [play.ht](https://play.ht/)
 
   - [ai歌手](https://threadreaderapp.com/thread/1655437368474877952.html)
+
+  - [web-ui-for-whisper](https://github.com/felixbade/transcribe)
 
 ## AI 3D & Animation
 
@@ -451,6 +476,9 @@ redirect_from:
   - [betterprompt](https://better.avatarprompt.net/)
 
   - [使用gpt写AIGC prompt](https://tob-design.yuque.com/kxcufk/mj/ufz8vr12rsq3lfoy)
+
+  - [midjourney摄影素材教程](https://mp.weixin.qq.com/s/pGfELWDT6z3kNRlwPImPKw)
+
 ## AI News
 
   - [AI论文速递](https://briefgpt.xyz/)
@@ -476,10 +504,11 @@ redirect_from:
   - [hackertab.dev](https://now.hackertab.dev/)
 
   - [chatbene](https://chatbene.com/)
+
+  - [lmsys-ai_validation](https://chat.lmsys.org/?arena)
 ## API
 
   - [OpenAI API](https://platform.openai.com/overview)
-
 
   - [OpenAI Embeddings](https://platform.openai.com/docs/guides/embeddings)
 

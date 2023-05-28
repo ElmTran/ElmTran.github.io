@@ -341,6 +341,8 @@ redirect_from:
 
 - [monkrus-Adobe](https://w14.monkrus.ws/)
 
+- [SmartTubeNext](https://github.com/yuliskov/SmartTubeNext)
+
 - alist
 
   - [小雅](http://alist.xiaoya.pro)
@@ -539,6 +541,10 @@ redirect_from:
 - [mono-域名比价](https://mono.domains/)
 
 - [progress-up-带进度的多文件上传js库](https://progress-up.live/)
+
+- [boxcoding-css_components](https://avabucks.it/index)
+
+- [sql-indexing-and-tuning-ebook](https://use-the-index-luke.com/)
 
 #### API
 
@@ -884,6 +890,8 @@ redirect_from:
 
 - [clipdrop-lighting](https://clipdrop.co/relight)
 
+- [colpat-调色板](https://colpat.itsvg.in/dashboard)
+
 ## 生活
 
 - [音乐和酒](http://drinkify.org/)
@@ -915,6 +923,8 @@ redirect_from:
 - [Coderadio](https://coderadio.freecodecamp.org/)
 
 - [体育赛事直播](http://www.sjb.asia/), [配套去广告脚本](https://greasyfork.org/zh-CN/scripts/465829-%E4%BD%93%E8%82%B2%E7%9B%B4%E6%92%AD%E7%AB%99%E5%A2%9E%E5%BC%BA%E8%84%9A%E6%9C%AC)
+
+- [顽狗音乐](https://music.dogged.cn/)
 
 ## World Wide Web
 
@@ -1015,6 +1025,39 @@ redirect_from:
 - [visa-job-hq](https://www.visajobshq.com/)
 
 - [编程满天星](https://itmtx.cn/question)
+
+- 自由职业\/副业
+
+  - [https://www.freelancer.com/jobs](https://www.freelancer.com/jobs)
+
+  - [https://www.upwork.com/](https://www.upwork.com/)
+
+  - [https://www.freelancermap.com/](https://www.freelancermap.com/)
+
+  - [https://gun.io/](https://gun.io/)
+
+  - [https://www.guru.com/d/jobs/](https://www.guru.com/d/jobs/)
+
+  - [https://www.fiverr.com/](https://www.fiverr.com/)
+
+  - [https://www.simplyhired.com/](https://www.simplyhired.com/)
+
+  - [https://angel.co/](https://angel.co/)
+
+  - [https://www.designcrowd.com/](https://www.designcrowd.com/)
+
+  - [https://authenticjobs.com/](https://authenticjobs.com/)
+
+  - [https://solidgigs.com/](https://solidgigs.com/)
+
+  - [https://jooble.org/](https://jooble.org/)
+
+  - [https://www.flexjobs.com/](https://www.flexjobs.com/)
+
+  - [https://www.peopleperhour.com/](https://www.peopleperhour.com/)
+
+  - [https://www.linkedin.com](https://www.linkedin.com)
+
 ## 游戏
 
 - [igg](https://igg-games.com/)
@@ -1036,6 +1079,8 @@ redirect_from:
 - [41T 4K 电影资源](https://www.aliyundrive.com/s/aEEGWV4hF33)
 
 - [小纸条-开放资源网站](https://u.gitcafe.net/)
+
+- [justwatch-电影搜索](https://www.justwatch.com/)
 
 ## 投资
 - [confluence](https://www.confluence.vc/)
