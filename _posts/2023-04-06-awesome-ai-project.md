@@ -138,7 +138,19 @@ redirect_from:
 
   - [trinka-ai_writer](https://www.trinka.ai/)
 
+  - [writely-ai_write](https://github.com/anc95/writely)
 
+  - [quillbot-ai转写](https://quillbot.com/)
+
+  - [writinggo-火山写作](https://www.writingo.net/)
+
+  - [helpgpt-基于文档](https://www.helpgpt.ai/)
+
+  - [magicpen-书籍总结](https://magickpen.com/zh/templates/76/)
+
+  - [chat2doc](https://chat2doc.cn/)
+
+  - [爱校对](https://www.ijiaodui.com/workbench)
 ## AI检测
 
   - [gptzero - 检查是否由GPT-3生成的文本](https://etedward-gptzero-main-zqgfwb.streamlit.app/)
@@ -273,6 +285,14 @@ redirect_from:
 
   - [DragGAN](https://github.com/XingangPan/DragGAN)
 
+  - [AnimeArt](https://animeart.studio/)
+
+  - [recraft-ai生成矢量图](https://www.recraft.ai/)
+
+  - [面部老化](https://extrapolate.app/)
+
+  - [iconify-图标](https://www.iconifyai.com/)
+
 ## AI Tools
 
   - [FUTUREPEDIA-AI工具聚合](https://www.futurepedia.io/)
@@ -333,6 +353,21 @@ redirect_from:
 
   - [chatall-齐叨](https://github.com/sunner/ChatALL)
 
+  - [treemind-ai思维导图](https://shutu.cn/)
+
+  - [name-gpt](https://www.logosc.cn/nameGPT)
+
+  - [mathpix-公式识别](https://mathpix.com/)
+
+  - [findyournextbook](https://www.findyournextbook.ai/)
+
+  - [时尚穿搭](https://www.fashionadvisorai.com/)
+
+  - [watchnowai](https://watchnowai.com/)
+
+  - [chartgpt](https://www.chartgpt.dev/)
+
+  - [samist-sam模型的ui](https://github.com/dibrale/samist)
 ## AI Video
 
   - [NUWA-Infinity](https://nuwa-infinity.microsoft.com)
@@ -404,6 +439,8 @@ redirect_from:
   - [ai歌手](https://threadreaderapp.com/thread/1655437368474877952.html)
 
   - [web-ui-for-whisper](https://github.com/felixbade/transcribe)
+
+  - [taption-影音转文字](https://www.taption.com/zh-CN)
 
 ## AI 3D & Animation
 
@@ -479,6 +516,7 @@ redirect_from:
 
   - [midjourney摄影素材教程](https://mp.weixin.qq.com/s/pGfELWDT6z3kNRlwPImPKw)
 
+  - [AI灵创题词器](https://frozenland.cc/teleprompter.html)
 ## AI News
 
   - [AI论文速递](https://briefgpt.xyz/)
@@ -506,6 +544,11 @@ redirect_from:
   - [chatbene](https://chatbene.com/)
 
   - [lmsys-ai_validation](https://chat.lmsys.org/?arena)
+
+  - [hacker-news-summary](https://hackernews.betacat.io/)
+
+  - [AI知识库](https://ssw9noe1h6.feishu.cn/wiki/wikcn59pPXfAiF1ONajdPzvhA9d)
+
 ## API
 
   - [OpenAI API](https://platform.openai.com/overview)
