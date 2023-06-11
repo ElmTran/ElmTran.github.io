@@ -245,6 +245,9 @@ redirect_from:
 
 - [videoscribe-视频制作](https://www.videoscribe.co/en/free-trial/)
 
+- [Aegisub-字幕编辑](https://aegi.vmoe.info/)
+
+- [chillin-在线剪辑](https://chillin.online/)
 ### office
 
 - [E5 自动续订软件](https://e5renew.com/) ps: [密钥获取](https://blog.csdn.net/qq_33212020/article/details/119747634)
@@ -272,6 +275,8 @@ redirect_from:
 - [Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts)
 
 - [Github-Next](https://blocks.githubnext.com/)
+
+- [LKY_OfficeTools](https://github.com/OdysseusYuan/LKY_OfficeTools)
 
 ### 资源/素材
 
@@ -307,8 +312,6 @@ redirect_from:
 
 - [20个lut](https://noisevip.cn/14350.html)
 
-- [nirsoft-开发者小工具](http://www.nirsoft.net/)
-
 - [虚拟身份生成](https://www.verif.tools/en/?gn=PW3mnGJ6Fiot)
 
 - [Bypass Paywalls-绕过付费墙](https://gitlab.com/magnolia1234/bypass-paywalls-chrome-clean)
@@ -342,6 +345,8 @@ redirect_from:
 - [monkrus-Adobe](https://w14.monkrus.ws/)
 
 - [SmartTubeNext](https://github.com/yuliskov/SmartTubeNext)
+
+- [templatenet](https://www.template.net/)
 
 - alist
 
@@ -480,6 +485,16 @@ redirect_from:
 
 - [horuspass-文本加密共享(阅后即焚)](https://horuspass.com/send)
 
+- [rustdesk-远程控制](https://rustdesk.com/zh/)
+
+- [helix-新vim](https://helix-editor.com/)
+
+- [valtown-云lambda函数](https://www.val.town/)
+
+- [markflow-提取前端元素](https://chrome.google.com/webstore/detail/markflow-copy-elements-to/djpkcdeoondbcapcllgahjhaghplfcno/related)
+
+- [nirsoft-开发者小工具](http://www.nirsoft.net/)
+
 - 算法
 
   - [The Algorithms](https://the-algorithms.com/)
@@ -545,6 +560,10 @@ redirect_from:
 - [boxcoding-css_components](https://avabucks.it/index)
 
 - [sql-indexing-and-tuning-ebook](https://use-the-index-luke.com/)
+
+- [herowand-可视化json编辑器](https://editor.herowand.com/)
+
+- [ricocc-在线todo](https://www.ricocc.com/todo/)
 
 #### API
 
@@ -666,7 +685,7 @@ redirect_from:
 
 - [亲爱的](https://qinai.de/)
 
-### 编程语言
+### 教程
 
   - GO
 
@@ -681,6 +700,10 @@ redirect_from:
   - rust
 
     - [Comprehensive Rust-tutorials](https://google.github.io/comprehensive-rust/)
+
+  - docker
+
+    - [getting-started-with-docker](https://dockerlabs.collabnix.com/)
 
 ## 英语
 ### 写作
@@ -778,9 +801,13 @@ redirect_from:
 
 - [youglish-包含单词的youtube视频](https://youglish.com/)
 
+- [en30s](https://play.google.com/store/apps/details?id=com.digdok.en30s&pli=1)
+
 ### 口语
 
 - [todays phrase](https://www.bbc.co.uk/learningenglish/chinese/features/todays-phrase)
+
+- [howtopronounce](https://zh.howtopronounce.com/)
 
 ### 考试资料
 
@@ -835,6 +862,8 @@ redirect_from:
 - [EngFluent](https://engfluent.com/blog/)
 
 - [trancy-沉浸式场景](https://learn.trancy.org/aitalk-center)
+
+- [soofy](https://soofy.io/)
 
 ## 设计/创意
 
@@ -894,37 +923,11 @@ redirect_from:
 
 ## 生活
 
-- [音乐和酒](http://drinkify.org/)
-
-- [Nightwave Plaza](https://plaza.one/)
-
 - [家用电器维修](https://www.zhixiu.net/)
 
 - [程序员做饭指南](https://github.com/Anduin2017/HowToCook)
 
 - [摄影无忌](https://ww.xitek.com/)
-
-- [lastfm-音乐艺术家](https://www.last.fm/)
-
-- [mp3bst-音乐下载](https://mp3bst.com/)
-
-- [apeflac-无损音乐下载](http://www.ape-flac.com/)
-
-- [NCS](https://ncs.io/music)
-
-- [sacdr](https://sacdr.net/)
-
-- [弹幕网-追番](https://girigirilove.com/)
-
-- [直播资源](https://github.com/youshandefeiyang/IPTV)
-
-- [白噪声](https://t.me/isaiahsystem/465)
-
-- [Coderadio](https://coderadio.freecodecamp.org/)
-
-- [体育赛事直播](http://www.sjb.asia/), [配套去广告脚本](https://greasyfork.org/zh-CN/scripts/465829-%E4%BD%93%E8%82%B2%E7%9B%B4%E6%92%AD%E7%AB%99%E5%A2%9E%E5%BC%BA%E8%84%9A%E6%9C%AC)
-
-- [顽狗音乐](https://music.dogged.cn/)
 
 ## World Wide Web
 
@@ -1026,6 +1029,8 @@ redirect_from:
 
 - [编程满天星](https://itmtx.cn/question)
 
+- [monster](https://hiring.monster.com/)
+
 - 自由职业\/副业
 
   - [https://www.freelancer.com/jobs](https://www.freelancer.com/jobs)
@@ -1074,7 +1079,7 @@ redirect_from:
 
 - [乐赏单机游戏](http://gbtgame.ysepan.com/)
 
-## 电影
+## 影视
 
 - [41T 4K 电影资源](https://www.aliyundrive.com/s/aEEGWV4hF33)
 
@@ -1082,6 +1087,35 @@ redirect_from:
 
 - [justwatch-电影搜索](https://www.justwatch.com/)
 
+- [弹幕网-追番](https://girigirilove.com/)
+
+- [直播资源](https://github.com/youshandefeiyang/IPTV)
+
+- [体育赛事直播](http://www.sjb.asia/), [配套去广告脚本](https://greasyfork.org/zh-CN/scripts/465829-%E4%BD%93%E8%82%B2%E7%9B%B4%E6%92%AD%E7%AB%99%E5%A2%9E%E5%BC%BA%E8%84%9A%E6%9C%AC)
+
+## 音乐
+
+- [liumingye](https://tools.liumingye.cn/music/#/)
+
+- [音乐和酒](http://drinkify.org/)
+
+- [Nightwave Plaza](https://plaza.one/)
+
+- [lastfm-音乐艺术家](https://www.last.fm/)
+
+- [mp3bst-音乐下载](https://mp3bst.com/)
+
+- [apeflac-无损音乐下载](http://www.ape-flac.com/)
+
+- [NCS](https://ncs.io/music)
+
+- [sacdr](https://sacdr.net/)
+
+- [白噪声](https://t.me/isaiahsystem/465)
+
+- [Coderadio](https://coderadio.freecodecamp.org/)
+
+- [顽狗音乐](https://music.dogged.cn/)
 ## 投资
 - [confluence](https://www.confluence.vc/)
 
@@ -1111,84 +1145,6 @@ redirect_from:
 
 - [create-chart-可视化数据大屏](https://github.com/food-billboard/create-chart)
 
-## Telegram
-
-### OCR
-- [TexifyBot](https://telegram.me/TexifyBot)
-
-- [BruhulBot](https://telegram.me/BruhulBot)
-
-- [bacakubot](https://telegram.me/bacakubot)
-
-- [pix2txt_bot](https://telegram.me/pix2txt_bot)
-
-- [the_ocr_bot](https://telegram.me/the_ocr_bot)
-
-- [ocr_free_bot](https://telegram.me/ocr_free_bot)
-
-- [theimagebot](https://telegram.me/theimagebot)
-
-- [YourOCRBot](https://telegram.me/YourOCRBot)
-
-- [lingvanexbot](https://telegram.me/lingvanexbot)
-
-- [MahmudsBot](https://telegram.me/MahmudsBot)
-
-- [transcriber_bot](https://telegram.me/transcriber_bot)
-
-- [Photo2text_bot](https://telegram.me/Photo2text_bot)
-
-- [SummaryRobot](https://telegram.me/SummaryRobot)
-
-- [imagereaderbot](https://telegram.me/imagereaderbot)
-
-- [TranslateIDrobot](https://telegram.me/TranslateIDrobot)
-
-- [imageToText_bot](https://telegram.me/imageToText_bot)
-
-- [Image_to_textBot](https://telegram.me/Image_to_textBot)
-
-- [Image2Text_OCR_bot](https://telegram.me/Image2Text_OCR_bot)
-
-- [pen2text_bot](https://telegram.me/pen2text_bot)
-
-- [语音识别](https://t.me/bot_zh/137)
-
-### 搜图
-- [reverseSearchBot](https://telegram.me/reverseSearchBot)
-
-- [SauceNAObot](https://telegram.me/SauceNAObot)
-
-- [iqdb_org_bot](https://telegram.me/iqdb_org_bot)
-
-- [ascii2d_bot](https://telegram.me/ascii2d_bot)
-
-- [TeleSaucenao_bot](https://telegram.me/TeleSaucenao_bot)
-
-- [LCxRvsImgSrch_bot](https://telegram.me/LCxRvsImgSrch_bot)
-
-- [ACGMoeSearchPhoto_bot](https://telegram.me/ACGMoeSearchPhoto_bot)
-
-- [reverseSearchBot](https://telegram.me/reverseSearchBot)
-
-- [NazurinDemoTest_bot](https://telegram.me/NazurinDemoTest_bot)
-
-- [soutubot](https://telegram.me/soutubot)
-
-### 搜书
-
-- [zlibrary2bot](https://telegram.me/zlibrary2bot)
-
-- [firstlibrarybot](https://telegram.me/firstlibrarybot)
-
-### 搜索
-
-- [TG三方搜索](https://cse.google.com/cse?cx=004805129374225513871:p8lhfo0g3hg)
-
-- [TG三方搜索2](https://meow.tg/private/voidrss)
-
-- [Bot 检索](https://botostore.com/collections/best-official-chatbots-verified-with-blue-badges-by-telegram/)
-
 ## 优秀博客/网站
 
 - [Smashing Magazine](https://www.smashingmagazine.com/)
@@ -1208,6 +1164,10 @@ redirect_from:
 - [feddd-rss订阅源](https://feeddd.org/feeds)
 
 - [directory-博客收集](https://ooh.directory/)
+
+- [readsometingwondeful](https://readsomethingwonderful.com/)
+
+- [boredreading](https://boredreading.com/)
 
 ## 搜索引擎
 
