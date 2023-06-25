@@ -151,6 +151,8 @@ redirect_from:
   - [chat2doc](https://chat2doc.cn/)
 
   - [爱校对](https://www.ijiaodui.com/workbench)
+
+  - [reviewGPT](https://reviewgpt.net/)
 ## AI检测
 
   - [gptzero - 检查是否由GPT-3生成的文本](https://etedward-gptzero-main-zqgfwb.streamlit.app/)
@@ -293,6 +295,8 @@ redirect_from:
 
   - [iconify-图标](https://www.iconifyai.com/)
 
+  - [aicolors](https://aicolors.co/)
+
 ## AI Tools
 
   - [FUTUREPEDIA-AI工具聚合](https://www.futurepedia.io/)
@@ -368,6 +372,9 @@ redirect_from:
   - [chartgpt](https://www.chartgpt.dev/)
 
   - [samist-sam模型的ui](https://github.com/dibrale/samist)
+
+  - [pdfgpt](https://github.com/bhaskatripathi/pdfGPT)
+
 ## AI Video
 
   - [NUWA-Infinity](https://nuwa-infinity.microsoft.com)
@@ -452,6 +459,8 @@ redirect_from:
 
   - [wonder-真人CG制作](https://wonderdynamics.com/)
 
+  - [gen2](https://research.runwayml.com/gen2)
+
 ## Prompts and Guides
 
   - [prompthero](https://prompthero.com/)
@@ -517,6 +526,8 @@ redirect_from:
   - [midjourney摄影素材教程](https://mp.weixin.qq.com/s/pGfELWDT6z3kNRlwPImPKw)
 
   - [AI灵创题词器](https://frozenland.cc/teleprompter.html)
+
+  - [AIshorts](https://www.aishort.top/)
 ## AI News
 
   - [AI论文速递](https://briefgpt.xyz/)

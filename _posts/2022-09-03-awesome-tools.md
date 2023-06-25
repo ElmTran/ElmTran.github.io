@@ -72,8 +72,6 @@ redirect_from:
 
 - [Google Scholar](https://scholar.google.com/)
 
-- [elicit-文献检索](https://elicit.org/)
-
 - [magazinelib](https://magazinelib.com/)
 
 ## 书籍
@@ -248,6 +246,9 @@ redirect_from:
 - [Aegisub-字幕编辑](https://aegi.vmoe.info/)
 
 - [chillin-在线剪辑](https://chillin.online/)
+
+- [奶酪清单](https://www.runningcheese.com/aaa)
+
 ### office
 
 - [E5 自动续订软件](https://e5renew.com/) ps: [密钥获取](https://blog.csdn.net/qq_33212020/article/details/119747634)
@@ -324,6 +325,8 @@ redirect_from:
 
 - [sts-bcut-语音转字幕](https://github.com/Forgot-Dream/STS-Bcut)
 
+- [ttsmaker-文本转语音](https://ttsmaker.com/)
+
 - [loudreader-浏览器阅读器](https://www.loudreader.com/)
 
 - [alternativeto-软件替代方案](https://alternativeto.net/)
@@ -383,6 +386,7 @@ redirect_from:
 
 - [PDF24](https://tools.pdf24.org/zh/)
 
+- [olorr-pdf_ocr](https://olocr.com/)
 ### 云存储
 
 - [Userscloud](https://userscloud.com/)
@@ -495,6 +499,8 @@ redirect_from:
 
 - [nirsoft-开发者小工具](http://www.nirsoft.net/)
 
+- [github-actions-examples](https://www.actionsbyexample.com/)
+
 - 算法
 
   - [The Algorithms](https://the-algorithms.com/)
@@ -564,6 +570,8 @@ redirect_from:
 - [herowand-可视化json编辑器](https://editor.herowand.com/)
 
 - [ricocc-在线todo](https://www.ricocc.com/todo/)
+
+- [beekeeperstudio-数据库管理](https://www.beekeeperstudio.io/)
 
 #### API
 
@@ -642,6 +650,8 @@ redirect_from:
 - [Nango-oauth](https://github.com/NangoHQ/nango)
 
 - [讯飞开放平台](https://www.xfyun.cn/)
+
+- [movie-js](https://github.com/Rocket-Factory/MovieJSON)
 
 #### 短网址
 
@@ -865,6 +875,8 @@ redirect_from:
 
 - [soofy](https://soofy.io/)
 
+- [巴别英语](https://www.babelabc.com/)
+
 ## 设计/创意
 
 - [在线免费制作Logo，定制专属于你的Logo设计 – DesignEvo](https://www.designevo.com/cn/)
@@ -1031,6 +1043,8 @@ redirect_from:
 
 - [monster](https://hiring.monster.com/)
 
+- [面试押题王](https://yatiwang.chat/)
+
 - 自由职业\/副业
 
   - [https://www.freelancer.com/jobs](https://www.freelancer.com/jobs)
@@ -1092,6 +1106,10 @@ redirect_from:
 - [直播资源](https://github.com/youshandefeiyang/IPTV)
 
 - [体育赛事直播](http://www.sjb.asia/), [配套去广告脚本](https://greasyfork.org/zh-CN/scripts/465829-%E4%BD%93%E8%82%B2%E7%9B%B4%E6%92%AD%E7%AB%99%E5%A2%9E%E5%BC%BA%E8%84%9A%E6%9C%AC)
+
+- [OvenTV](https://github.com/owen2000wy/owentv)
+
+- [星视界](https://www.histar.tv/)
 
 ## 音乐
 
@@ -1186,3 +1204,7 @@ redirect_from:
 - [similarsites-相似搜索](https://www.similarsites.com/)
 
 - [程序员搜索引擎](https://phind.com/)
+
+- [elicit-文献检索](https://elicit.org/)
+
+- [file-pursuit-文件搜索](https://filepursuit.com/)
