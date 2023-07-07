@@ -84,6 +84,11 @@ redirect_from:
 
 - [Bot 检索](https://botostore.com/collections/best-official-chatbots-verified-with-blue-badges-by-telegram/)
 
+
+## AI
+
+- [MotiveMe-心理咨询师](https://telegram.me/MotivateMe23_bot)
+
 ## 频道
 
 - [科技新闻投稿](https://t.me/TestFlightCN)

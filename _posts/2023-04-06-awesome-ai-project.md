@@ -130,6 +130,8 @@ redirect_from:
 
   - [gpt4free](https://github.com/xtekky/gpt4free)
 
+  - [freegpt-webui](https://github.com/ramonvc/freegpt-webui)
+
   - [subtxt](https://subtxt.app/)
 
   - [quickai](https://github.com/FISHers6/QuickAI)
@@ -153,6 +155,19 @@ redirect_from:
   - [爱校对](https://www.ijiaodui.com/workbench)
 
   - [reviewGPT](https://reviewgpt.net/)
+
+  - [easychat-gpt4](https://site.easychat.work/)
+
+  - [awesome-free-chatgpt-镜像站](https://github.com/LiLittleCat/awesome-free-chatgpt)
+
+## AI Models
+
+  - [Alpaca-Model](https://www.getalpaca.io/)
+
+  - [Vicuna-Model](https://huggingface.co/chavinlo/vicuna)
+
+  - [Claude](https://www.anthropic.com/)
+
 ## AI检测
 
   - [gptzero - 检查是否由GPT-3生成的文本](https://etedward-gptzero-main-zqgfwb.streamlit.app/)
@@ -297,6 +312,8 @@ redirect_from:
 
   - [aicolors](https://aicolors.co/)
 
+  - [gamma-ppt](https://gamma.app/signup?r=dlcykyd0iyaxw2b)
+
 ## AI Tools
 
   - [FUTUREPEDIA-AI工具聚合](https://www.futurepedia.io/)
@@ -375,6 +392,10 @@ redirect_from:
 
   - [pdfgpt](https://github.com/bhaskatripathi/pdfGPT)
 
+  - [final2x-提升图片质量](https://github.com/Tohrusky/Final2x)
+
+  - [面试助手](https://interview.sofasay.com/)
+
 ## AI Video
 
   - [NUWA-Infinity](https://nuwa-infinity.microsoft.com)
@@ -407,7 +428,9 @@ redirect_from:
 
   - [kreadai](https://www.kreadoai.com/)
 
-  - [motionit-generate-video-slides-with-ai](https://www.motionit.ai/)  
+  - [motionit-generate-video-slides-with-ai](https://www.motionit.ai/)
+
+  - [gyroflow-视频稳定](https://gyroflow.xyz/)
 
 ## AI Audio & Voice
 
@@ -448,6 +471,10 @@ redirect_from:
   - [web-ui-for-whisper](https://github.com/felixbade/transcribe)
 
   - [taption-影音转文字](https://www.taption.com/zh-CN)
+
+  - [voice-changer](https://github.com/w-okada/voice-changer)
+
+  - [whisperapp](https://godlucky.net/whisperapp/)
 
 ## AI 3D & Animation
 
@@ -528,6 +555,9 @@ redirect_from:
   - [AI灵创题词器](https://frozenland.cc/teleprompter.html)
 
   - [AIshorts](https://www.aishort.top/)
+
+  - [Open-Assistant](https://github.com/LAION-AI/Open-Assistant)
+
 ## AI News
 
   - [AI论文速递](https://briefgpt.xyz/)
@@ -540,14 +570,6 @@ redirect_from:
 
   - [LLM前沿](https://gist.github.com/rain-1/eebd5e5eb2784feecf450324e3341c8d)
 
-  - [Alpaca-Model](https://www.getalpaca.io/)
-
-  - [Vicuna-Model](https://huggingface.co/chavinlo/vicuna)
-
-  - [Claude](https://www.anthropic.com/)
-
-  - [Open-Assistant](https://github.com/LAION-AI/Open-Assistant)
-
   - [all AI news](https://allainews.com/)
 
   - [hackertab.dev](https://now.hackertab.dev/)
@@ -559,6 +581,8 @@ redirect_from:
   - [hacker-news-summary](https://hackernews.betacat.io/)
 
   - [AI知识库](https://ssw9noe1h6.feishu.cn/wiki/wikcn59pPXfAiF1ONajdPzvhA9d)
+
+  - [github-ranking-ai](https://github.com/yuxiaopeng/Github-Ranking-AI)
 
 ## API
 

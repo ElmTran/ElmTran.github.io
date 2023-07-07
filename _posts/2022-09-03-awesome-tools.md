@@ -229,9 +229,9 @@ redirect_from:
 
 - [图片压缩](https://www.picdiet.com/zh-cn)
 
-- [作图](https://www.lucidchart.com/pages/)
+- [lucidchart-作图](https://www.lucidchart.com/pages/)
 
-- [diagrams](https://app.diagrams.net/)
+- [draw.io-作图](https://app.diagrams.net/)
 
 - [VideoFK-下载视频工具](https://www.videofk.com/zh-CN/online-video-download)
 
@@ -279,6 +279,7 @@ redirect_from:
 
 - [LKY_OfficeTools](https://github.com/OdysseusYuan/LKY_OfficeTools)
 
+- [bulk-crap-uninstaller](https://www.bcuninstaller.com/)
 ### 资源/素材
 
 - [400 多个站点和资源库](https://iamjesushusbands.gumroad.com/l/resource-lib)
@@ -573,6 +574,20 @@ redirect_from:
 
 - [beekeeperstudio-数据库管理](https://www.beekeeperstudio.io/)
 
+- [virscan-病毒扫描](https://www.virscan.org/)
+
+- [virustotal-病毒扫描](https://www.virustotal.com/gui/home/upload)
+
+- [微步云-病毒扫描](https://s.threatbook.com/)
+
+- [哈勃-病毒扫描](https://habo.qq.com/)
+
+- [plumbum-命令行工具](https://plumbum.readthedocs.io/en/latest/)
+
+- [Steganalysis-LSB-图片隐写](https://github.com/Icingworld/Steganalysis-LSB/)
+
+- [ImageKit-cdn-图片和视频优化](https://imagekit.io/)
+
 #### API
 
 - [少数派](https://sspai.com/post/67568)
@@ -652,6 +667,8 @@ redirect_from:
 - [讯飞开放平台](https://www.xfyun.cn/)
 
 - [movie-js](https://github.com/Rocket-Factory/MovieJSON)
+
+- [supabase-开源服务](https://supabase.com/)
 
 #### 短网址
 
@@ -759,7 +776,7 @@ redirect_from:
 
   - [Literature Review-根据关键词自动生成文献综述](https://www.paperdigest.org/review/)
 
-  - [The AI Research Assistant](https://elicit.org/)
+  - [enpuz-语法解析](http://enpuz.com/)
 
 - 释义溯源相关\|俚语辞典\|Linggle\|相关的平行文本搜索\|单词用法
 
@@ -1045,6 +1062,8 @@ redirect_from:
 
 - [面试押题王](https://yatiwang.chat/)
 
+- [面试助手](https://interview.sofasay.com/)
+
 - 自由职业\/副业
 
   - [https://www.freelancer.com/jobs](https://www.freelancer.com/jobs)
@@ -1111,6 +1130,8 @@ redirect_from:
 
 - [星视界](https://www.histar.tv/)
 
+- [bileizhen的收纳箱](http://bileizhen.ysepan.com/)
+
 ## 音乐
 
 - [liumingye](https://tools.liumingye.cn/music/#/)
@@ -1134,6 +1155,10 @@ redirect_from:
 - [Coderadio](https://coderadio.freecodecamp.org/)
 
 - [顽狗音乐](https://music.dogged.cn/)
+
+- [uppbeat](https://uppbeat.io/)
+
+- [noise的音乐库](https://www.noiseyp.top/Onedrive/%E9%9F%B3%E4%B9%90%E9%9F%B3%E6%95%88)
 ## 投资
 - [confluence](https://www.confluence.vc/)
 
