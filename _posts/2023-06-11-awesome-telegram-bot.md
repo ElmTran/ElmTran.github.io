@@ -84,6 +84,7 @@ redirect_from:
 
 - [Bot 检索](https://botostore.com/collections/best-official-chatbots-verified-with-blue-badges-by-telegram/)
 
+- [maigret-社交媒体搜索](https://telegram.me/maigret_osint_bot)
 
 ## AI
 

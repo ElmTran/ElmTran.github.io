@@ -280,6 +280,15 @@ redirect_from:
 - [LKY_OfficeTools](https://github.com/OdysseusYuan/LKY_OfficeTools)
 
 - [bulk-crap-uninstaller](https://www.bcuninstaller.com/)
+
+- [virscan-病毒扫描](https://www.virscan.org/)
+
+- [virustotal-病毒扫描](https://www.virustotal.com/gui/home/upload)
+
+- [微步云-病毒扫描](https://s.threatbook.com/)
+
+- [哈勃-病毒扫描](https://habo.qq.com/)
+
 ### 资源/素材
 
 - [400 多个站点和资源库](https://iamjesushusbands.gumroad.com/l/resource-lib)
@@ -388,6 +397,8 @@ redirect_from:
 - [PDF24](https://tools.pdf24.org/zh/)
 
 - [olorr-pdf_ocr](https://olocr.com/)
+
+- [google-translate-pdf](https://translate.google.com/?sl=auto&tl=zh-CN&op=docs)
 ### 云存储
 
 - [Userscloud](https://userscloud.com/)
@@ -574,19 +585,13 @@ redirect_from:
 
 - [beekeeperstudio-数据库管理](https://www.beekeeperstudio.io/)
 
-- [virscan-病毒扫描](https://www.virscan.org/)
-
-- [virustotal-病毒扫描](https://www.virustotal.com/gui/home/upload)
-
-- [微步云-病毒扫描](https://s.threatbook.com/)
-
-- [哈勃-病毒扫描](https://habo.qq.com/)
-
 - [plumbum-命令行工具](https://plumbum.readthedocs.io/en/latest/)
 
 - [Steganalysis-LSB-图片隐写](https://github.com/Icingworld/Steganalysis-LSB/)
 
 - [ImageKit-cdn-图片和视频优化](https://imagekit.io/)
+
+- [建木-低代码devops](https://gitee.com/jianmu-dev/jianmu)
 
 #### API
 
@@ -669,6 +674,8 @@ redirect_from:
 - [movie-js](https://github.com/Rocket-Factory/MovieJSON)
 
 - [supabase-开源服务](https://supabase.com/)
+
+- [apivault-最大的api库](https://apivault.dev/)
 
 #### 短网址
 
@@ -1233,3 +1240,11 @@ redirect_from:
 - [elicit-文献检索](https://elicit.org/)
 
 - [file-pursuit-文件搜索](https://filepursuit.com/)
+
+- [social-searcher-社交媒体搜索](https://www.social-searcher.com/)
+
+- [cse-social](https://cse.google.com/cse?cx=d69e08526637c468d#gsc.tab=0)
+
+- [maigret-社交媒体搜索](https://github.com/soxoj/maigret)
+
+- [claunech-社交媒体搜索](https://github.com/serpapi/clauneck)
