@@ -160,6 +160,10 @@ redirect_from:
 
   - [awesome-free-chatgpt-镜像站](https://github.com/LiLittleCat/awesome-free-chatgpt)
 
+  - [storyteller](https://github.com/jaketae/storyteller)
+
+  - [magickpen](https://magickpen.com/)
+
 ## AI Models
 
   - [Alpaca-Model](https://www.getalpaca.io/)
@@ -211,6 +215,8 @@ redirect_from:
   - [starcoder-huggingface发布的代码副舵](https://github.com/bigcode-project/starcoder)
 
   - [spell-box](https://spellbox.app/)
+
+  - [codegeex](https://codegeex.cn)
 
 ## AI Design
 
@@ -314,6 +320,8 @@ redirect_from:
 
   - [gamma-ppt](https://gamma.app/signup?r=dlcykyd0iyaxw2b)
 
+  - [object-remover](https://objectremover.com/)
+
 ## AI Tools
 
   - [FUTUREPEDIA-AI工具聚合](https://www.futurepedia.io/)
@@ -396,6 +404,14 @@ redirect_from:
 
   - [面试助手](https://interview.sofasay.com/)
 
+  - [chat2db](https://github.com/chat2db/Chat2DB)
+
+  - [localai](https://github.com/dxcweb/local-ai)
+
+  - [chartcube](https://chartcube.alipay.com/)
+
+  - [toolai](https://www.toolai.io/)
+
 ## AI Video
 
   - [NUWA-Infinity](https://nuwa-infinity.microsoft.com)
@@ -464,8 +480,6 @@ redirect_from:
 
   - [audyo](https://www.audyo.ai/)
 
-  - [play.ht](https://play.ht/)
-
   - [ai歌手](https://threadreaderapp.com/thread/1655437368474877952.html)
 
   - [web-ui-for-whisper](https://github.com/felixbade/transcribe)
@@ -475,6 +489,10 @@ redirect_from:
   - [voice-changer](https://github.com/w-okada/voice-changer)
 
   - [whisperapp](https://godlucky.net/whisperapp/)
+
+  - [audiocraft](https://github.com/facebookresearch/audiocraft)
+
+  - [mubert-ai音乐收集](https://mubert.com/)
 
 ## AI 3D & Animation
 
@@ -487,6 +505,8 @@ redirect_from:
   - [wonder-真人CG制作](https://wonderdynamics.com/)
 
   - [gen2](https://research.runwayml.com/gen2)
+
+  - [pika-ai生成电影](https://www.pika.art/)
 
 ## Prompts and Guides
 
@@ -583,6 +603,8 @@ redirect_from:
   - [AI知识库](https://ssw9noe1h6.feishu.cn/wiki/wikcn59pPXfAiF1ONajdPzvhA9d)
 
   - [github-ranking-ai](https://github.com/yuxiaopeng/Github-Ranking-AI)
+
+  - [featurepedia](https://www.futurepedia.io/)
 
 ## API
 

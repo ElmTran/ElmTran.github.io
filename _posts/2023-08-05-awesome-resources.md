@@ -1,0 +1,425 @@
+---
+layout: post
+title: "Awesome Resources"
+description: "Movies, music, books, and other resources"
+categories: [Diary]
+tags: [Diary, Resources]
+redirect_from:
+  - /2023/08/05/
+---
+
+## Moives
+
+- [41T 4K 电影资源](https://www.aliyundrive.com/s/aEEGWV4hF33)
+
+- [小纸条-开放资源网站](https://u.gitcafe.net/)
+
+- [justwatch-电影搜索](https://www.justwatch.com/)
+
+- [弹幕网-追番](https://girigirilove.com/)
+
+- [直播资源](https://github.com/youshandefeiyang/IPTV)
+
+- [体育赛事直播](http://www.sjb.asia/), [配套去广告脚本](https://greasyfork.org/zh-CN/scripts/465829-%E4%BD%93%E8%82%B2%E7%9B%B4%E6%92%AD%E7%AB%99%E5%A2%9E%E5%BC%BA%E8%84%9A%E6%9C%AC)
+
+- [OvenTV](https://github.com/owen2000wy/owentv)
+
+- [星视界](https://www.histar.tv/)
+
+- [bileizhen的收纳箱](http://bileizhen.ysepan.com/)
+
+- [btnull](https://www.btnull.org/)
+
+- [yapan](https://pan.ccof.cc/)
+
+- [爱动漫](https://anime.girigirilove.com/)
+
+- [影巢](https://hdhive.org/search)
+
+- [cockmovie](https://cokemv.net/)
+
+- [爱笑聚](https://www.axjbt.com/)
+
+- [字幕库](http://zimuku.org/)
+
+- [易搜](https://yiso.eu.org/)
+
+- [音丝范](http://www.yinfans.me/)
+
+- [蜜柑计划](https://mikanani.me/)
+
+- [LimeTorrents](https://limetorrent.cc/)
+
+- [nyaa](https://nyaa.si/)
+
+- [团长资源](https://t-rex.tzfile.com/)
+
+- [影猫的仓库](https://ymck.me/)
+
+- [此刻](https://www.cikeee.com/)
+
+- [樱花动漫](http://www.yinghuavideo.com/)
+
+- [打驴动漫](https://www.dqsj.top/)
+
+- [仓库](https://www.cangkus.com/)
+
+- [海外看](https://haiwaikan.com/)
+
+- [小纸条](https://ali.gitcafe.ink/)
+
+- [搜片](https://soupian.one/)
+
+- [meow-tg](https://meow.tg/private/Aliyundrive_Share_Channel)
+
+## Music
+
+- [liumingye](https://tools.liumingye.cn/music/#/)
+
+- [音乐和酒](http://drinkify.org/)
+
+- [Nightwave Plaza](https://plaza.one/)
+
+- [lastfm-音乐艺术家](https://www.last.fm/)
+
+- [mp3bst-音乐下载](https://mp3bst.com/)
+
+- [apeflac-无损音乐下载](http://www.ape-flac.com/)
+
+- [NCS](https://ncs.io/music)
+
+- [sacdr](https://sacdr.net/)
+
+- [白噪声](https://t.me/isaiahsystem/465)
+
+- [Coderadio](https://coderadio.freecodecamp.org/)
+
+- [顽狗音乐](https://music.dogged.cn/)
+
+- [uppbeat](https://uppbeat.io/)
+
+- [noise的音乐库](https://www.noiseyp.top/Onedrive/%E9%9F%B3%E4%B9%90%E9%9F%B3%E6%95%88)
+
+## Pictures
+
+- [无料写真](https://www.pakutaso.com/)
+
+## Games
+
+- [igg](https://igg-games.com/)
+
+- [跨平台的开源家庭娱乐系统](https://kodi.tv/)
+
+- [绝版游戏保护工程](https://github.com/skywind3000/preserve-cd)
+
+- [byrutor](https://s1.byrutor.com/)
+
+- [游戏天堂](https://www.zzzz688.com/)
+
+- [webrcade-老游戏模拟器](https://www.webrcade.com/)
+
+- [乐赏单机游戏](http://gbtgame.ysepan.com/)
+
+- [kims](https://kims3.xyz/)
+
+- [skidrowreloaded](https://www.skidrowreloaded.com/)
+
+- [fitgirl](https://fitgirl-repacks.site/)
+
+- [ppsspp](https://www.ppsspp.org/)
+
+- [无所不藏](https://www.nocang.com/)
+
+- [中文游戏博物馆](http://www.famicn.com/)
+
+- [老男人游戏网](http://www.oldmanemu.net/)
+
+## Books
+
+- [Project Gutenberg](https://www.gutenberg.org/)
+
+- [Free-eBooks.net ](https://www.free-ebooks.net/)
+
+- [Electronic library](http://en.bookfi.net/)
+
+- [Electronic library](https://sg1lib.org/)
+
+- [Download free eBooks](https://bookboon.com/en)
+
+- [PDF Drive](https://www.pdfdrive.com/)
+
+- [Electronic Library](https://en.booksee.org/)
+
+- [Free Books ](https://www.bookyards.com/en/welcome)
+
+- [eBooks & eLearning](https://avxhm.se/ebooks)
+
+- [Manybooks](https://manybooks.net/)
+
+- [CoderProg ](https://coderprog.com/)
+
+- [FoxGreat](https://foxgreat.com/)
+
+- [Online Library](https://oapen.org/)
+
+- [free ebooks download](https://ebook-hunter.org/)
+
+- [Library Genesis](http://libgen.rs/search.php)
+
+- [Free Computer books Download \| Online computer ebooks \| online free computer science ebooks](http://www.freebookcentre.net/)
+
+- [WuxiaWorld](https://www.wuxiaworld.com/)
+
+- [Wuxiaworld ](https://m.wuxiaworld.co/)
+
+- [Read free English translated Light Novel online!](https://www.novelupdates.cc/)
+
+- [七彩英语](http://www.qcenglish.com/)
+
+- [英文小说网](http://novel.tingroom.com/)
+
+- [Ink East](https://inkeast.com/)
+
+- [Talk to Books](https://books.google.com/talktobooks/)
+
+- [zlibrary地址检测](https://zlib.pro/)
+
+- [鸠摩读书](https://www.jiumodiary.com/)
+
+- [goodreads](https://www.goodreads.com/)
+
+- [zlibrary镜像](https://www.ooopn.com/tool/zlibrary/)
+
+- [zlibrary 中文资源](https://bk.hallowlib.org/)
+
+- [Zlibrary最新地址  民间搜集](https://find.looks.wang)
+
+- [中文书库](https://bk.hallowlib.org/)
+
+- [无名图书](https://www.book123.info/)
+
+- [zlibsearch](https://zlib.knat.network/)
+
+- [Internet Archive](https://archive.org/)
+
+- [bilinguis-双语阅读](http://zh.bilinguis.com/)
+
+- [anna's archive](https://annas-archive.org/)
+
+- [Zhelper 帮助文档](https://v2.zhelper.net/)
+
+- [Zhelper V3 网址列表](https://v3.zhelper.net/)
+
+- [Z-Library 镜像 - 小白工具箱 ](https://www.ooopn.com/tool/zlibrary/)
+
+- [易书论坛 #论坛](https://bbs.yibook.org/)
+
+- [镜像站](https://bk.hallowlib.org/)
+
+- [zlibrary镜像](https://zlibsearch.1kbtool.com/)
+
+- [易书搜索](https://search.yibook.org/)
+
+- [openlibary](https://openlibrary.org/)
+
+- [老画报](http://www.laohuabao.com/index.html)
+
+- [浙江图书馆-连环画](http://wx.zhlhh.com/zhejianglib)
+
+- [loudreader](https://www.loudreader.com/)
+
+## Software
+
+### office
+
+- [E5 自动续订软件](https://e5renew.com/) ps: [密钥获取](https://blog.csdn.net/qq_33212020/article/details/119747634)
+
+- [E5 自动续订web](https://mrmad.com.tw/office-365-e5-and-onedrive-5tb-free)
+
+- 官方工具部署激活
+
+  - [office 软件部署工具](https://www.microsoft.com/en-us/download/details.aspx)
+  
+  - [office 版本自定义工具](https://config.office.com/deploymentsettings)
+  
+  - [基于KMS的 GVLK](https://learn.microsoft.com/zh-cn/deployoffice/vlactivation/gvlks)
+
+  - [视频教程](https://www.youtube.com/watch?v=VSjRx7Hoa60)
+
+- [HelloWindows](http://hellowindows.cn/)
+
+- [CMWTAT_Digital_Edition](https://github.com/TGSAN/CMWTAT_Digital_Edition)
+
+- [云萌](https://cmwtat.cloudmoe.com/cn.html)
+
+- [便携软件管理](https://portableappk.com/)
+
+- [Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts)
+
+- [Github-Next](https://blocks.githubnext.com/)
+
+- [LKY_OfficeTools](https://github.com/OdysseusYuan/LKY_OfficeTools)
+
+- [bulk-crap-uninstaller](https://www.bcuninstaller.com/)
+
+- [virscan-病毒扫描](https://www.virscan.org/)
+
+- [virustotal-病毒扫描](https://www.virustotal.com/gui/home/upload)
+
+- [微步云-病毒扫描](https://s.threatbook.com/)
+
+- [哈勃-病毒扫描](https://habo.qq.com/)
+
+- [p2p传输会议](https://github.com/tl-open-source/tl-rtc-file)
+
+### untagged
+
+- [400 多个站点和资源库](https://iamjesushusbands.gumroad.com/l/resource-lib)
+
+- [The Only List of Website and Resources You Will Ever Need](https://iamjesushusbands.medium.com/the-only-list-of-website-and-resources-you-will-ever-need-fc79873d38e4)
+
+- [softpedia](https://www.softpedia.com/)
+
+- [Screen Plays](https://screenplays.io/)
+
+- [IMSDb](https://imsdb.com/)
+
+- [Office官方模板站](https://www.officeplus.cn/)
+
+- [FreeMbook Search](https://freembook.com/)
+
+- [Filmot - 字幕和视频元数据搜索引擎 Youtube 字幕](https://filmot.com/)
+
+- [Photoshop教程](https://www.photoshoplady.com/)
+
+- [黑鹰](https://www.lxapk.com/)
+
+- [调色lut-提取码:k5e4](https://pan.baidu.com/share/init?surl=PFVwWXNbOsIx5ROjPeJKwQ)
+
+- [藏宝阁](https://noisevip.cn/12876.html)
+
+- [ShareX-截图工具](https://getsharex.com/)
+
+- [电影分级lut](https://noise.lanzoul.com/ifQ7Z0frridg)
+
+- [20个lut](https://noisevip.cn/14350.html)
+
+- [虚拟身份生成](https://www.verif.tools/en/?gn=PW3mnGJ6Fiot)
+
+- [Bypass Paywalls-绕过付费墙](https://gitlab.com/magnolia1234/bypass-paywalls-chrome-clean)
+
+- [opensourcealternative](https://www.opensourcealternative.to/)
+
+- [Jay仓库-互联网资源](https://www.likejay.cn/)
+
+- [新CG儿](https://www.newcger.com/)
+
+- [sts-bcut-语音转字幕](https://github.com/Forgot-Dream/STS-Bcut)
+
+- [ttsmaker-文本转语音](https://ttsmaker.com/)
+
+- [loudreader-浏览器阅读器](https://www.loudreader.com/)
+
+- [alternativeto-软件替代方案](https://alternativeto.net/)
+
+- [portableapps-便携软件](https://portableapps.com/apps)
+
+- [fileagle-安全下载平台](https://www.fileeagle.com/zh-CN/)
+
+- [saas替代方案](https://saasblocks.io/)
+
+- [open-source-alternatives](https://www.opensourcealternative.to/)
+
+- [sourceforge-开源软件](https://sourceforge.net/)
+
+- [altapps](https://zh.altapps.net/)
+
+- [repack-Adobe](https://repack.me/)
+
+- [monkrus-Adobe](https://w14.monkrus.ws/)
+
+- [SmartTubeNext](https://github.com/yuliskov/SmartTubeNext)
+
+- [templatenet](https://www.template.net/)
+
+- alist
+
+  - [小雅](http://alist.xiaoya.pro)
+
+  - [晴园](https://alist.aqingyuan.repl.co)
+
+  - [Puppet Studio](https://www.kugutsu.ml)
+
+  - [七米蓝](https://al.chirmyram.com)
+
+  - [Banana的资源站](https://alist.advanced360.top)
+
+  - [小瑞](https://ruipan.bestruirui.repl.co/)
+
+  - [Arley's Drive](https://pan.arley.cn/)
+
+  - [微资源](https://apps.weixinqqq.com/)
+
+## Blogs/Websites
+
+- [kaito's blog](http://kaito-kidd.com/archives/)
+
+- [保罗的小宇宙](https://paugram.com/)
+
+- [localmjj](https://www.locmjj.com/)
+
+- [rat's blog](https://www.moerats.com/)
+
+- [青衣十三楼](http://scz.617.cn:8/)
+
+- [东泽煮粥](https://eurychen.me/)
+
+- [Bartosz Ciechanowski](https://ciechanow.ski/)
+
+- [adoerww](https://adoerww.vercel.app/nav/)
+
+- [freelearninglist](https://freelearninglist.org/)
+
+- [deephn](https://deephn.org/)
+
+- [今日热榜](https://tophub.today/)
+
+- [buzzing](https://www.buzzing.cc/)
+
+- [anyknew](https://www.anyknew.com/#/)
+
+- [smashingmagazine](https://www.smashingmagazine.com/)
+
+- [metaphor](https://metaphor.systems/)
+
+- [其乐](https://keylol.com/)
+
+- [Upstract](https://upstract.com/)
+
+- [hnsummary](https://hackernews.betacat.io/)
+
+- [Smashing Magazine](https://www.smashingmagazine.com/)
+
+- [Save web](https://github.com/saveweb)
+
+- [德里达写作习惯](https://mindyourwriting.wordpress.com/2015/10/26/how-famous-researchers-work-derrida/)
+
+- [品云机场导航](https://52.mk/)
+
+- [DAC 导航](https://nwuzmed.ga/)
+
+- [PornDud\#NSFW](https://theporndude.com/zh)
+
+- [中文newsletter](https://www.notion.so/700273d587b8412f83743160ab6b4e74?v=682827618e2642a197c849515053dfce)
+
+- [feddd-rss订阅源](https://feeddd.org/feeds)
+
+- [directory-博客收集](https://ooh.directory/)
+
+- [readsometingwondeful](https://readsomethingwonderful.com/)
+
+- [boredreading](https://boredreading.com/)
+
+- [chiphell-科技测评](https://www.chiphell.com/)
+
+- [github漫游指南](https://github.phodal.com/#/chapter/Github%E6%BC%AB%E6%B8%B8%E6%8C%87%E5%8D%97   )
