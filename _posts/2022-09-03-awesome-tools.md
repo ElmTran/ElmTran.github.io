@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 ## 工具
-### 格式转换/媒体
+### 通用
 
 - [Jpeg.io \| Convert any major image format into a highly optimized JPEG](https://www.jpeg.io/)
 
@@ -25,17 +25,9 @@ redirect_from:
 
 - [十六进制颜色代码表，图表及调色板 - Encycolorpedia](https://encycolorpedia.cn/)
 
-- [ColorSpace - Color Palettes Generator and Color Gradient Tool  色彩空间 配色在线工具](https://mycolor.space/)
-
-- [The easiest CSS color gradients generator \| Colorffy](https://colorffy.com/)
-
 - [制图](http://figma.com)
 
 - [无损放大](http://bigjpg.com)
-
-- [寻找矢量图片](http://iconfont.cn)
-
-- [寻找配色](http://colorhunt.co)
 
 - [套壳效果](http://pika.style)
 
@@ -55,6 +47,8 @@ redirect_from:
 
 - [draw.io-作图](https://app.diagrams.net/)
 
+- [excalidraw-作图](https://excalidraw.com/)
+
 - [VideoFK-下载视频工具](https://www.videofk.com/zh-CN/online-video-download)
 
 - [auphonic-ai处理音频](https://auphonic.com/)
@@ -69,18 +63,35 @@ redirect_from:
 
 - [chillin-在线剪辑](https://chillin.online/)
 
-- [奶酪清单](https://www.runningcheese.com/aaa)
-
 - [hotimi-downloader](https://github.com/KurtBestor/Hitomi-Downloader)
 
 - [4download](https://4download.net)
-
-- [freepreset-预设](https://freepreset.net/)
 
 - [Text2Handwriting](https://saurabhdaware.github.io/text-to-handwriting/)
 
 - [身份生成](http://www.haoweichi.com/)
 
+- [sts-bcut-语音转字幕](https://github.com/Forgot-Dream/STS-Bcut)
+
+- [ttsmaker-文本转语音](https://ttsmaker.com/)
+
+- [虚拟身份生成](https://www.verif.tools/en/?gn=PW3mnGJ6Fiot)
+
+- [peiseka](https://peiseka.com/)
+
+- [城通网盘解析](https://github.com/qinlili23333/ctfileGet)
+
+- [在线压缩](https://www.picdiet.com/zh-cn)
+
+- [音乐分轨](https://melody.ml/)
+
+- [bulk-crap-uninstaller-软件卸载](https://www.bcuninstaller.com/)
+
+- [p2p传输会议](https://github.com/tl-open-source/tl-rtc-file)
+
+- [Filmot - 字幕和视频元数据搜索引擎 Youtube 字幕](https://filmot.com/)
+
+- [SmartTubeNext](https://github.com/yuliskov/SmartTubeNext)
 ### 文件
 
 - [TinyWow Tool](https://tinywow.com/)
@@ -153,36 +164,6 @@ redirect_from:
 
 - [https://dropmail.me/en/](https://dropmail.me/en/)
 
-### 虚拟服务
-
-- [在花商店](https://id.zaihuamall.com)
-
-- [清风阁](https://shop.owo233.xyz)
-
-- [火箭少女小卖部](https://www.rocketgirls.space)
-
-- [果书商店](https://appleshop.club)
-
-- [gvshop](https://www.gvshop.me/)
-
-- [自助购卡商城](https://id.iios.cf/)
-
-- [杂货铺](https://zahuo.inf/)
-
-- [风萧萧](http://a.25q.ck/)
-
-- [Leo小店](https://shop.leouu.cn/)
-
-- [果书商店](https://appleshop.club)
-
-- [大雄网络](http://www.yxpf8899.com/)
-
-- [奶茶网](https://www.163hao.cn/)
-
-- [富贵论坛](https://www.fglt.net/)
-
-- [A5新媒体](https://xmt.a5.net/)
-
 ### 开发工具
 
 - [smarGate-内网穿透工具](https://github.com/lazy-luo/smarGate)
@@ -221,25 +202,9 @@ redirect_from:
 
 - [kodytools-在线计算器和转换器中心](https://www.kodytools.com/)
 
-- 算法
-
-  - [The Algorithms](https://the-algorithms.com/)
-
-  - [Github Algorithms](https://github.com/orgs/TheAlgorithms/repositories)
-
 - [唇记-语音交互编辑器](https://github.com/ZhichuCen/ChunJi)
 
-- [Hacker New 深度检索](https://deephn.org/)
-
 - [Powershell模块](https://github.com/farag2/Sophia-Script-for-Windows)
-
-- [Quick Reference & Quick Reference](https://wangchujiang.com/reference/index.html)
-
-- [Linux command search](https://github.com/jaywcjlove/linux-command)
-
-- [Command.dev](https://www.commands.dev/)
-
-- [快速参考备忘单](https://github.com/jaywcjlove/referencu)
 
 - [SmsForwarder 短信转发](https://github.com/pppscn/SmsForwarder)
 
@@ -283,11 +248,11 @@ redirect_from:
 
 - [progress-up-带进度的多文件上传js库](https://progress-up.live/)
 
-- [boxcoding-css_components](https://avabucks.it/index)
-
 - [sql-indexing-and-tuning-ebook](https://use-the-index-luke.com/)
 
 - [herowand-可视化json编辑器](https://editor.herowand.com/)
+
+- [json-visio](https://jsoncrack.com/editor)
 
 - [ricocc-在线todo](https://www.ricocc.com/todo/)
 
@@ -309,6 +274,23 @@ redirect_from:
 
 - [smscodes-接码平台](https://www.smscodes.io/)
 
+- [nebula虚拟组网](https://github.com/slackhq/nebula)
+
+- [zerotier](https://www.zerotier.com/)
+
+- [IP地址查询](https://myip.cx/?tdsourcetag=s_pctim_aiomsg)
+
+- [代理订阅转换工具](https://sub.tronet.cloud/)
+
+- [echarts](https://echarts.apache.org/zh/index.html)
+
+- [datawrapper](https://www.datawrapper.de/)
+
+- [微词云](https://www.weiciyun.com/)
+
+- [codeinword](http://www.codeinword.com/)
+
+- [变量名取名参考](https://unbug.github.io/codelf/)
 #### API
 
 - [少数派](https://sspai.com/post/67568)
@@ -393,6 +375,7 @@ redirect_from:
 
 - [apivault-最大的api库](https://apivault.dev/)
 
+- [thecompaniesapi-公司信息](https://www.thecompaniesapi.com/)
 #### 短网址
 
 - [免费短网址生成器](http://suo.nz/)
@@ -535,4 +518,16 @@ redirect_from:
 
 - [linux命令搜索](https://wangchujiang.com/linux-command/)
 
-- [quickref]（https://quickref.me/
+- [quickref](https://quickref.me/)
+
+- [syntaxdb-语法查询](https://syntaxdb.com/)
+
+- [allcommands](https://www.commandlinefu.com/commands/browse)
+
+- [Quick Reference & Quick Reference](https://wangchujiang.com/reference/index.html)
+
+- [Linux command search](https://github.com/jaywcjlove/linux-command)
+
+- [Command.dev](https://www.commands.dev/)
+
+- [快速参考备忘单](https://github.com/jaywcjlove/referencu)

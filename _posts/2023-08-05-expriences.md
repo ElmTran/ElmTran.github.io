@@ -197,3 +197,36 @@ redirect_from:
 - [fancy](https://fancy.com/)
 
 - [不死鸟分享](https://iao.su/)
+
+- [淘钻-迅雷会员](http://lingquanzhushou.com/cindex.html)
+
+- [choosebest](https://www.slant.co/)
+### 虚拟服务
+
+- [在花商店](https://id.zaihuamall.com)
+
+- [清风阁](https://shop.owo233.xyz)
+
+- [火箭少女小卖部](https://www.rocketgirls.space)
+
+- [果书商店](https://appleshop.club)
+
+- [gvshop](https://www.gvshop.me/)
+
+- [自助购卡商城](https://id.iios.cf/)
+
+- [杂货铺](https://zahuo.inf/)
+
+- [风萧萧](http://a.25q.ck/)
+
+- [Leo小店](https://shop.leouu.cn/)
+
+- [果书商店](https://appleshop.club)
+
+- [大雄网络](http://www.yxpf8899.com/)
+
+- [奶茶网](https://www.163hao.cn/)
+
+- [富贵论坛](https://www.fglt.net/)
+
+- [A5新媒体](https://xmt.a5.net/)

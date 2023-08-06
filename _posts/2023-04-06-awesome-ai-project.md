@@ -322,6 +322,12 @@ redirect_from:
 
   - [object-remover](https://objectremover.com/)
 
+  - [老照片上色](https://twoway.ai/colourise-your-old-photos-with-ai)
+
+  - [卷积放大](https://waifu2x.udp.jp/)
+
+  - [ai图片合成](https://www.artbreeder.com/)
+
 ## AI Tools
 
   - [FUTUREPEDIA-AI工具聚合](https://www.futurepedia.io/)

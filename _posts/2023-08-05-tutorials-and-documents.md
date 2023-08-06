@@ -32,6 +32,8 @@ redirect_from:
 
 - [微积分笔记](http://1973blunt.github.io/2016/06/30/Math-Calculus-cheatSheet/)
 
+- [一文搞懂k近邻（k-NN）算法](https://zhuanlan.zhihu.com/p/25994179)
+
 - Business Analytics
 
   - [时间序列](https://blog.nex3z.com/tag/time-series/)
@@ -82,6 +84,12 @@ redirect_from:
 
   - [reference for developer](https://github.com/Fechin/reference)
 
+- algorithms
+
+  - [The Algorithms](https://the-algorithms.com/)
+
+  - [Github Algorithms](https://github.com/orgs/TheAlgorithms/repositories)
+
 - go
 
   - [Introduction-to-Golang](https://github.com/0voice/Introduction-to-Golang)
@@ -89,6 +97,22 @@ redirect_from:
   - [wails-跨平台桌面应用程序](https://github.com/wailsapp/wails)
 
   - [goth](https://github.com/markbates/goth)
+
+  - [gin-vue](https://github.com/Bingjian-Zhu/gin-vue)
+
+  - [go-admin](https://github.com/go-admin-team/go-admin)
+
+  - [Go基础：路径、文件名和包名的关系](http://blog.itpub.net/70003733/viewspace-2792985/)
+
+  - [xorm的使用（二）结构体映射规则](https://learnku.com/docs/huxiaobai-iris/the-use-of-xorm-2-structure-mapping-rules/8988)
+
+  - [golang-http 请求---设置header与直接发](https://www.jianshu.com/p/f9b5594d1c52)
+
+  - [Go实践之JSON解析](http://kangkona.github.io/json-and-go/)
+
+  - [sonic-高性能json解析库](https://github.com/bytedance/sonic)
+
+  - [go中高并发下的通信方式：channel管道的底层原理](https://www.coonote.com/go-note/go-channel.html)
 
 - python
 
@@ -100,6 +124,8 @@ redirect_from:
 
   - [podofo](https://github.com/podofo/podofo)
 
+  - [KNN算法及python实现](KNN算法及python实现)
+
 - rust
 
   - [Comprehensive Rust-tutorials](https://google.github.io/comprehensive-rust/)
@@ -108,15 +134,29 @@ redirect_from:
 
   - [CentOS 7 使用 rvm 安装 ruby 搭建 jekyll 环境](https://qizhanming.com/blog/2017/05/31/install-rvm-and-ruby-buid-jeklly-env-on-centos-7)
 
+- R
+
+  - [swirl](https://swirlstats.com/)
+
+  - [R语言教程](https://www.math.pku.edu.cn/teachers/lidf/docs/Rbook/html/_Rbook/index.html)
+
+  - [rdocument](https://www.rdocumentation.org/)
+
+  - [fastr](https://github.com/matloff/fasteR)
+
+  - [预测： 方法与实践](https://otexts.com/fppcn/)
+
+  - [手把手教你画ROC曲线](https://segmentfault.com/a/1190000016735657)
+
 - docker
 
   - [getting-started-with-docker](https://dockerlabs.collabnix.com/)
 
 - frontend
 
-  - [echarts](https://echarts.apache.org/zh/index.html)
-
   - [create-chart-可视化数据大屏](https://github.com/food-billboard/create-chart)
+
+  - [八种方法实现CSS页面底部固定](https://segmentfault.com/a/1190000017805669)
 
 - ci/cd
 
@@ -130,11 +170,13 @@ redirect_from:
 
   - [VS Code 与 Vim](https://chengjingchao.com/2020/06/13/VS-Code-%E4%B8%8E-Vim/)
 
+  - [如何在 VSCODE 中高效使用 R 语言](https://zhuanlan.zhihu.com/p/369698816)
+
 - network
 
   - [域名解析—— A 记录、CNAME 和 URL 转发区别](https://strayberry.github.io/2017/02/10/dns-records/)
 
-- opengl
+- c/c++/opengl
 
   - [开发环境配置](https://www.cnblogs.com/AnKen/p/8057000.html)
 
@@ -147,6 +189,24 @@ redirect_from:
   - [粒子系统](https://blog.csdn.net/wanglang3081/article/details/8771343)
 
   - [three.js教程](http://www.hewebgl.com/article/getarticle/27#)
+
+  - [水泡模拟](https://www.cnblogs.com/shushen/p/5542131.html)
+
+  - [用C语言实现距离向量算法的过程模拟](https://blog.csdn.net/qq846294282/article/details/53160784?locationNum=3&fps=1)
+
+- big data
+
+  - [SparkStreaming + Flume + Kafka 进行实时日志分析](https://baixin.ink/2017/05/24/realtime-process-with-sparkstreaming/)
+
+  - [大数据框架对比：Hadoop、Storm、Samza、Spark 和 Flink](https://www.infoq.cn/article/hadoop-storm-samza-spark-flinkhttps://www.infoq.cn/article/hadoop-storm-samza-spark-flink)
+
+- linux
+
+  - [命令行常用工具的替代品](https://www.ruanyifeng.com/blog/2022/01/cli-alternative-tools.html)
+
+  - [tldr](https://tldr.sh/)
+
+  - [vim插件推荐](https://zhuanlan.zhihu.com/p/58816186)
 
 ## 工具使用
 
@@ -332,6 +392,10 @@ redirect_from:
 
   - [Rhyme](https://www.rhymer.com/)
 
+  - [lugwig-查找正确的表达](https://ludwig.guru/)
+
+  - [语境翻译](https://context.reverso.net/%E7%BF%BB%E8%AF%91/)
+
 - 查重
 
   - [copyscape](https://www.copyscape.com/)
@@ -340,6 +404,13 @@ redirect_from:
 
   - [duplichecker](https://www.duplichecker.com/)
 
+- 文档翻译
+
+  - [papago](https://papago.naver.com/)
+
+  - [yandex](https://translate.yandex.com/)
+
+  - [google](https://translate.google.com/)
 ### 听力
 
 - [ELLLO](https://www.elllo.org/)

@@ -72,6 +72,62 @@ redirect_from:
 
 - [meow-tg](https://meow.tg/private/Aliyundrive_Share_Channel)
 
+- alist
+
+  - [小雅](http://alist.xiaoya.pro)
+
+  - [晴园](https://alist.aqingyuan.repl.co)
+
+  - [Puppet Studio](https://www.kugutsu.ml)
+
+  - [七米蓝](https://al.chirmyram.com)
+
+  - [Banana的资源站](https://alist.advanced360.top)
+
+  - [小瑞](https://ruipan.bestruirui.repl.co/)
+
+  - [Arley's Drive](https://pan.arley.cn/)
+
+  - [微资源](https://apps.weixinqqq.com/)
+
+- trailers
+
+  - [好莱坞电影手册](http://moviesoon.com/trailers.html)
+
+  - [预告片世界](https://www.yugaopian.cn/)
+
+  - [thedigitaltheater](https://thedigitaltheater.com/)
+
+  - [hd-trailers](https://hd-trailers.net/)
+
+  - [itunes-trailers](https://trailers.apple.com/)
+
+  - [rottentomatoes-youtube](https://www.youtube.com/user/movieclipsTRAILERS)
+
+  - [imdb](https://www.imdb.com/trailers/)
+
+  - [rottentomatoes](https://www.rottentomatoes.com/trailers)
+
+  - [deadline](https://deadline.com/category/trailers/)
+
+  - [commingsoon](https://www.comingsoon.net/trailers)
+
+  - [screenrant](https://screenrant.com/movie-trailers/)
+
+  - [IMSDb-电影剧本](https://imsdb.com/)
+
+## Video
+
+- [videovo](https://www.videvo.net/)
+
+- [xstockvideo](https://xstockvideo.com/)
+
+- [footagecrate](https://footagecrate.com/)
+
+- [freevideoclips](https://mazwai.com/)
+
+- [pexels](https://www.pexels.com/videos/)
+
 ## Music
 
 - [liumingye](https://tools.liumingye.cn/music/#/)
@@ -100,9 +156,164 @@ redirect_from:
 
 - [noise的音乐库](https://www.noiseyp.top/Onedrive/%E9%9F%B3%E4%B9%90%E9%9F%B3%E6%95%88)
 
+- [freepd.com](https://freepd.com/)
+
+- [jumendo](https://www.jamendo.com/start)
+
+- [imslp-曲谱下载](https://cn.imslp.org/)
+
+- [audionautix](https://audionautix.com/)
+
+- [freeplaymusic](https://freeplaymusic.com/)
+
+- [xicxi](https://xicxi.com.cutestat.com/)
+
+- [premiumbeat](https://www.premiumbeat.com/zh)
+
+- [100audio](https://100audio.com/)
+
+- [listennotes](https://www.listennotes.com/)
+
+- [mp3bst](https://mp3bst.com/)
+
+- [ape-flac](http://www.ape-flac.com/)
+
+- [limingye](https://tool.liumingye.cn/music/#/)
+
+- [tonzhon](https://tonzhon.com/)
+
+- [歌曲宝](https://www.gequbao.com/)
+
+- [jbsou](https://www.jbsou.cn/)
+
+- [musicenc](https://www.musicenc.com/)
+
+- [skymuz](https://skymuz.org/)
+
+## Sound
+
+- [爱给网](http://www.aigei.com/)
+
+- [soundsnap](https://www.soundsnap.com/)
+
+- [背景音合成](https://asoftmurmur.com/)
+
+- [learningmusic](https://learningmusic.ableton.com/)
+
+- [freesound](https://freesound.org/)
+
+- [soundcloud](https://soundcloud.com/)
+
+- [hmx gallery](http://www.hmix.net/music_gallery/music_top.htm)
 ## Pictures
 
+- [Screen Plays](https://screenplays.io/)
+
 - [无料写真](https://www.pakutaso.com/)
+
+- [lexica](https://lexica.art/)
+
+- [freeimages](https://www.freeimages.com/icon?ref=findicons)
+
+- [hdqwalls](https://hdqwalls.com/1080x1920/4k-wallpapers)
+
+- [unsplash](https://unsplash.com/)
+
+- [visualhunt](https://visualhunt.com/)
+
+- [simpledesktops](http://simpledesktops.com/)
+
+- [goodfond](https://anime.goodfon.com/)
+
+- [sauceNAO](https://saucenao.com/)
+
+- [zedge](https://www.zedge.net/find/wallpapers/movie)
+
+- [pixiv](https://sketch.pixiv.net/popular)
+
+- [路人女主的养成方法壁纸](https://wall.alphacoders.com/by_sub_category.php?id=231137&name=%E8%B7%AF%E4%BA%BA%E5%A5%B3%E4%B8%BB%E7%9A%84%E5%85%BB%E6%88%90%E6%96%B9%E6%B3%95+%E5%A3%81%E7%BA%B8&lang=Chinese)
+
+- [全面屏壁纸](https://m.bcoderss.com/category/2160x1080/)
+
+- [云图片](https://www.ianfisherart.com/)
+
+- [Multi-service image search](http://iqdb.org/)
+
+- [360全景](https://www.airpano.com/?n=10&sort_by=&page=1)
+
+- [Anime pictures and wallpapers for everyone!](https://anime-pictures.net/)
+
+- [upupoo](http://www.upupoo.com/mobile_index)
+
+- [wallpaperabyss](https://wall.alphacoders.com/?lang=Chinese)
+
+- [航拍爱好者](https://www.skypixel.com/)
+
+- [pixabay](https://pixabay.com/)
+
+- [picjump](https://picjump.com/)
+
+- [花瓣网](https://huaban.com/)
+
+- [colorhub](https://colorhub.me/)
+
+- [图虫网](https://tuchong.com/)
+
+- [wallhaven](https://wallhaven.cc/)
+
+## Design
+
+- [dribbble](https://dribbble.com/shots)
+
+- [colorspace](https://mycolor.space/)
+
+- [The easiest CSS color gradients generator \| Colorffy](https://colorffy.com/)
+
+- [寻找配色](http://colorhunt.co)
+
+- [寻找矢量图片](http://iconfont.cn)
+
+- [freepreset-预设](https://freepreset.net/)
+
+- [free-css](https://www.free-css.com/)
+
+- [handsome-css](https://www.handsome-css.com/)
+
+- [boxcoding-css_components](https://avabucks.it/index)
+
+- [IconPark](https://github.com/bytedance/IconPark)
+
+- [shortcuts.design](https://shortcuts.design/)
+
+- [uugai-logo设计](https://www.uugai.com/)
+
+- [cht-color](https://cht-colors.pages.dev/)
+
+- [microsoft-design](https://designer.microsoft.com/)
+
+- [searchicons](https://icongo.github.io/)
+
+- [refero.design](https://refero.design/)
+
+- [vsthemes-cursors](https://vsthemes.org/en/cursors/)
+
+- [渐变色](https://products-ls-graphics.b-cdn.net/mesh-gradients/)
+
+- [双色](https://duotone.shapefactory.co/?f=f56468&t=27184f&q=_)
+
+- [调色lut-提取码:k5e4](https://pan.baidu.com/share/init?surl=PFVwWXNbOsIx5ROjPeJKwQ)
+
+- [藏宝阁](https://noisevip.cn/12876.html)
+
+- [电影分级lut](https://noise.lanzoul.com/ifQ7Z0frridg)
+
+- [20个lut](https://noisevip.cn/14350.html)
+
+- [Photoshop教程](https://www.photoshoplady.com/)
+
+- [新CG儿](https://www.newcger.com/)
+
+- [templatenet](https://www.template.net/)
 
 ## Games
 
@@ -228,6 +439,7 @@ redirect_from:
 
 - [loudreader](https://www.loudreader.com/)
 
+- [FreeMbook Search](https://freembook.com/)
 ## Software
 
 ### office
@@ -235,6 +447,20 @@ redirect_from:
 - [E5 自动续订软件](https://e5renew.com/) ps: [密钥获取](https://blog.csdn.net/qq_33212020/article/details/119747634)
 
 - [E5 自动续订web](https://mrmad.com.tw/office-365-e5-and-onedrive-5tb-free)
+
+- [HelloWindows](http://hellowindows.cn/)
+
+- [CMWTAT_Digital_Edition](https://github.com/TGSAN/CMWTAT_Digital_Edition)
+
+- [云萌](https://cmwtat.cloudmoe.com/cn.html)
+
+- [Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts)
+
+- [LKY_OfficeTools](https://github.com/OdysseusYuan/LKY_OfficeTools)
+
+- [microsoft-template](https://templates.office.com/zh-cn)
+
+- [office-plus](https://www.officeplus.cn/Template/Home.shtml)
 
 - 官方工具部署激活
 
@@ -246,77 +472,49 @@ redirect_from:
 
   - [视频教程](https://www.youtube.com/watch?v=VSjRx7Hoa60)
 
-- [HelloWindows](http://hellowindows.cn/)
-
-- [CMWTAT_Digital_Edition](https://github.com/TGSAN/CMWTAT_Digital_Edition)
-
-- [云萌](https://cmwtat.cloudmoe.com/cn.html)
+### untagged
 
 - [便携软件管理](https://portableappk.com/)
 
-- [Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts)
+- [反斗软件](https://www.apprcn.com/category/system)
 
-- [Github-Next](https://blocks.githubnext.com/)
+- [awesome-windows](https://github.com/Awesome-Windows/Awesome/blob/master/README-cn.md#%E8%81%8A%E5%A4%A9%E5%AE%A2%E6%88%B7%E7%AB%AF)
 
-- [LKY_OfficeTools](https://github.com/OdysseusYuan/LKY_OfficeTools)
+- [awesome-linux](https://github.com/luong-komorebi/Awesome-Linux-Software/blob/master/README_zh-CN.md)
 
-- [bulk-crap-uninstaller](https://www.bcuninstaller.com/)
+- [open-android](https://github.com/Trinea/android-open-project)
 
-- [virscan-病毒扫描](https://www.virscan.org/)
+- [osssr](https://www.osssr.com/)
 
-- [virustotal-病毒扫描](https://www.virustotal.com/gui/home/upload)
+- [相逢储物站](https://www.xfyzyyb.xyz/)
 
-- [微步云-病毒扫描](https://s.threatbook.com/)
+- [下次一定](https://www.iiice.cn/#/)
 
-- [哈勃-病毒扫描](https://habo.qq.com/)
+- [如有享乐](https://51.ruyo.net/)
 
-- [p2p传输会议](https://github.com/tl-open-source/tl-rtc-file)
+- [freefordev](https://github.com/ripienaar/free-for-dev)
 
-### untagged
+- [apkpure](https://m.apkpure.com/)
+
+- [windows apps](https://amazing-apps.gitbook.io/windows-apps-that-amaze-us/zh-cn)
 
 - [400 多个站点和资源库](https://iamjesushusbands.gumroad.com/l/resource-lib)
 
 - [The Only List of Website and Resources You Will Ever Need](https://iamjesushusbands.medium.com/the-only-list-of-website-and-resources-you-will-ever-need-fc79873d38e4)
 
+- [奶酪清单](https://www.runningcheese.com/aaa)
+
 - [softpedia](https://www.softpedia.com/)
 
-- [Screen Plays](https://screenplays.io/)
-
-- [IMSDb](https://imsdb.com/)
-
-- [Office官方模板站](https://www.officeplus.cn/)
-
-- [FreeMbook Search](https://freembook.com/)
-
-- [Filmot - 字幕和视频元数据搜索引擎 Youtube 字幕](https://filmot.com/)
-
-- [Photoshop教程](https://www.photoshoplady.com/)
+- [progsoft](https://progsoft.net/zh-cn)
 
 - [黑鹰](https://www.lxapk.com/)
-
-- [调色lut-提取码:k5e4](https://pan.baidu.com/share/init?surl=PFVwWXNbOsIx5ROjPeJKwQ)
-
-- [藏宝阁](https://noisevip.cn/12876.html)
-
-- [ShareX-截图工具](https://getsharex.com/)
-
-- [电影分级lut](https://noise.lanzoul.com/ifQ7Z0frridg)
-
-- [20个lut](https://noisevip.cn/14350.html)
-
-- [虚拟身份生成](https://www.verif.tools/en/?gn=PW3mnGJ6Fiot)
 
 - [Bypass Paywalls-绕过付费墙](https://gitlab.com/magnolia1234/bypass-paywalls-chrome-clean)
 
 - [opensourcealternative](https://www.opensourcealternative.to/)
 
 - [Jay仓库-互联网资源](https://www.likejay.cn/)
-
-- [新CG儿](https://www.newcger.com/)
-
-- [sts-bcut-语音转字幕](https://github.com/Forgot-Dream/STS-Bcut)
-
-- [ttsmaker-文本转语音](https://ttsmaker.com/)
 
 - [loudreader-浏览器阅读器](https://www.loudreader.com/)
 
@@ -338,27 +536,17 @@ redirect_from:
 
 - [monkrus-Adobe](https://w14.monkrus.ws/)
 
-- [SmartTubeNext](https://github.com/yuliskov/SmartTubeNext)
+- [freemdict-字典文件分享](https://forum.freemdict.com/)
 
-- [templatenet](https://www.template.net/)
+- [coca-英语语料下载](https://www.english-corpora.org/coca/)
 
-- alist
+- [virscan-病毒扫描](https://www.virscan.org/)
 
-  - [小雅](http://alist.xiaoya.pro)
+- [virustotal-病毒扫描](https://www.virustotal.com/gui/home/upload)
 
-  - [晴园](https://alist.aqingyuan.repl.co)
+- [微步云-病毒扫描](https://s.threatbook.com/)
 
-  - [Puppet Studio](https://www.kugutsu.ml)
-
-  - [七米蓝](https://al.chirmyram.com)
-
-  - [Banana的资源站](https://alist.advanced360.top)
-
-  - [小瑞](https://ruipan.bestruirui.repl.co/)
-
-  - [Arley's Drive](https://pan.arley.cn/)
-
-  - [微资源](https://apps.weixinqqq.com/)
+- [哈勃-病毒扫描](https://habo.qq.com/)
 
 ## Blogs/Websites
 
@@ -422,4 +610,14 @@ redirect_from:
 
 - [chiphell-科技测评](https://www.chiphell.com/)
 
-- [github漫游指南](https://github.phodal.com/#/chapter/Github%E6%BC%AB%E6%B8%B8%E6%8C%87%E5%8D%97   )
+- [github漫游指南](https://github.phodal.com/#/chapter/Github%E6%BC%AB%E6%B8%B8%E6%8C%87%E5%8D%97)
+
+- [好工具周刊](https://bestxtools.zhubai.love/)
+
+- [奔跑中的奶酪](https://www.runningcheese.com/)
+
+- [Hacker New 深度检索](https://deephn.org/)
+
+- [noise](https://www.noisesite.cn/)
+
+- [contentideas](https://contentideas.io/)
