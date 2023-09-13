@@ -72,6 +72,9 @@ redirect_from:
 
 - [meow-tg](https://meow.tg/private/Aliyundrive_Share_Channel)
 
+- [自动追番](https://www.autobangumi.org/)
+
+- [kubespider-全局资源编排下载](https://github.com/opennaslab/kubespider)
 - alist
 
   - [小雅](http://alist.xiaoya.pro)
@@ -127,6 +130,8 @@ redirect_from:
 - [freevideoclips](https://mazwai.com/)
 
 - [pexels](https://www.pexels.com/videos/)
+
+- [videocelebs-电影删减片段](https://videocelebs.net/)
 
 ## Music
 
@@ -463,6 +468,8 @@ redirect_from:
 
 - [office-plus](https://www.officeplus.cn/Template/Home.shtml)
 
+- [sharekey](https://pkeytool.com/ShareKeys)
+
 - 官方工具部署激活
 
   - [office 软件部署工具](https://www.microsoft.com/en-us/download/details.aspx)
@@ -549,6 +556,12 @@ redirect_from:
 
 - [哈勃-病毒扫描](https://habo.qq.com/)
 
+- [hackingtool](https://github.com/Z4nzu/hackingtool)
+
+- [MirrorSite](https://github.com/runningcheese/MirrorSite)
+
+- [topgrossing-chrome流行插件](https://extpose.com/top-grossing)
+
 ## Blogs/Websites
 
 - [kaito's blog](http://kaito-kidd.com/archives/)
@@ -622,3 +635,5 @@ redirect_from:
 - [noise](https://www.noisesite.cn/)
 
 - [contentideas](https://contentideas.io/)
+
+- [暗网网址推荐](https://www.reddit.com/r/deepweb/comments/bom7xr/what_sites_and_links_should_rdeepweb_recommend/)

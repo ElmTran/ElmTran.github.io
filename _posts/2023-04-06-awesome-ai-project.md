@@ -418,6 +418,7 @@ redirect_from:
 
   - [toolai](https://www.toolai.io/)
 
+  - [chatgpt账号共享](https://chat-shared2.zhile.io/shared.html)
 ## AI Video
 
   - [NUWA-Infinity](https://nuwa-infinity.microsoft.com)
@@ -500,6 +501,7 @@ redirect_from:
 
   - [mubert-ai音乐收集](https://mubert.com/)
 
+  - [whisper-web](https://huggingface.co/spaces/Xenova/whisper-web)
 ## AI 3D & Animation
 
   - [DreamFusion](https://dreamfusion3d.github.io/)
@@ -584,7 +586,8 @@ redirect_from:
 
   - [Open-Assistant](https://github.com/LAION-AI/Open-Assistant)
 
-## AI News
+  - [Pezzo-ai提示词管理](https://github.com/pezzolabs/pezzo)
+## AI Websites
 
   - [AI论文速递](https://briefgpt.xyz/)
 
@@ -612,6 +615,9 @@ redirect_from:
 
   - [featurepedia](https://www.futurepedia.io/)
 
+  - [awesome-domain-llm](https://github.com/luban-agi/Awesome-Domain-LLM)
+
+  - [awesome-aigc-tutorials](https://github.com/luban-agi/Awesome-AIGC-Tutorials)
 ## API
 
   - [OpenAI API](https://platform.openai.com/overview)

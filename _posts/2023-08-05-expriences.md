@@ -14,6 +14,8 @@ redirect_from:
 
 - [程序员做饭指南](https://github.com/Anduin2017/HowToCook)
 
+- [开源做菜](https://cook.yunyoujun.cn/)
+
 - [摄影无忌](https://ww.xitek.com/)
 
 - [中国会展查询](http://www.eshow365.com/)
@@ -61,6 +63,8 @@ redirect_from:
 - [whereshouldilive](https://www.whereshouldilive.co/)
 
 - [spacetravel](https://bigthink.com/the-future/space-travel-spirituality/)
+
+- [全球热门移民项目](http://m.toutiao.com/group/7276025112867062284/)
 
 ## 工作
 
@@ -142,6 +146,10 @@ redirect_from:
 
 - [cover-letter](https://coverletterwrite.com/)
 
+- [面试反问问题](https://github.com/yifeikong/reverse-interview-zh)
+
+- [Golang面试问题](https://mp.weixin.qq.com/s/bWfINnIyNq1fJCJEfKhn9Q)
+
 - 自由职业\/副业
 
   - [https://www.freelancer.com/jobs](https://www.freelancer.com/jobs)
@@ -201,6 +209,8 @@ redirect_from:
 - [淘钻-迅雷会员](http://lingquanzhushou.com/cindex.html)
 
 - [choosebest](https://www.slant.co/)
+
+- [大麦网抢票辅助](https://github.com/RookieTree/DaMaiHelper)
 ### 虚拟服务
 
 - [在花商店](https://id.zaihuamall.com)

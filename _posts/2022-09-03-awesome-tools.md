@@ -92,6 +92,9 @@ redirect_from:
 - [Filmot - 字幕和视频元数据搜索引擎 Youtube 字幕](https://filmot.com/)
 
 - [SmartTubeNext](https://github.com/yuliskov/SmartTubeNext)
+
+- [gkd-广告跳过](https://github.com/gkd-kit/gkd)
+
 ### 文件
 
 - [TinyWow Tool](https://tinywow.com/)
@@ -163,6 +166,30 @@ redirect_from:
 - [https://10minutemail.net/?lang=en](https://10minutemail.net/?lang=en)
 
 - [https://dropmail.me/en/](https://dropmail.me/en/)
+
+- [10minemail](https://10minemail.com/zh/)
+
+- [addy](https://addy.io/)
+
+- [cloudflare自建临时邮箱](https://github.com/dreamhunter2333/cloudflare_temp_email)
+
+### 接码平台
+
+- [smscodes-接码平台](https://www.smscodes.io/)
+
+- [bfkdim](www.bfkdim.com)
+
+- [clearcode](https://clearcode.cn/)
+
+- [smsjisu](https://smsjisu.com/)
+
+- [zusms](https://www.zusms.com/phone/china)
+
+- [yunduanxin](https://yunduanxin.net/)
+
+- [xinghai](https://xinghai.party/)
+
+- [xnsms](http://www.xnsms.com)
 
 ### 开发工具
 
@@ -272,8 +299,6 @@ redirect_from:
 
 - [1panel-运维面板](https://github.com/1Panel-dev/1Panel)
 
-- [smscodes-接码平台](https://www.smscodes.io/)
-
 - [nebula虚拟组网](https://github.com/slackhq/nebula)
 
 - [zerotier](https://www.zerotier.com/)
@@ -291,6 +316,22 @@ redirect_from:
 - [codeinword](http://www.codeinword.com/)
 
 - [变量名取名参考](https://unbug.github.io/codelf/)
+
+- [坏链检测](https://github.com/lycheeverse/lychee)
+
+- [使用cloudflare搭建免费代理](https://neko-warp.nloli.xyz/)
+
+- [KeymouseGo-类似按键精灵](https://github.com/taojy123/KeymouseGo)
+
+- [ahkUnwrapped-封装ahk的python脚本](https://github.com/CodeOptimist/ahkunwrapped)
+
+- [ASCII Tree](https://tree.nathanfriend.io/)
+
+- [accesskey-运维工具](https://github.com/kohlersbtuh15/accesskey_tools)
+
+- [clink-cmd增强工具](https://chrisant996.github.io/clink/)
+
+- [tabserve-反向代理本地电脑](https://tabserve.dev/)
 #### API
 
 - [少数派](https://sspai.com/post/67568)
@@ -478,6 +519,9 @@ redirect_from:
 
 - [迅排设计](https://github.com/palxiao/poster-design/blob/main/README.md)
 
+- [yesicon](https://yesicon.app/)
+
+- [iconbuddy](https://iconbuddy.app/)
 ## 搜索引擎
 
 - [Brave](https://search.brave.com/)

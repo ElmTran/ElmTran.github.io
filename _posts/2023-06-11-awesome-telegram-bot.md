@@ -90,6 +90,8 @@ redirect_from:
 
 - [MotiveMe-心理咨询师](https://telegram.me/MotivateMe23_bot)
 
+- [托福口语bot](https://telegram.me/toefl_rater_ivy_bot)
+
 ## 频道
 
 - [科技新闻投稿](https://t.me/TestFlightCN)

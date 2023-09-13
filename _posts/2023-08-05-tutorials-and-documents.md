@@ -90,6 +90,8 @@ redirect_from:
 
   - [Github Algorithms](https://github.com/orgs/TheAlgorithms/repositories)
 
+  - [hello-algo](https://github.com/krahets/hello-algo)
+
 - go
 
   - [Introduction-to-Golang](https://github.com/0voice/Introduction-to-Golang)
@@ -126,6 +128,8 @@ redirect_from:
 
   - [KNN算法及python实现](KNN算法及python实现)
 
+  - [fastapi-best-practices](https://github.com/zhanymkanov/fastapi-best-practices)
+
 - rust
 
   - [Comprehensive Rust-tutorials](https://google.github.io/comprehensive-rust/)
@@ -158,13 +162,15 @@ redirect_from:
 
   - [八种方法实现CSS页面底部固定](https://segmentfault.com/a/1190000017805669)
 
-- ci/cd
+- devops
 
   - [git revert 用法](https://www.cnblogs.com/0616--ataozhijia/p/3709917.html)
 
   - [GitLab CI/CD 基础教程](https://blog.stdioa.com/2018/06/gitlab-cicd-fundmental/)
 
   - [gitsheet](https://gitsheet.wtf/)
+
+  - [devops-exercises](https://github.com/bregman-arie/devops-exercises)
 
 - ide
 
@@ -498,3 +504,7 @@ redirect_from:
 - [巴别英语](https://www.babelabc.com/)
 
 - [English As A Second Language](https://7esl.com/)
+
+- [denopark-游戏背单词](https://denopark.com/dicts)
+
+- [englishxyz-为youtube添加查词功能](https://englishxyz.com/)
