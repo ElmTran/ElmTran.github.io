@@ -50,15 +50,15 @@ author:
       url:
   websites:
     - name: aria
-      url: https://drive.elmtran.live/download/
+      url: https://drive.elmtran.com/download/
     - name: dufs
-      url: https://drive.elmtran.live/files/
+      url: https://drive.elmtran.com/files/
     - name: alist
-      url: https://alist.elmtran.live/
+      url: https://alist.elmtran.com/
     - name: chat
-      url: https://ai.elmtran.live/
+      url: https://ai.elmtran.com/
     - name: e5
-      url: https://e5renew.elmtran.live/
+      url: https://e5renew.elmtran.com/
 home:
   section1: <h1>Mengqing's Blog</h1>
   section2: <h3>Your hair is winter fire,<br/><br/>January embers,<br/><br/>My heart burns there, too.</h3>
