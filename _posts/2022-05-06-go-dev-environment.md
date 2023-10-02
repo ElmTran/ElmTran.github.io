@@ -19,10 +19,11 @@ redirect_from:
   `go version`
 
 - set proxy (optional)
-    ```sh
-    go env -w GO111MODULE=on
-    go env -w GOPROXY=https://goproxy.cn,direct
-    ```
+
+```sh
+go env -w GO111MODULE=on
+go env -w GOPROXY=https://goproxy.cn,direct
+```
 
 - install vscode extension
 
