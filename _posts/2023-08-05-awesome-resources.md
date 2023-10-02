@@ -119,6 +119,8 @@ redirect_from:
 
   - [IMSDb-电影剧本](https://imsdb.com/)
 
+  - [台词社](https://www.taicishe.com/)
+
 ## Video
 
 - [videovo](https://www.videvo.net/)

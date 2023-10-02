@@ -150,7 +150,7 @@ redirect_from:
 
 - [Golang面试问题](https://mp.weixin.qq.com/s/bWfINnIyNq1fJCJEfKhn9Q)
 
-- 自由职业\/副业
+- 自由职业/副业
 
   - [https://www.freelancer.com/jobs](https://www.freelancer.com/jobs)
 

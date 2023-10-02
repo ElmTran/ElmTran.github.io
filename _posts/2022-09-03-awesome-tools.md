@@ -332,6 +332,10 @@ redirect_from:
 - [clink-cmd增强工具](https://chrisant996.github.io/clink/)
 
 - [tabserve-反向代理本地电脑](https://tabserve.dev/)
+
+- [it-tools](https://it-tools.tech/)
+
+- [responsively-前端调试浏览器](https://responsively.app/)
 #### API
 
 - [少数派](https://sspai.com/post/67568)
@@ -522,6 +526,7 @@ redirect_from:
 - [yesicon](https://yesicon.app/)
 
 - [iconbuddy](https://iconbuddy.app/)
+
 ## 搜索引擎
 
 - [Brave](https://search.brave.com/)
