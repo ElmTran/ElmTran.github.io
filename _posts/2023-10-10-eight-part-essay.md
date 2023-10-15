@@ -147,7 +147,7 @@ redirect_from:
 
     1. 对称加密：加密和解密使用相同的密钥，速度快，但是密钥传输不安全。
     2. 非对称加密：加密和解密使用不同的密钥，速度慢，但是密钥传输安全。
-    3. httpss使用非对称加密传输对称加密的密钥，然后使用对称加密传输数据。
+    3. https：使用非对称加密传输对称加密的密钥，然后使用对称加密传输数据。
     4. aes加密：明文+key+aes加密函数 = 密文 -> 网络传输 -> 密文+key+aes解密函数 = 明文
 
 - 网络安全
@@ -447,13 +447,13 @@ redirect_from:
 
         ```delete from <表名> where <条件>```
 
-    18. 事务：、`commit transaction`、`rollback transaction`
+    18. 事务：
 
-        ```begin transaction```
+        `commit transaction`、`rollback transaction`、`begin transaction`
 
-    19. 连接：、`left join`、`right join`、`full join`
+    19. 连接：
 
-        ```inner join```
+        `left join`、`right join`、`full join`、`inner join`
 
     20. 子查询：
 
