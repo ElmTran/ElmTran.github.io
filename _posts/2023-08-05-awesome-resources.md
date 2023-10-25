@@ -75,6 +75,8 @@ redirect_from:
 - [自动追番](https://www.autobangumi.org/)
 
 - [kubespider-全局资源编排下载](https://github.com/opennaslab/kubespider)
+
+- [搜片](https://soupian.pro/)
 - alist
 
   - [小雅](http://alist.xiaoya.pro)
@@ -563,6 +565,10 @@ redirect_from:
 - [MirrorSite](https://github.com/runningcheese/MirrorSite)
 
 - [topgrossing-chrome流行插件](https://extpose.com/top-grossing)
+
+- [achieve-绕过付费墙](https://archive.ph/)
+
+- [idm-active](https://github.com/lstprjct/IDM-Activation-Script)
 
 ## Blogs/Websites
 

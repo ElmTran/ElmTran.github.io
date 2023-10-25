@@ -508,3 +508,5 @@ redirect_from:
 - [denopark-游戏背单词](https://denopark.com/dicts)
 
 - [englishxyz-为youtube添加查词功能](https://englishxyz.com/)
+
+- [antimoon-英语学习指南](https://www.antimoon.com/)

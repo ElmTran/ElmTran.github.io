@@ -28,6 +28,8 @@ redirect_from:
 
 - [迅维网](https://www.chinafix.com/)
 
+- [情侣100事](https://cl8023.com/detailed?id=ycbqfOCLU)
+
 ## World Wide Web
 
 - 旅行
@@ -149,6 +151,8 @@ redirect_from:
 - [面试反问问题](https://github.com/yifeikong/reverse-interview-zh)
 
 - [Golang面试问题](https://mp.weixin.qq.com/s/bWfINnIyNq1fJCJEfKhn9Q)
+
+- [coding-interview-university](https://github.com/jwasham/coding-interview-university)
 
 - 自由职业/副业
 

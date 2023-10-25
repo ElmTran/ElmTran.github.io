@@ -95,6 +95,14 @@ redirect_from:
 
 - [gkd-广告跳过](https://github.com/gkd-kit/gkd)
 
+- [订阅转化工具](https://github.com/tindy2013/subconverter)
+
+- [handraw-白板工具](https://github.com/korbinzhao/excalidraw-cn)
+
+- [anti-ad-广告过滤列表](https://anti-ad.net/)
+
+- [虚拟定位](https://github.com/ZCShou/GoGoGo)
+
 ### 文件
 
 - [TinyWow Tool](https://tinywow.com/)
@@ -173,6 +181,8 @@ redirect_from:
 
 - [cloudflare自建临时邮箱](https://github.com/dreamhunter2333/cloudflare_temp_email)
 
+- [gamil后缀临时邮箱](https://smailpro.com/advanced)
+
 ### 接码平台
 
 - [smscodes-接码平台](https://www.smscodes.io/)
@@ -190,6 +200,8 @@ redirect_from:
 - [xinghai](https://xinghai.party/)
 
 - [xnsms](http://www.xnsms.com)
+
+- [receive-sms](https://receive-sms.cc/)
 
 ### 开发工具
 
@@ -336,6 +348,8 @@ redirect_from:
 - [it-tools](https://it-tools.tech/)
 
 - [responsively-前端调试浏览器](https://responsively.app/)
+
+- [cloudflare-验证](https://blog.cloudflare.com/turnstile-ga/)
 #### API
 
 - [少数派](https://sspai.com/post/67568)
@@ -421,6 +435,8 @@ redirect_from:
 - [apivault-最大的api库](https://apivault.dev/)
 
 - [thecompaniesapi-公司信息](https://www.thecompaniesapi.com/)
+
+- [public-apis](https://github.com/public-apis/public-apis)
 #### 短网址
 
 - [免费短网址生成器](http://suo.nz/)
@@ -526,6 +542,8 @@ redirect_from:
 - [yesicon](https://yesicon.app/)
 
 - [iconbuddy](https://iconbuddy.app/)
+
+- [design-resources-for-developers](https://github.com/bradtraversy/design-resources-for-developers)
 
 ## 搜索引擎
 

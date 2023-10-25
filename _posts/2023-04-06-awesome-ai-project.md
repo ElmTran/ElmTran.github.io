@@ -164,6 +164,10 @@ redirect_from:
 
   - [magickpen](https://magickpen.com/)
 
+  - [书籍翻译](https://github.com/yihong0618/bilingual_book_maker)
+
+  - [docsgpt](https://github.com/arc53/DocsGPT)
+
 ## AI Models
 
   - [Alpaca-Model](https://www.getalpaca.io/)
@@ -419,6 +423,11 @@ redirect_from:
   - [toolai](https://www.toolai.io/)
 
   - [chatgpt账号共享](https://chat-shared2.zhile.io/shared.html)
+
+  - [casiable-矢量知识数据库](https://github.com/casibase/casibase)
+
+  - [fluentai-低代码ai工作流](https://github.com/fluent-ai/fluent-ai)
+
 ## AI Video
 
   - [NUWA-Infinity](https://nuwa-infinity.microsoft.com)
@@ -454,6 +463,8 @@ redirect_from:
   - [motionit-generate-video-slides-with-ai](https://www.motionit.ai/)
 
   - [gyroflow-视频稳定](https://gyroflow.xyz/)
+
+  - [geneface-生成符合发音的嘴型](https://github.com/yerfor/GeneFace)
 
 ## AI Audio & Voice
 
@@ -502,6 +513,21 @@ redirect_from:
   - [mubert-ai音乐收集](https://mubert.com/)
 
   - [whisper-web](https://huggingface.co/spaces/Xenova/whisper-web)
+
+  - [mokingbird-语音克隆](https://github.com/babysor/MockingBird)
+
+  - [vallex-tts带语音克隆](https://github.com/Plachtaa/VALL-E-X)
+
+  - [VITS2-语音克隆](https://github.com/KevinWang676/VITS2-Chinese)
+
+  - [so-vits-svc](https://github.com/svc-develop-team/so-vits-svc)
+
+  - [智音AI-tts源](https://909527.xyz/tts/tts_list)
+
+  - [pc变音器](https://www.voicemod.net/zh/)
+
+  - [whisper应用](https://zj1123581321.com/post/liao-liao-gao-jing-du-yin-shi-pin-zhuan-wen-zi-gong-zuo-liu/)
+
 ## AI 3D & Animation
 
   - [DreamFusion](https://dreamfusion3d.github.io/)
@@ -587,6 +613,8 @@ redirect_from:
   - [Open-Assistant](https://github.com/LAION-AI/Open-Assistant)
 
   - [Pezzo-ai提示词管理](https://github.com/pezzolabs/pezzo)
+
+  - [prompt模板](https://github.com/ProfSynapse/Synapse_CoR/blob/main/prompt.txt)
 ## AI Websites
 
   - [AI论文速递](https://briefgpt.xyz/)
