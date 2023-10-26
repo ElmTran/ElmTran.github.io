@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "面试八股文"
+title: "Interview Preparation"
 description: "本科时期准备的面试复习资料"
 categories: [technology]
 tags: [computer science, interview]

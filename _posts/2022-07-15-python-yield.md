@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Python生成器"
+title: "Generator and Yield in Python"
 description: "python中生成器和yield及相关应用"
 categories: [technology]
 tags: [python, programming language, 生成器, yield]
