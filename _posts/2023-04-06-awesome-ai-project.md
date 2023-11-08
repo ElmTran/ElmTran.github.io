@@ -428,6 +428,12 @@ redirect_from:
 
   - [fluentai-低代码ai工作流](https://github.com/fluent-ai/fluent-ai)
 
+  - [workers-ai](https://developers.cloudflare.com/workers-ai/)
+
+  - [ai-gateway](https://developers.cloudflare.com/ai-gateway/)
+
+  - [vectorize](https://developers.cloudflare.com/vectorize/)
+
 ## AI Video
 
   - [NUWA-Infinity](https://nuwa-infinity.microsoft.com)
@@ -466,6 +472,11 @@ redirect_from:
 
   - [geneface-生成符合发音的嘴型](https://github.com/yerfor/GeneFace)
 
+  - [memoai-video2text](https://memo.ac/)
+
+  - [pyvideotrans](https://github.com/jianchang512/pyvideotrans)
+
+  - [rask-ai-视频翻译](https://www.rask.ai/)
 ## AI Audio & Voice
 
   - [whisper-windows](https://github.com/Const-me/Whisper)
@@ -541,6 +552,8 @@ redirect_from:
   - [gen2](https://research.runwayml.com/gen2)
 
   - [pika-ai生成电影](https://www.pika.art/)
+
+  - [wav2lip-对口型](https://github.com/Rudrabha/Wav2Lip)
 
 ## Prompts and Guides
 
@@ -646,6 +659,9 @@ redirect_from:
   - [awesome-domain-llm](https://github.com/luban-agi/Awesome-Domain-LLM)
 
   - [awesome-aigc-tutorials](https://github.com/luban-agi/Awesome-AIGC-Tutorials)
+
+  - [GPT Best Practices](https://futureforce.feishu.cn/file/CMpdbLxAhon5K5x5C1OcciYwnOf)
+
 ## API
 
   - [OpenAI API](https://platform.openai.com/overview)

@@ -103,6 +103,14 @@ redirect_from:
 
 - [虚拟定位](https://github.com/ZCShou/GoGoGo)
 
+- [魂类游戏备份](https://github.com/BugLordI/EldenRingAutoArchive)
+
+- [steamautocrack](https://github.com/oureveryday/Steam-auto-crack)
+
+- [youtube-dl-rest](https://github.com/develon2015/Youtube-dl-REST)
+
+- [字幕下载](https://github.com/ChineseSubFinder/ChineseSubFinder)
+
 ### 文件
 
 - [TinyWow Tool](https://tinywow.com/)
@@ -155,6 +163,7 @@ redirect_from:
 
 - [Tahoe](https://www.tahoe-lafs.org/trac/tahoe-lafs)
 
+- [koofr-支持onedrive，google，webdav](https://app.koofr.net/)
 ### 临时邮箱
 
 - [https://maildrop.cc/](https://maildrop.cc/)
@@ -350,6 +359,10 @@ redirect_from:
 - [responsively-前端调试浏览器](https://responsively.app/)
 
 - [cloudflare-验证](https://blog.cloudflare.com/turnstile-ga/)
+
+- [Jsonhero-查找json字段](https://jsonhero.io/)
+
+- [zbpack-自动打包](https://github.com/zeabur/zbpack)
 #### API
 
 - [少数派](https://sspai.com/post/67568)
