@@ -363,6 +363,13 @@ redirect_from:
 - [Jsonhero-查找json字段](https://jsonhero.io/)
 
 - [zbpack-自动打包](https://github.com/zeabur/zbpack)
+
+- [autoi18n-网站自动翻译](https://github.com/linyuxuanlin/Auto-i18n)
+
+- [deeplx](https://github.com/OwO-Network/DeepLX/)
+
+- [WARP-CLASH-CONFIG](https://neko-warp.nloli.xyz/)
+
 #### API
 
 - [少数派](https://sspai.com/post/67568)
@@ -611,3 +618,5 @@ redirect_from:
 - [Command.dev](https://www.commands.dev/)
 
 - [快速参考备忘单](https://github.com/jaywcjlove/referencu)
+
+- [devv](https://devv.ai/)

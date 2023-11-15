@@ -645,3 +645,17 @@ redirect_from:
 - [contentideas](https://contentideas.io/)
 
 - [暗网网址推荐](https://www.reddit.com/r/deepweb/comments/bom7xr/what_sites_and_links_should_rdeepweb_recommend/)
+
+- [Tony Dinh's Newsletter](https://news.tonydinh.com/p/my-solopreneur-story-zero-to-45kmo)
+
+- [stay anonymous](https://tmp.bearblog.dev/how-i-stay-reasonably-anonymous-online/)
+
+- [现代隐私保护指南](https://archlinuxstudio.github.io/ModernSecurityProtectionGuide/#/)
+
+- [List of Emerging Technologies](https://www.wikiwand.com/en/List_of_emerging_technologies)
+
+- [List of Exsiting Technologies Predicted in Science Fiction](https://www.wikiwand.com/en/List_of_existing_technologies_predicted_in_science_fiction)
+
+- [List of Hypothetical Technologies](https://www.wikiwand.com/en/List_of_hypothetical_technologies)
+
+- [Opensource Hereos](https://opensource-heroes.com/)
