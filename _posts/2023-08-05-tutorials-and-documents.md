@@ -84,6 +84,8 @@ redirect_from:
 
   - [reference for developer](https://github.com/Fechin/reference)
 
+  - [编程宝库](http://www.codebaoku.com/)
+
 - algorithms
 
   - [The Algorithms](https://the-algorithms.com/)
