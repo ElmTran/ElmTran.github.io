@@ -434,6 +434,9 @@ redirect_from:
 
   - [vectorize](https://developers.cloudflare.com/vectorize/)
 
+  - [openai-forward](https://github.com/KenyonY/openai-forward)
+
+  - [screen-to-code](https://github.com/abi/screenshot-to-code)
 ## AI Video
 
   - [NUWA-Infinity](https://nuwa-infinity.microsoft.com)
@@ -534,6 +537,12 @@ redirect_from:
   - [so-vits-svc](https://github.com/svc-develop-team/so-vits-svc)
 
   - [智音AI-tts源](https://909527.xyz/tts/tts_list)
+
+  - [clone-voice](https://github.com/jianchang512/clone-voice)
+
+  - [the-meta-voice](https://themetavoice.xyz/)
+
+  - [speaking-ai](https://speaking.ai/)
 
   - [pc变音器](https://www.voicemod.net/zh/)
 

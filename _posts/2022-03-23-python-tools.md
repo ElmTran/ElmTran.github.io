@@ -46,3 +46,7 @@ redirect_from:
 
         deactive
   ```
+
+## 虚拟环境和依赖管理
+
+- [poetry](https://python-poetry.org/)

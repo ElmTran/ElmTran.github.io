@@ -370,6 +370,7 @@ redirect_from:
 
 - [WARP-CLASH-CONFIG](https://neko-warp.nloli.xyz/)
 
+- [tssh-ssh客户端](https://github.com/trzsz/trzsz-ssh)
 #### API
 
 - [少数派](https://sspai.com/post/67568)
@@ -620,3 +621,5 @@ redirect_from:
 - [快速参考备忘单](https://github.com/jaywcjlove/referencu)
 
 - [devv](https://devv.ai/)
+
+- [企典-企业查询](https://dingtalk.com/qidian/)

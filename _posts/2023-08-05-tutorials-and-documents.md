@@ -512,3 +512,5 @@ redirect_from:
 - [englishxyz-为youtube添加查词功能](https://englishxyz.com/)
 
 - [antimoon-英语学习指南](https://www.antimoon.com/)
+
+- [gliglish-AI口语](https://gliglish.com/)
