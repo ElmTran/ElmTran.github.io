@@ -549,7 +549,7 @@ spec:
             restartPolicy: Never
         backoffLimit: 4
     ```
-  - Cron: 用于定时任务，支持秒级别的定时任务。给定时间仅执行一次，周期性地在给定时间执行任务。给定时间之前没有执行的任务，会被丢弃。
+  - Cron: 用于定时任务，支持秒级别的定时任务。给定时间仅执行一次，周期性地在给定时间执行任务。给定时间之前没有执行的任务，会被丢弃。创建Job的操作是幂等的，即如果Job已经存在，则不会重复创建。
 
   - 应用：定时备份、定时清理、定时同步，邮件发送。
 
@@ -575,10 +575,61 @@ spec:
                 restartPolicy: OnFailure
     ```
 
+  - spec:
+
+    - schedule: 定时任务的时间表达式。
+    - jobTemplate: 定时任务的模板。
+    - startingDeadlineSeconds: 定时任务的启动截止时间。错过被调度的任务将被视为失败。
+    - concurrencyPolicy: 定时任务的并发策略。默认为Allow，表示允许并发执行。如果设置为Forbid，表示禁止并发执行。如果设置为Replace，表示如果有任务正在执行，则取消正在执行的任务，只保留最后一个任务。
+    - successfulJobsHistoryLimit: 保留成功完成的任务的数量。默认为3。
+    - suspend: 暂停定时任务的调度。
 
 ### HorizontalPodAutoscaler(HPA)
 
 用于根据pod的cpu使用率和内存使用率，自动调整pod的副本数。仅支持Deployment和ReplicaSet。
+
+## Service
+
+一组Pod的逻辑分组，一种访问他们的策略，通常成为微服务。通过label selector将Pod分组。service能够提供负载均衡（四层）、服务发现、session保持、虚拟IP等功能。Ingrees是service的升级版，支持七层负载均衡。
+
+### Service Type
+
+- ClusterIP: 提供一个虚拟IP，只能在集群内部访问。
+- NodePort: 在ClusterIP的基础上，为service在每个node上绑定一个端口，可以通过node的IP和端口访问service。
+- LoadBalancer: 在NodePort的基础上，借助cloud providerr为service提供一个外部的负载均衡器，可以通过负载均衡器的IP和端口访问service。
+- ExternalName: 为service提供一个CNAME记录，可以通过CNAME访问service。
+
+### Proxy Mode
+
+#### userspace: 通过iptables实现，性能较差。
+
+![userspace_proxy](https://raw.githubusercontent.com/ElmTran/ImgStg/main/img/userspace_proxy.webp)
+
+clusterlP主要在每个node节点使用iptables，将发向clusterIP对应端口的数据，转发到kube-proxy中。然后kube-proxy自己内部实现有负载均衡的方法，并可以查询到这个service下对应pod的地址和端口，进而把数据转发给对应的pod的地址和端口。
+
+#### iptables: 通过iptables实现，性能较好。
+
+![iptables_proxy](https://raw.githubusercontent.com/ElmTran/ImgStg/main/img/iptables_proxy.webp)
+
+#### ipvs: 通过ipvs实现，性能最好。
+
+![ipvs_proxy](https://raw.githubusercontent.com/ElmTran/ImgStg/main/img/ipvs_proxy.webp)
+
+举例
+```
+apiVersion: v1
+kind: Service
+metadata:
+    name: nginx
+spec:
+    type: NodePort
+    selector:
+    app: nginx
+    ports:
+    - port: 80
+    targetPort: 80
+    nodePort: 30080
+```
 
 ## Tips
 
