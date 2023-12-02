@@ -1,0 +1,162 @@
+---
+layout: post
+title: "Storage of k8s"
+description: "Kubernetes Series: storage of k8s"
+categories: [technology]
+tags: [kubernetes, docker, container, devops, k8s, PV, PVC]
+redirect_from:
+  - /2023/11/26/
+---
+
+## Storage
+
+### ConfigMap
+
+ConfigMap用于存储配置信息，如数据库连接信息、redis连接信息、环境变量等。ConfigMap可以通过volume挂载到pod中，也可以通过环境变量的方式注入到pod中。
+
+- from file: 将文件内容转换为ConfigMap。
+
+```
+kuberctl create configmap <configmap_name> --from-file=<file_path>
+```
+- from yaml: 将yaml文件转换为ConfigMap。
+
+```
+apiVersion: v1
+kind: ConfigMap
+metadata:
+    name: <configmap_name>
+data:
+    <key>: <value>
+```
+
+- from literal: 将key-value转换为ConfigMap。
+
+```
+kuberctl create configmap <configmap_name> --from-literal=<key>=<value>
+```
+
+### Secret
+
+解决ConfigMap中敏感信息的问题。Secret也可以通过volume挂载到pod中，或使用环境变量的方式注入到pod中。
+
+- service account: 用于pod访问kubernetes api的token。由kubernetes自动创建，不需要手动创建。
+- opaque: 用于存储用户名、密码等敏感信息。
+- docker-registry: 用于存储docker registry的认证信息。
+
+### Volume
+
+容器磁盘上的文件生命周期是短暂的，当容器崩溃，或者容器被重新调度时，容器会以干净的状态启动。且多个容器之间无法共享文件。Volume解决了这些问题。Volume的生命周期和pod的生命周期一致，kubernetes支持多种类型的Volume，且Pod可以使用任意数量的Volume。
+
+#### emptyDir
+
+- 空目录，pod被调度到node上时，会在node上创建一个空目录，pod被删除时，会删除这个目录。如果pod被重新调度到其他node上，会重新创建这个目录。如果pod中的容器重启，不会删除这个目录。如果pod中的容器被删除，会删除这个目录。如果pod中的容器被重新创建，会重新创建这个目录。
+
+- 作用:
+
+    - 暂存空间，如编译环境、构建环境、临时文件等。
+    - 用作长时间计算崩溃恢复的检查点
+    - 保存内容管理器提取的文件
+
+- 举例：
+    ```
+    apiVersion: v1
+    kind: Pod
+    metadata:
+        name: nginx
+    spec:
+        containers:
+        - name: nginx
+        image: nginx:1.14.2
+        ports:
+        - containerPort: 80
+        volumeMounts:
+        - name: html
+            mountPath: /usr/share/nginx/html
+        - name: log
+            mountPath: /var/log/nginx
+        volumes:
+        - name: html
+            emptyDir: {}
+        - name: log
+            emptyDir: {}
+    ```
+
+#### hostPath
+
+- 将node节点上的文件或目录挂载到pod中。pod被调度到node上时，会在node上创建一个目录，pod被删除时，会删除这个目录。如果pod被重新调度到其他node上，不会重新创建这个目录。如果pod中的容器重启，不会删除这个目录。
+
+- 作用：
+
+    - 需要访问Docker内部的文件，如/var/lib/docker/containers。
+    - 在容器中运行cAdvisor，监控node节点的资源使用情况。
+
+- 可以指定type
+
+    - DirectoryOrCreate: 如果目录不存在，则创建目录。
+    - Directory: 如果目录不存在，则报错。
+    - FileOrCreate: 如果文件不存在，则创建文件。
+    - File: 如果文件不存在，则报错。
+    - Socket: 如果socket不存在，则报错。
+    - CharDevice: 如果字符设备不存在，则报错。
+    - BlockDevice: 如果块设备不存在，则报错。
+
+- 举例：
+    ```
+    apiVersion: v1
+    kind: Pod
+    metadata:
+        name: nginx
+    spec:
+        containers:
+        - name: nginx
+        image: nginx:1.14.2
+        ports:
+        - containerPort: 80
+        volumeMounts:
+        - name: html
+            mountPath: /usr/share/nginx/html
+        - name: log
+            mountPath: /var/log/nginx
+        volumes:
+        - name: html
+            hostPath:
+            path: /usr/share/nginx/html
+            type: DirectoryOrCreate
+        - name: log
+            hostPath:
+            path: /var/log/nginx
+            type: DirectoryOrCreate
+    ```
+
+### PersistentVolume
+
+- PV: 是由管理员设置的存储，它是群集的一部分。就像节点是集群中的资源一样，PV也是集群中的资源。PV是Volume之类的卷插件，但具有独立于使用PV的Pod的生命周期。此API对象包含存储实现的细节，即NFS、iSCSI或特定于云供应商的存储系统。
+
+- PVC(PersistentVolumeClaim): 是用户定义的存储，它与Pod类似。Pod消耗节点资源，而PVC消耗PV资源。Pod可以请求特定级别的资源（CPU和内存）。声明可以请求特定大小和访问模式的存储。
+
+- 访问模式
+
+    - ReadWriteOnce: 读写模式，可以被单个节点挂载为读写模式。
+    - ReadOnlyMany: 只读模式，可以被多个节点挂载为只读模式。
+    - ReadWriteMany: 读写模式，可以被多个节点挂载为读写模式。
+
+- 回收策略
+
+    - Retain: 保留，不删除PV。
+    - Recycle: 回收，删除PV中的数据，然后重新挂载。
+    - Delete: 删除，删除PV。
+
+- 状态
+
+    - Available: 可用状态，PV已经被集群接受，但是还没有被绑定到PVC上。
+    - Bound: 绑定状态，PV已经被绑定到PVC上。
+    - Released: 已释放状态，PVC被删除，但是PV还没有被回收。
+    - Failed: 失败状态，PV绑定到PVC上失败。
+
+- statefulset和PVC
+
+    - statefulset创建pod时，会自动创建PVC。
+    - statefulset删除pod时，不会删除PVC。
+    - statefulset删除时，会删除PVC。
+    - 手动删除PVC时，会自动释放PV。

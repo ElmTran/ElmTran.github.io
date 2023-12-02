@@ -1,0 +1,138 @@
+---
+layout: post
+title: "security of k8s"
+description: "Kubernetes Series: security of k8s"
+categories: [technology]
+tags: [kubernetes, docker, container, devops, k8s, RBAC]
+redirect_from:
+  - /2023/11/26/
+---
+
+## 安全策略
+
+### 认证
+
+- kubeconfig: 包含集群参数（CA证书，API server地址），客户端参数（上面的token，用户名，密码），上下文参数（集群，客户端，命名空间）。指定不同的kubeconfig文件，可以切换不同的集群，不同的命名空间，不同的用户。
+
+- 认证方式：http token、http base、https。
+
+- service account: 用于pod访问kubernetes api的token。由kubernetes自动创建，不需要手动创建。包含：
+    - token: 用于访问api-server时，server验证的jwt。
+    - ca.crt: 用于client验证kubernetes api server的CA证书。
+    - namespace: 用于指定service account所在的命名空间。
+
+    ![auth](https://raw.githubusercontent.com/ElmTran/ImgStg/main/img/authentication.webp)
+
+### 鉴权
+
+- 授权策略
+
+    - alwaysDeny: 拒绝所有请求。
+    - alwaysAllow: 允许所有请求。
+    - ABAC(Attribute-Based Access Control): 基于属性的访问控制，通过配置文件指定用户对资源的访问权限。
+    - RBAC(Role-Based Access Control): 基于角色的访问控制，通过角色和角色绑定指定用户对资源的访问权限。
+    - webhook: 通过webhook调用外部服务，判断用户对资源的访问权限。
+
+#### RBAC
+  - 优点：
+    - 对集群中的资源和非资源均拥有完整的覆盖
+    - 通过角色和角色绑定，可以实现细粒度的权限控制
+    - 整个RBAC完全由几个API对象完成，同其它API对象一样，可以用kubectI或API进行操作
+    - 可以在运行时进行调整，无需重启APIServer
+
+  - 资源对象：引入了四个顶级资源对象，分别是Role、ClusterRole、RoleBinding、ClusterRoleBinding。
+
+  - kubernetes 组件或者自定义用户在向CA申请证书的时候，需要提供一个证书请求文件，此时会创建一个service account。
+
+    ```
+    {
+        "CN": "system:serviceaccount:<namespace>:<serviceaccount-name>",
+        "key": {
+            "algo": "rsa",
+            "size": 2048
+        },
+        "names": [
+            {
+                "C": "CN",
+                "ST": "BeiJing",
+                "L": "BeiJing",
+                "O": "system:serviceaccounts",
+                "OU": "<namespace>"
+            }
+        ]
+    }
+    ```
+    `CN`：service account的名称，格式为system:serviceaccount:<namespace>:<serviceaccount-name>。
+    `names.O`：service account所在的组，格式为system:serviceaccounts。
+    `names.OU`：service account所在的命名空间。
+
+    - Role: 用于定义一组规则，用于控制对资源的访问权限。Role只能授予命名空间内的资源访问权限。
+
+        ```
+        kind: Role
+        apiVersion: rbac.authorization.k8s.io/v1
+        metadata:
+            namespace: default
+            name: pod-reader
+        rules:
+        - apiGroups: [""] # "" indicates the core API group
+            resources: ["pods"]
+            verbs: ["get", "watch", "list"]
+        ```
+    - ClusterRole: 用于定义一组规则，用于控制对资源的访问权限。ClusterRole可以授予集群内的资源访问权限, 跨命名空间。
+        - 集群级别的资源：nodes、namespaces、persistentvolumes、events、componentstatuses、limitranges、resourcequotas、secrets、serviceaccounts。
+        - 非资源型的集群级别的API：/healthz、/healthz、/version、/swagger-2.0.0.pb-v1、/swagger.json、/swaggerapi、/openapi-v2、/openapi、/apis、/api、/version、/version
+        - 所有的命名空间资源控制：Pod
+
+        ```
+        kind: ClusterRole
+        apiVersion: rbac.authorization.k8s.io/v1
+        metadata:
+            name: secret-reader
+        rules:
+        - apiGroups: [""] # "" indicates the core API group
+            resources: ["secrets"]
+            verbs: ["get", "watch", "list"]
+        ```
+    - 
+    - RoleBinding: 用于将Role绑定到用户或者用户组。
+        ```
+        kind: RoleBinding
+        apiVersion: rbac.authorization.k8s.io/v1
+        metadata:
+            name: read-pods
+            namespace: default
+        subjects:
+        - kind: User
+            name: jane # Name is case sensitive
+            apiGroup: rbac.authorization.k8s.io
+        roleRef:
+            kind: Role #this must be Role or ClusterRole
+            name: pod-reader # this must match the name of the Role or ClusterRole you wish to bind to
+            apiGroup: rbac.authorization.k8s.io
+        ```
+    - ClusterRoleBinding: 用于将ClusterRole绑定到用户或者用户组。
+
+        ```
+        kind: ClusterRoleBinding
+        apiVersion: rbac.authorization.k8s.io/v1
+        metadata:
+            name: read-secrets-global
+        subjects:
+        - kind: User
+            name: jane # Name is case sensitive
+            apiGroup: rbac.authorization.k8s.io
+        roleRef:
+            kind: ClusterRole #this must be Role or ClusterRole
+            name: secret-reader # this must match the name of the Role or ClusterRole you wish to bind to
+            apiGroup: rbac.authorization.k8s.io
+        ```
+### 准入控制
+
+- 准入控制器：是API server的插件集和，用于对请求进行过滤和修改。准入控制器可以对请求进行拒绝、修改、添加、删除等操作。准入控制器的配置文件为`--enable-admission-plugins`。
+
+    - NamespaceLifecycle: 禁止对已经存在的命名空间进行修改。
+    - LimitRanger: 限制资源的使用量。
+    - serviceAccount: 自动为pod创建service account。
+    - PersistentVolumeLabel: 自动为PV添加标签。
+    - ResourceQuota: 限制命名空间的资源使用量。
