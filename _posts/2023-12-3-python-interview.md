@@ -415,4 +415,4 @@ redirect_from:
 
 34. 将dict转化为url参数
 
-    - 使用urllib.parse.urlencode()方法将字典转换为url参数。
+    - 使用`urllib.parse.urlencode()`方法将字典转换为url参数。
