@@ -4,6 +4,7 @@ title: "scheduler of k8s"
 description: "Kubernetes Series: scheduler of k8s"
 categories: [technology]
 tags: [kubernetes, docker, container, devops, k8s]
+redirect_from:
   - /2023/11/26/
 ---
 
