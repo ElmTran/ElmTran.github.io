@@ -57,7 +57,9 @@ spec:
 
 - Ingress在service的基础上，增加了host和path的匹配规则。Ingress Controller会根据host和path的匹配规则，将请求转发到对应的service上。
 
-- Ingress还可以实现TLS终止，将https请求转发到http请求。
+    ![ingress](https://raw.githubusercontent.com/ElmTran/ImgStg/main/img/ingress.webp)
+
+- Ingress还可以实现TLS终止，将https请求转发到http请求。加快后端服务的处理速度。
 
 举例
 ```

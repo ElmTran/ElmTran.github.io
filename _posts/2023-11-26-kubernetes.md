@@ -93,6 +93,32 @@ docker: 负责容器的创建、启停等任务。
   - ClusterIP: 仅在集群内部可以访问。
   - NodePort: 在集群内部和集群外部都可以访问。
 
+### 高可用集群
+
+- 架构
+
+    ![kubernetes高可用集群架构图](https://raw.githubusercontent.com/ElmTran/ImgStg/main/img/kubernetes-ha.webp)
+
+- master中新增组件
+
+  - keepalived: 用于实现虚拟ip，检查master状态，保证master节点的高可用性。
+
+  - haproxy: 用于实现负载均衡，将请求转发到master节点。
+
+### 容器交付流程
+
+1. 开发阶段：开发人员在本地开发环境中编写代码，本地测试，编写Dockerfile。
+
+2. CI/CD阶段：开发人员将代码提交到git仓库，触发CI/CD流程，将代码打包成镜像，推送到镜像仓库。
+
+3. 部署阶段：运维人员在kubernetes集群中部署镜像，创建pod、service，ingress等。
+
+4. 运维阶段：运维人员监控集群状态，对集群进行扩容、升级等操作。
+
+### K8S项目部署流程
+
+制作镜像 -> 推送镜像 -> 部署镜像（Deployment） -> 暴露服务（Service） -> 访问服务（Ingress）-> 集群监控（Prometheus）-> 集群日志（ELK）
+
 ## Tips
 
 - 集群数量：大于等于3个，最好是奇数个，保证高可用性（投票机制）。如果是偶数个，可能会出现脑裂的情况。
