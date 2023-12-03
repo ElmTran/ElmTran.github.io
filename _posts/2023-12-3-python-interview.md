@@ -233,4 +233,175 @@ redirect_from:
     7. 在视图函数或类处理完请求后，生成HTTP响应，包括响应的内容和状态码等。
     8. 最后，响应通过WSGI接口返回给Web服务器，然后由Web服务器发送给客户端。
 
-4. Django的组件
+4. 什么是usgi和wsgi
+
+    - WSGI：Web Server Gateway Interface，是一种规范，定义了Web服务器如何与Python应用程序进行交互，WSGI规范中定义了两个接口，分别是应用程序接口和服务器网关接口。
+    - uWSGI：是一个Web服务器，实现了WSGI协议，它是一个全功能的HTTP服务器，uWSGI服务器可以独立于Web服务器运行，也可以作为Web服务器的模块运行。
+
+5. FBV和CBV的区别
+
+    - FBV：函数视图，将请求和处理逻辑封装在一个函数中。
+    - CBV：类视图，将请求和处理逻辑封装在一个类中，类视图继承自View类，View类是一个抽象类，它提供了一些常用的方法，比如as_view()方法，as_view()方法将类视图转换为函数视图。
+
+6. MVC和MTV的区别
+
+    - MVC：Model-View-Controller，模型-视图-控制器，模型用于封装数据，视图用于展示数据，控制器用于处理用户的请求。
+    - MTV：Model-Template-View，模型-模板-视图，模型用于封装数据，模板用于展示数据，视图用于处理用户的请求。
+
+7. django路由中name的作用：反向解析路由。
+
+8. Django的内置组件：
+    - ORM：对象关系映射，将数据库中的表映射为类，将数据库中的字段映射为类的属性，将数据库中的记录映射为类的实例。
+    - 模板引擎：Django提供了一套模板语言，用于将数据渲染到模板中。
+    - Admin管理后台：Django提供了一个管理后台，可以通过管理后台对数据库中的数据进行增删改查。
+    - ModelForm：Django提供了一个ModelForm类，它可以根据模型自动生成表单。
+    - Form：Django提供了一个Form类，它可以根据开发者自定义的字段生成表单。
+    - 路由系统：Django提供了一个路由系统，用于将请求分发到相应的视图函数或类。
+    - Model：Django提供了一个Model类，它是一个抽象类，开发者可以继承Model类，然后定义模型类，模型类对应数据库中的表。
+
+9. Django的中间件:
+
+    中间件是一种机制，允许在视图处理前后执行自定义的逻辑。在请求到达视图函数或类之前，请求可能会经过一个或多个中间件，这些中间件可以执行诸如身份验证、日志记录等操作。
+
+10. Django的中间件方法：
+    - process_request(self, request)：在视图函数或类处理请求前执行。
+    - process_view(self, request, view_func, view_args, view_kwargs)：在视图函数或类处理请求前执行，如果process_request()方法返回None或HttpResponse对象，则会执行process_view()方法。
+    -  process_exception(self, request, exception)：在视图函数或类抛出异常时执行。
+    -   process_response(self, request, response)：在视图函数或类处理请求后执行。
+    -  process_template_response(self, request, response)：在视图函数或类处理请求后执行，如果process_response()方法返回None或HttpResponse对象，则会执行process_template_response()方法。
+
+11. django中request对象的创建时机：
+
+    - 在WSGIHandler类的__call__()方法中创建request对象，然后将request对象作为参数传递给视图函数或类。
+
+12. django的重定向实现
+
+    - 使用HttpResponseRedirect类实现重定向，使用reverse()方法实现反向解析。
+
+13. django中csrf的实现
+
+    - 在请求中添加csrf_token，然后在视图函数或类中验证csrf_token。
+
+14. 为什么不使用runserver部署项目
+
+    - runserver是一个单线程的开发和测试服务器，使用uWSGI部署项目具有更好的性能。
+
+15. orm方法
+    - `all()`: 查询所有数据
+    - `filter()`: 查询满足条件的数据
+    - `exclude()`: 查询不满足条件的数据
+    - `get()`: 查询单条数据
+    - `create()`: 创建数据
+    - `update()`: 更新数据
+    - `delete()`: 删除数据
+    - `order_by()`: 排序
+    - `reverse()`: 反转
+    - `values()`: 返回字典
+    - `values_list()`: 返回元组
+    - `count()`: 返回数量
+    - `exists()`: 判断是否存在
+    - `first()`: 返回第一条数据
+    - `last()`: 返回最后一条数据
+    - `distinct()`: 去重
+
+16. `select_related()`和`prefetch_related()`的区别
+
+    - `select_related()`：一次性将关联的数据查询出来，减少数据库的查询次数，但是会增加内存的消耗。
+    - `prefetch_related()`：分别查询主表和关联表的数据，然后将关联表的数据与主表的数据进行关联，减少内存的消耗，但是会增加数据库的查询次数。
+
+17. django的缓存机制
+
+    - Django的缓存机制是一个抽象层，它可以将缓存的实现与缓存的使用分离，开发者可以根据自己的需求选择使用不同的缓存后端，比如Memcached、Redis等。
+    - Django的缓存机制提供了一些常用的方法，比如get()方法、set()方法、delete()方法等。
+    - 三种缓存模式：全站缓存、视图缓存、模板缓存。
+
+18. `F()`和`Q()`的作用
+
+    - `F()`：用于对模型的字段进行操作，比如对模型的字段进行加减乘除等操作。
+    - `Q()`：用于对查询条件进行操作，比如对查询条件进行与或非等操作。
+
+19. django的信号机制
+    
+        - Django的信号机制是一种观察者模式，它允许在信号发送者和信号接收者之间进行解耦，当信号发送者发送信号时，信号接收者会接收到信号并执行相应的操作。
+        - Django的信号机制提供了一些常用的信号，比如pre_save信号、post_save信号、pre_delete信号、post_delete信号等。
+
+20. django的form和modelform
+
+    - Form：Django提供了一个Form类，它可以根据开发者自定义的字段生成表单。
+    - ModelForm：Django提供了一个ModelForm类，它可以根据模型自动生成表单。
+
+21. django中执行sql语句的方法：`raw()`, `extra()`, `execute()`
+
+22. django中如何实现读写分离
+
+    - 使用数据库路由系统实现读写分离，数据库路由系统是一个抽象层，它可以将数据库的读写操作分发到不同的数据库上。
+    - 在`settings.py`中配置数据库路由系统，然后在路由类中实现`db_for_read()`方法和`db_for_write()`方法，`db_for_read()`方法用于将读操作分发到从数据库上，`db_for_write()`方法用于将写操作分发到主数据库上。
+
+23. 基于已存在的数据库表创建模型类
+
+    - 使用`inspectdb`命令生成模型类。
+
+24. orm和sql的区别
+
+    - ORM：对象关系映射，将数据库中的表映射为类，将数据库中的字段映射为类的属性，将数据库中的记录映射为类的实例。具有开发速度快、可移植性好、可维护性好的优点，但是性能较差。
+    - SQL：结构化查询语言，用于操作数据库。执行效率高，性能好。
+
+25. restful api
+
+    - restful api是一种软件架构风格，它是一种设计风格，不是标准，它是一种约定俗成的规范。
+    - restful api的设计原则：统一接口、无状态、可缓存、分层系统、按需编码。
+    - restful api的设计规范：使用名词而不是动词、使用复数形式、使用HTTP动词、使用HTTP状态码、使用JSON格式, 使用版本控制, 体现是否为API, 使用SSL, 携带请求参数, 使用分页, 使用字段过滤, 使用错误信息, 使用HATEOAS。
+
+26. 接口的幂等性
+
+    - 幂等性是指对同一个接口的多次请求，对资源的影响是一致的。
+    - 幂等性的实现：使用HTTP动词、使用HTTP状态码、使用事务。
+
+27. rpc和restful api的区别
+
+    - rpc：远程过程调用，是一种通信协议，它允许程序调用另一个地址空间的子程序，而不需要程序员显式编码这个远程调用的细节。
+    - restful api：restful api是一种软件架构风格，它是一种设计风格，不是标准，它是一种约定俗成的规范。
+
+28. 为什么要使用django rest framework
+
+    - Django REST framework是一个强大灵活的工具包，用于构建Web API。
+    - Django REST framework提供了一些常用的功能，比如序列化、反序列化、分页、过滤、排序、认证、权限、版本控制等。
+    - Django REST framework提供了一些常用的类，比如APIView类、GenericAPIView类、ViewSet类、ModelViewSet类等。
+
+29. django rest framework的序列化和反序列化
+
+    - 序列化：将模型类的实例转换为字典。
+    - 反序列化：将字典转换为模型类的实例。
+
+30. django rest framework的组件
+
+    - 序列化组件serializer：用于序列化和反序列化。
+    - 路由组件：用于路由。
+    - 视图组件：用于视图。
+    - 认证组件：用于认证用户。
+    - 权限组件：用于权限控制。
+    - 频率组件：用于频率控制。
+    - 解析器组件：用于解析请求。
+    - 渲染器组件：用于渲染响应。
+    - 分页组件：用于分页。
+    - 版本控制组件：用于版本控制。
+
+31. django rest framework的认证和权限
+
+    - 认证：认证是指验证用户的身份，Django REST framework提供了一些常用的认证组件，比如SessionAuthentication组件、BasicAuthentication组件、TokenAuthentication组件、JSONWebTokenAuthentication组件等。
+    - 权限：权限是指控制用户对资源的访问权限，Django REST framework提供了一些常用的权限组件，比如AllowAny组件、IsAuthenticated组件、IsAdminUser组件、IsAuthenticatedOrReadOnly组件等。
+    - 认证流程：用户发送请求时，通过APIView类的initial()方法获取认证组件，然后调用认证组件的authenticate()方法进行认证，如果认证成功，则将认证后的用户赋值给request.user属性，如果认证失败，则抛出异常。
+
+32. django rest framework的频率控制
+
+    - 频率控制是指控制用户对资源的访问频率，Django REST framework提供了一些常用的频率控制组件，比如AnonRateThrottle组件、UserRateThrottle组件、ScopedRateThrottle组件等。
+
+33. 什么是跨域，如何解决跨域问题
+
+    - 跨域是指浏览器不能执行其他网站的脚本，跨域是由浏览器的同源策略造成的，同源策略是浏览器的一种安全策略，它用于限制一个origin的文档或者它加载的脚本如何能与另一个源的资源进行交互，跨域是指协议、域名、端口号有一个不同就会产生跨域。
+    - 解决跨域问题的方式有两种，一种是使用JSONP，另一种是使用CORS。
+    - Django解决跨域问题的方式有两种，一种是使用django-cors-headers第三方库，另一种是使用中间件。
+
+34. 将dict转化为url参数
+
+    - 使用urllib.parse.urlencode()方法将字典转换为url参数。
