@@ -71,6 +71,7 @@ redirect_from:
 
     - 生成器的作用：生成器是一种特殊的迭代器，生成器是一个函数，使用yield关键字返回一个迭代器，生成器的本质是一个迭代器。
     - 生成器的实现：使用yield关键字实现生成器，使用for循环遍历生成器。
+    - 使用`next()`方法获取生成器的下一个元素，使用`send()`方法向生成器发送数据。
     - example：
 
         ```python
@@ -78,8 +79,13 @@ redirect_from:
             for i in range(10):
                 yield i
 
-        for i in generator():
-            print(i)
+
+        gen = generator()
+        while True:
+            try:
+                print(next(gen))
+            except StopIteration:
+                break
         ```
 
 6. 闭包
@@ -127,6 +133,11 @@ redirect_from:
     - 使用弱引用。
 
 13. 文件操作注意事项：打开模式、异常处理、文件对象的关闭，接收缓冲区的大小。
+
+    ```python
+    with open('test.txt', 'r', encoding='utf-8') as f:
+        f.read()
+    ```
 
 14. 调试方式：
 
