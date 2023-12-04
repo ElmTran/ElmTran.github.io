@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Kubernetes"
+title: "K8s-1: Kubernetes"
 description: "Study notes for Kubernetes."
 categories: [technology]
 tags: [kubernetes, docker, container, devops, k8s]

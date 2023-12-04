@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "scheduler of k8s"
-description: "Kubernetes Series: scheduler of k8s"
+title: "K8s-7: Scheduler"
+description: "Kubernetes Series: scheduler"
 categories: [technology]
 tags: [kubernetes, docker, container, devops, k8s]
 redirect_from:

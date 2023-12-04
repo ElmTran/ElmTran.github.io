@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "controller of k8s"
-description: "Kubernetes Series: controller of k8s"
+title: "K8s-4: Controller"
+description: "Kubernetes Series: controller"
 categories: [technology]
 tags: [kubernetes, docker, container, devops, controller, k8s]
 redirect_from:

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "monitoring of k8s"
-description: "Kubernetes Series: monitoring of k8s"
+title: "K8s-10: Monitoring"
+description: "Kubernetes Series: monitoring"
 categories: [technology]
 tags: [kubernetes, docker, container, devops, k8s，prometheus, grafana]
 redirect_from:
