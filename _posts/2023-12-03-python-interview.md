@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Python Interview"
+title: "Interview Questions for Python"
 description: "常见的Python面试题"
 categories: [technology]
 tags: [computer science, interview, python, Django, Flask]
 redirect_from:
-  - /2023/10/10/
+  - /2023/12/03/
 ---
 
 ## Python
@@ -36,9 +36,8 @@ redirect_from:
 3. 拷贝
 
     - 直接赋值：`a = b`，a和b指向同一个对象，修改a会影响b，修改b会影响a。
-    - 浅拷贝：`a = b.copy()`，a和b指向不同的对象，修改a不会影响b，修改b会影响a，但是如果a和b中的元素是可变对象，修改a中的元素会影响b中的元素，修改b中的元素会影响a中的元素。
+    - 浅拷贝：`a = b.copy()`，拷贝b的父对象，引用子对象，复杂子对象的修改会互相影响。切片，工厂函数，copy.copy()都是浅拷贝。
     - 深拷贝：`a = copy.deepcopy(b)`，a和b指向不同的对象，修改a不会影响b，修改b不会影响a。
-    - 数组拷贝：`a = b[:]`，浅拷贝。
 
 4. 装饰器
 
