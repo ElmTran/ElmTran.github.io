@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Service and Internet of k8s"
-description: "Kubernetes Series: service and internet of k8s"
+title: "K8s-05: Service and Internet"
+description: "Kubernetes Series: service and internet"
 categories: [technology]
 tags: [kubernetes, docker, container, devops, k8s, Ingress, IPVS]
 redirect_from:
