@@ -3,7 +3,7 @@ layout: post
 title: "Expriences"
 description: "生活经验贴"
 categories: [Diary]
-tags: [Diary, Expriences]
+tags: [Diary, Expriences, resources]
 redirect_from:
   - /2023/08/05/
 ---
@@ -29,6 +29,8 @@ redirect_from:
 - [迅维网](https://www.chinafix.com/)
 
 - [情侣100事](https://cl8023.com/detailed?id=ycbqfOCLU)
+
+- [openfarm](https://openfarm.cc/)
 
 ## World Wide Web
 
@@ -153,6 +155,8 @@ redirect_from:
 - [Golang面试问题](https://mp.weixin.qq.com/s/bWfINnIyNq1fJCJEfKhn9Q)
 
 - [coding-interview-university](https://github.com/jwasham/coding-interview-university)
+
+- [对标](https://duibiao.info/)
 
 - 自由职业/副业
 

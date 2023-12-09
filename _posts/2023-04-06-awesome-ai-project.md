@@ -168,13 +168,17 @@ redirect_from:
 
   - [docsgpt](https://github.com/arc53/DocsGPT)
 
-## AI Models
+## LLM
 
   - [Alpaca-Model](https://www.getalpaca.io/)
 
   - [Vicuna-Model](https://huggingface.co/chavinlo/vicuna)
 
   - [Claude](https://www.anthropic.com/)
+
+  - [open-Llama](https://github.com/RapidAI/Open-Llama)
+
+  - [modihand](https://www.modihand.com/)
 
 ## AI检测
 
@@ -332,6 +336,7 @@ redirect_from:
 
   - [ai图片合成](https://www.artbreeder.com/)
 
+  - [draw-fast](https://github.com/tldraw/draw-fast)
 ## AI Tools
 
   - [FUTUREPEDIA-AI工具聚合](https://www.futurepedia.io/)
@@ -437,6 +442,14 @@ redirect_from:
   - [openai-forward](https://github.com/KenyonY/openai-forward)
 
   - [screen-to-code](https://github.com/abi/screenshot-to-code)
+
+  - [latex-ocr](https://github.com/lukas-blecher/LaTeX-OCR)
+
+  - [finchat-财报解析](https://finchat.io/)
+
+  - [beebee-财报解析](https://www.beebee.ai/)
+
+  - [ai选股](https://stockai.trade/)
 ## AI Video
 
   - [NUWA-Infinity](https://nuwa-infinity.microsoft.com)
@@ -548,6 +561,15 @@ redirect_from:
 
   - [whisper应用](https://zj1123581321.com/post/liao-liao-gao-jing-du-yin-shi-pin-zhuan-wen-zi-gong-zuo-liu/)
 
+  - [fast-whisper](https://github.com/Vaibhavs10/insanely-fast-whisper)
+
+  - [tts-online](https://www.ttson.cn/)
+
+  - [sts-bcut-语音转字幕](https://github.com/Forgot-Dream/STS-Bcut)
+
+  - [ttsmaker-文本转语音](https://ttsmaker.com/)
+
+  - [voicechatgpt](https://github.com/xy3xy3/VoiceChatgpt)
 ## AI 3D & Animation
 
   - [DreamFusion](https://dreamfusion3d.github.io/)
@@ -637,6 +659,8 @@ redirect_from:
   - [Pezzo-ai提示词管理](https://github.com/pezzolabs/pezzo)
 
   - [prompt模板](https://github.com/ProfSynapse/Synapse_CoR/blob/main/prompt.txt)
+
+  - [topgpts](https://www.topgpts.ai/)
 ## AI Websites
 
   - [AI论文速递](https://briefgpt.xyz/)

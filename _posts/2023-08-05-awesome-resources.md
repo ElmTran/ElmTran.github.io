@@ -3,12 +3,24 @@ layout: post
 title: "Awesome Resources"
 description: "Movies, music, books, and other resources"
 categories: [Diary]
-tags: [Diary, Resources]
+tags: [Diary, resources]
 redirect_from:
   - /2023/08/05/
 ---
 
 ## Moives
+
+- [lapanx](https://lzpanx.com/)
+
+- [bestsimilar](https://bestsimilar.com/)
+
+- [vk\/video](https://vk.com/video)
+
+- [mymovies](https://www.mymovies.it/)
+
+- [ipersphera](https://www.ipersphera.com/)
+
+- [ubuweb](https://ubu.com/)
 
 - [41T 4K 电影资源](https://www.aliyundrive.com/s/aEEGWV4hF33)
 
@@ -358,6 +370,11 @@ redirect_from:
 
 - [老男人游戏网](http://www.oldmanemu.net/)
 
+- [老游戏在线玩](https://zaixianwan.app/)
+
+- [小游戏平台](https://games.imc.re/)
+
+- [中国象棋](https://play.xiangqi.com/)
 ## Books
 
 - [Project Gutenberg](https://www.gutenberg.org/)
@@ -575,6 +592,7 @@ redirect_from:
 
 - [idm-active](https://github.com/lstprjct/IDM-Activation-Script)
 
+- [edu教育邮箱优惠](https://www.edumails.cn/edudajihe.html#xiao_lu_ban_gong_you_hui)
 ## Blogs/Websites
 
 - [kaito's blog](http://kaito-kidd.com/archives/)
@@ -664,3 +682,5 @@ redirect_from:
 - [List of Hypothetical Technologies](https://www.wikiwand.com/en/List_of_hypothetical_technologies)
 
 - [Opensource Hereos](https://opensource-heroes.com/)
+
+- [世界电影史](https://www.scaruffi.com/cinema/best100.html)

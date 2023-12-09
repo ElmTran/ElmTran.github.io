@@ -3,7 +3,7 @@ layout: post
 title: "Awesome Tools"
 description: "一些有用的链接"
 categories: [technology]
-tags: [learning, technology, tools]
+tags: [learning, technology, tools, resources]
 redirect_from:
   - /2022/09/03/
 ---
@@ -71,10 +71,6 @@ redirect_from:
 
 - [身份生成](http://www.haoweichi.com/)
 
-- [sts-bcut-语音转字幕](https://github.com/Forgot-Dream/STS-Bcut)
-
-- [ttsmaker-文本转语音](https://ttsmaker.com/)
-
 - [虚拟身份生成](https://www.verif.tools/en/?gn=PW3mnGJ6Fiot)
 
 - [peiseka](https://peiseka.com/)
@@ -111,6 +107,11 @@ redirect_from:
 
 - [字幕下载](https://github.com/ChineseSubFinder/ChineseSubFinder)
 
+- [信用卡生成](https://cardgener.com/)
+
+- [获取微信信息](https://github.com/xaoyaoo/PyWxDump)
+
+- [github-action-youtube-dl](https://github.com/justjavac/github-actions-youtube-dl)
 ### 文件
 
 - [TinyWow Tool](https://tinywow.com/)
@@ -191,6 +192,8 @@ redirect_from:
 - [cloudflare自建临时邮箱](https://github.com/dreamhunter2333/cloudflare_temp_email)
 
 - [gamil后缀临时邮箱](https://smailpro.com/advanced)
+
+- [gmailnator](https://www.emailnator.com/)
 
 ### 接码平台
 
@@ -371,6 +374,12 @@ redirect_from:
 - [WARP-CLASH-CONFIG](https://neko-warp.nloli.xyz/)
 
 - [tssh-ssh客户端](https://github.com/trzsz/trzsz-ssh)
+
+- [myip](https://github.com/jason5ng32/MyIP)
+
+- [image2text](https://github.com/warengonzaga/css-text-portrait-builder)
+
+- [ohttps](https://ohttps.com/)
 #### API
 
 - [少数派](https://sspai.com/post/67568)
