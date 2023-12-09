@@ -104,6 +104,229 @@ redirect_from:
     }
     ```
 
+## Map
+
+1. Map的数据结构：
+
+    ```go
+    type hmap struct {
+        count int
+        flags uint8
+        B     uint8
+        noverflow uint16
+        hash0 uint32
+        buckets unsafe.Pointer
+        oldbuckets unsafe.Pointer
+        nevacuate uintptr
+        extra *mapextra
+    }
+    ```
+
+2. go的map是使用哈希表实现的，并采用链表法解决哈希冲突。
+
+3. map的操作
+
+    - `make(map[keyType]valueType, cap)`：创建map。
+    - `map[key] = value`：添加元素。
+    - `delete(map, key)`：删除元素。
+    - `value, ok := map[key]` or `value = map[key]`：获取元素。
+    - `len(map)`：获取元素个数。
+
+4. map的遍历
+
+    ```go
+    func main() {
+        m := map[string]int{
+            "a": 1,
+            "b": 2,
+            "c": 3,
+        }
+        for k, v := range m {
+            fmt.Println(k, v)
+        }
+    }
+    ```
+
+5. map的key
+
+    - map的key必须支持`==`和`!=`操作。
+    - map的key不能是函数类型、map类型和切片类型。
+    - struct类型不包含上述字段，也可以作为key。
+    - 无序性：map的遍历顺序与添加顺序无关。
+
+6. 无法对map进行取址操作，因为map可能会进行扩容，导致地址发生变化。
+
+7. 比较两个map是否相等：
+
+    - map只能与nil比较。
+    - map不能使用`==`比较，只能遍历比较。
+
+    ```go
+    func main() {
+        m1 := map[string]int{
+            "a": 1,
+            "b": 2,
+            "c": 3,
+        }
+        m2 := map[string]int{
+            "a": 1,
+            "b": 2,
+            "c": 3,
+        }
+        fmt.Println(m1 == m2) // invalid operation: m1 == m2 (map can only be compared to nil)
+        fmt.Println(m1 == nil) // false
+        fmt.Println(m1Equal(m1, m2)) // true
+    }
+
+    func m1Equal(m1, m2 map[string]int) bool {
+        if len(m1) != len(m2) {
+            return false
+        }
+        for k, v := range m1 {
+            if v2, ok := m2[k]; !ok || v != v2 {
+                return false
+            }
+        }
+        return true
+    }
+    ```
+
+8. map不是线程安全的，如果需要并发读写，需要加锁。
+
+9. map的扩容条件：
+
+    - 装载因子超过阈值（6.5）
+    - overflow 的 bucket 数量过多
+    - 采用渐进式搬迁扩容策略。
+
+## 接口
+
+1. 值类型接收者会隐含地创建指针型接收者的方法。参考：[值接收者和指针接收者](https://golang.design/go-questions/interface/receiver/#%e5%80%bc%e6%8e%a5%e6%94%b6%e8%80%85%e5%92%8c%e6%8c%87%e9%92%88%e6%8e%a5%e6%94%b6%e8%80%85)
+    ```
+    type greeter interface {
+        greet()
+        farewell()
+    }
+
+    type english struct {
+    }
+
+    func (e english) greet() {
+        fmt.Println("Hello")
+    }
+
+    func (e *english) farewell() {
+        fmt.Println("Goodbye")
+    }
+
+    func main() {
+        var e greeter = &english{}
+        e.greet()
+        e.farewell()
+    }
+    ```
+    这里的`e`是一个指针，但是`e.greet()`是可以调用的，因为编译器会隐式地将`e.greet()`转换为`(*e).greet()`, 即由值类型的接收者为指针类型接收者创建了一个方法。相反如果`e`是一个值类型，那么`e.farewell()`就会报错，因为编译器不会隐式地将`e.farewell()`转换为`(&e).farewell()`。
+
+2. 接口的实现：
+
+    - 接口的实现是隐式的，只要实现了接口的方法，就实现了该接口。
+    - 接口的实现是`非侵入式`的，不需要在实现类中显式地声明实现了哪些接口。
+
+3. iface vs eface
+
+    - iface：定义了接口的类型，包含两个指针，一个指向类型的方法表，一个指向实际的数据。只有当接口存储的类型和对象都为nil时，接口才为nil。
+    - eface：空接口，包含两个指针，一个指向类型的类型信息，一个指向实际的数据。
+
+4. 检查T类型是否实现了某个接口：
+
+    ```go
+    var _ interface{} = (*T)(nil)
+    var _ interface{} = T{}
+    ```
+
+5. 断言
+
+    ```go
+    var i interface{} = "hello"
+    if s, ok := i.(string); ok {
+        fmt.Println(s)
+    }
+    ```
+
+6. 使用接口实现多态
+
+    ```go
+    type animal interface {
+        call()
+        grow()
+    }
+
+    type cat struct {
+        age int
+    }
+
+    func (c cat) call() {
+        println("miao")
+    }
+
+    func (c *cat) grow() {
+        c.age++
+    }
+
+    type dog struct {
+        age int
+    }
+
+    func (d dog) call() {
+        println("wang")
+    }
+
+    func (d *dog) grow() {
+        d.age += 2
+    }
+
+    func howl(a animal) {
+        a.call()
+    }
+
+    func grow(a animal) {
+        a.grow()
+    }
+
+    func main() {
+        c := cat{age: 1}
+        howl(&c)
+        grow(&c)
+        println(c.age)
+        d := dog{age: 2}
+        howl(&d)
+        grow(&d)
+        println(d.age)
+    }
+    ```
+## 内置函数
+
+1. `new`和`make`的区别：
+
+    - `new`用于值类型和用户定义的类型，如自定义结构体。
+    - `make`用于内置引用类型，如`map`、`slice`、`channel`。
+
+2. 常用的内置函数：
+
+    - `len`：返回长度。
+    - `cap`：返回容量。
+    - `append`：追加元素。
+    - `copy`：复制切片。
+    - `close`：关闭通道。
+    - `delete`：删除map中的元素。
+    - `new`：分配内存，返回指针。
+    - `make`：分配内存，返回引用类型。
+    - `panic`：停止常规的goroutine。
+    - `recover`：允许程序恢复goroutine。
+    - `reflect.TypeOf`：返回变量的实际类型。
+    - `reflect.ValueOf`：返回变量的实际值。
+    - `unsafe.Sizeof`：返回变量的字节大小。
+
 
 ## Reference
 
