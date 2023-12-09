@@ -701,3 +701,6 @@ redirect_from:
 
   - [OpenAI Embeddings](https://platform.openai.com/docs/guides/embeddings)
 
+  - [chatnio.net](https://docs.chatnio.net/)
+
+  - [dify.ai](https://github.com/langgenius/dify)
