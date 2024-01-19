@@ -132,7 +132,7 @@ redirect_from:
         - IP: 路由选择，寻址
         - DNS: 域名解析
 
-    3. http长连接：在一个TCP连接上可以传输多个HTTP请求和响应，减少建立和关闭连接的开销。
+    3. http长连接：在一个TCP连接上可以传输多个HTTP请求和响应，减少建立和关闭连接的开销。通过Connection: keep-alive实现。如何识别多个请求：Content-Length、Transfer-Encoding: chunked。与TCP Keep-Alive区别：TCP Keep-Alive是检测连接是否存活，http长连接是复用连接。
 
     4. http和https的区别
 
@@ -633,6 +633,12 @@ redirect_from:
     - 持续监控和优化：定期进行系统性能分析，持续优化系统配置和应用程序性能，以确保服务器资源得到合理利用。
 
 6. redis作用：缓存、会话存储、消息队列、存储需要快速访问的数据。
+
+7. Nginx作用：反向代理、负载均衡、静态资源处理、高可用、安全防护。
+
+8. 负载均衡算法：轮询、加权轮询、随机、加权随机、最少连接、加权最少连接、源地址哈希、URL哈希。
+
+9. Nginx负载均衡原理
 
 ## 系统设计
 
