@@ -10,17 +10,20 @@ redirect_from:
 
 ## Moives
 
+- [movie-web](https://movie-web.app/)
+
 - [lapanx](https://lzpanx.com/)
-
-- [bestsimilar](https://bestsimilar.com/)
-
-- [vk\/video](https://vk.com/video)
+- [vk-video](https://vk.com/video)
 
 - [mymovies](https://www.mymovies.it/)
 
 - [ipersphera](https://www.ipersphera.com/)
 
+- [rarbt](http://www.rarbt.fun/)
+
 - [ubuweb](https://ubu.com/)
+
+- [mini4k](https://www.mini4k.org/)
 
 - [41T 4K 电影资源](https://www.aliyundrive.com/s/aEEGWV4hF33)
 
@@ -89,6 +92,21 @@ redirect_from:
 - [kubespider-全局资源编排下载](https://github.com/opennaslab/kubespider)
 
 - [搜片](https://soupian.pro/)
+
+- [novipnoad](http://novipnoad.net/)
+
+- [libvio](http://libvio.la/)
+
+- [茶杯狐](https://cupfox.love/)
+
+- [ddys.pro](https://ddys.info/)
+
+- [voflix](http://voflix.me/)
+
+- [哔嘀影视](http://bdys10.com/)
+
+- []
+
 - alist
 
   - [小雅](http://alist.xiaoya.pro)
@@ -375,6 +393,19 @@ redirect_from:
 - [小游戏平台](https://games.imc.re/)
 
 - [中国象棋](https://play.xiangqi.com/)
+
+- [waves](https://sway.cloud.microsoft/HHSjaNhSbMuhNpTh)
+
+- [nostalgist](https://github.com/arianrhodsandlot/nostalgist)
+
+- [风灵月影管理器](https://github.com/dyang886/Game-Cheats-Manager)
+
+- [gamer520](https://www.gamer520.com/)
+
+- [shorttrip-网页小游戏](https://alexanderperrin.com.au/paper/shorttrip/)
+
+- [itch-游戏平台](https://itch.io/)
+
 ## Books
 
 - [Project Gutenberg](https://www.gutenberg.org/)
@@ -472,6 +503,12 @@ redirect_from:
 - [FreeMbook Search](https://freembook.com/)
 
 - [在线博物馆](https://gallerix.asia/)
+
+- [苦瓜书盘](https://www.kgbook.com/)
+
+- [liber3](https://liber3.eth.limo/)
+
+- [librum-开源电子书数据库](https://github.com/Librum-Reader/Librum)
 ## Software
 
 ### office
@@ -495,6 +532,8 @@ redirect_from:
 - [office-plus](https://www.officeplus.cn/Template/Home.shtml)
 
 - [sharekey](https://pkeytool.com/ShareKeys)
+
+- [重装系统](https://down.gxzyzd.com/list/resetcomputer)
 
 - 官方工具部署激活
 
@@ -593,6 +632,9 @@ redirect_from:
 - [idm-active](https://github.com/lstprjct/IDM-Activation-Script)
 
 - [edu教育邮箱优惠](https://www.edumails.cn/edudajihe.html#xiao_lu_ban_gong_you_hui)
+
+- [awesome-oss-alternatives](https://github.com/RunaCapital/awesome-oss-alternatives)
+
 ## Blogs/Websites
 
 - [kaito's blog](http://kaito-kidd.com/archives/)
@@ -684,3 +726,11 @@ redirect_from:
 - [Opensource Hereos](https://opensource-heroes.com/)
 
 - [世界电影史](https://www.scaruffi.com/cinema/best100.html)
+
+- [程序员应该访问的最佳网站中文版](https://github.com/tuteng/Best-websites-a-programmer-should-visit-zh)
+
+- [ubuweb-艺术作品库](https://ubu.com/)
+
+- [engineering-blogs](https://github.com/kilimchoi/engineering-blogs)
+
+- [redditlist](https://redditlist.com/)

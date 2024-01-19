@@ -168,6 +168,8 @@ redirect_from:
 
   - [docsgpt](https://github.com/arc53/DocsGPT)
 
+  - [qanything-文档问答](https://qanything.ai/#/)
+
 ## LLM
 
   - [Alpaca-Model](https://www.getalpaca.io/)
@@ -179,6 +181,8 @@ redirect_from:
   - [open-Llama](https://github.com/RapidAI/Open-Llama)
 
   - [modihand](https://www.modihand.com/)
+
+  - [Samantha-自主对话agent](https://github.com/BRlkl/AGI-Samantha)
 
 ## AI检测
 
@@ -225,6 +229,8 @@ redirect_from:
   - [spell-box](https://spellbox.app/)
 
   - [codegeex](https://codegeex.cn)
+
+  - [codegeex2](https://github.com/THUDM/CodeGeeX2)
 
 ## AI Design
 
@@ -337,6 +343,12 @@ redirect_from:
   - [ai图片合成](https://www.artbreeder.com/)
 
   - [draw-fast](https://github.com/tldraw/draw-fast)
+
+  - [Inpaint-iOS-图片修复](https://github.com/wudijimao/Inpaint-iOS)
+
+  - [photoshopAI插件](https://www.istarry.com.cn/)
+
+  - [inpaint-web-图片修复](https://github.com/lxfater/inpaint-web)
 ## AI Tools
 
   - [FUTUREPEDIA-AI工具聚合](https://www.futurepedia.io/)
@@ -450,6 +462,21 @@ redirect_from:
   - [beebee-财报解析](https://www.beebee.ai/)
 
   - [ai选股](https://stockai.trade/)
+
+  - [llama-shepherd-cli](https://github.com/mikepapadim/llama-shepherd-cli)
+
+  - [AI生成历史时间线](https://mylens.ai/)
+
+  - [coffee-加速ui开发](https://github.com/Coframe/coffee)
+
+  - [AI推理应用开发框架](https://github.com/modelbox-ai/modelbox)
+
+  - [roomgpt-ai室内设计](https://github.com/Nutlope/roomGPT)
+
+  - [codefuse-软件开发生命周期AI助手](https://github.com/codefuse-ai/codefuse-chatbot)
+
+  - [lobechat-高性能聊天机器人框架](https://github.com/lobehub/lobe-chat)
+
 ## AI Video
 
   - [NUWA-Infinity](https://nuwa-infinity.microsoft.com)
@@ -493,6 +520,11 @@ redirect_from:
   - [pyvideotrans](https://github.com/jianchang512/pyvideotrans)
 
   - [rask-ai-视频翻译](https://www.rask.ai/)
+
+  - [whisper-youtube](https://github.com/ArthurFDLR/whisper-youtube)
+
+  - [photo2anime](https://photo-to-anime.com/)
+
 ## AI Audio & Voice
 
   - [whisper-windows](https://github.com/Const-me/Whisper)
@@ -570,6 +602,22 @@ redirect_from:
   - [ttsmaker-文本转语音](https://ttsmaker.com/)
 
   - [voicechatgpt](https://github.com/xy3xy3/VoiceChatgpt)
+
+  - [insanely-fast-whisper](https://replicate.com/vaibhavs10/incredibly-fast-whisper)
+
+  - [subtitle2audio-ai念台词](https://github.com/bnsantoso/sub-to-audio)
+
+  - [fish-speech](https://github.com/fishaudio/fish-speech)
+
+  - [piper-txt2speech](https://github.com/rhasspy/piper)
+
+  - [voice-cv-声音克隆](https://github.com/jianchang512/clone-voice)
+
+  - [voiceStreamAI-流式转录](https://github.com/alesaccoia/VoiceStreamAI)
+
+  - [audiocut](https://audiocut.app/)
+
+  - [openvoice](https://research.myshell.ai/open-voice)
 ## AI 3D & Animation
 
   - [DreamFusion](https://dreamfusion3d.github.io/)
@@ -585,6 +633,8 @@ redirect_from:
   - [pika-ai生成电影](https://www.pika.art/)
 
   - [wav2lip-对口型](https://github.com/Rudrabha/Wav2Lip)
+
+  - [voodoo-表情动作复制](https://p0lyfish.github.io/voodoo3d/)
 
 ## Prompts and Guides
 
@@ -661,6 +711,11 @@ redirect_from:
   - [prompt模板](https://github.com/ProfSynapse/Synapse_CoR/blob/main/prompt.txt)
 
   - [topgpts](https://www.topgpts.ai/)
+
+  - [提示工程速查](https://hansimov.github.io/GPT-Sharing/prompts-cheat-sheet.html)
+
+  - [翻译润色prompt](https://anotherdayu.com/2023/5530/)
+
 ## AI Websites
 
   - [AI论文速递](https://briefgpt.xyz/)
@@ -695,6 +750,10 @@ redirect_from:
 
   - [GPT Best Practices](https://futureforce.feishu.cn/file/CMpdbLxAhon5K5x5C1OcciYwnOf)
 
+  - [langchain教程](https://www.langchain.com.cn/)
+
+  - [copilot教程](https://github.com/microsoft/Mastering-GitHub-Copilot-for-Paired-Programming)
+
 ## API
 
   - [OpenAI API](https://platform.openai.com/overview)
@@ -704,3 +763,9 @@ redirect_from:
   - [chatnio.net](https://docs.chatnio.net/)
 
   - [dify.ai](https://github.com/langgenius/dify)
+
+  - [AI Gateway](https://github.com/Portkey-AI/gateway)
+
+  - [copilot-gpt4-service](https://github.com/aaamoon/copilot-gpt4-service/blob/master/README_CN.md)
+
+  - [langrila-可读性高的gptapi架构](https://github.com/taikinman/langrila)

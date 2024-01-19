@@ -32,6 +32,10 @@ redirect_from:
 
 - [openfarm](https://openfarm.cc/)
 
+- [A Good Movie To Watch](https://agoodmovietowatch.com/)
+
+- [bestsimilar](https://bestsimilar.com/)
+
 ## World Wide Web
 
 - 旅行
@@ -219,6 +223,7 @@ redirect_from:
 - [choosebest](https://www.slant.co/)
 
 - [大麦网抢票辅助](https://github.com/RookieTree/DaMaiHelper)
+
 ### 虚拟服务
 
 - [在花商店](https://id.zaihuamall.com)

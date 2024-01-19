@@ -70,6 +70,10 @@ redirect_from:
 
 - [怎样学好构图](https://daily.zhihu.com/story/9741878)
 
+## 音乐创作
+
+- [音乐创作知识网站](https://learningmusic.ableton.com/zh-Hans/)
+
 ## 开发
 
 - architecture/principle/compliance
@@ -118,6 +122,8 @@ redirect_from:
 
   - [go中高并发下的通信方式：channel管道的底层原理](https://www.coonote.com/go-note/go-channel.html)
 
+  - [GolangStudy](https://github.com/cnymw/GolangStudy)
+
 - python
 
   - [extending-python-with-rust](https://maxwellrules.com/programming/rusty-python.html)
@@ -157,6 +163,8 @@ redirect_from:
 - docker
 
   - [getting-started-with-docker](https://dockerlabs.collabnix.com/)
+
+  - [docker-course](https://github.com/adrianhajdin/docker-course)
 
 - frontend
 
@@ -306,6 +314,8 @@ redirect_from:
 
 - [书格](https://new.shuge.org/)
 
+- [中国历史照片](https://hpcbristol.net/)
+
 ## 日语
 
   - [日语学习经验分享:轻松掌握日语的音调](https://zhuanlan.zhihu.com/p/85443664)
@@ -433,6 +443,12 @@ redirect_from:
 
 - [Search within YouTube subtitles](https://filmot.com/)
 
+- [AI指南-磨耳朵](https://www.aicompasspro.com/study)
+
+- [英语数字练习](https://microblock.cc/learn/number)
+
+- [英语磨耳朵听力练习](https://www.aicompasspro.com/study/listen)
+
 ### 口语
 
 - [todays phrase](https://www.bbc.co.uk/learningenglish/chinese/features/todays-phrase)
@@ -446,6 +462,12 @@ redirect_from:
 - [中国程序员容易发音错误的单词](https://github.com/shimohq/chinese-programmer-wrong-pronunciation)
 
 - [48个英语音标表：20个元音+28个辅音，学发音必备！](https://zhuanlan.zhihu.com/p/136840124)
+
+- [gliglish-AI口语](https://gliglish.com/)
+
+- [口语学习平台](https://speechling.com/)
+
+- [EngFluent](https://engfluent.com/blog/)
 
 ### 考试资料
 
@@ -483,8 +505,6 @@ redirect_from:
 
 - [Busuu-游戏学习英语](https://www.busuu.com/)
 
-- [口语学习平台](https://speechling.com/)
-
 - [背单词平台](https://www.memrise.com/)
 
 - [外教1对1](https://www.mondly.com/)
@@ -496,8 +516,6 @@ redirect_from:
 - [老烤鸭](http://www.laokaoya.com/)
 
 - [Lingoes-词典库](http://www.lingoes.cn/zh/dictionary/index.html)
-
-- [EngFluent](https://engfluent.com/blog/)
 
 - [trancy-沉浸式场景](https://learn.trancy.org/aitalk-center)
 
@@ -513,4 +531,6 @@ redirect_from:
 
 - [antimoon-英语学习指南](https://www.antimoon.com/)
 
-- [gliglish-AI口语](https://gliglish.com/)
+- [everyone-can-use-English](https://github.com/xiaolai/everyone-can-use-english)
+
+- [awesome-english-books](https://github.com/hehonghui/awesome-english-ebooks)

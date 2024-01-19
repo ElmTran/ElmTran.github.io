@@ -31,3 +31,9 @@ redirect_from:
 
     registry key: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\Dwm
     item: OverlayTestMode
+
+- wsl2无法访问windows代理网络
+
+    1. clash 需要设置允许局域网连接
+    2. 设置windows防火墙规则
+    3. 使用windows映射地址而不是localhost

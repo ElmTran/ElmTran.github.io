@@ -112,6 +112,15 @@ redirect_from:
 - [获取微信信息](https://github.com/xaoyaoo/PyWxDump)
 
 - [github-action-youtube-dl](https://github.com/justjavac/github-actions-youtube-dl)
+
+- [人声分离](https://github.com/jianchang512/vocal-separate)
+
+- [魔方求解器](https://rubiks-cube-solver.com/)
+
+- [vidhub](https://zh.okaapps.com/product/1659622164)
+
+- [新闻聚合](https://github.com/facundoolano/feedi)
+
 ### 文件
 
 - [TinyWow Tool](https://tinywow.com/)
@@ -309,6 +318,8 @@ redirect_from:
 
 - [beekeeperstudio-数据库管理](https://www.beekeeperstudio.io/)
 
+- [dataflare](https://dataflare.app/)
+
 - [plumbum-命令行工具](https://plumbum.readthedocs.io/en/latest/)
 
 - [Steganalysis-LSB-图片隐写](https://github.com/Icingworld/Steganalysis-LSB/)
@@ -380,6 +391,15 @@ redirect_from:
 - [image2text](https://github.com/warengonzaga/css-text-portrait-builder)
 
 - [ohttps](https://ohttps.com/)
+
+- [spin-复制生产环境](https://github.com/serversideup/spin)
+
+- [自签证书](https://selfcertificationhub.github.io/selfcertificationhub/generate)
+
+- [dev-raven-webhook转发工具](https://github.com/iyjian/dev-raven)
+
+- [ToolsBox-webhook](https://hook.tltr.top/)
+
 #### API
 
 - [少数派](https://sspai.com/post/67568)
@@ -467,6 +487,7 @@ redirect_from:
 - [thecompaniesapi-公司信息](https://www.thecompaniesapi.com/)
 
 - [public-apis](https://github.com/public-apis/public-apis)
+
 #### 短网址
 
 - [免费短网址生成器](http://suo.nz/)
@@ -574,6 +595,10 @@ redirect_from:
 - [iconbuddy](https://iconbuddy.app/)
 
 - [design-resources-for-developers](https://github.com/bradtraversy/design-resources-for-developers)
+
+- [带动效的图标](https://www.mingcute.com/animation)
+
+- [triangel-design](https://sinqi.tools/triangle)
 
 ## 搜索引擎
 
