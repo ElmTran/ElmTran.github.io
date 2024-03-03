@@ -9,15 +9,16 @@ redirect_from:
 ---
 
 ## 工具
+
 ### 通用
 
 - [Jpeg.io \| Convert any major image format into a highly optimized JPEG](https://www.jpeg.io/)
 
-- [在线图片压缩_视频转GIF软件_GIF裁剪合成工具-图贴士](https://www.tutieshi.com/)
+- [在线图片压缩\_视频转 GIF 软件\_GIF 裁剪合成工具-图贴士](https://www.tutieshi.com/)
 
-- [在线图片压缩工具(jpg、jpeg、png、gif)无损压缩90%-压缩图](https://www.yasuotu.com/)
+- [在线图片压缩工具(jpg、jpeg、png、gif)无损压缩 90%-压缩图](https://www.yasuotu.com/)
 
-- [图片压缩_图片在线压缩_批量压缩工具-NiaoAPI](http://www.niaoapi.com/)
+- [图片压缩*图片在线压缩*批量压缩工具-NiaoAPI](http://www.niaoapi.com/)
 
 - [无需上传文件也可在线处理图片](https://imagestool.com/zh_CN/)
 
@@ -35,7 +36,7 @@ redirect_from:
 
 - [压力巨大-图片压缩](https://www.yalijuda.com/)
 
-- [OCR识别](https://pearocr.com/)
+- [OCR 识别](https://pearocr.com/)
 
 - [智影](https://zenvideo.qq.com/)
 
@@ -51,7 +52,7 @@ redirect_from:
 
 - [VideoFK-下载视频工具](https://www.videofk.com/zh-CN/online-video-download)
 
-- [auphonic-ai处理音频](https://auphonic.com/)
+- [auphonic-ai 处理音频](https://auphonic.com/)
 
 - [moises-音频在线处理](https://auphonic.com/)
 
@@ -83,7 +84,7 @@ redirect_from:
 
 - [bulk-crap-uninstaller-软件卸载](https://www.bcuninstaller.com/)
 
-- [p2p传输会议](https://github.com/tl-open-source/tl-rtc-file)
+- [p2p 传输会议](https://github.com/tl-open-source/tl-rtc-file)
 
 - [Filmot - 字幕和视频元数据搜索引擎 Youtube 字幕](https://filmot.com/)
 
@@ -121,7 +122,13 @@ redirect_from:
 
 - [新闻聚合](https://github.com/facundoolano/feedi)
 
-### 文件
+- [jump-cutter](https://github.com/WofWca/jumpcutter)
+
+- [映画的图床](https://imgs.top/user/dashboard)
+
+- [万物可对比](https://versus.com/cn)
+
+### 办公文件
 
 - [TinyWow Tool](https://tinywow.com/)
 
@@ -143,7 +150,7 @@ redirect_from:
 
 - [google-translate-pdf](https://translate.google.com/?sl=auto&tl=zh-CN&op=docs)
 
-### 云存储
+### 云存储和局域网传输
 
 - [Userscloud](https://userscloud.com/)
 
@@ -173,7 +180,10 @@ redirect_from:
 
 - [Tahoe](https://www.tahoe-lafs.org/trac/tahoe-lafs)
 
-- [koofr-支持onedrive，google，webdav](https://app.koofr.net/)
+- [koofr-支持 onedrive，google，webdav](https://app.koofr.net/)
+
+- [云鸽](https://yunge.in/)
+
 ### 临时邮箱
 
 - [https://maildrop.cc/](https://maildrop.cc/)
@@ -198,9 +208,9 @@ redirect_from:
 
 - [addy](https://addy.io/)
 
-- [cloudflare自建临时邮箱](https://github.com/dreamhunter2333/cloudflare_temp_email)
+- [cloudflare 自建临时邮箱](https://github.com/dreamhunter2333/cloudflare_temp_email)
 
-- [gamil后缀临时邮箱](https://smailpro.com/advanced)
+- [gamil 后缀临时邮箱](https://smailpro.com/advanced)
 
 - [gmailnator](https://www.emailnator.com/)
 
@@ -236,7 +246,7 @@ redirect_from:
 
 - [正则大全](https://any-rule.vercel.app/)
 
-- [AyugeSpiderTools-Scrapy扩展库](https://ayugespidertools.readthedocs.io/en/latest/)
+- [AyugeSpiderTools-Scrapy 扩展库](https://ayugespidertools.readthedocs.io/en/latest/)
 
 - [PyGWalker-数据分析可视化库](https://github.com/Kanaries/pygwalker)
 
@@ -248,9 +258,9 @@ redirect_from:
 
 - [rustdesk-远程控制](https://rustdesk.com/zh/)
 
-- [helix-新vim](https://helix-editor.com/)
+- [helix-新 vim](https://helix-editor.com/)
 
-- [valtown-云lambda函数](https://www.val.town/)
+- [valtown-云 lambda 函数](https://www.val.town/)
 
 - [markflow-提取前端元素](https://chrome.google.com/webstore/detail/markflow-copy-elements-to/djpkcdeoondbcapcllgahjhaghplfcno/related)
 
@@ -264,7 +274,7 @@ redirect_from:
 
 - [唇记-语音交互编辑器](https://github.com/ZhichuCen/ChunJi)
 
-- [Powershell模块](https://github.com/farag2/Sophia-Script-for-Windows)
+- [Powershell 模块](https://github.com/farag2/Sophia-Script-for-Windows)
 
 - [SmsForwarder 短信转发](https://github.com/pppscn/SmsForwarder)
 
@@ -273,8 +283,6 @@ redirect_from:
 - [域名检查](https://user.urlzt.com/comdet)
 
 - [查找全网用户名](https://www.handlefinder.com/)
-
-- [UIverse-前端ui库](https://uiverse.io/)
 
 - [json to go](https://mholt.github.io/json-to-go/)
 
@@ -306,15 +314,15 @@ redirect_from:
 
 - [mono-域名比价](https://mono.domains/)
 
-- [progress-up-带进度的多文件上传js库](https://progress-up.live/)
+- [progress-up-带进度的多文件上传 js 库](https://progress-up.live/)
 
 - [sql-indexing-and-tuning-ebook](https://use-the-index-luke.com/)
 
-- [herowand-可视化json编辑器](https://editor.herowand.com/)
+- [herowand-可视化 json 编辑器](https://editor.herowand.com/)
 
 - [json-visio](https://jsoncrack.com/editor)
 
-- [ricocc-在线todo](https://www.ricocc.com/todo/)
+- [ricocc-在线 todo](https://www.ricocc.com/todo/)
 
 - [beekeeperstudio-数据库管理](https://www.beekeeperstudio.io/)
 
@@ -326,7 +334,7 @@ redirect_from:
 
 - [ImageKit-cdn-图片和视频优化](https://imagekit.io/)
 
-- [建木-低代码devops](https://gitee.com/jianmu-dev/jianmu)
+- [建木-低代码 devops](https://gitee.com/jianmu-dev/jianmu)
 
 - [gitstars](https://github.com/cfour-hi/gitstars)
 
@@ -334,11 +342,11 @@ redirect_from:
 
 - [1panel-运维面板](https://github.com/1Panel-dev/1Panel)
 
-- [nebula虚拟组网](https://github.com/slackhq/nebula)
+- [nebula 虚拟组网](https://github.com/slackhq/nebula)
 
 - [zerotier](https://www.zerotier.com/)
 
-- [IP地址查询](https://myip.cx/?tdsourcetag=s_pctim_aiomsg)
+- [IP 地址查询](https://myip.cx/?tdsourcetag=s_pctim_aiomsg)
 
 - [代理订阅转换工具](https://sub.tronet.cloud/)
 
@@ -354,17 +362,17 @@ redirect_from:
 
 - [坏链检测](https://github.com/lycheeverse/lychee)
 
-- [使用cloudflare搭建免费代理](https://neko-warp.nloli.xyz/)
+- [使用 cloudflare 搭建免费代理](https://neko-warp.nloli.xyz/)
 
 - [KeymouseGo-类似按键精灵](https://github.com/taojy123/KeymouseGo)
 
-- [ahkUnwrapped-封装ahk的python脚本](https://github.com/CodeOptimist/ahkunwrapped)
+- [ahkUnwrapped-封装 ahk 的 python 脚本](https://github.com/CodeOptimist/ahkunwrapped)
 
 - [ASCII Tree](https://tree.nathanfriend.io/)
 
 - [accesskey-运维工具](https://github.com/kohlersbtuh15/accesskey_tools)
 
-- [clink-cmd增强工具](https://chrisant996.github.io/clink/)
+- [clink-cmd 增强工具](https://chrisant996.github.io/clink/)
 
 - [tabserve-反向代理本地电脑](https://tabserve.dev/)
 
@@ -374,7 +382,7 @@ redirect_from:
 
 - [cloudflare-验证](https://blog.cloudflare.com/turnstile-ga/)
 
-- [Jsonhero-查找json字段](https://jsonhero.io/)
+- [Jsonhero-查找 json 字段](https://jsonhero.io/)
 
 - [zbpack-自动打包](https://github.com/zeabur/zbpack)
 
@@ -384,7 +392,7 @@ redirect_from:
 
 - [WARP-CLASH-CONFIG](https://neko-warp.nloli.xyz/)
 
-- [tssh-ssh客户端](https://github.com/trzsz/trzsz-ssh)
+- [tssh-ssh 客户端](https://github.com/trzsz/trzsz-ssh)
 
 - [myip](https://github.com/jason5ng32/MyIP)
 
@@ -396,57 +404,72 @@ redirect_from:
 
 - [自签证书](https://selfcertificationhub.github.io/selfcertificationhub/generate)
 
-- [dev-raven-webhook转发工具](https://github.com/iyjian/dev-raven)
+- [dev-raven-webhook 转发工具](https://github.com/iyjian/dev-raven)
 
 - [ToolsBox-webhook](https://hook.tltr.top/)
+
+- [homeinfra-devops 工具](https://homeinfra.org/)
+
+- [rust-command-line-utilities](https://github.com/sts10/rust-command-line-utilities)
+
+- [anytext](https://anytxt.net/download/)
+#### Frameworks
+
+- [utilmeta-python api](https://github.com/utilmeta/utilmeta-py)
+
+#### Frontend UI
+
+- [UIverse-前端 ui 库](https://uiverse.io/)
+
+- [shadcn-ui](https://ui.shadcn.com/)
 
 #### API
 
 - [少数派](https://sspai.com/post/67568)
 
-- [天气API接口文档 · 免费天气api接口 · 看云](https://www.kancloud.cn/ccjin/yingq/603579)
+- [天气 API 接口文档 · 免费天气 api 接口 · 看云](https://www.kancloud.cn/ccjin/yingq/603579)
 
-- [JSON API免费接口-BeJSON.com](https://www.bejson.com/knownjson/webInterface/)
+- [JSON API 免费接口-BeJSON.com](https://www.bejson.com/knownjson/webInterface/)
 
-- [免费API接口汇总](https://segmentfault.com/a/1190000017047048)
+- [免费 API 接口汇总](https://segmentfault.com/a/1190000017047048)
 
-- [免费第三方API平台整合 - 小莹莹](https://www.cnblogs.com/liuying1995/p/6723185.html)
+- [免费第三方 API 平台整合 - 小莹莹](https://www.cnblogs.com/liuying1995/p/6723185.html)
 
-- [分享一些开放的免费的API接口](https://blog.csdn.net/huxinrun/article/details/84788763)
+- [分享一些开放的免费的 API 接口](https://blog.csdn.net/huxinrun/article/details/84788763)
 
-- [各大平台的免费api接口](https://blog.csdn.net/qq_36570464/article/details/82561056)
+- [各大平台的免费 api 接口](https://blog.csdn.net/qq_36570464/article/details/82561056)
 
-- [收集的免费API接口](https://www.cnblogs.com/chen0307/p/9634848.html)
+- [收集的免费 API 接口](https://www.cnblogs.com/chen0307/p/9634848.html)
 
-- [免费实用的API接口](https://www.jianshu.com/p/12c2fb8cab66)
+- [免费实用的 API 接口](https://www.jianshu.com/p/12c2fb8cab66)
 
-- [以前整理的网络上免费API接口 - annie123](https://www.cnblogs.com/annie00/p/5852873.html)
+- [以前整理的网络上免费 API 接口 - annie123](https://www.cnblogs.com/annie00/p/5852873.html)
 
-- [免费开放API接口_瞳話cium的博客](https://blog.csdn.net/weixin_42330073/article/details/86541973)
+- [免费开放 API 接口\_瞳話 cium 的博客](https://blog.csdn.net/weixin_42330073/article/details/86541973)
 
-- [整理搜集免费的API接口网址_冰雪为融的博客](https://blog.csdn.net/lhjuejiang/article/details/80684366)
+- [整理搜集免费的 API 接口网址\_冰雪为融的博客](https://blog.csdn.net/lhjuejiang/article/details/80684366)
 
-- [API Store - 创信API数据接口调用服务平台](https://apis.jxcxin.cn/)
+- [API Store - 创信 API 数据接口调用服务平台](https://apis.jxcxin.cn/)
 
 - [Ten▪️Api](https://tenapi.cn/)
 
-- [接口大全-免费API,收集所有免费的API](https://www.free-api.com/)
+- [接口大全-免费 API,收集所有免费的 API](https://www.free-api.com/)
 
-- [fangzesheng/free-api: 收集免费的接口服务,做一个api的搬运工](https://github.com/fangzesheng/free-api)
+- [fangzesheng/free-api: 收集免费的接口服务,做一个 api 的搬运工](https://github.com/fangzesheng/free-api)
 
 - [Universal Micro Services \| M3Oa](https://www.m3o.com/)
 
-- [Api列表 穆仙念，人到中年](https://www.mxnzp.com/doc/list)
+- [Api 列表 穆仙念，人到中年](https://www.mxnzp.com/doc/list)
 
-- [抖音快手小红书去水印解析API接口-小凡科技公共API系统](http://api.xiaofany.com/)
+- [抖音快手小红书去水印解析 API 接口-小凡科技公共 API 系统](http://api.xiaofany.com/)
 
-- [简介 - 小凡科技公共API系统 - 易文档](https://easydoc.net/doc/92263726/9lAvlou2/4GP6sMIO)
+- [简介 - 小凡科技公共 API 系统 - 易文档](https://easydoc.net/doc/92263726/9lAvlou2/4GP6sMIO)
 
-- [接口大全-免费API,收集所有免费的API](https://www.free-api.com/)
+- [接口大全-免费 API,收集所有免费的 API](https://www.free-api.com/)
 
-- [API Shop，专业的数据交易平台 \| API免费调用，行业数据下载，数据定制](https://www.apishop.net/#/)
+- [API Shop，专业的数据交易平台 \| API 免费调用，行业数据下载，数据定制](https://www.apishop.net/#/)
 
-- [万维易源-互联网API入口](https://www.showapi.com/apiShow/apiMap)
+- [万维易源-互联网 API 入口](https://www.showapi.com/apiShow/apiMap)
 
 - [company apis](https://www.thecompaniesapi.com/)
 
@@ -472,7 +495,7 @@ redirect_from:
 
 - [json2form](https://github.com/xaboy/form-create)
 
-- [公告API排名](https://apirank.dev/)
+- [公告 API 排名](https://apirank.dev/)
 
 - [Nango-oauth](https://github.com/NangoHQ/nango)
 
@@ -482,7 +505,7 @@ redirect_from:
 
 - [supabase-开源服务](https://supabase.com/)
 
-- [apivault-最大的api库](https://apivault.dev/)
+- [apivault-最大的 api 库](https://apivault.dev/)
 
 - [thecompaniesapi-公司信息](https://www.thecompaniesapi.com/)
 
@@ -492,15 +515,15 @@ redirect_from:
 
 - [免费短网址生成器](http://suo.nz/)
 
-- [EPS短网址](https://anran.gs/T/dwz/)
+- [EPS 短网址](https://anran.gs/T/dwz/)
 
 - [百度短网址](https://dwz.cn/)
 
 - [新浪短网址](https://sina.lt/)
 
-- [腾讯百度新浪短网址的API](https://www.xiaodao0.com/i-wz-31188834.html)
+- [腾讯百度新浪短网址的 API](https://www.xiaodao0.com/i-wz-31188834.html)
 
-- [emoji短网址](https://e.mezw.com/)
+- [emoji 短网址](https://e.mezw.com/)
 
 - [colors.to Link Shortener](https://colors.to/)
 
@@ -508,9 +531,9 @@ redirect_from:
 
 - [知链短链](https://zhiurl.cn/)
 
-- [mtw网址缩短转换服务](http://mtw.so/)
+- [mtw 网址缩短转换服务](http://mtw.so/)
 
-- [020短链](https://020.name/)
+- [020 短链](https://020.name/)
 
 - [短网址](https://sina.lt/)
 
@@ -532,23 +555,23 @@ redirect_from:
 
 ## 设计/创意
 
-- [在线免费制作Logo，定制专属于你的Logo设计 – DesignEvo](https://www.designevo.com/cn/)
+- [在线免费制作 Logo，定制专属于你的 Logo 设计 – DesignEvo](https://www.designevo.com/cn/)
 
-- [LOGO设计神器；公司logo在线设计生成器 - 标小智LOGO神器](https://www.logosc.cn/)
+- [LOGO 设计神器；公司 logo 在线设计生成器 - 标小智 LOGO 神器](https://www.logosc.cn/)
 
-- [YEELOGO_logo在线制作](http://www.yeelogo.com/#/)
+- [YEELOGO_logo 在线制作](http://www.yeelogo.com/#/)
 
-- [logo在线设计生成器-logo免费设计在线制作-商标logo一键生成-图司机](https://www.tusij.com/logo/)
+- [logo 在线设计生成器-logo 免费设计在线制作-商标 logo 一键生成-图司机](https://www.tusij.com/logo/)
 
-- [logo在线设计生成器 - 几秒钟内在线制作logo - Shopify Hatchful](https://www.shopify.com/zh/tools/logo-maker)
+- [logo 在线设计生成器 - 几秒钟内在线制作 logo - Shopify Hatchful](https://www.shopify.com/zh/tools/logo-maker)
 
 - [巨量创意](https://cc.oceanengine.com/)
 
-- [图虫创意-全球领先正版素材库-Adobe Stock中国区战略合作伙伴](https://stock.tuchong.com/video)
+- [图虫创意-全球领先正版素材库-Adobe Stock 中国区战略合作伙伴](https://stock.tuchong.com/video)
 
 - [Picular](https://picular.co/)
 
-- [Boss设计 \| 收集国外设计素材网站的资源平台。](https://www.bossdesign.cn/)
+- [Boss 设计 \| 收集国外设计素材网站的资源平台。](https://www.bossdesign.cn/)
 
 - [ContentIdeas: Find Unlimited Content Ideas From the Web ](https://contentideas.io/)
 
@@ -638,7 +661,7 @@ redirect_from:
 
 - [perplexity](www.perplexity.ai)
 
-- [linux命令搜索](https://wangchujiang.com/linux-command/)
+- [linux 命令搜索](https://wangchujiang.com/linux-command/)
 
 - [quickref](https://quickref.me/)
 

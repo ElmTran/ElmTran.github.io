@@ -8,764 +8,796 @@ redirect_from:
   - /2023/04/06/
 ---
 
-## AI Text
+## Chat & Writing
 
-  - [hugging face](https://huggingface.co/)
+- [AI 写作-RWKV 模型](https://www.tuio.cc/d/92)
 
-  - [AI写作-RWKV模型](https://www.tuio.cc/d/92)
+- [generate music from text](https://google-research.github.io/seanet/musiclm/examples/)
 
-  - [generate music from text](https://google-research.github.io/seanet/musiclm/examples/)
+- [gptdemo](https://gpt3demo.com/)
 
-  - [gptdemo](https://gpt3demo.com/)
+- [emailhelper](https://email-helper.vercel.app/)
 
-  - [emailhelper](https://email-helper.vercel.app/)
+- [openaibot](https://github.com/LlmKira/Openaibot)
 
-  - [openaibot](https://github.com/LlmKira/Openaibot)
+- [perplexity-ai 问答](https://www.perplexity.ai/)
 
-  - [perplexity-ai问答](https://www.perplexity.ai/)
+- [chatgpt api](https://api.aa1.cn/special/chatgpt)
 
-  - [chatgpt api](https://api.aa1.cn/special/chatgpt)
+- [ai 分析论文](https://app.humata.ai/)
 
-  - [ai分析论文](https://app.humata.ai/)
+- [ai 提取书籍和视频摘要](https://tosummary.com/)
 
-  - [ai提取书籍和视频摘要](https://tosummary.com/)
+- [bearly-ai 阅读](https://bearly.ai/)
 
-  - [bearly-ai阅读](https://bearly.ai/)
+- [自托管 ChatGPTweb](https://github.com/869413421/chatgpt-web)
 
-  - [自托管ChatGPTweb](https://github.com/869413421/chatgpt-web)
+- [自托管 ChatGPT 应用](https://github.com/bitswired/ai-chat-app)
 
-  - [自托管ChatGPT应用](https://github.com/bitswired/ai-chat-app)
+- [ChatGPT-Next-Web-快速部署](https://github.com/Yidadaa/ChatGPT-Next-Web)
 
-  - [ChatGPT-Next-Web-快速部署](https://github.com/Yidadaa/ChatGPT-Next-Web)
+- [chatpdf](https://www.chatpdf.com/)
 
-  - [chatpdf](https://www.chatpdf.com/)
+- [catgpt-ai 翻译和润色](https://ai.okmiku.com/translate)
 
-  - [catgpt-ai翻译和润色](https://ai.okmiku.com/translate)
+- [chatgpt-telegram-bot - 无需服务器版本](https://github.com/TBXark/ChatGPT-Telegram-Workers)
 
-  - [chatgpt-telegram-bot - 无需服务器版本](https://github.com/TBXark/ChatGPT-Telegram-Workers)
+- [Talk to AI characters](https://inworld.ai/arcade)
 
-  - [Talk to AI characters](https://inworld.ai/arcade)
+- [ai chat for your documents](https://www.askcorpora.com/)
 
-  - [ai chat for your documents](https://www.askcorpora.com/)
+- [researchchat](https://github.com/mukulpatnaik/researchgpt)
 
-  - [researchchat](https://github.com/mukulpatnaik/researchgpt)
+- [paper digest-ai 论文摘要](https://www.paper-digest.com/)
 
-  - [paper digest-ai论文摘要](https://www.paper-digest.com/)
+- [researchrabbit-论文图谱关系](https://www.researchrabbit.ai/)
 
-  - [researchrabbit-论文图谱关系](https://www.researchrabbit.ai/)
+- [visual-chatgpt-可交互图像](https://github.com/microsoft/visual-chatgpt)
 
-  - [visual-chatgpt-可交互图像](https://github.com/microsoft/visual-chatgpt)
+- [luciaai-ai 写作平台](https://luciaai.com/)
 
-  - [luciaai-ai写作平台](https://luciaai.com/)
+- [GPT-NeoXT-Chat-Base-20B-开源 LLM](https://huggingface.co/togethercomputer/GPT-NeoXT-Chat-Base-20B)
 
-  - [GPT-NeoXT-Chat-Base-20B-开源LLM](https://huggingface.co/togethercomputer/GPT-NeoXT-Chat-Base-20B)
+- [paper qa](https://github.com/whitead/paper-qa)
 
-  - [paper qa](https://github.com/whitead/paper-qa)
+- [chatmind](https://www.chatmind.tech/)
 
-  - [chatmind](https://www.chatmind.tech/)
+- [chat chat-支持聊天和 pdf 分析等](https://chat.okis.dev/)
 
-  - [chat chat-支持聊天和pdf分析等](https://chat.okis.dev/)
+- [chatdoc-与文档交互](https://chatdoc.com/)
 
-  - [chatdoc-与文档交互](https://chatdoc.com/)
+- [参考亿下-生成参考文献](https://ref.article.cool/)
 
-  - [参考亿下-生成参考文献](https://ref.article.cool/)
+- [alpaca-斯坦福开源 ai 模型](https://github.com/antimatter15/alpaca.cpp)
 
-  - [alpaca-斯坦福开源ai模型](https://github.com/antimatter15/alpaca.cpp)
+- [chatbox-openai 跨平台桌面客户端](https://github.com/Bin-Huang/chatbox)
 
-  - [chatbox-openai跨平台桌面客户端](https://github.com/Bin-Huang/chatbox)
+- [chaty-chatgpt 命令行](https://github.com/cosin2077/chaty)
 
-  - [chaty-chatgpt命令行](https://github.com/cosin2077/chaty)
+- [chatgpt 学习宝典](https://gpt.candobear.com/)
 
-  - [chatgpt学习宝典](https://gpt.candobear.com/)
+- [jenni.ai-ai 写作](https://jenni.ai/)
 
-  - [jenni.ai-ai写作](https://jenni.ai/)
+- [chatGPT Sidebar](https://chrome.google.com/webstore/detail/chatgpt-sidebar-support-g/difoiogjjojoaoomphldepapgpbgkhkb)
 
-  - [chatGPT Sidebar](https://chrome.google.com/webstore/detail/chatgpt-sidebar-support-g/difoiogjjojoaoomphldepapgpbgkhkb)
+- [gpt4-pdf-chatbot-langchain](https://github.com/mayooear/gpt4-pdf-chatbot-langchain)
 
-  - [gpt4-pdf-chatbot-langchain](https://github.com/mayooear/gpt4-pdf-chatbot-langchain)
+- [chatgpt-academic-中科院学术优化](https://github.com/binary-husky/chatgpt_academic)
 
-  - [chatgpt-academic-中科院学术优化](https://github.com/binary-husky/chatgpt_academic)
+- [Neural.love](https://neural.love/)
 
-  - [Neural.love](https://neural.love/)
+- [GPT-3 x Image Captions](https://www.auxiliary.tools)
 
-  - [GPT-3 x Image Captions](https://www.auxiliary.tools)
+- [speech from brain(metaAI)](https://ai.facebook.com/blog/ai-speech-brain-activity/)
 
-  - [speech from brain(metaAI)](https://ai.facebook.com/blog/ai-speech-brain-activity/)
+- [Non-invasive brain recordings](https://www.biorxiv.org/content/10.1101/2022.09.29.509744v1)
 
-  - [Non-invasive brain recordings](https://www.biorxiv.org/content/10.1101/2022.09.29.509744v1)
+- [NotionAI](https://www.notion.so/product/ai)
 
-  - [NotionAI](https://www.notion.so/product/ai)
+- [字幕脱水](https://github.com/xuncv/ChatSubtitle)
 
-  - [字幕脱水](https://github.com/xuncv/ChatSubtitle)
+- [Docu-talk](https://docu-talk.com/)
 
-  - [Docu-talk](https://docu-talk.com/)
+- [Bookai-chat](https://www.bookai.chat/)
 
-  - [Bookai-chat](https://www.bookai.chat/)
+- [Chat with Large Language Models](https://chat.lmsys.org/)
 
-  - [Chat with Large Language Models](https://chat.lmsys.org/)
+- [yakGPT-支持语音](https://github.com/yakGPT/yakGPT)
 
-  - [yakGPT-支持语音](https://github.com/yakGPT/yakGPT)
+- [vercel ai playground](https://play.vercel.ai/)
 
-  - [vercel ai playground](https://play.vercel.ai/)
+- [polyglot](https://github.com/liou666/polyglot)
 
-  - [polyglot](https://github.com/liou666/polyglot)
+- [webcopilot-writing](https://www.webcopilot.ai/)
 
-  - [webcopilot-writing](https://www.webcopilot.ai/)
+- [eloise-writing](https://eloise.ai/)
 
-  - [eloise-writing](https://eloise.ai/)
+- [giiso-writing](https://www.giiso.com/#/)
 
-  - [giiso-writing](https://www.giiso.com/#/)
+- [nichesss-writing](https://nichesss.com/)
 
-  - [nichesss-writing](https://nichesss.com/)
+- [heyfriday-writing](https://www.heyfriday.cn/home)
 
-  - [heyfriday-writing](https://www.heyfriday.cn/home)
+- [huggingchat](https://huggingface.co/chat/)
 
-  - [huggingchat](https://huggingface.co/chat/)
+- [microsoft-grammar-check](https://www.microsoft.com/zh-cn/microsoft-365/microsoft-editor/grammar-checker)
 
-  - [microsoft-grammar-check](https://www.microsoft.com/zh-cn/microsoft-365/microsoft-editor/grammar-checker)
+- [ask-anything](https://github.com/OpenGVLab/Ask-Anything)
 
-  - [ask-anything](https://github.com/OpenGVLab/Ask-Anything)
+- [Pi-持续聊天帮助英语学习](https://heypi.com/talk)
 
-  - [Pi-持续聊天帮助英语学习](https://heypi.com/talk)
+- [gpt4free](https://github.com/xtekky/gpt4free)
 
-  - [gpt4free](https://github.com/xtekky/gpt4free)
+- [freegpt-webui](https://github.com/ramonvc/freegpt-webui)
 
-  - [freegpt-webui](https://github.com/ramonvc/freegpt-webui)
+- [subtxt](https://subtxt.app/)
 
-  - [subtxt](https://subtxt.app/)
+- [quickai](https://github.com/FISHers6/QuickAI)
 
-  - [quickai](https://github.com/FISHers6/QuickAI)
+- [v2sub-ai_subtitle](http://www.aizimuji.com/)
 
-  - [v2sub-ai_subtitle](http://www.aizimuji.com/)
+- [trinka-ai_writer](https://www.trinka.ai/)
 
-  - [trinka-ai_writer](https://www.trinka.ai/)
+- [writely-ai_write](https://github.com/anc95/writely)
 
-  - [writely-ai_write](https://github.com/anc95/writely)
+- [quillbot-ai 转写](https://quillbot.com/)
 
-  - [quillbot-ai转写](https://quillbot.com/)
+- [writinggo-火山写作](https://www.writingo.net/)
 
-  - [writinggo-火山写作](https://www.writingo.net/)
+- [helpgpt-基于文档](https://www.helpgpt.ai/)
 
-  - [helpgpt-基于文档](https://www.helpgpt.ai/)
+- [magicpen-书籍总结](https://magickpen.com/zh/templates/76/)
 
-  - [magicpen-书籍总结](https://magickpen.com/zh/templates/76/)
+- [chat2doc](https://chat2doc.cn/)
 
-  - [chat2doc](https://chat2doc.cn/)
+- [爱校对](https://www.ijiaodui.com/workbench)
 
-  - [爱校对](https://www.ijiaodui.com/workbench)
+- [reviewGPT](https://reviewgpt.net/)
 
-  - [reviewGPT](https://reviewgpt.net/)
+- [easychat-gpt4](https://site.easychat.work/)
 
-  - [easychat-gpt4](https://site.easychat.work/)
+- [awesome-free-chatgpt-镜像站](https://github.com/LiLittleCat/awesome-free-chatgpt)
 
-  - [awesome-free-chatgpt-镜像站](https://github.com/LiLittleCat/awesome-free-chatgpt)
+- [storyteller](https://github.com/jaketae/storyteller)
 
-  - [storyteller](https://github.com/jaketae/storyteller)
+- [magickpen](https://magickpen.com/)
 
-  - [magickpen](https://magickpen.com/)
+- [书籍翻译](https://github.com/yihong0618/bilingual_book_maker)
 
-  - [书籍翻译](https://github.com/yihong0618/bilingual_book_maker)
+- [docsgpt](https://github.com/arc53/DocsGPT)
 
-  - [docsgpt](https://github.com/arc53/DocsGPT)
+- [qanything-文档问答](https://qanything.ai/#/)
 
-  - [qanything-文档问答](https://qanything.ai/#/)
+- [hugging-chat](https://huggingface.co/chat/assistants)
 
 ## LLM
 
-  - [Alpaca-Model](https://www.getalpaca.io/)
+- [Alpaca-Model](https://www.getalpaca.io/)
 
-  - [Vicuna-Model](https://huggingface.co/chavinlo/vicuna)
+- [Vicuna-Model](https://huggingface.co/chavinlo/vicuna)
 
-  - [Claude](https://www.anthropic.com/)
+- [Claude](https://www.anthropic.com/)
 
-  - [open-Llama](https://github.com/RapidAI/Open-Llama)
+- [open-Llama](https://github.com/RapidAI/Open-Llama)
 
-  - [modihand](https://www.modihand.com/)
+- [modihand](https://www.modihand.com/)
 
-  - [Samantha-自主对话agent](https://github.com/BRlkl/AGI-Samantha)
+- [Samantha-自主对话 agent](https://github.com/BRlkl/AGI-Samantha)
 
-## AI检测
+- [llms-from-scratch](https://github.com/rasbt/LLMs-from-scratch)
 
-  - [gptzero - 检查是否由GPT-3生成的文本](https://etedward-gptzero-main-zqgfwb.streamlit.app/)
+- [Code Llma 70b](https://huggingface.co/chat/?model=codellama/CodeLlama-70b-Instruct-hf)
 
-  - [AI Content Detector](https://chatgptdemo.com/product-category/text/ai-content-detection-text/)
+## Text Checker
 
-  - [Content at Scale](https://contentatscale.ai/ai-content-detector/?)
+- [gptzero - 检查是否由 GPT-3 生成的文本](https://etedward-gptzero-main-zqgfwb.streamlit.app/)
 
-  - [detectgpt](https://www.thomas.io/detect-gpt?)
+- [AI Content Detector](https://chatgptdemo.com/product-category/text/ai-content-detection-text/)
 
-  - [gptkit](https://gptkit.ai/?ref=HN)
+- [Content at Scale](https://contentatscale.ai/ai-content-detector/?)
 
-  - [AI Text Classifier](https://platform.openai.com/ai-text-classifier)
+- [detectgpt](https://www.thomas.io/detect-gpt?)
 
-  - [AIGC-X](http://ai.sklccc.com/AIGC-X/#/try)
+- [gptkit](https://gptkit.ai/?ref=HN)
 
-  - [writecream](https://www.writecream.com/ai-content-detector/)
+- [AI Text Classifier](https://platform.openai.com/ai-text-classifier)
 
-  - [smodin-包括抄袭检查](https://smodin.io/zh-cn/ai%E5%86%85%E5%AE%B9%E6%A3%80%E6%B5%8B%E5%99%A8)
+- [AIGC-X](http://ai.sklccc.com/AIGC-X/#/try)
 
-  - [copyleaks-包括剽窃检查](https://copyleaks.com/zh/ai-content-detector/)
+- [writecream](https://www.writecream.com/ai-content-detector/)
+
+- [smodin-包括抄袭检查](https://smodin.io/zh-cn/ai%E5%86%85%E5%AE%B9%E6%A3%80%E6%B5%8B%E5%99%A8)
+
+- [copyleaks-包括剽窃检查](https://copyleaks.com/zh/ai-content-detector/)
 
 ## Code Copilot
 
-  - [Cursor-基于gpt4生成代码](https://www.cursor.so/)
+- [Cursor-基于 gpt4 生成代码](https://www.cursor.so/)
 
-  - [replitGhostwriter code](https://replit.com/site/ghostwriter)
+- [replitGhostwriter code](https://replit.com/site/ghostwriter)
 
-  - [codeuim-代码辅助](https://codeium.com/)
+- [codeuim-代码辅助](https://codeium.com/)
 
-  - [durable-ai生成网站](https://durable.co/)
+- [durable-ai 生成网站](https://durable.co/)
 
-  - [Cody](https://docs.sourcegraph.com/cody#install-cody)
+- [Cody](https://docs.sourcegraph.com/cody#install-cody)
 
-  - [tabby-自部署](https://github.com/TabbyML/tabby)
+- [tabby-自部署](https://github.com/TabbyML/tabby)
 
-  - [wolverine-程序自我修复](https://github.com/biobootloader/wolverine)
+- [wolverine-程序自我修复](https://github.com/biobootloader/wolverine)
 
-  - [codewhisperer](https://aws.amazon.com/codewhisperer/)
+- [codewhisperer](https://aws.amazon.com/codewhisperer/)
 
-  - [starcoder-huggingface发布的代码副舵](https://github.com/bigcode-project/starcoder)
+- [starcoder-huggingface 发布的代码副舵](https://github.com/bigcode-project/starcoder)
 
-  - [spell-box](https://spellbox.app/)
+- [spell-box](https://spellbox.app/)
 
-  - [codegeex](https://codegeex.cn)
+- [codegeex](https://codegeex.cn)
 
-  - [codegeex2](https://github.com/THUDM/CodeGeeX2)
+- [codegeex2](https://github.com/THUDM/CodeGeeX2)
 
-## AI Design
+- [privy](https://github.com/srikanth235/privy)
 
-  - [Ruturn your text into images](https://imaginator.developer-service.io/)
+- [build-your-ai-coding-assistant](https://github.com/unit-mesh/build-your-ai-coding-assistant)
 
-  - [Duffison Land](https://www.diffusion.land/)
+## Image & Art
 
-  - [ArtAPI](https://artpai.xyz/#/)
+- [Ruturn your text into images](https://imaginator.developer-service.io/)
 
-  - [NovelAI (@novelaiofficial) / Twitter](https://twitter.com/novelaiofficial)
+- [Duffison Land](https://www.diffusion.land/)
 
-  - [NovelAI - The GPT-powered AI Storyteller](https://novelai.net/)
+- [ArtAPI](https://artpai.xyz/#/)
 
-  - [NovelAI](https://www.reddit.com/r/NovelAi/)
+- [NovelAI (@novelaiofficial) / Twitter](https://twitter.com/novelaiofficial)
 
-  - [介绍 \| NovelAI Bot](https://novelai.koishi.chat/)
+- [NovelAI - The GPT-powered AI Storyteller](https://novelai.net/)
 
-  - [stable-diffusion-webui-ai绘画](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
+- [NovelAI](https://www.reddit.com/r/NovelAi/)
 
-  - [Stable Diffusion](https://wiki.installgentoo.com/wiki/Stable_Diffusion#Clothing)
+- [介绍 \| NovelAI Bot](https://novelai.koishi.chat/)
 
-  - [Clothes Research - NovelAI](https://unideer.notion.site/Clothes-Research-NovelAI-ae4219aebcd742ea89aaa553c00e7b40)
+- [stable-diffusion-webui-ai 绘画](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
 
-  - [AI-generated photography](https://nyx.gallery/)
+- [Stable Diffusion](https://wiki.installgentoo.com/wiki/Stable_Diffusion#Clothing)
 
-  - [AI生成艺术工具](https://imgeditor.zmo.ai/)
+- [Clothes Research - NovelAI](https://unideer.notion.site/Clothes-Research-NovelAI-ae4219aebcd742ea89aaa553c00e7b40)
 
-  - [midjourney-discord](https://discord.com/invite/midjourney)
+- [AI-generated photography](https://nyx.gallery/)
 
-  - [AI Image Generator API \| DeepAI](https://deepai.org/machine-learning-model/text2img)
+- [AI 生成艺术工具](https://imgeditor.zmo.ai/)
 
-  - [starryai](https://www.starryai.com/)
+- [midjourney-discord](https://discord.com/invite/midjourney)
 
-  - [OpenArt](https://openart.ai/)
+- [AI Image Generator API \| DeepAI](https://deepai.org/machine-learning-model/text2img)
 
-  - [SD RESOURCE GOLDMINE-AI作画超级收录](https://rentry.org/sdupdates)
+- [starryai](https://www.starryai.com/)
 
-  - [DALL·E](https://openai.com/dall-e-2/)
+- [OpenArt](https://openart.ai/)
 
-  - [Imagen: Text-to-Image Diffusion Models](https://imagen.research.google/)
+- [SD RESOURCE GOLDMINE-AI 作画超级收录](https://rentry.org/sdupdates)
 
-  - [文心一格 - AI艺术和创意辅助平台](https://yige.baidu.com/)
+- [DALL·E](https://openai.com/dall-e-2/)
 
-  - [Stability.Ai](https://stability.ai/blog/stable-diffusion-public-release?continueFlag=707adb537436231458302f4b5e702dae)
+- [Imagen: Text-to-Image Diffusion Models](https://imagen.research.google/)
 
-  - [Midjourney](https://www.midjourney.com/home/)
+- [文心一格 - AI 艺术和创意辅助平台](https://yige.baidu.com/)
 
-  - [6pen Art](https://6pen.art/)
+- [Stability.Ai](https://stability.ai/blog/stable-diffusion-public-release?continueFlag=707adb537436231458302f4b5e702dae)
 
-  - [Tiamat内测🤩](https://tiamat-ai.feishu.cn/share/base/shrcn2uXL8wNiveykIFYqWSzsPf)
+- [Midjourney](https://www.midjourney.com/home/)
 
-  - [NovelAI](https://ai.nya.la/login)
+- [6pen Art](https://6pen.art/)
 
-  - [🤖 🖼 AI Art Generator, AI Art Maker - NightCafe Creator](https://creator.nightcafe.studio/?code=UNITEAI)
+- [Tiamat 内测 🤩](https://tiamat-ai.feishu.cn/share/base/shrcn2uXL8wNiveykIFYqWSzsPf)
 
-  - [AI场景](https://www.mojidoc.com/05dbc-uvhdkr22fjazlowmiihngdoxvq-00b/?utm_medium=snsl&utm_source=telegram&utm_content=0214)
+- [NovelAI](https://ai.nya.la/login)
 
-  - [Geliloe - AI Design](https://www.usegalileo.ai/)
+- [🤖 🖼 AI Art Generator, AI Art Maker - NightCafe Creator](https://creator.nightcafe.studio/?code=UNITEAI)
 
-  - [rightbrain-ai绘画](https://rightbrain.art/text2Image)
+- [AI 场景](https://www.mojidoc.com/05dbc-uvhdkr22fjazlowmiihngdoxvq-00b/?utm_medium=snsl&utm_source=telegram&utm_content=0214)
 
-  - [headshotpro-ai生成专业头像](https://www.headshotpro.com/)
+- [Geliloe - AI Design](https://www.usegalileo.ai/)
 
-  - [deepagency-ai生成模特照片](https://www.deepagency.com/)
+- [rightbrain-ai 绘画](https://rightbrain.art/text2Image)
 
-  - [photoai-ai生成照片](https://photoai.com/)
+- [headshotpro-ai 生成专业头像](https://www.headshotpro.com/)
 
-  - [invokeai-开源绘画](https://github.com/invoke-ai/InvokeAI)
+- [deepagency-ai 生成模特照片](https://www.deepagency.com/)
 
-  - [tome-ai制作ppt](https://beta.tome.app/)
+- [photoai-ai 生成照片](https://photoai.com/)
 
-  - [remove.bg-AI抠图](https://www.remove.bg/)
+- [invokeai-开源绘画](https://github.com/invoke-ai/InvokeAI)
 
-  - [palette.fm-AI调色](https://palette.fm/color/filters)
+- [tome-ai 制作 ppt](https://beta.tome.app/)
 
-  - [chatppt](https://chat-ppt.com/)
+- [remove.bg-AI 抠图](https://www.remove.bg/)
 
-  - [segment anything-AI抠图](https://segment-anything.com/)
+- [palette.fm-AI 调色](https://palette.fm/color/filters)
 
-  - [designtools.ai](https://designtools.ai/)
+- [chatppt](https://chat-ppt.com/)
 
-  - [civitai-AI模型分享社区NSFW](https://civitai.com/)
+- [segment anything-AI 抠图](https://segment-anything.com/)
 
-  - [upscayl-图像增强](https://github.com/upscayl/upscayl)
+- [designtools.ai](https://designtools.ai/)
 
-  - [logomaker](https://logomakerr.ai/)
+- [civitai-AI 模型分享社区 NSFW](https://civitai.com/)
 
-  - [adobe-firefly](https://www.adobe.com/sensei/generative-ai/firefly.html?sdid=FHRLZBDJ&mv=social&mv2=paid-owned)
+- [upscayl-图像增强](https://github.com/upscayl/upscayl)
 
-  - [DragGAN](https://github.com/XingangPan/DragGAN)
+- [logomaker](https://logomakerr.ai/)
 
-  - [AnimeArt](https://animeart.studio/)
+- [adobe-firefly](https://www.adobe.com/sensei/generative-ai/firefly.html?sdid=FHRLZBDJ&mv=social&mv2=paid-owned)
 
-  - [recraft-ai生成矢量图](https://www.recraft.ai/)
+- [DragGAN](https://github.com/XingangPan/DragGAN)
 
-  - [面部老化](https://extrapolate.app/)
+- [AnimeArt](https://animeart.studio/)
 
-  - [iconify-图标](https://www.iconifyai.com/)
+- [recraft-ai 生成矢量图](https://www.recraft.ai/)
 
-  - [aicolors](https://aicolors.co/)
+- [面部老化](https://extrapolate.app/)
 
-  - [gamma-ppt](https://gamma.app/signup?r=dlcykyd0iyaxw2b)
+- [iconify-图标](https://www.iconifyai.com/)
 
-  - [object-remover](https://objectremover.com/)
+- [aicolors](https://aicolors.co/)
 
-  - [老照片上色](https://twoway.ai/colourise-your-old-photos-with-ai)
+- [gamma-ppt](https://gamma.app/signup?r=dlcykyd0iyaxw2b)
 
-  - [卷积放大](https://waifu2x.udp.jp/)
+- [object-remover](https://objectremover.com/)
 
-  - [ai图片合成](https://www.artbreeder.com/)
+- [老照片上色](https://twoway.ai/colourise-your-old-photos-with-ai)
 
-  - [draw-fast](https://github.com/tldraw/draw-fast)
+- [卷积放大](https://waifu2x.udp.jp/)
 
-  - [Inpaint-iOS-图片修复](https://github.com/wudijimao/Inpaint-iOS)
+- [ai 图片合成](https://www.artbreeder.com/)
 
-  - [photoshopAI插件](https://www.istarry.com.cn/)
+- [draw-fast](https://github.com/tldraw/draw-fast)
 
-  - [inpaint-web-图片修复](https://github.com/lxfater/inpaint-web)
-## AI Tools
+- [Inpaint-iOS-图片修复](https://github.com/wudijimao/Inpaint-iOS)
 
-  - [FUTUREPEDIA-AI工具聚合](https://www.futurepedia.io/)
+- [photoshopAI 插件](https://www.istarry.com.cn/)
 
-  - [500 Best AI Tools](https://vaulted-polonium-23c.notion.site/500-Best-AI-Tools-e954b36bf688404ababf74a13f98d126)
+- [inpaint-web-图片修复](https://github.com/lxfater/inpaint-web)
 
-  - [SuperImage-图片放大](https://github.com/Lucchetto/SuperImage)
+- [Phantom-图像增强框架](https://github.com/dreamoving/Phantom)
 
-  - [manitas-手指动作识别](https://github.com/nacmartin/manitas)
+## Tools
 
-  - [Tree-生成motion](https://tree.industries/)
+- [FUTUREPEDIA-AI 工具聚合](https://www.futurepedia.io/)
 
-  - [MDM: Human Motion Diffusion Model](https://guytevet.github.io/mdm-page/)
+- [500 Best AI Tools](https://vaulted-polonium-23c.notion.site/500-Best-AI-Tools-e954b36bf688404ababf74a13f98d126)
 
-  - [多墨智能-AI流程图](https://duomosmart.com/)
+- [SuperImage-图片放大](https://github.com/Lucchetto/SuperImage)
 
-  - [AI生成sql](https://aihelperbot.com/)
+- [manitas-手指动作识别](https://github.com/nacmartin/manitas)
 
-  - [JARVIS-AI助手](https://github.com/microsoft/JARVIS)
+- [Tree-生成 motion](https://tree.industries/)
 
-  - [coverlettergpt](https://github.com/vincanger/coverlettergpt)
+- [MDM: Human Motion Diffusion Model](https://guytevet.github.io/mdm-page/)
 
-  - [teach anything](https://www.teach-anything.com/)
+- [多墨智能-AI 流程图](https://duomosmart.com/)
 
-  - [gpt-sites-国内可用镜像探测](https://lzw.me/x/chatgpt-sites/)
+- [AI 生成 sql](https://aihelperbot.com/)
 
-  - [AI and ML Dev Tools](https://jewel-marscapone-8fd.notion.site/a24780ea7d10451ea4fee4b6205c07ee?v=123b67df79ef49b8b07146bf94d2f54f)
+- [JARVIS-AI 助手](https://github.com/microsoft/JARVIS)
 
-  - [SQLKiller](https://www.sqlkiller.com/)
+- [coverlettergpt](https://github.com/vincanger/coverlettergpt)
 
-  - [cheetah-远程面试工具](https://github.com/leetcode-mafia/cheetah)
+- [teach anything](https://www.teach-anything.com/)
 
-  - [amymind-AI思维导图](https://amymind.com/)
+- [gpt-sites-国内可用镜像探测](https://lzw.me/x/chatgpt-sites/)
 
-  - [autoGPT](https://github.com/Torantulino/Auto-GPT)
+- [AI and ML Dev Tools](https://jewel-marscapone-8fd.notion.site/a24780ea7d10451ea4fee4b6205c07ee?v=123b67df79ef49b8b07146bf94d2f54f)
 
-  - [AgentAI](https://agentgpt.reworkd.ai/)
+- [SQLKiller](https://www.sqlkiller.com/)
 
-  - [regex.ai](https://regex.ai/)
+- [cheetah-远程面试工具](https://github.com/leetcode-mafia/cheetah)
 
-  - [chat2stats](https://2stats.chat/)
+- [amymind-AI 思维导图](https://amymind.com/)
 
-  - [Klu-ai搜索](https://klu.so/)
+- [autoGPT](https://github.com/Torantulino/Auto-GPT)
 
-  - [Translate-videos](https://www.translate.video/)
+- [AgentAI](https://agentgpt.reworkd.ai/)
 
-  - [flowchart-ai流程图](https://github.com/tone-row/flowchart-fun)
+- [regex.ai](https://regex.ai/)
 
-  - [ebook-translator](https://github.com/bookfere/Ebook-Translator-Calibre-Plugin)
+- [chat2stats](https://2stats.chat/)
 
-  - [gitfluence](https://www.gitfluence.com/)
+- [Klu-ai 搜索](https://klu.so/)
 
-  - [pdfgear-内置ai的pdf工具](https://www.pdfgear.com/)
+- [Translate-videos](https://www.translate.video/)
 
-  - [ValidatorAI-验证创业想法](https://validatorai.com/)
+- [flowchart-ai 流程图](https://github.com/tone-row/flowchart-fun)
 
-  - [DB-GPT](https://github.com/csunny/DB-GPT)
+- [ebook-translator](https://github.com/bookfere/Ebook-Translator-Calibre-Plugin)
 
-  - [chatall-齐叨](https://github.com/sunner/ChatALL)
+- [gitfluence](https://www.gitfluence.com/)
 
-  - [treemind-ai思维导图](https://shutu.cn/)
+- [pdfgear-内置 ai 的 pdf 工具](https://www.pdfgear.com/)
 
-  - [name-gpt](https://www.logosc.cn/nameGPT)
+- [ValidatorAI-验证创业想法](https://validatorai.com/)
 
-  - [mathpix-公式识别](https://mathpix.com/)
+- [DB-GPT](https://github.com/csunny/DB-GPT)
 
-  - [findyournextbook](https://www.findyournextbook.ai/)
+- [chatall-齐叨](https://github.com/sunner/ChatALL)
 
-  - [时尚穿搭](https://www.fashionadvisorai.com/)
+- [treemind-ai 思维导图](https://shutu.cn/)
 
-  - [watchnowai](https://watchnowai.com/)
+- [name-gpt](https://www.logosc.cn/nameGPT)
 
-  - [chartgpt](https://www.chartgpt.dev/)
+- [mathpix-公式识别](https://mathpix.com/)
 
-  - [samist-sam模型的ui](https://github.com/dibrale/samist)
+- [findyournextbook](https://www.findyournextbook.ai/)
 
-  - [pdfgpt](https://github.com/bhaskatripathi/pdfGPT)
+- [时尚穿搭](https://www.fashionadvisorai.com/)
 
-  - [final2x-提升图片质量](https://github.com/Tohrusky/Final2x)
+- [watchnowai](https://watchnowai.com/)
 
-  - [面试助手](https://interview.sofasay.com/)
+- [chartgpt](https://www.chartgpt.dev/)
 
-  - [chat2db](https://github.com/chat2db/Chat2DB)
+- [samist-sam 模型的 ui](https://github.com/dibrale/samist)
 
-  - [localai](https://github.com/dxcweb/local-ai)
+- [pdfgpt](https://github.com/bhaskatripathi/pdfGPT)
 
-  - [chartcube](https://chartcube.alipay.com/)
+- [final2x-提升图片质量](https://github.com/Tohrusky/Final2x)
 
-  - [toolai](https://www.toolai.io/)
+- [面试助手](https://interview.sofasay.com/)
 
-  - [chatgpt账号共享](https://chat-shared2.zhile.io/shared.html)
+- [chat2db](https://github.com/chat2db/Chat2DB)
 
-  - [casiable-矢量知识数据库](https://github.com/casibase/casibase)
+- [localai](https://github.com/dxcweb/local-ai)
 
-  - [fluentai-低代码ai工作流](https://github.com/fluent-ai/fluent-ai)
+- [chartcube](https://chartcube.alipay.com/)
 
-  - [workers-ai](https://developers.cloudflare.com/workers-ai/)
+- [toolai](https://www.toolai.io/)
 
-  - [ai-gateway](https://developers.cloudflare.com/ai-gateway/)
+- [chatgpt 账号共享](https://chat-shared2.zhile.io/shared.html)
 
-  - [vectorize](https://developers.cloudflare.com/vectorize/)
+- [casiable-矢量知识数据库](https://github.com/casibase/casibase)
 
-  - [openai-forward](https://github.com/KenyonY/openai-forward)
+- [fluentai-低代码 ai 工作流](https://github.com/fluent-ai/fluent-ai)
 
-  - [screen-to-code](https://github.com/abi/screenshot-to-code)
+- [workers-ai](https://developers.cloudflare.com/workers-ai/)
 
-  - [latex-ocr](https://github.com/lukas-blecher/LaTeX-OCR)
+- [ai-gateway](https://developers.cloudflare.com/ai-gateway/)
 
-  - [finchat-财报解析](https://finchat.io/)
+- [vectorize](https://developers.cloudflare.com/vectorize/)
 
-  - [beebee-财报解析](https://www.beebee.ai/)
+- [openai-forward](https://github.com/KenyonY/openai-forward)
 
-  - [ai选股](https://stockai.trade/)
+- [screen-to-code](https://github.com/abi/screenshot-to-code)
 
-  - [llama-shepherd-cli](https://github.com/mikepapadim/llama-shepherd-cli)
+- [latex-ocr](https://github.com/lukas-blecher/LaTeX-OCR)
 
-  - [AI生成历史时间线](https://mylens.ai/)
+- [finchat-财报解析](https://finchat.io/)
 
-  - [coffee-加速ui开发](https://github.com/Coframe/coffee)
+- [beebee-财报解析](https://www.beebee.ai/)
 
-  - [AI推理应用开发框架](https://github.com/modelbox-ai/modelbox)
+- [ai 选股](https://stockai.trade/)
 
-  - [roomgpt-ai室内设计](https://github.com/Nutlope/roomGPT)
+- [llama-shepherd-cli](https://github.com/mikepapadim/llama-shepherd-cli)
 
-  - [codefuse-软件开发生命周期AI助手](https://github.com/codefuse-ai/codefuse-chatbot)
+- [AI 生成历史时间线](https://mylens.ai/)
 
-  - [lobechat-高性能聊天机器人框架](https://github.com/lobehub/lobe-chat)
+- [coffee-加速 ui 开发](https://github.com/Coframe/coffee)
 
-## AI Video
+- [AI 推理应用开发框架](https://github.com/modelbox-ai/modelbox)
 
-  - [NUWA-Infinity](https://nuwa-infinity.microsoft.com)
+- [roomgpt-ai 室内设计](https://github.com/Nutlope/roomGPT)
 
-  - [chatyoutube](https://chatyoutube.com/)
+- [codefuse-软件开发生命周期 AI 助手](https://github.com/codefuse-ai/codefuse-chatbot)
 
-  - [Runway](https://runwayml.com/)
+- [lobechat-高性能聊天机器人框架](https://github.com/lobehub/lobe-chat)
 
-  - [Fliki](https://fliki.ai/)
+- [shoggoth-ai分发p2p工具](https://github.com/shog-ai/shoggoth)
 
-  - [Synthesia](https://www.synthesia.io/)
+## Video
 
-  - [Meta AI](https://ai.facebook.com/)
+- [NUWA-Infinity](https://nuwa-infinity.microsoft.com)
 
-  - [Google AI](https://ai.google/)
+- [chatyoutube](https://chatyoutube.com/)
 
-  - [Phenaki](https://phenaki.video/)
+- [Runway](https://runwayml.com/)
 
-  - [avatarworld](https://www.avatarworld.cn/autoDraw/)
+- [Fliki](https://fliki.ai/)
 
-  - [veed](https://www.veed.io/)
+- [Synthesia](https://www.synthesia.io/)
 
-  - [lumen5](ttps://lumen5.com/)
+- [Meta AI](https://ai.facebook.com/)
 
-  - [fliki](https://fliki.ai/)
+- [Google AI](https://ai.google/)
 
-  - [vidyo](https://vidyo.ai/)
+- [Phenaki](https://phenaki.video/)
 
-  - [shuffll](https://shuffll.com/futurepedia/)
+- [avatarworld](https://www.avatarworld.cn/autoDraw/)
 
-  - [kreadai](https://www.kreadoai.com/)
+- [veed](https://www.veed.io/)
 
-  - [motionit-generate-video-slides-with-ai](https://www.motionit.ai/)
+- [lumen5](ttps://lumen5.com/)
 
-  - [gyroflow-视频稳定](https://gyroflow.xyz/)
+- [fliki](https://fliki.ai/)
 
-  - [geneface-生成符合发音的嘴型](https://github.com/yerfor/GeneFace)
+- [vidyo](https://vidyo.ai/)
 
-  - [memoai-video2text](https://memo.ac/)
+- [shuffll](https://shuffll.com/futurepedia/)
 
-  - [pyvideotrans](https://github.com/jianchang512/pyvideotrans)
+- [kreadai](https://www.kreadoai.com/)
 
-  - [rask-ai-视频翻译](https://www.rask.ai/)
+- [motionit-generate-video-slides-with-ai](https://www.motionit.ai/)
 
-  - [whisper-youtube](https://github.com/ArthurFDLR/whisper-youtube)
+- [gyroflow-视频稳定](https://gyroflow.xyz/)
 
-  - [photo2anime](https://photo-to-anime.com/)
+- [geneface-生成符合发音的嘴型](https://github.com/yerfor/GeneFace)
 
-## AI Audio & Voice
+- [memoai-video2text](https://memo.ac/)
 
-  - [whisper-windows](https://github.com/Const-me/Whisper)
+- [pyvideotrans](https://github.com/jianchang512/pyvideotrans)
 
-  - [resemble-语音合成](https://www.resemble.ai/)
+- [rask-ai-视频翻译](https://www.rask.ai/)
 
-  - [Play.ht](https://play.ht/)
+- [whisper-youtube](https://github.com/ArthurFDLR/whisper-youtube)
 
-  - [Murf](https://murf.ai/)
+- [photo2anime](https://photo-to-anime.com/)
 
-  - [Resemble AI](https://www.resemble.ai/)
+- [v2vt](https://github.com/halfzm/v2vt)
 
-  - [WellSaid](https://wellsaidlabs.com/)
+- [video translate](https://translation-starter-khaki.vercel.app/)
 
-  - [Descript](https://www.descript.com/)
+## Audio & Voice
 
-  - [AudioLM](https://google-research.github.io/seanet/audiolm/examples/)
+- [whisper-windows](https://github.com/Const-me/Whisper)
 
-  - [Voicemod](https://www.voicemod.net/)
+- [resemble-语音合成](https://www.resemble.ai/)
 
-  - [synthesys](https://synthesys.ai/golive)
+- [Play.ht](https://play.ht/)
 
-  - [rephrase](https://www.rephrase.ai/)
+- [Murf](https://murf.ai/)
 
-  - [playlistgenius](https://www.playlistgeniusai.com/)
+- [Resemble AI](https://www.resemble.ai/)
 
-  - [bark-AI文字转语音](https://github.com/suno-ai/bark)
+- [WellSaid](https://wellsaidlabs.com/)
 
-  - [听悟](https://www.tingwu.cn/)
+- [Descript](https://www.descript.com/)
 
-  - [audyo](https://www.audyo.ai/)
+- [AudioLM](https://google-research.github.io/seanet/audiolm/examples/)
 
-  - [ai歌手](https://threadreaderapp.com/thread/1655437368474877952.html)
+- [Voicemod](https://www.voicemod.net/)
 
-  - [web-ui-for-whisper](https://github.com/felixbade/transcribe)
+- [synthesys](https://synthesys.ai/golive)
 
-  - [taption-影音转文字](https://www.taption.com/zh-CN)
+- [rephrase](https://www.rephrase.ai/)
 
-  - [voice-changer](https://github.com/w-okada/voice-changer)
+- [playlistgenius](https://www.playlistgeniusai.com/)
 
-  - [whisperapp](https://godlucky.net/whisperapp/)
+- [bark-AI 文字转语音](https://github.com/suno-ai/bark)
 
-  - [audiocraft](https://github.com/facebookresearch/audiocraft)
+- [听悟](https://www.tingwu.cn/)
 
-  - [mubert-ai音乐收集](https://mubert.com/)
+- [audyo](https://www.audyo.ai/)
 
-  - [whisper-web](https://huggingface.co/spaces/Xenova/whisper-web)
+- [ai 歌手](https://threadreaderapp.com/thread/1655437368474877952.html)
 
-  - [mokingbird-语音克隆](https://github.com/babysor/MockingBird)
+- [web-ui-for-whisper](https://github.com/felixbade/transcribe)
 
-  - [vallex-tts带语音克隆](https://github.com/Plachtaa/VALL-E-X)
+- [taption-影音转文字](https://www.taption.com/zh-CN)
 
-  - [VITS2-语音克隆](https://github.com/KevinWang676/VITS2-Chinese)
+- [voice-changer](https://github.com/w-okada/voice-changer)
 
-  - [so-vits-svc](https://github.com/svc-develop-team/so-vits-svc)
+- [whisperapp](https://godlucky.net/whisperapp/)
 
-  - [智音AI-tts源](https://909527.xyz/tts/tts_list)
+- [audiocraft](https://github.com/facebookresearch/audiocraft)
 
-  - [clone-voice](https://github.com/jianchang512/clone-voice)
+- [mubert-ai 音乐收集](https://mubert.com/)
 
-  - [the-meta-voice](https://themetavoice.xyz/)
+- [whisper-web](https://huggingface.co/spaces/Xenova/whisper-web)
 
-  - [speaking-ai](https://speaking.ai/)
+- [mokingbird-语音克隆](https://github.com/babysor/MockingBird)
 
-  - [pc变音器](https://www.voicemod.net/zh/)
+- [vallex-tts 带语音克隆](https://github.com/Plachtaa/VALL-E-X)
 
-  - [whisper应用](https://zj1123581321.com/post/liao-liao-gao-jing-du-yin-shi-pin-zhuan-wen-zi-gong-zuo-liu/)
+- [VITS2-语音克隆](https://github.com/KevinWang676/VITS2-Chinese)
 
-  - [fast-whisper](https://github.com/Vaibhavs10/insanely-fast-whisper)
+- [so-vits-svc](https://github.com/svc-develop-team/so-vits-svc)
 
-  - [tts-online](https://www.ttson.cn/)
+- [智音 AI-tts 源](https://909527.xyz/tts/tts_list)
 
-  - [sts-bcut-语音转字幕](https://github.com/Forgot-Dream/STS-Bcut)
+- [clone-voice](https://github.com/jianchang512/clone-voice)
 
-  - [ttsmaker-文本转语音](https://ttsmaker.com/)
+- [the-meta-voice](https://themetavoice.xyz/)
 
-  - [voicechatgpt](https://github.com/xy3xy3/VoiceChatgpt)
+- [speaking-ai](https://speaking.ai/)
 
-  - [insanely-fast-whisper](https://replicate.com/vaibhavs10/incredibly-fast-whisper)
+- [pc 变音器](https://www.voicemod.net/zh/)
 
-  - [subtitle2audio-ai念台词](https://github.com/bnsantoso/sub-to-audio)
+- [whisper 应用](https://zj1123581321.com/post/liao-liao-gao-jing-du-yin-shi-pin-zhuan-wen-zi-gong-zuo-liu/)
 
-  - [fish-speech](https://github.com/fishaudio/fish-speech)
+- [fast-whisper](https://github.com/Vaibhavs10/insanely-fast-whisper)
 
-  - [piper-txt2speech](https://github.com/rhasspy/piper)
+- [tts-online](https://www.ttson.cn/)
 
-  - [voice-cv-声音克隆](https://github.com/jianchang512/clone-voice)
+- [sts-bcut-语音转字幕](https://github.com/Forgot-Dream/STS-Bcut)
 
-  - [voiceStreamAI-流式转录](https://github.com/alesaccoia/VoiceStreamAI)
+- [ttsmaker-文本转语音](https://ttsmaker.com/)
 
-  - [audiocut](https://audiocut.app/)
+- [voicechatgpt](https://github.com/xy3xy3/VoiceChatgpt)
 
-  - [openvoice](https://research.myshell.ai/open-voice)
-## AI 3D & Animation
+- [insanely-fast-whisper](https://replicate.com/vaibhavs10/incredibly-fast-whisper)
 
-  - [DreamFusion](https://dreamfusion3d.github.io/)
+- [subtitle2audio-ai 念台词](https://github.com/bnsantoso/sub-to-audio)
 
-  - [CLIP-Mesh](https://www.nasir.lol/clipmesh)
+- [fish-speech](https://github.com/fishaudio/fish-speech)
 
-  - [GET3D](https://nv-tlabs.github.io/GET3D/)
+- [piper-txt2speech](https://github.com/rhasspy/piper)
 
-  - [wonder-真人CG制作](https://wonderdynamics.com/)
+- [voice-cv-声音克隆](https://github.com/jianchang512/clone-voice)
 
-  - [gen2](https://research.runwayml.com/gen2)
+- [voiceStreamAI-流式转录](https://github.com/alesaccoia/VoiceStreamAI)
 
-  - [pika-ai生成电影](https://www.pika.art/)
+- [audiocut](https://audiocut.app/)
 
-  - [wav2lip-对口型](https://github.com/Rudrabha/Wav2Lip)
+- [openvoice](https://research.myshell.ai/open-voice)
 
-  - [voodoo-表情动作复制](https://p0lyfish.github.io/voodoo3d/)
+- [线上文字转语音](https://reccloud.com/tw/text-to-speech-online)
+
+- [Pod-Helper-转录](https://github.com/Muhtasham/pod-helper)
+
+- [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS/)
+
+- [Melotts-高质量tts库](https://github.com/myshell-ai/MeloTTS)
+
+## 3D & Animation
+
+- [DreamFusion](https://dreamfusion3d.github.io/)
+
+- [CLIP-Mesh](https://www.nasir.lol/clipmesh)
+
+- [GET3D](https://nv-tlabs.github.io/GET3D/)
+
+- [wonder-真人 CG 制作](https://wonderdynamics.com/)
+
+- [gen2](https://research.runwayml.com/gen2)
+
+- [pika-ai 生成电影](https://www.pika.art/)
+
+- [wav2lip-对口型](https://github.com/Rudrabha/Wav2Lip)
+
+- [voodoo-表情动作复制](https://p0lyfish.github.io/voodoo3d/)
 
 ## Prompts and Guides
 
-  - [prompthero](https://prompthero.com/)
+- [prompthero](https://prompthero.com/)
 
-  - [PromptOmonia](https://promptomania.com/prompt-builder/)
+- [PromptOmonia](https://promptomania.com/prompt-builder/)
 
-  - [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts)
+- [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts)
 
-  - [chatgpt中文调教指南](https://github.com/PlexPt/awesome-chatgpt-prompts-zh)
+- [chatgpt 中文调教指南](https://github.com/PlexPt/awesome-chatgpt-prompts-zh)
 
-  - [Promptable-gpt3工作流](https://promptable.ai/)
+- [Promptable-gpt3 工作流](https://promptable.ai/)
 
-  - [gpt-shortcuts](https://github.com/rockbenben/ChatGPT-Shortcut)
+- [gpt-shortcuts](https://github.com/rockbenben/ChatGPT-Shortcut)
 
-  - [100+ Teachers Prompt Templates](https://ignacio-velasquez.notion.site/ignacio-velasquez/100-Teachers-Prompt-Templates-697882b7b57e4396af16b8e93554b510)
+- [100+ Teachers Prompt Templates](https://ignacio-velasquez.notion.site/ignacio-velasquez/100-Teachers-Prompt-Templates-697882b7b57e4396af16b8e93554b510)
 
-  - [chatgpt-中文指南](https://github.com/yzfly/awesome-chatgpt-zh)
+- [chatgpt-中文指南](https://github.com/yzfly/awesome-chatgpt-zh)
 
-  - [learnChatGPT](https://www.learngpt.com/)
+- [learnChatGPT](https://www.learngpt.com/)
 
-  - [Stable Diffusion 的简单中文指南](https://stable-diffusion-book.vercel.app/)
+- [Stable Diffusion 的简单中文指南](https://stable-diffusion-book.vercel.app/)
 
-  - [midjourney教程](https://www.uisdc.com/midjourney)
+- [midjourney 教程](https://www.uisdc.com/midjourney)
 
-  - [midjourney关键词](https://github.com/willwulfken/MidJourney-Styles-and-Keywords-Reference)
+- [midjourney 关键词](https://github.com/willwulfken/MidJourney-Styles-and-Keywords-Reference)
 
-  - [AI越狱](https://www.jailbreakchat.com/)
+- [AI 越狱](https://www.jailbreakchat.com/)
 
-  - [AI模特prompt-NSFW](https://chilloutai.com/nsfw)
+- [AI 模特 prompt-NSFW](https://chilloutai.com/nsfw)
 
-  - [Guide for prompt writing](https://boostpixels.com/guide)
+- [Guide for prompt writing](https://boostpixels.com/guide)
 
-  - [LLMs Guide](https://www.ruxu.dev/articles/ai/maximizing-the-potential-of-llms/)
+- [LLMs Guide](https://www.ruxu.dev/articles/ai/maximizing-the-potential-of-llms/)
 
-  - [OPS/OpenPromptStudio-提示词图形管理工具](https://moonvy.com/apps/ops/)
+- [OPS/OpenPromptStudio-提示词图形管理工具](https://moonvy.com/apps/ops/)
 
-  - [提示工程指南](https://www.promptingguide.ai/zh)
+- [提示工程指南](https://www.promptingguide.ai/zh)
 
-  - [learnprompt](https://learnprompting.org/zh-Hans/docs/intro)
+- [learnprompt](https://learnprompting.org/zh-Hans/docs/intro)
 
-  - [KREA — create better prompts.](https://search.krea.ai/)
+- [KREA — create better prompts.](https://search.krea.ai/)
 
-  - [Discover and Generate AI Art](https://openart.ai/discovery)
+- [Discover and Generate AI Art](https://openart.ai/discovery)
 
-  - [Lexica](https://lexica.art/)
+- [Lexica](https://lexica.art/)
 
-  - [Discover, Upload and Share AI Generated Art](https://arthub.ai/)
+- [Discover, Upload and Share AI Generated Art](https://arthub.ai/)
 
-  - [chatfiles-个人语料库](https://github.com/guangzhengli/ChatFiles)
+- [chatfiles-个人语料库](https://github.com/guangzhengli/ChatFiles)
 
-  - [LangGPT-high_quality_prompts](https://github.com/yzfly/LangGPT)
+- [LangGPT-high_quality_prompts](https://github.com/yzfly/LangGPT)
 
-  - [MJ-Prompts-Generator](https://yesu.tech/)
+- [MJ-Prompts-Generator](https://yesu.tech/)
 
-  - [privateGPT](https://github.com/imartinez/privateGPT)
+- [privateGPT](https://github.com/imartinez/privateGPT)
 
-  - [noonshot](https://prompt.noonshot.com/)
+- [noonshot](https://prompt.noonshot.com/)
 
-  - [betterprompt](https://better.avatarprompt.net/)
+- [betterprompt](https://better.avatarprompt.net/)
 
-  - [使用gpt写AIGC prompt](https://tob-design.yuque.com/kxcufk/mj/ufz8vr12rsq3lfoy)
+- [使用 gpt 写 AIGC prompt](https://tob-design.yuque.com/kxcufk/mj/ufz8vr12rsq3lfoy)
 
-  - [midjourney摄影素材教程](https://mp.weixin.qq.com/s/pGfELWDT6z3kNRlwPImPKw)
+- [midjourney 摄影素材教程](https://mp.weixin.qq.com/s/pGfELWDT6z3kNRlwPImPKw)
 
-  - [AI灵创题词器](https://frozenland.cc/teleprompter.html)
+- [AI 灵创题词器](https://frozenland.cc/teleprompter.html)
 
-  - [AIshorts](https://www.aishort.top/)
+- [AIshorts](https://www.aishort.top/)
 
-  - [Open-Assistant](https://github.com/LAION-AI/Open-Assistant)
+- [Open-Assistant](https://github.com/LAION-AI/Open-Assistant)
 
-  - [Pezzo-ai提示词管理](https://github.com/pezzolabs/pezzo)
+- [Pezzo-ai 提示词管理](https://github.com/pezzolabs/pezzo)
 
-  - [prompt模板](https://github.com/ProfSynapse/Synapse_CoR/blob/main/prompt.txt)
+- [prompt 模板](https://github.com/ProfSynapse/Synapse_CoR/blob/main/prompt.txt)
 
-  - [topgpts](https://www.topgpts.ai/)
+- [topgpts](https://www.topgpts.ai/)
 
-  - [提示工程速查](https://hansimov.github.io/GPT-Sharing/prompts-cheat-sheet.html)
+- [提示工程速查](https://hansimov.github.io/GPT-Sharing/prompts-cheat-sheet.html)
 
-  - [翻译润色prompt](https://anotherdayu.com/2023/5530/)
+- [翻译润色 prompt](https://anotherdayu.com/2023/5530/)
 
-## AI Websites
+## Websites
 
-  - [AI论文速递](https://briefgpt.xyz/)
+- [AI 论文速递](https://briefgpt.xyz/)
 
-  - [全球AI指数监控](https://ourworldindata.org/artificial-intelligence)
+- [全球 AI 指数监控](https://ourworldindata.org/artificial-intelligence)
 
-  - [emergencymind](https://www.emergentmind.com/)
+- [emergencymind](https://www.emergentmind.com/)
 
-  - [Bens bites-AI垂直内容](https://search.bensbites.co/)
+- [Bens bites-AI 垂直内容](https://search.bensbites.co/)
 
-  - [LLM前沿](https://gist.github.com/rain-1/eebd5e5eb2784feecf450324e3341c8d)
+- [LLM 前沿](https://gist.github.com/rain-1/eebd5e5eb2784feecf450324e3341c8d)
 
-  - [all AI news](https://allainews.com/)
+- [all AI news](https://allainews.com/)
 
-  - [hackertab.dev](https://now.hackertab.dev/)
+- [hackertab.dev](https://now.hackertab.dev/)
 
-  - [chatbene](https://chatbene.com/)
+- [chatbene](https://chatbene.com/)
 
-  - [lmsys-ai_validation](https://chat.lmsys.org/?arena)
+- [lmsys-ai_validation](https://chat.lmsys.org/?arena)
 
-  - [hacker-news-summary](https://hackernews.betacat.io/)
+- [hacker-news-summary](https://hackernews.betacat.io/)
 
-  - [AI知识库](https://ssw9noe1h6.feishu.cn/wiki/wikcn59pPXfAiF1ONajdPzvhA9d)
+- [AI 知识库](https://ssw9noe1h6.feishu.cn/wiki/wikcn59pPXfAiF1ONajdPzvhA9d)
 
-  - [github-ranking-ai](https://github.com/yuxiaopeng/Github-Ranking-AI)
+- [github-ranking-ai](https://github.com/yuxiaopeng/Github-Ranking-AI)
 
-  - [featurepedia](https://www.futurepedia.io/)
+- [featurepedia](https://www.futurepedia.io/)
 
-  - [awesome-domain-llm](https://github.com/luban-agi/Awesome-Domain-LLM)
+- [awesome-domain-llm](https://github.com/luban-agi/Awesome-Domain-LLM)
 
-  - [awesome-aigc-tutorials](https://github.com/luban-agi/Awesome-AIGC-Tutorials)
+- [awesome-aigc-tutorials](https://github.com/luban-agi/Awesome-AIGC-Tutorials)
 
-  - [GPT Best Practices](https://futureforce.feishu.cn/file/CMpdbLxAhon5K5x5C1OcciYwnOf)
+- [GPT Best Practices](https://futureforce.feishu.cn/file/CMpdbLxAhon5K5x5C1OcciYwnOf)
 
-  - [langchain教程](https://www.langchain.com.cn/)
+- [langchain 教程](https://www.langchain.com.cn/)
 
-  - [copilot教程](https://github.com/microsoft/Mastering-GitHub-Copilot-for-Paired-Programming)
+- [copilot 教程](https://github.com/microsoft/Mastering-GitHub-Copilot-for-Paired-Programming)
+
+- [open-tts-tracker](https://github.com/Vaibhavs10/open-tts-tracker)
+
+- [hugging face](https://huggingface.co/)
+
+- [本地LLM使用指南](https://github.com/xue160709/Local-LLM-User-Guideline/blob/main/README-zh.md)
 
 ## API
 
-  - [OpenAI API](https://platform.openai.com/overview)
+- [OpenAI API](https://platform.openai.com/overview)
 
-  - [OpenAI Embeddings](https://platform.openai.com/docs/guides/embeddings)
+- [OpenAI Embeddings](https://platform.openai.com/docs/guides/embeddings)
 
-  - [chatnio.net](https://docs.chatnio.net/)
+- [chatnio.net](https://docs.chatnio.net/)
 
-  - [dify.ai](https://github.com/langgenius/dify)
+- [dify.ai](https://github.com/langgenius/dify)
 
-  - [AI Gateway](https://github.com/Portkey-AI/gateway)
+- [AI Gateway](https://github.com/Portkey-AI/gateway)
 
-  - [copilot-gpt4-service](https://github.com/aaamoon/copilot-gpt4-service/blob/master/README_CN.md)
+- [copilot-gpt4-service](https://github.com/aaamoon/copilot-gpt4-service/blob/master/README_CN.md)
 
-  - [langrila-可读性高的gptapi架构](https://github.com/taikinman/langrila)
+- [langrila-可读性高的 gptapi 架构](https://github.com/taikinman/langrila)

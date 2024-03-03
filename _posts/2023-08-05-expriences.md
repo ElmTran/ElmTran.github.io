@@ -28,7 +28,7 @@ redirect_from:
 
 - [迅维网](https://www.chinafix.com/)
 
-- [情侣100事](https://cl8023.com/detailed?id=ycbqfOCLU)
+- [情侣 100 事](https://cl8023.com/detailed?id=ycbqfOCLU)
 
 - [openfarm](https://openfarm.cc/)
 
@@ -36,13 +36,15 @@ redirect_from:
 
 - [bestsimilar](https://bestsimilar.com/)
 
+- [学习摩斯电码](https://www.perry.qa/morse)
+
 ## World Wide Web
 
 - 旅行
 
   - [旅行者博客](https://travel.getnomad.app/)
 
-  - [AI生成旅游攻略](https://getaiway.com/)
+  - [AI 生成旅游攻略](https://getaiway.com/)
 
   - [旅游规划](https://eightydays.me/)
 
@@ -78,11 +80,11 @@ redirect_from:
 
 - [remotive](https://remotive.com)
 
-- [linkin面试题](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes)
+- [linkin 面试题](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes)
 
 - [立党的转码/润学/移民/找工作笔记](https://lidangzzz.github.io/How-to-run/)
 
-- [google面试模拟器](https://grow.google/certificates/interview-warmup/)
+- [google 面试模拟器](https://grow.google/certificates/interview-warmup/)
 
 - [Jobo-职业检索](https://www.jobbot.me/)
 
@@ -104,7 +106,7 @@ redirect_from:
 
 - [Career up club](https://docs.google.com/spreadsheets/d/1HCd3V9gY0oikrgpWysrmmxzbTm9jjypMkqFTmjko7SI/edit#gid=0)
 
-- [SVLC help form](https://forms.gle/qqrSgMXWp6a7V9hB7 )
+- [SVLC help form](https://forms.gle/qqrSgMXWp6a7V9hB7)
 
 - [Ming Dao](https://docs.google.com/forms/d/e/1FAIpQLSdfbjzTBiDLw9Bw3c20yWAGLVPnKSBpaqf9QuYIowi-X2XlzA/viewform)
 
@@ -148,7 +150,7 @@ redirect_from:
 
 - [面试助手](https://interview.sofasay.com/)
 
-- [showcase-developer路线图](https://www.showwcase.com/)
+- [showcase-developer 路线图](https://www.showwcase.com/)
 
 - [intervie-science](https://interview-science.org/)
 
@@ -156,7 +158,7 @@ redirect_from:
 
 - [面试反问问题](https://github.com/yifeikong/reverse-interview-zh)
 
-- [Golang面试问题](https://mp.weixin.qq.com/s/bWfINnIyNq1fJCJEfKhn9Q)
+- [Golang 面试问题](https://mp.weixin.qq.com/s/bWfINnIyNq1fJCJEfKhn9Q)
 
 - [coding-interview-university](https://github.com/jwasham/coding-interview-university)
 
@@ -193,6 +195,8 @@ redirect_from:
   - [https://www.peopleperhour.com/](https://www.peopleperhour.com/)
 
   - [https://www.linkedin.com](https://www.linkedin.com)
+
+  - [算法高频](https://code.gpthanghai.com/)
 
 ## 投资
 
@@ -242,7 +246,7 @@ redirect_from:
 
 - [风萧萧](http://a.25q.ck/)
 
-- [Leo小店](https://shop.leouu.cn/)
+- [Leo 小店](https://shop.leouu.cn/)
 
 - [果书商店](https://appleshop.club)
 
@@ -252,4 +256,4 @@ redirect_from:
 
 - [富贵论坛](https://www.fglt.net/)
 
-- [A5新媒体](https://xmt.a5.net/)
+- [A5 新媒体](https://xmt.a5.net/)

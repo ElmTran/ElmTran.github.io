@@ -50,3 +50,5 @@ redirect_from:
 ## 虚拟环境和依赖管理
 
 - [poetry](https://python-poetry.org/)
+
+- [uv](https://github.com/astral-sh/uv)

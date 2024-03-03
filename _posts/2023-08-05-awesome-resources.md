@@ -12,7 +12,6 @@ redirect_from:
 
 - [movie-web](https://movie-web.app/)
 
-- [lapanx](https://lzpanx.com/)
 - [vk-video](https://vk.com/video)
 
 - [mymovies](https://www.mymovies.it/)
@@ -25,9 +24,7 @@ redirect_from:
 
 - [mini4k](https://www.mini4k.org/)
 
-- [41T 4K 电影资源](https://www.aliyundrive.com/s/aEEGWV4hF33)
-
-- [小纸条-开放资源网站](https://u.gitcafe.net/)
+- [小纸条-开放资源网站](https://ali.gitcafe.ink)
 
 - [justwatch-电影搜索](https://www.justwatch.com/)
 
@@ -41,23 +38,17 @@ redirect_from:
 
 - [星视界](https://www.histar.tv/)
 
-- [bileizhen的收纳箱](http://bileizhen.ysepan.com/)
+- [bileizhen 的收纳箱](http://bileizhen.ysepan.com/)
 
 - [btnull](https://www.btnull.org/)
 
-- [yapan](https://pan.ccof.cc/)
-
 - [爱动漫](https://anime.girigirilove.com/)
-
-- [影巢](https://hdhive.org/search)
 
 - [cockmovie](https://cokemv.net/)
 
 - [爱笑聚](https://www.axjbt.com/)
 
 - [字幕库](http://zimuku.org/)
-
-- [易搜](https://yiso.eu.org/)
 
 - [音丝范](http://www.yinfans.me/)
 
@@ -83,15 +74,11 @@ redirect_from:
 
 - [小纸条](https://ali.gitcafe.ink/)
 
-- [搜片](https://soupian.one/)
-
 - [meow-tg](https://meow.tg/private/Aliyundrive_Share_Channel)
 
 - [自动追番](https://www.autobangumi.org/)
 
 - [kubespider-全局资源编排下载](https://github.com/opennaslab/kubespider)
-
-- [搜片](https://soupian.pro/)
 
 - [novipnoad](http://novipnoad.net/)
 
@@ -105,53 +92,75 @@ redirect_from:
 
 - [哔嘀影视](http://bdys10.com/)
 
-- []
+- [trackerslist](https://trackerslist.com/)
 
-- alist
+- [蓝光电影网](https://www.languangdy.com/)
 
-  - [小雅](http://alist.xiaoya.pro)
+- [不太灵影视](https://2bt0.com/)
 
-  - [晴园](https://alist.aqingyuan.repl.co)
+### 网盘
 
-  - [Puppet Studio](https://www.kugutsu.ml)
+- [小雅](http://alist.xiaoya.pro)
 
-  - [七米蓝](https://al.chirmyram.com)
+- [晴园](https://alist.aqingyuan.repl.co)
 
-  - [Banana的资源站](https://alist.advanced360.top)
+- [Puppet Studio](https://www.kugutsu.ml)
 
-  - [小瑞](https://ruipan.bestruirui.repl.co/)
+- [七米蓝](https://al.chirmyram.com)
 
-  - [Arley's Drive](https://pan.arley.cn/)
+- [Banana 的资源站](https://alist.advanced360.top)
 
-  - [微资源](https://apps.weixinqqq.com/)
+- [小瑞](https://ruipan.bestruirui.repl.co/)
 
-- trailers
+- [Arley's Drive](https://pan.arley.cn/)
 
-  - [好莱坞电影手册](http://moviesoon.com/trailers.html)
+- [微资源](https://apps.weixinqqq.com/)
 
-  - [预告片世界](https://www.yugaopian.cn/)
+- [小云搜索](https://www.yunso.net/)
 
-  - [thedigitaltheater](https://thedigitaltheater.com/)
+- [lapanx](https://lzpanx.com/)
 
-  - [hd-trailers](https://hd-trailers.net/)
+- [秒搜](https://miaosou.fun/)
 
-  - [itunes-trailers](https://trailers.apple.com/)
+- [ssgo](https://ssgo.app/)
 
-  - [rottentomatoes-youtube](https://www.youtube.com/user/movieclipsTRAILERS)
+- [41T 4K 电影资源](https://www.aliyundrive.com/s/aEEGWV4hF33)
 
-  - [imdb](https://www.imdb.com/trailers/)
+- [yapan](https://pan.ccof.cc/)
 
-  - [rottentomatoes](https://www.rottentomatoes.com/trailers)
+- [影巢](https://hdhive.org/search)
 
-  - [deadline](https://deadline.com/category/trailers/)
+- [易搜](https://yiso.eu.org/)
 
-  - [commingsoon](https://www.comingsoon.net/trailers)
+- [搜片](https://soupian.one/)
 
-  - [screenrant](https://screenrant.com/movie-trailers/)
+### trailers
 
-  - [IMSDb-电影剧本](https://imsdb.com/)
+- [好莱坞电影手册](http://moviesoon.com/trailers.html)
 
-  - [台词社](https://www.taicishe.com/)
+- [预告片世界](https://www.yugaopian.cn/)
+
+- [thedigitaltheater](https://thedigitaltheater.com/)
+
+- [hd-trailers](https://hd-trailers.net/)
+
+- [itunes-trailers](https://trailers.apple.com/)
+
+- [rottentomatoes-youtube](https://www.youtube.com/user/movieclipsTRAILERS)
+
+- [imdb](https://www.imdb.com/trailers/)
+
+- [rottentomatoes](https://www.rottentomatoes.com/trailers)
+
+- [deadline](https://deadline.com/category/trailers/)
+
+- [commingsoon](https://www.comingsoon.net/trailers)
+
+- [screenrant](https://screenrant.com/movie-trailers/)
+
+- [IMSDb-电影剧本](https://imsdb.com/)
+
+- [台词社](https://www.taicishe.com/)
 
 ## Video
 
@@ -193,7 +202,7 @@ redirect_from:
 
 - [uppbeat](https://uppbeat.io/)
 
-- [noise的音乐库](https://www.noiseyp.top/Onedrive/%E9%9F%B3%E4%B9%90%E9%9F%B3%E6%95%88)
+- [noise 的音乐库](https://www.noiseyp.top/Onedrive/%E9%9F%B3%E4%B9%90%E9%9F%B3%E6%95%88)
 
 - [freepd.com](https://freepd.com/)
 
@@ -229,6 +238,8 @@ redirect_from:
 
 - [skymuz](https://skymuz.org/)
 
+- [spotify去广告](https://github.com/mrpond/BlockTheSpot)
+
 ## podcasts
 
 - [empire](https://linktr.ee/empirepoduk)
@@ -248,6 +259,7 @@ redirect_from:
 - [soundcloud](https://soundcloud.com/)
 
 - [hmx gallery](http://www.hmix.net/music_gallery/music_top.htm)
+
 ## Pictures
 
 - [Screen Plays](https://screenplays.io/)
@@ -282,7 +294,7 @@ redirect_from:
 
 - [Multi-service image search](http://iqdb.org/)
 
-- [360全景](https://www.airpano.com/?n=10&sort_by=&page=1)
+- [360 全景](https://www.airpano.com/?n=10&sort_by=&page=1)
 
 - [Anime pictures and wallpapers for everyone!](https://anime-pictures.net/)
 
@@ -303,6 +315,14 @@ redirect_from:
 - [图虫网](https://tuchong.com/)
 
 - [wallhaven](https://wallhaven.cc/)
+
+- [movie-screencaps-电影截图](https://movie-screencaps.com/)
+
+- [moviemania-电影海报](https://www.moviemania.io/)
+
+- [screenmusings-电影截图](https://screenmusings.org/)
+
+- [film-grab-电影截图](https://film-grab.com/)
 
 ## Design
 
@@ -328,7 +348,7 @@ redirect_from:
 
 - [shortcuts.design](https://shortcuts.design/)
 
-- [uugai-logo设计](https://www.uugai.com/)
+- [uugai-logo 设计](https://www.uugai.com/)
 
 - [cht-color](https://cht-colors.pages.dev/)
 
@@ -344,17 +364,17 @@ redirect_from:
 
 - [双色](https://duotone.shapefactory.co/?f=f56468&t=27184f&q=_)
 
-- [调色lut-提取码:k5e4](https://pan.baidu.com/share/init?surl=PFVwWXNbOsIx5ROjPeJKwQ)
+- [调色 lut-提取码:k5e4](https://pan.baidu.com/share/init?surl=PFVwWXNbOsIx5ROjPeJKwQ)
 
 - [藏宝阁](https://noisevip.cn/12876.html)
 
-- [电影分级lut](https://noise.lanzoul.com/ifQ7Z0frridg)
+- [电影分级 lut](https://noise.lanzoul.com/ifQ7Z0frridg)
 
-- [20个lut](https://noisevip.cn/14350.html)
+- [20 个 lut](https://noisevip.cn/14350.html)
 
-- [Photoshop教程](https://www.photoshoplady.com/)
+- [Photoshop 教程](https://www.photoshoplady.com/)
 
-- [新CG儿](https://www.newcger.com/)
+- [新 CG 儿](https://www.newcger.com/)
 
 - [templatenet](https://www.template.net/)
 
@@ -406,6 +426,8 @@ redirect_from:
 
 - [itch-游戏平台](https://itch.io/)
 
+- [小妖怪](https://www.xyg688.com/)
+
 ## Books
 
 - [Project Gutenberg](https://www.gutenberg.org/)
@@ -454,17 +476,17 @@ redirect_from:
 
 - [Talk to Books](https://books.google.com/talktobooks/)
 
-- [zlibrary地址检测](https://zlib.pro/)
+- [zlibrary 地址检测](https://zlib.pro/)
 
 - [鸠摩读书](https://www.jiumodiary.com/)
 
 - [goodreads](https://www.goodreads.com/)
 
-- [zlibrary镜像](https://www.ooopn.com/tool/zlibrary/)
+- [zlibrary 镜像](https://www.ooopn.com/tool/zlibrary/)
 
 - [zlibrary 中文资源](https://bk.hallowlib.org/)
 
-- [Zlibrary最新地址  民间搜集](https://find.looks.wang)
+- [Zlibrary 最新地址 民间搜集](https://find.looks.wang)
 
 - [中文书库](https://bk.hallowlib.org/)
 
@@ -488,7 +510,7 @@ redirect_from:
 
 - [镜像站](https://bk.hallowlib.org/)
 
-- [zlibrary镜像](https://zlibsearch.1kbtool.com/)
+- [zlibrary 镜像](https://zlibsearch.1kbtool.com/)
 
 - [易书搜索](https://search.yibook.org/)
 
@@ -509,13 +531,16 @@ redirect_from:
 - [liber3](https://liber3.eth.limo/)
 
 - [librum-开源电子书数据库](https://github.com/Librum-Reader/Librum)
+
+- [calibre-电子书管理](https://calibre-ebook.com/)
+
 ## Software
 
 ### office
 
 - [E5 自动续订软件](https://e5renew.com/) ps: [密钥获取](https://blog.csdn.net/qq_33212020/article/details/119747634)
 
-- [E5 自动续订web](https://mrmad.com.tw/office-365-e5-and-onedrive-5tb-free)
+- [E5 自动续订 web](https://mrmad.com.tw/office-365-e5-and-onedrive-5tb-free)
 
 - [HelloWindows](http://hellowindows.cn/)
 
@@ -538,10 +563,10 @@ redirect_from:
 - 官方工具部署激活
 
   - [office 软件部署工具](https://www.microsoft.com/en-us/download/details.aspx)
-  
+
   - [office 版本自定义工具](https://config.office.com/deploymentsettings)
-  
-  - [基于KMS的 GVLK](https://learn.microsoft.com/zh-cn/deployoffice/vlactivation/gvlks)
+
+  - [基于 KMS 的 GVLK](https://learn.microsoft.com/zh-cn/deployoffice/vlactivation/gvlks)
 
   - [视频教程](https://www.youtube.com/watch?v=VSjRx7Hoa60)
 
@@ -587,7 +612,7 @@ redirect_from:
 
 - [opensourcealternative](https://www.opensourcealternative.to/)
 
-- [Jay仓库-互联网资源](https://www.likejay.cn/)
+- [Jay 仓库-互联网资源](https://www.likejay.cn/)
 
 - [loudreader-浏览器阅读器](https://www.loudreader.com/)
 
@@ -597,7 +622,7 @@ redirect_from:
 
 - [fileagle-安全下载平台](https://www.fileeagle.com/zh-CN/)
 
-- [saas替代方案](https://saasblocks.io/)
+- [saas 替代方案](https://saasblocks.io/)
 
 - [open-source-alternatives](https://www.opensourcealternative.to/)
 
@@ -625,15 +650,19 @@ redirect_from:
 
 - [MirrorSite](https://github.com/runningcheese/MirrorSite)
 
-- [topgrossing-chrome流行插件](https://extpose.com/top-grossing)
+- [topgrossing-chrome 流行插件](https://extpose.com/top-grossing)
 
 - [achieve-绕过付费墙](https://archive.ph/)
 
 - [idm-active](https://github.com/lstprjct/IDM-Activation-Script)
 
-- [edu教育邮箱优惠](https://www.edumails.cn/edudajihe.html#xiao_lu_ban_gong_you_hui)
+- [edu 教育邮箱优惠](https://www.edumails.cn/edudajihe.html#xiao_lu_ban_gong_you_hui)
 
 - [awesome-oss-alternatives](https://github.com/RunaCapital/awesome-oss-alternatives)
+
+- [自学办公软件下载](https://www.yutu.cn/popsoft.html)
+
+- [好软分享](https://github.com/yoyodadada/haoruanfenxiang)
 
 ## Blogs/Websites
 
@@ -685,9 +714,9 @@ redirect_from:
 
 - [PornDud\#NSFW](https://theporndude.com/zh)
 
-- [中文newsletter](https://www.notion.so/700273d587b8412f83743160ab6b4e74?v=682827618e2642a197c849515053dfce)
+- [中文 newsletter](https://www.notion.so/700273d587b8412f83743160ab6b4e74?v=682827618e2642a197c849515053dfce)
 
-- [feddd-rss订阅源](https://feeddd.org/feeds)
+- [feddd-rss 订阅源](https://feeddd.org/feeds)
 
 - [directory-博客收集](https://ooh.directory/)
 
@@ -697,7 +726,7 @@ redirect_from:
 
 - [chiphell-科技测评](https://www.chiphell.com/)
 
-- [github漫游指南](https://github.phodal.com/#/chapter/Github%E6%BC%AB%E6%B8%B8%E6%8C%87%E5%8D%97)
+- [github 漫游指南](https://github.phodal.com/#/chapter/Github%E6%BC%AB%E6%B8%B8%E6%8C%87%E5%8D%97)
 
 - [好工具周刊](https://bestxtools.zhubai.love/)
 
@@ -734,3 +763,5 @@ redirect_from:
 - [engineering-blogs](https://github.com/kilimchoi/engineering-blogs)
 
 - [redditlist](https://redditlist.com/)
+
+- [中国科普博览](https://www.kepu.net.cn/)

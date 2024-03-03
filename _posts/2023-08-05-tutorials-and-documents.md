@@ -12,27 +12,27 @@ redirect_from:
 
 - LaTex
 
-  - [LaTeX公式手册(全网最全)](https://www.cnblogs.com/1024th/p/11623258.html)
+  - [LaTeX 公式手册(全网最全)](https://www.cnblogs.com/1024th/p/11623258.html)
 
-  - [LaTex中文手册](https://1024th.github.io/MathJax_Tutorial_CN/#/)
+  - [LaTex 中文手册](https://1024th.github.io/MathJax_Tutorial_CN/#/)
 
-  - [Latex常见公式环境与对齐方式](https://blog.csdn.net/qq_15905107/article/details/81261188)
+  - [Latex 常见公式环境与对齐方式](https://blog.csdn.net/qq_15905107/article/details/81261188)
 
-  - [Latex数学公式语法手册](http://www.uinio.com/Math/LaTex/)
+  - [Latex 数学公式语法手册](http://www.uinio.com/Math/LaTex/)
 
 - [行列式计算矩阵](https://matrix.reshish.com/zh/determinant.php)
 
-- [SymPy常用函数](https://www.cnblogs.com/YuanZiming/p/13070883.html)
+- [SymPy 常用函数](https://www.cnblogs.com/YuanZiming/p/13070883.html)
 
 - [wolfarmalpha](https://www.wolframalpha.com/)
 
-- [Python数模笔记-Sklearn（4）线性回归](https://www.cnblogs.com/youcans/p/14764269.html)
+- [Python 数模笔记-Sklearn（4）线性回归](https://www.cnblogs.com/youcans/p/14764269.html)
 
 - [image2latex](https://github.com/kingyiusuen/image-to-latex)
 
 - [微积分笔记](http://1973blunt.github.io/2016/06/30/Math-Calculus-cheatSheet/)
 
-- [一文搞懂k近邻（k-NN）算法](https://zhuanlan.zhihu.com/p/25994179)
+- [一文搞懂 k 近邻（k-NN）算法](https://zhuanlan.zhihu.com/p/25994179)
 
 - Business Analytics
 
@@ -40,7 +40,7 @@ redirect_from:
 
   - [Introduction to Regression Methods for Public Health Using R](https://bookdown.org/rwnahhas/RMPH/)
 
-  - [ROC曲线和AUC值](https://zhuanlan.zhihu.com/p/58587448)
+  - [ROC 曲线和 AUC 值](https://zhuanlan.zhihu.com/p/58587448)
 
   - [kmeans](https://zhuanlan.zhihu.com/p/78798251)
 
@@ -54,7 +54,7 @@ redirect_from:
 
   - [快速下载中文数据集](https://github.com/CYang828/datasetstation)
 
-  - [Tableau综合分享](https://www.vizwiz.com/vizwiz.com)
+  - [Tableau 综合分享](https://www.vizwiz.com/vizwiz.com)
 
   - [Global 地球仪](http://globe.cid.harvard.edu/)
 
@@ -64,9 +64,9 @@ redirect_from:
 
 - [剪辑初学者如何开始学习视频剪辑？](https://www.zhihu.com/question/22457234)
 
-- [关于AMV基本转场的一些心得](https://tieba.baidu.com/p/2187642892?share=9105&red_tag=1580736378)
+- [关于 AMV 基本转场的一些心得](https://tieba.baidu.com/p/2187642892?share=9105&red_tag=1580736378)
 
-- [Premiere Pro 10大奇技淫巧](https://zhuanlan.zhihu.com/p/43223857)
+- [Premiere Pro 10 大奇技淫巧](https://zhuanlan.zhihu.com/p/43223857)
 
 - [怎样学好构图](https://daily.zhihu.com/story/9741878)
 
@@ -110,17 +110,17 @@ redirect_from:
 
   - [go-admin](https://github.com/go-admin-team/go-admin)
 
-  - [Go基础：路径、文件名和包名的关系](http://blog.itpub.net/70003733/viewspace-2792985/)
+  - [Go 基础：路径、文件名和包名的关系](http://blog.itpub.net/70003733/viewspace-2792985/)
 
-  - [xorm的使用（二）结构体映射规则](https://learnku.com/docs/huxiaobai-iris/the-use-of-xorm-2-structure-mapping-rules/8988)
+  - [xorm 的使用（二）结构体映射规则](https://learnku.com/docs/huxiaobai-iris/the-use-of-xorm-2-structure-mapping-rules/8988)
 
-  - [golang-http 请求---设置header与直接发](https://www.jianshu.com/p/f9b5594d1c52)
+  - [golang-http 请求---设置 header 与直接发](https://www.jianshu.com/p/f9b5594d1c52)
 
-  - [Go实践之JSON解析](http://kangkona.github.io/json-and-go/)
+  - [Go 实践之 JSON 解析](http://kangkona.github.io/json-and-go/)
 
-  - [sonic-高性能json解析库](https://github.com/bytedance/sonic)
+  - [sonic-高性能 json 解析库](https://github.com/bytedance/sonic)
 
-  - [go中高并发下的通信方式：channel管道的底层原理](https://www.coonote.com/go-note/go-channel.html)
+  - [go 中高并发下的通信方式：channel 管道的底层原理](https://www.coonote.com/go-note/go-channel.html)
 
   - [GolangStudy](https://github.com/cnymw/GolangStudy)
 
@@ -128,13 +128,13 @@ redirect_from:
 
   - [extending-python-with-rust](https://maxwellrules.com/programming/rusty-python.html)
 
-  - [如何用Python批量提取PDF文本内容？](https://www.jianshu.com/p/31939ee6f1c9)
+  - [如何用 Python 批量提取 PDF 文本内容？](https://www.jianshu.com/p/31939ee6f1c9)
 
-  - [PDFMiner提取PDF文本](https://blog.csdn.net/Fighting_No1/article/details/51038942)
+  - [PDFMiner 提取 PDF 文本](https://blog.csdn.net/Fighting_No1/article/details/51038942)
 
   - [podofo](https://github.com/podofo/podofo)
 
-  - [KNN算法及python实现](KNN算法及python实现)
+  - [KNN 算法及 python 实现](KNN算法及python实现)
 
   - [fastapi-best-practices](https://github.com/zhanymkanov/fastapi-best-practices)
 
@@ -150,7 +150,7 @@ redirect_from:
 
   - [swirl](https://swirlstats.com/)
 
-  - [R语言教程](https://www.math.pku.edu.cn/teachers/lidf/docs/Rbook/html/_Rbook/index.html)
+  - [R 语言教程](https://www.math.pku.edu.cn/teachers/lidf/docs/Rbook/html/_Rbook/index.html)
 
   - [rdocument](https://www.rdocumentation.org/)
 
@@ -158,7 +158,7 @@ redirect_from:
 
   - [预测： 方法与实践](https://otexts.com/fppcn/)
 
-  - [手把手教你画ROC曲线](https://segmentfault.com/a/1190000016735657)
+  - [手把手教你画 ROC 曲线](https://segmentfault.com/a/1190000016735657)
 
 - docker
 
@@ -170,7 +170,7 @@ redirect_from:
 
   - [create-chart-可视化数据大屏](https://github.com/food-billboard/create-chart)
 
-  - [八种方法实现CSS页面底部固定](https://segmentfault.com/a/1190000017805669)
+  - [八种方法实现 CSS 页面底部固定](https://segmentfault.com/a/1190000017805669)
 
 - devops
 
@@ -196,7 +196,7 @@ redirect_from:
 
   - [开发环境配置](https://www.cnblogs.com/AnKen/p/8057000.html)
 
-  - [OpenGL光照设置](https://www.cnblogs.com/OctoptusLian/p/6872726.html)
+  - [OpenGL 光照设置](https://www.cnblogs.com/OctoptusLian/p/6872726.html)
 
   - [纹理映射](http://caobeixingqiu.is-programmer.com/posts/18999.html)
 
@@ -204,11 +204,11 @@ redirect_from:
 
   - [粒子系统](https://blog.csdn.net/wanglang3081/article/details/8771343)
 
-  - [three.js教程](http://www.hewebgl.com/article/getarticle/27#)
+  - [three.js 教程](http://www.hewebgl.com/article/getarticle/27#)
 
   - [水泡模拟](https://www.cnblogs.com/shushen/p/5542131.html)
 
-  - [用C语言实现距离向量算法的过程模拟](https://blog.csdn.net/qq846294282/article/details/53160784?locationNum=3&fps=1)
+  - [用 C 语言实现距离向量算法的过程模拟](https://blog.csdn.net/qq846294282/article/details/53160784?locationNum=3&fps=1)
 
 - big data
 
@@ -222,19 +222,19 @@ redirect_from:
 
   - [tldr](https://tldr.sh/)
 
-  - [vim插件推荐](https://zhuanlan.zhihu.com/p/58816186)
+  - [vim 插件推荐](https://zhuanlan.zhihu.com/p/58816186)
 
-## 工具使用
+## 工具使用和说明书
 
-- [一劳永逸：KeePass全网最详使用指南](https://zhuanlan.zhihu.com/p/39645975)
+- [一劳永逸：KeePass 全网最详使用指南](https://zhuanlan.zhihu.com/p/39645975)
 
-- [fl68键盘说明书](https://zh-cn.manuals.plus/fl-esports/f12-68-keys-three-mode-wireless-mechanical-keyboard-manual#backlight_and_effect)
+- [fl68 键盘说明书](https://zh-cn.manuals.plus/fl-esports/f12-68-keys-three-mode-wireless-mechanical-keyboard-manual#backlight_and_effect)
 
 ## 论文/学术
 
 - [数字图书馆。搜索书籍。免费下载书籍](https://zh.b-ok.cc/)
 
-- [SCI-Hub论文下载可用网址链接（实时更新） - YoviSun工具集](https://tool.yovisun.com/scihub/)
+- [SCI-Hub 论文下载可用网址链接（实时更新） - YoviSun 工具集](https://tool.yovisun.com/scihub/)
 
 - [Sci-Hub: 将知识带给每个人](https://sci-hub.se/)
 
@@ -260,7 +260,7 @@ redirect_from:
 
 - [Open Access Library (OALib)](https://www.oalib.com/)
 
-- [Sci-Hub文献检索 \| 科学是照亮世界的火把](https://sci-hub.org.cn/)
+- [Sci-Hub 文献检索 \| 科学是照亮世界的火把](https://sci-hub.org.cn/)
 
 - [谷粉学术](https://gfsoso.99lb.net/)
 
@@ -272,7 +272,7 @@ redirect_from:
 
 - [RefSeek - Academic Search Engine](https://www.refseek.com/)
 
-- [搜索引擎BASE (比菲尔德学术搜索引擎): 搜索主页](https://www.base-search.net/)
+- [搜索引擎 BASE (比菲尔德学术搜索引擎): 搜索主页](https://www.base-search.net/)
 
 - [Science gov for Science - Government Science Portal](https://www.science.gov/)
 
@@ -318,9 +318,9 @@ redirect_from:
 
 ## 日语
 
-  - [日语学习经验分享:轻松掌握日语的音调](https://zhuanlan.zhihu.com/p/85443664)
+- [日语学习经验分享:轻松掌握日语的音调](https://zhuanlan.zhihu.com/p/85443664)
 
-  - [日语的声调](https://zhuanlan.zhihu.com/p/29977744)
+- [日语的声调](https://zhuanlan.zhihu.com/p/29977744)
 
 ## 英语
 
@@ -429,13 +429,14 @@ redirect_from:
   - [yandex](https://translate.yandex.com/)
 
   - [google](https://translate.google.com/)
+
 ### 听力
 
 - [ELLLO](https://www.elllo.org/)
 
 - [美国之音](https://www.51voa.com/)
 
-- [youglish-包含单词的youtube视频](https://youglish.com/)
+- [youglish-包含单词的 youtube 视频](https://youglish.com/)
 
 - [en30s](https://play.google.com/store/apps/details?id=com.digdok.en30s&pli=1)
 
@@ -443,11 +444,13 @@ redirect_from:
 
 - [Search within YouTube subtitles](https://filmot.com/)
 
-- [AI指南-磨耳朵](https://www.aicompasspro.com/study)
+- [AI 指南-磨耳朵](https://www.aicompasspro.com/study)
 
 - [英语数字练习](https://microblock.cc/learn/number)
 
 - [英语磨耳朵听力练习](https://www.aicompasspro.com/study/listen)
+
+- [慢速英语](https://www.voase.cn/)
 
 ### 口语
 
@@ -461,13 +464,15 @@ redirect_from:
 
 - [中国程序员容易发音错误的单词](https://github.com/shimohq/chinese-programmer-wrong-pronunciation)
 
-- [48个英语音标表：20个元音+28个辅音，学发音必备！](https://zhuanlan.zhihu.com/p/136840124)
+- [48 个英语音标表：20 个元音+28 个辅音，学发音必备！](https://zhuanlan.zhihu.com/p/136840124)
 
-- [gliglish-AI口语](https://gliglish.com/)
+- [gliglish-AI 口语](https://gliglish.com/)
 
 - [口语学习平台](https://speechling.com/)
 
 - [EngFluent](https://engfluent.com/blog/)
+
+- [prettypolly](https://www.prettypolly.app/app)
 
 ### 考试资料
 
@@ -479,7 +484,7 @@ redirect_from:
 
 - [Burning Vocabulary](https://t.me/isaiahsystem/163)
 
-- [Youtube双字幕](https://t.me/isaiahsystem/184)
+- [Youtube 双字幕](https://t.me/isaiahsystem/184)
 
 - [沙拉查词](https://saladict.crimx.com/)
 
@@ -507,7 +512,7 @@ redirect_from:
 
 - [背单词平台](https://www.memrise.com/)
 
-- [外教1对1](https://www.mondly.com/)
+- [外教 1 对 1](https://www.mondly.com/)
 
 - [italk-语言学习社区](https://www.italki.com/)
 
@@ -527,10 +532,14 @@ redirect_from:
 
 - [denopark-游戏背单词](https://denopark.com/dicts)
 
-- [englishxyz-为youtube添加查词功能](https://englishxyz.com/)
+- [englishxyz-为 youtube 添加查词功能](https://englishxyz.com/)
 
 - [antimoon-英语学习指南](https://www.antimoon.com/)
 
 - [everyone-can-use-English](https://github.com/xiaolai/everyone-can-use-english)
 
 - [awesome-english-books](https://github.com/hehonghui/awesome-english-ebooks)
+
+- [唐库学习-中英文对照](http://www.tanglib.com/)
+
+- [英语教程](https://vdoc.pub/)
