@@ -244,6 +244,10 @@ redirect_from:
 
 - [regex generator](https://regex-generator.olafneumann.org)
 
+- [regex visualizer](https://pythonium.net/regex)
+
+- [data generator](https://softwium.com/mockium/)
+
 - [正则大全](https://any-rule.vercel.app/)
 
 - [AyugeSpiderTools-Scrapy 扩展库](https://ayugespidertools.readthedocs.io/en/latest/)
