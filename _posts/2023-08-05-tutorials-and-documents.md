@@ -90,6 +90,8 @@ redirect_from:
 
   - [编程宝库](http://www.codebaoku.com/)
 
+  - [codecookbook](https://github.com/Mountchicken/CodeCookbook)
+
 - algorithms
 
   - [The Algorithms](https://the-algorithms.com/)
@@ -123,6 +125,8 @@ redirect_from:
   - [go 中高并发下的通信方式：channel 管道的底层原理](https://www.coonote.com/go-note/go-channel.html)
 
   - [GolangStudy](https://github.com/cnymw/GolangStudy)
+
+  - [10 亿行挑战](https://benhoyt.com/writings/go-1brc/)
 
 - python
 
@@ -171,6 +175,8 @@ redirect_from:
   - [create-chart-可视化数据大屏](https://github.com/food-billboard/create-chart)
 
   - [八种方法实现 CSS 页面底部固定](https://segmentfault.com/a/1190000017805669)
+
+  - [learn_ts](https://www.learn-ts.org/)
 
 - devops
 
@@ -297,6 +303,8 @@ redirect_from:
 - [magazinelib](https://magazinelib.com/)
 
 - [DIRECTORY OF OPEN ACCESS JOURNALS](https://doaj.org/)
+
+- [学术下载解析](https://scriptcat.org/zh-CN/script-show-page/1397)
 
 ## 地理/历史
 
@@ -543,3 +551,5 @@ redirect_from:
 - [唐库学习-中英文对照](http://www.tanglib.com/)
 
 - [英语教程](https://vdoc.pub/)
+
+- [连词成句](https://earthworm.cuixueshe.com/)

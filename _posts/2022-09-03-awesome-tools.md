@@ -128,6 +128,12 @@ redirect_from:
 
 - [万物可对比](https://versus.com/cn)
 
+- [epub 阅读器](https://janereader.com/)
+
+- [12306spy](https://github.com/elroy93/12306spy)
+
+- [死链检查](https://www.deadlinkchecker.com/)
+
 ### 办公文件
 
 - [TinyWow Tool](https://tinywow.com/)
@@ -149,6 +155,8 @@ redirect_from:
 - [olorr-pdf_ocr](https://olocr.com/)
 
 - [google-translate-pdf](https://translate.google.com/?sl=auto&tl=zh-CN&op=docs)
+
+- [lumentis-structure_doc](https://github.com/hrishioa/lumentis)
 
 ### 云存储和局域网传输
 
@@ -213,6 +221,8 @@ redirect_from:
 - [gamil 后缀临时邮箱](https://smailpro.com/advanced)
 
 - [gmailnator](https://www.emailnator.com/)
+
+- [vmail](https://vmail.dev/)
 
 ### 接码平台
 
@@ -404,6 +414,8 @@ redirect_from:
 
 - [自签证书](https://selfcertificationhub.github.io/selfcertificationhub/generate)
 
+- [证书续期](https://httpsok.com/doc/)
+
 - [dev-raven-webhook 转发工具](https://github.com/iyjian/dev-raven)
 
 - [ToolsBox-webhook](https://hook.tltr.top/)
@@ -412,7 +424,24 @@ redirect_from:
 
 - [rust-command-line-utilities](https://github.com/sts10/rust-command-line-utilities)
 
-- [anytext](https://anytxt.net/download/)
+- [anytext](https://anytxt.net/download/~)
+
+- [Cloudflare Worker 2 Vless & Sub-proxy_subscribe](https://github.com/cmliu/edgetunnel)
+
+- [proxypool-proxy_subscribe](https://proxypool.link/)
+
+- [chromego-proxy_subscribe](https://github.com/Misaka-blog/chromego_merge)
+
+- [WARP-Clash-API](https://github.com/vvbbnn00/WARP-Clash-API)
+
+- [lapdev-远程开发环境](https://github.com/lapce/lapdev)
+
+- [drawDB-数据库设计](https://github.com/drawdb-io/drawdb)
+
+- [surya-ocr](https://github.com/Jimexist/surya-rs)
+
+- [ddns-go-本地反向代理](https://github.com/jeessy2/ddns-go)
+
 #### Frameworks
 
 - [utilmeta-python api](https://github.com/utilmeta/utilmeta-py)
@@ -422,6 +451,12 @@ redirect_from:
 - [UIverse-前端 ui 库](https://uiverse.io/)
 
 - [shadcn-ui](https://ui.shadcn.com/)
+
+- [soybean_admin](https://github.com/jianchang512/clone-voice/releases)
+
+#### Database
+
+- [dragonfly](https://github.com/dragonflydb/dragonfly)
 
 #### API
 
@@ -511,6 +546,8 @@ redirect_from:
 
 - [public-apis](https://github.com/public-apis/public-apis)
 
+- [IP_INFO_API](https://github.com/ihmily/ip-info-api)
+
 #### 短网址
 
 - [免费短网址生成器](http://suo.nz/)
@@ -552,6 +589,14 @@ redirect_from:
 - [GENERATE SHORT URL](https://x007.in/)
 
 - [亲爱的](https://qinai.de/)
+
+### something interesting
+
+- [gencat-pretend_to_be_busy](https://github.com/svenstaro/genact)
+
+- [ai 穿戴设备](https://github.com/BasedHardware/Friend)
+
+- [Kyoo-基于网页的媒体库](https://github.com/zoriya/Kyoo)
 
 ## 设计/创意
 

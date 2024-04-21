@@ -15,3 +15,19 @@ redirect_from:
 - gocorn：定时任务管理
 
 - sonic json: go语言的json解析器, 速度比标准库快
+
+- [openvoice-语音克隆](https://research.myshell.ai/open-voice)
+
+- [parler-tts轻量模型](https://github.com/huggingface/parler-tts)
+
+- [atac-rust api client](https://github.com/Julien-cpsn/ATAC)
+
+- [英语语法体系-建议手写摘录](https://twitter.com/abskoop/status/1727366986953564669?s=20)
+
+- [可数名词和不可数名词](https://t.me/EngMasters/11910)
+
+- [一人公司-投资](https://t.me/jike_collection/9605)
+
+- [wordlist](https://t.me/wuwuwuEnglish/459)
+
+- [I will survive-English song](https://t.me/EngMasters/11917)

@@ -10,7 +10,13 @@ redirect_from:
 
 ## Moives
 
+- [btnull](https://www.btnull.org/)
+
+- [音丝范](http://www.yinfans.me/)
+
 - [movie-web](https://movie-web.app/)
+
+- [nunflix](https://nunflix.com/)
 
 - [vk-video](https://vk.com/video)
 
@@ -40,8 +46,6 @@ redirect_from:
 
 - [bileizhen 的收纳箱](http://bileizhen.ysepan.com/)
 
-- [btnull](https://www.btnull.org/)
-
 - [爱动漫](https://anime.girigirilove.com/)
 
 - [cockmovie](https://cokemv.net/)
@@ -49,8 +53,6 @@ redirect_from:
 - [爱笑聚](https://www.axjbt.com/)
 
 - [字幕库](http://zimuku.org/)
-
-- [音丝范](http://www.yinfans.me/)
 
 - [蜜柑计划](https://mikanani.me/)
 
@@ -98,7 +100,17 @@ redirect_from:
 
 - [不太灵影视](https://2bt0.com/)
 
+- [流真岁月](https://www.thhtyh.com/)
+
+- [gofilm](https://github.com/ProudMuBai/GoFilm)
+
+- [tg-影视资源贴](https://t.me/LCGFX/2905)
+
 ### 网盘
+
+- [searchsearchgo](https://github.com/Justin3go/SearchSearchGo)
+
+- [齐乐搜](https://www.qileso.com/)
 
 - [小雅](http://alist.xiaoya.pro)
 
@@ -238,7 +250,7 @@ redirect_from:
 
 - [skymuz](https://skymuz.org/)
 
-- [spotify去广告](https://github.com/mrpond/BlockTheSpot)
+- [spotify 去广告](https://github.com/mrpond/BlockTheSpot)
 
 ## podcasts
 
@@ -259,6 +271,8 @@ redirect_from:
 - [soundcloud](https://soundcloud.com/)
 
 - [hmx gallery](http://www.hmix.net/music_gallery/music_top.htm)
+
+- [findsounds](https://www.findsounds.com/typesChinese.html)
 
 ## Pictures
 
@@ -428,6 +442,20 @@ redirect_from:
 
 - [小妖怪](https://www.xyg688.com/)
 
+- [单机游戏合集](https://t.me/fku0007/6308)
+
+- [单机游戏合集 2](https://t.me/fku0007/7240)
+
+- [playgame8](https://playgames8.com/)
+
+- [flysheep](https://www.flysheep6.com)
+
+- [flysheep 资源避难](http://sj.ysupan.com/flysheep#/)
+
+- [byrut](https://thebyrut.org)
+
+- [nexusmods](https://www.nexusmods.com/)
+
 ## Books
 
 - [Project Gutenberg](https://www.gutenberg.org/)
@@ -534,6 +562,8 @@ redirect_from:
 
 - [calibre-电子书管理](https://calibre-ebook.com/)
 
+- [一书单](https://yidanshu.com/)
+
 ## Software
 
 ### office
@@ -559,6 +589,12 @@ redirect_from:
 - [sharekey](https://pkeytool.com/ShareKeys)
 
 - [重装系统](https://down.gxzyzd.com/list/resetcomputer)
+
+- [rogue_pe](https://www.roguepe.cn/index.html)
+
+- [HEU_KMS](https://github.com/zbezj/HEU_KMS_Activator)
+
+- [Windows 相关工具合集](https://t.me/LCGFX/2536)
 
 - 官方工具部署激活
 
@@ -609,6 +645,8 @@ redirect_from:
 - [黑鹰](https://www.lxapk.com/)
 
 - [Bypass Paywalls-绕过付费墙](https://gitlab.com/magnolia1234/bypass-paywalls-chrome-clean)
+
+- [付费墙工具贴](https://t.me/LCGFX/2941)
 
 - [opensourcealternative](https://www.opensourcealternative.to/)
 
@@ -765,3 +803,15 @@ redirect_from:
 - [redditlist](https://redditlist.com/)
 
 - [中国科普博览](https://www.kepu.net.cn/)
+
+- [awesome_list](https://asmen.icopy.site/)
+
+- [历史年轮](https://www.yearsmap.com/)
+
+- [awesome-selhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)
+
+- [awesome-cloudflare](https://github.com/zhuima/awesome-cloudflare)
+
+- [中国古代人物可视化](https://tools.buyixiao.xyz/historical-figure-query)
+
+- [1000userguide](https://1000userguide.com/#/)

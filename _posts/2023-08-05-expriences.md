@@ -164,6 +164,8 @@ redirect_from:
 
 - [对标](https://duibiao.info/)
 
+- [每日招聘信息](https://github.com/hehehai/x-hiring)
+
 - 自由职业/副业
 
   - [https://www.freelancer.com/jobs](https://www.freelancer.com/jobs)

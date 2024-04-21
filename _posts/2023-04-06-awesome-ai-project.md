@@ -170,6 +170,14 @@ redirect_from:
 
 - [hugging-chat](https://huggingface.co/chat/assistants)
 
+- [edgen-本地私有 genai](https://github.com/edgenai/edgen)
+
+- [maxkb-基于 llm 的知识问答](https://github.com/1Panel-dev/MaxKB)
+
+- [文风-text_style_transfer](https://github.com/stylellm/stylellm_models)
+
+- [bing-chat](https://github.com/Harry-zklcdc/go-proxy-bingai)
+
 ## LLM
 
 - [Alpaca-Model](https://www.getalpaca.io/)
@@ -360,6 +368,12 @@ redirect_from:
 
 - [Phantom-图像增强框架](https://github.com/dreamoving/Phantom)
 
+- [livestory-speech_to_image](https://github.com/zeke/livestory)
+
+- [图像元素生成](https://facet.ai/)
+
+- [在线图片处理](https://free.tinypng.site/)
+
 ## Tools
 
 - [FUTUREPEDIA-AI 工具聚合](https://www.futurepedia.io/)
@@ -488,7 +502,13 @@ redirect_from:
 
 - [lobechat-高性能聊天机器人框架](https://github.com/lobehub/lobe-chat)
 
-- [shoggoth-ai分发p2p工具](https://github.com/shog-ai/shoggoth)
+- [shoggoth-ai 分发 p2p 工具](https://github.com/shog-ai/shoggoth)
+
+- [gpt-investor](https://github.com/mshumer/gpt-investor)
+
+- [chocolate_factory](https://github.com/unit-mesh/chocolate-factory)
+
+- [基于llm的agent](https://github.com/uukuguy/speechless)
 
 ## Video
 
@@ -642,7 +662,17 @@ redirect_from:
 
 - [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS/)
 
-- [Melotts-高质量tts库](https://github.com/myshell-ai/MeloTTS)
+- [Melotts-高质量 tts 库](https://github.com/myshell-ai/MeloTTS)
+
+- [clonevoice](https://github.com/jianchang512/clone-voice/releases)
+
+- [OpenVoice](https://research.myshell.ai/open-voice)
+
+- [Live-Transcription](https://github.com/gaborvecsei/whisper-live-transcription)
+
+- [parler-tts](https://github.com/huggingface/parler-tts)
+
+- [ai 音乐播放器](https://melodis.co/zh)
 
 ## 3D & Animation
 
@@ -742,6 +772,8 @@ redirect_from:
 
 - [翻译润色 prompt](https://anotherdayu.com/2023/5530/)
 
+- [propmt_quill](https://github.com/osi1880vr/prompt_quill)
+
 ## Websites
 
 - [AI 论文速递](https://briefgpt.xyz/)
@@ -784,7 +816,11 @@ redirect_from:
 
 - [hugging face](https://huggingface.co/)
 
-- [本地LLM使用指南](https://github.com/xue160709/Local-LLM-User-Guideline/blob/main/README-zh.md)
+- [本地 LLM 使用指南](https://github.com/xue160709/Local-LLM-User-Guideline/blob/main/README-zh.md)
+
+- [llm-action-教程](https://github.com/liguodongiot/llm-action)
+
+- [晓雅聊AI](https://uqtg4okxsd.feishu.cn/wiki/MoB0w5Zd2ie2IckGg7WccMRRnrg)
 
 ## API
 
@@ -801,3 +837,9 @@ redirect_from:
 - [copilot-gpt4-service](https://github.com/aaamoon/copilot-gpt4-service/blob/master/README_CN.md)
 
 - [langrila-可读性高的 gptapi 架构](https://github.com/taikinman/langrila)
+
+- [aurora-gpt3_api](https://github.com/aurora-develop/aurora)
+
+- [freegpt35](https://github.com/missuo/FreeGPT35)
+
+- [fgpt](https://github.com/shenjinti/fgpt)
