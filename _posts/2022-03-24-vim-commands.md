@@ -11,11 +11,11 @@ redirect_from:
 ## Picture of vim
 - 入门版
 
-  ![](https://raw.iqiq.io/ElmTran/ImgStg/main/img/vim_cn.gif)
+  ![](https://github.com/ElmTran/ImgStg/raw/main/img/vim_cn.gif)
 
 - 进阶版
 
-  ![](https://raw.iqiq.io/ElmTran/ImgStg/main/img/vim_programmers_300DPI.png)
+  ![](https://github.com/ElmTran/ImgStg/raw/main/img/vim_programmers_300DPI.png)
 
 ## Short Cut Key
 - 模式切换
