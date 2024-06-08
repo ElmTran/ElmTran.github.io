@@ -106,11 +106,19 @@ redirect_from:
 
 - [tg-影视资源贴](https://t.me/LCGFX/2905)
 
+- [knkanime-多源看番](https://github.com/KNKPA/KNKPAnime)
+
+- [freeok](https://www.freeok.vip/)
+
+- [seedhub](https://www.seedhub.cc/)
+
 ### 网盘
 
 - [searchsearchgo](https://github.com/Justin3go/SearchSearchGo)
 
 - [齐乐搜](https://www.qileso.com/)
+
+- [小兔搜搜](https://xiaotusoso.com/)
 
 - [小雅](http://alist.xiaoya.pro)
 
@@ -188,6 +196,8 @@ redirect_from:
 
 - [videocelebs-电影删减片段](https://videocelebs.net/)
 
+- [cobalt-视频下载](https://cobalt.tools/)
+
 ## Music
 
 - [liumingye](https://tools.liumingye.cn/music/#/)
@@ -252,6 +262,7 @@ redirect_from:
 
 - [spotify 去广告](https://github.com/mrpond/BlockTheSpot)
 
+- [apple-music无损下载](https://github.com/zhaarey/apple-music-alac-atmos-downloader)
 ## podcasts
 
 - [empire](https://linktr.ee/empirepoduk)
@@ -338,6 +349,8 @@ redirect_from:
 
 - [film-grab-电影截图](https://film-grab.com/)
 
+- [stockcake-无版权AI图库](https://stockcake.com/)
+
 ## Design
 
 - [dribbble](https://dribbble.com/shots)
@@ -392,7 +405,13 @@ redirect_from:
 
 - [templatenet](https://www.template.net/)
 
+- [爱PPT](https://www.2ppt.com/)
+
 ## Games
+
+- [koyso](https://koyso.com/)
+
+- [低端游戏](https://ddyx.me/GameList)
 
 - [igg](https://igg-games.com/)
 
@@ -457,6 +476,8 @@ redirect_from:
 - [nexusmods](https://www.nexusmods.com/)
 
 ## Books
+
+- [tmzn-alist书库](https://book.tmzn.top/)
 
 - [Project Gutenberg](https://www.gutenberg.org/)
 
@@ -564,6 +585,8 @@ redirect_from:
 
 - [一书单](https://yidanshu.com/)
 
+- [中国成人文学网-NSFW](https://www.xbookcn.net/)
+
 ## Software
 
 ### office
@@ -595,6 +618,8 @@ redirect_from:
 - [HEU_KMS](https://github.com/zbezj/HEU_KMS_Activator)
 
 - [Windows 相关工具合集](https://t.me/LCGFX/2536)
+
+- [OFGB-关闭win11广告](https://github.com/xM4ddy/OFGB)
 
 - 官方工具部署激活
 
@@ -815,3 +840,15 @@ redirect_from:
 - [中国古代人物可视化](https://tools.buyixiao.xyz/historical-figure-query)
 
 - [1000userguide](https://1000userguide.com/#/)
+
+- [学习摩斯电码](https://www.perry.qa/morse)
+
+- [老生常谈](https://laosheng.top/)
+
+- [free-for-dev](https://github.com/ripienaar/free-for-dev)
+
+- [公开实时数据库](https://github.com/bytewax/awesome-public-real-time-datasets)
+
+- [海棠诗社](https://haitang.app/)
+
+- [高等院校三千所](https://laosheng.top/fuwu/yuanxiao)

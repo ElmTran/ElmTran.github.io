@@ -100,6 +100,7 @@ redirect_from:
 
   - [hello-algo](https://github.com/krahets/hello-algo)
 
+  - [算法与复杂度](https://infinityglow.github.io/study/algorithm/overview/)
 - go
 
   - [Introduction-to-Golang](https://github.com/0voice/Introduction-to-Golang)
@@ -146,6 +147,14 @@ redirect_from:
 
   - [Comprehensive Rust-tutorials](https://google.github.io/comprehensive-rust/)
 
+  - [rust-exercises](https://rust-exercises.com/01_intro/00_welcome)
+
+  - [thealgorithms-rust](https://github.com/TheAlgorithms/Rust)
+
+  - [100-exercises-to-learn-rust](https://github.com/mainmatter/100-exercises-to-learn-rust)
+  
+  - [mini-lsm](https://skyzh.github.io/mini-lsm/)
+
 - ruby
 
   - [CentOS 7 使用 rvm 安装 ruby 搭建 jekyll 环境](https://qizhanming.com/blog/2017/05/31/install-rvm-and-ruby-buid-jeklly-env-on-centos-7)
@@ -177,6 +186,8 @@ redirect_from:
   - [八种方法实现 CSS 页面底部固定](https://segmentfault.com/a/1190000017805669)
 
   - [learn_ts](https://www.learn-ts.org/)
+
+  - [svg-tutorial](https://svg-tutorial.com/)
 
 - devops
 
@@ -553,3 +564,5 @@ redirect_from:
 - [英语教程](https://vdoc.pub/)
 
 - [连词成句](https://earthworm.cuixueshe.com/)
+
+- [薄冰英语语法](https://oldwestenglish.github.io/grammar/#/)

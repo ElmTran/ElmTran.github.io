@@ -109,3 +109,5 @@ redirect_from:
 - [你有一个打折需要了解](https://t.me/SteamNy)
 
 - [Steam快讯](https://t.me/steamsteam)
+
+- [资源分享](https://t.me/LCGFX/2988)

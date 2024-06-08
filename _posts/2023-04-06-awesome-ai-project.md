@@ -22,6 +22,8 @@ redirect_from:
 
 - [perplexity-ai 问答](https://www.perplexity.ai/)
 
+- [turboseek-ai搜索](https://github.com/Nutlope/turboseek)
+
 - [chatgpt api](https://api.aa1.cn/special/chatgpt)
 
 - [ai 分析论文](https://app.humata.ai/)
@@ -177,6 +179,10 @@ redirect_from:
 - [文风-text_style_transfer](https://github.com/stylellm/stylellm_models)
 
 - [bing-chat](https://github.com/Harry-zklcdc/go-proxy-bingai)
+
+- [Perplexica-ai搜索引擎](https://github.com/ItzCrazyKns/Perplexica)
+
+- [DuckDuckgo-ai](https://duckduckgo.com/?q=DuckDuckGo&ia=chat)
 
 ## LLM
 
@@ -374,6 +380,12 @@ redirect_from:
 
 - [在线图片处理](https://free.tinypng.site/)
 
+- [EditAnything](https://github.com/sail-sg/EditAnything)
+
+- [omost](https://github.com/lllyasviel/Omost)
+
+- [realesrgan-gui-本地无损放大](https://github.com/TransparentLC/realesrgan-gui/releases)
+
 ## Tools
 
 - [FUTUREPEDIA-AI 工具聚合](https://www.futurepedia.io/)
@@ -509,6 +521,14 @@ redirect_from:
 - [chocolate_factory](https://github.com/unit-mesh/chocolate-factory)
 
 - [基于llm的agent](https://github.com/uukuguy/speechless)
+
+- [texpipecat-语音助手开源框架](https://github.com/pipecat-ai/pipecat)
+
+- [geospy-地理位置识别](https://geospy.ai/)
+
+- [langchain-rust](https://github.com/Abraxas-365/langchain-rust)
+
+- [langchain](https://python.langchain.com/v0.2/docs/introduction/)
 
 ## Video
 
@@ -654,8 +674,6 @@ redirect_from:
 
 - [audiocut](https://audiocut.app/)
 
-- [openvoice](https://research.myshell.ai/open-voice)
-
 - [线上文字转语音](https://reccloud.com/tw/text-to-speech-online)
 
 - [Pod-Helper-转录](https://github.com/Muhtasham/pod-helper)
@@ -668,11 +686,27 @@ redirect_from:
 
 - [OpenVoice](https://research.myshell.ai/open-voice)
 
+- [openvoicev2-enhance](https://github.com/v3ucn/OpenVoiceV2_Webui_resemble_enhance)
+
 - [Live-Transcription](https://github.com/gaborvecsei/whisper-live-transcription)
 
 - [parler-tts](https://github.com/huggingface/parler-tts)
 
 - [ai 音乐播放器](https://melodis.co/zh)
+
+- [ChatTTS](https://github.com/2noise/ChatTTS)
+
+- [ChatTTS-Forge](https://github.com/lenML/ChatTTS-Forge?tab=readme-ov-file#%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2)
+
+- [ChatTTS_colab](https://github.com/6drf21e/ChatTTS_colab)
+
+- [FishSpeech](https://github.com/fishaudio/fish-speech)
+
+- [sherpa-onnx-本地语音识别转换](https://github.com/k2-fsa/sherpa-onnx?tab=readme-ov-file)
+
+- [edge-tts](https://voice.wangwangit.com/)
+
+- [insanely-fast-whisper](https://github.com/Vaibhavs10/insanely-fast-whisper)
 
 ## 3D & Animation
 
@@ -774,6 +808,10 @@ redirect_from:
 
 - [propmt_quill](https://github.com/osi1880vr/prompt_quill)
 
+- [ai-device-template](https://github.com/developersdigest/ai-devices)
+
+- [Jan](https://github.com/janhq/jan)
+
 ## Websites
 
 - [AI 论文速递](https://briefgpt.xyz/)
@@ -822,6 +860,10 @@ redirect_from:
 
 - [晓雅聊AI](https://uqtg4okxsd.feishu.cn/wiki/MoB0w5Zd2ie2IckGg7WccMRRnrg)
 
+- [llm百宝箱](https://github.com/liguodongiot/llm-resource)
+
+- [Awesome-Chinese-LLM](https://github.com/HqWu-HITCS/Awesome-Chinese-LLM)
+
 ## API
 
 - [OpenAI API](https://platform.openai.com/overview)
@@ -843,3 +885,7 @@ redirect_from:
 - [freegpt35](https://github.com/missuo/FreeGPT35)
 
 - [fgpt](https://github.com/shenjinti/fgpt)
+
+- [openedai-vision](https://github.com/matatonic/openedai-vision)
+
+- [insanely-fast-whisper-api](https://github.com/JigsawStack/insanely-fast-whisper-api)

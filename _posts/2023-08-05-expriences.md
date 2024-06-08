@@ -36,7 +36,17 @@ redirect_from:
 
 - [bestsimilar](https://bestsimilar.com/)
 
-- [学习摩斯电码](https://www.perry.qa/morse)
+- [城市租房生存指南](https://zufang.ababtools.com/)
+
+- [装修设计](https://www.kainoai.com/)
+
+- [awesome-love-code](https://sun0225sun.github.io/Awesome-Love-Code)
+
+- [sex-position-NSFW](https://sex-positions.online/zh-cn/)
+
+- [摄影构图指南](https://antongorlin.com/blog/photography-composition-definitive-guide/)
+
+- [corporatecode](https://www.corporatecode.org/)
 
 ## World Wide Web
 
@@ -166,6 +176,14 @@ redirect_from:
 
 - [每日招聘信息](https://github.com/hehehai/x-hiring)
 
+- [boss-helper](https://github.com/Ocyss/boos-helper)
+
+- [showtime](https://github.com/tangzhiyao/boss-show-time)
+
+- [daily-interview](https://github.com/datawhalechina/daily-interview)
+
+- [interview-pilot-ai](https://github.com/tejpshah/interview-pilot-ai)
+
 - 自由职业/副业
 
   - [https://www.freelancer.com/jobs](https://www.freelancer.com/jobs)
@@ -211,6 +229,8 @@ redirect_from:
 - [compile.blog](https://compile.blog/)
 
 - [moneywise](https://moneywise.com/)
+
+- [每日黄金](https://goldprice.fun/)
 
 ## 购物
 

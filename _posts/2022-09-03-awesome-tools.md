@@ -12,13 +12,23 @@ redirect_from:
 
 ### 通用
 
-- [Jpeg.io \| Convert any major image format into a highly optimized JPEG](https://www.jpeg.io/)
+- 图片压缩
 
-- [在线图片压缩\_视频转 GIF 软件\_GIF 裁剪合成工具-图贴士](https://www.tutieshi.com/)
+  - [Jpeg.io](https://www.jpeg.io/)
 
-- [在线图片压缩工具(jpg、jpeg、png、gif)无损压缩 90%-压缩图](https://www.yasuotu.com/)
+  - [tutieshi](https://www.tutieshi.com/)
 
-- [图片压缩*图片在线压缩*批量压缩工具-NiaoAPI](http://www.niaoapi.com/)
+  - [yasuotu](https://www.yasuotu.com/)
+
+  - [tinypng](https://free.tinypng.site/)
+
+  - [saerasoft](https://saerasoft.com/caesium)
+
+  - [niaoapi](http://www.niaoapi.com/)
+
+  - [压力巨](https://www.yalijuda.com/)
+
+  - [picdiet](https://www.picdiet.com/zh-cn)
 
 - [无需上传文件也可在线处理图片](https://imagestool.com/zh_CN/)
 
@@ -34,15 +44,11 @@ redirect_from:
 
 - [人声消除和隔离](https://vocalremover.org/ch/)
 
-- [压力巨大-图片压缩](https://www.yalijuda.com/)
-
 - [OCR 识别](https://pearocr.com/)
 
 - [智影](https://zenvideo.qq.com/)
 
 - [Batch AI Photo sharpener](https://bggenerator.com/batch_ai_photo_sharpener.html)
-
-- [图片压缩](https://www.picdiet.com/zh-cn)
 
 - [lucidchart-作图](https://www.lucidchart.com/pages/)
 
@@ -77,8 +83,6 @@ redirect_from:
 - [peiseka](https://peiseka.com/)
 
 - [城通网盘解析](https://github.com/qinlili23333/ctfileGet)
-
-- [在线压缩](https://www.picdiet.com/zh-cn)
 
 - [音乐分轨](https://melody.ml/)
 
@@ -134,7 +138,39 @@ redirect_from:
 
 - [死链检查](https://www.deadlinkchecker.com/)
 
-### 办公文件
+- [摸鱼之路](https://996.ninja/docs/ninjutsu/intro/)
+
+- [screego-网页共享屏幕](https://github.com/screego/server)
+
+- [终端文件管理器](https://superfile.netlify.app/)
+
+- [windows自动化工具](https://tinytask.net/)
+
+- [虚拟定位](https://github.com/ZCShou/GoGoGo)
+
+- [audacity-au开源替代](https://github.com/audacity/audacity/releases)
+
+- [hiddify-代理软件](https://github.com/hiddify/hiddify-next)
+
+- [oblivion-第三方cloudflare warp客户端](https://github.com/bepass-org/oblivion-desktop)
+
+- [barcodetopc-手机当电脑扫码枪](https://barcodetopc.com/download/)
+
+- [文本分享-阅后即焚](https://github.com/SharzyL/pastebin-worker)
+
+- [公益代理](https://github.com/Cry1ngMan/1)
+
+- [微信读书导出工具](https://github.com/drunkdream/weread-exporter)
+
+- [大麦抢票](https://github.com/shiyutim/tickets)
+
+- [easy-voice-toolkit](https://github.com/Spr-Aachen/Easy-Voice-Toolkit)
+
+- [pile-本地日记](https://github.com/UdaraJay/Pile)
+
+- [everauto-自动化任务](http://www.everauto.net/)
+
+### 文档
 
 - [TinyWow Tool](https://tinywow.com/)
 
@@ -290,6 +326,10 @@ redirect_from:
 
 - [Powershell 模块](https://github.com/farag2/Sophia-Script-for-Windows)
 
+- [Win11Debloat-移除win11冗余](https://github.com/Raphire/Win11Debloat)
+
+- [rytunex-windows优化](https://rayenghanmi.github.io/rytunex/index.html)
+
 - [SmsForwarder 短信转发](https://github.com/pppscn/SmsForwarder)
 
 - [命令行使用教程](https://github.com/xuxiaodong/usingcli-book)
@@ -378,6 +418,8 @@ redirect_from:
 
 - [使用 cloudflare 搭建免费代理](https://neko-warp.nloli.xyz/)
 
+- [cloudflare-worker-deploy-trojan](https://github.com/ca110us/epeius/tree/main?tab=readme-ov-file)
+
 - [KeymouseGo-类似按键精灵](https://github.com/taojy123/KeymouseGo)
 
 - [ahkUnwrapped-封装 ahk 的 python 脚本](https://github.com/CodeOptimist/ahkunwrapped)
@@ -446,6 +488,22 @@ redirect_from:
 
 - [ddns-go-本地反向代理](https://github.com/jeessy2/ddns-go)
 
+- [渐变色生成](https://gradientor.app/)
+
+- [i18n-json-translate](https://tools.newzone.top/json-translate)
+
+- [TTE-终端文本效果](https://chrisbuilds.github.io/terminaltexteffects/showroom/)
+
+- [dagu-带ui的cron替代](https://github.com/dagu-dev/dagu)
+
+- [coolify-托管工具vercel开源替代](https://github.com/coollabsio/coolify)
+
+- [maxkey-身份验证](https://github.com/dromara/MaxKey)
+
+- [git-absorb](https://github.com/tummychow/git-absorb)
+
+- [blip-端到端chuan'shu](https://blip.net/)
+
 #### Frameworks
 
 - [utilmeta-python api](https://github.com/utilmeta/utilmeta-py)
@@ -457,6 +515,12 @@ redirect_from:
 - [shadcn-ui](https://ui.shadcn.com/)
 
 - [soybean_admin](https://github.com/jianchang512/clone-voice/releases)
+
+- [matcha-纯css嵌入式语义yang'shi](https://matcha.mizu.sh/)
+
+- [easyfrontend](https://easyfrontend.com/)
+
+- [hyperui](https://github.com/markmead/hyperui)
 
 #### Database
 
@@ -594,6 +658,10 @@ redirect_from:
 
 - [亲爱的](https://qinai.de/)
 
+- [sink-基于cloudflare的短链](https://sink.cool/)
+
+- [dub](https://dub.co/)
+
 ### something interesting
 
 - [gencat-pretend_to_be_busy](https://github.com/svenstaro/genact)
@@ -601,6 +669,8 @@ redirect_from:
 - [ai 穿戴设备](https://github.com/BasedHardware/Friend)
 
 - [Kyoo-基于网页的媒体库](https://github.com/zoriya/Kyoo)
+
+- [oneminutepark](https://oneminutepark.tv/)
 
 ## 设计/创意
 
@@ -671,6 +741,8 @@ redirect_from:
 - [带动效的图标](https://www.mingcute.com/animation)
 
 - [triangel-design](https://sinqi.tools/triangle)
+
+- [clean-png](https://www.cleanpng.com/)
 
 ## 搜索引擎
 
