@@ -170,6 +170,8 @@ redirect_from:
 
 - [everauto-自动化任务](http://www.everauto.net/)
 
+- [网站图片提取](https://extract.pics/)
+
 ### 文档
 
 - [TinyWow Tool](https://tinywow.com/)

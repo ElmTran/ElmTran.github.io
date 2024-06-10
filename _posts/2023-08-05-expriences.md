@@ -24,6 +24,8 @@ redirect_from:
 
 - [医脉通](https://www.medlive.cn/)
 
+- [常备药清单](https://www.yuque.com/eureka9527/0007/pt0xox4qlsexgvd9#aTnz8)
+
 - [高效生活视频书](https://topbook.cc/overview)
 
 - [迅维网](https://www.chinafix.com/)
