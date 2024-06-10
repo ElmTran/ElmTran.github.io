@@ -10,11 +10,11 @@ redirect_from:
 
 ## Contries
 
-![1718003689542](image/2024-06-10-contries-offering-digital-nomad-visas/1718003689542.png)
+![1718003689542](https://raw.githubusercontent.com/ElmTran/ImgStg/main/img//1718003689542.png)
 
-![1718003699380](image/2024-06-10-contries-offering-digital-nomad-visas/1718003699380.png)
+![1718003699380](https://raw.githubusercontent.com/ElmTran/ImgStg/main/img//1718003699380.png)
 
-![1718003707549](image/2024-06-10-contries-offering-digital-nomad-visas/1718003707549.png)
+![1718003707549](https://raw.githubusercontent.com/ElmTran/ImgStg/main/img//1718003707549.png)
 
 
 ## Reference
