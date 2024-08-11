@@ -112,6 +112,12 @@ redirect_from:
 
 - [seedhub](https://www.seedhub.cc/)
 
+- [短剧狗](https://duanjugou.top/)
+
+- [streamflix](https://github.com/stantanasi/streamflix)
+
+- [黑猫影视](https://heimaotv.vip/)
+
 ### 网盘
 
 - [searchsearchgo](https://github.com/Justin3go/SearchSearchGo)
@@ -153,6 +159,8 @@ redirect_from:
 - [易搜](https://yiso.eu.org/)
 
 - [搜片](https://soupian.one/)
+
+- [纯英字幕电影带台本](https://pan.quark.cn/s/29b7ed8b43ad#/list/share)
 
 ### trailers
 
@@ -197,6 +205,8 @@ redirect_from:
 - [videocelebs-电影删减片段](https://videocelebs.net/)
 
 - [cobalt-视频下载](https://cobalt.tools/)
+
+- [clip-cafe-电影剪辑搜索](https://clip.cafe/)
 
 ## Music
 
@@ -262,10 +272,15 @@ redirect_from:
 
 - [spotify 去广告](https://github.com/mrpond/BlockTheSpot)
 
+- [Spicetify-Spotify优化](https://spicetify.app/)
+
 - [apple-music无损下载](https://github.com/zhaarey/apple-music-alac-atmos-downloader)
+
 ## podcasts
 
 - [empire](https://linktr.ee/empirepoduk)
+
+- [BookRadio-有声读物](https://bookradio.vercel.app/)
 
 ## Sound
 
@@ -351,6 +366,10 @@ redirect_from:
 
 - [stockcake-无版权AI图库](https://stockcake.com/)
 
+- [movie-posters-perfected-电影海报](https://www.moviepostersperfected.com/quick-setup)
+
+- [videocelebs-电影删减片段](https://videocelebs.net/)
+
 ## Design
 
 - [dribbble](https://dribbble.com/shots)
@@ -361,6 +380,8 @@ redirect_from:
 
 - [寻找配色](http://colorhunt.co)
 
+- [Radix-配色](https://www.radix-ui.com/colors/custom)
+
 - [寻找矢量图片](http://iconfont.cn)
 
 - [freepreset-预设](https://freepreset.net/)
@@ -370,6 +391,8 @@ redirect_from:
 - [handsome-css](https://www.handsome-css.com/)
 
 - [boxcoding-css_components](https://avabucks.it/index)
+
+- [loadership-css加载动画](https://www.loadership.com/#configurator)
 
 - [IconPark](https://github.com/bytedance/IconPark)
 
@@ -389,6 +412,10 @@ redirect_from:
 
 - [渐变色](https://products-ls-graphics.b-cdn.net/mesh-gradients/)
 
+- [渐变色生成](https://gradientor.app/)
+
+- [CSS渐变](https://www.mshr.app/)
+
 - [双色](https://duotone.shapefactory.co/?f=f56468&t=27184f&q=_)
 
 - [调色 lut-提取码:k5e4](https://pan.baidu.com/share/init?surl=PFVwWXNbOsIx5ROjPeJKwQ)
@@ -406,6 +433,8 @@ redirect_from:
 - [templatenet](https://www.template.net/)
 
 - [爱PPT](https://www.2ppt.com/)
+
+- [ppt搜索](https://searchthedeck.com/)
 
 ## Games
 
@@ -474,6 +503,13 @@ redirect_from:
 - [byrut](https://thebyrut.org)
 
 - [nexusmods](https://www.nexusmods.com/)
+
+- [魂类游戏备份](https://github.com/BugLordI/EldenRingAutoArchive)
+
+- [艾尔登法环存档编辑](https://github.com/ClayAmore/ER-Save-Editor)
+
+- [byruthub](https://byruthub.org/)
+
 
 ## Books
 
@@ -587,6 +623,16 @@ redirect_from:
 
 - [中国成人文学网-NSFW](https://www.xbookcn.net/)
 
+- [24h搜书](https://24hbook.com/)
+
+- [中文教科书](https://textbook.synaiv.com/)
+
+- [SaltyLeo的书架](https://book.tstrs.me/)
+
+- [阅读书源](https://shuyuan.yiove.com/)
+
+- [经典电子书](https://github.com/kska32/ebooks)
+
 ## Software
 
 ### office
@@ -672,6 +718,10 @@ redirect_from:
 - [Bypass Paywalls-绕过付费墙](https://gitlab.com/magnolia1234/bypass-paywalls-chrome-clean)
 
 - [付费墙工具贴](https://t.me/LCGFX/2941)
+
+- [绕过付费墙](https://freedium.cfd/)
+
+- [付费墙文章破解](https://paywallbuster.com/)
 
 - [opensourcealternative](https://www.opensourcealternative.to/)
 
@@ -852,3 +902,29 @@ redirect_from:
 - [海棠诗社](https://haitang.app/)
 
 - [高等院校三千所](https://laosheng.top/fuwu/yuanxiao)
+
+- [awesome-osint](https://github.com/jivoi/awesome-osint)
+
+- [全球实时航班交通](https://zh.flightaware.com/)
+
+- [独立开发者出海工具箱](https://indiehackertools.net/)
+
+- [中文独立博客列表](https://github.com/timqian/chinese-independent-blogs)
+
+- [大厂开源项目](https://github.com/LeslieLeung/opensource-lighthouse)
+
+- [工程师博客](https://infos.imhcg.cn/)
+
+- [Locallingual-收听世界方言](https://www.localingual.com/)
+
+- [值得一读技术博客](daily-blog.chlinlearn.top)
+
+- [cantsleepreads-睡眠故事](https://cantsleepreads.com/story/the-celebrated-jumping-frog)
+
+- [Write stories with the world](https://strand.jinay.dev/)
+
+- [fun2k-娱乐资讯](https://fun2k.com/)
+
+- [birdify-世界各地的鸟声](https://birdify.co.uk/)
+
+- [skylinewebcams-世界景区摄像头](https://www.skylinewebcams.com/)

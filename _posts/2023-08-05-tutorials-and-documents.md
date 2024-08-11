@@ -8,7 +8,15 @@ redirect_from:
   - /2023/08/05/
 ---
 
-## Math
+## 语文
+
+- [简明字帖](https://www.babawar.com/)
+
+- [z2h字帖](https://paper.z2h.cn/)
+
+- [练字本生成](https://github.com/jaywcjlove/copybook-generator)
+
+## 数学
 
 - LaTex
 
@@ -33,6 +41,8 @@ redirect_from:
 - [微积分笔记](http://1973blunt.github.io/2016/06/30/Math-Calculus-cheatSheet/)
 
 - [一文搞懂 k 近邻（k-NN）算法](https://zhuanlan.zhihu.com/p/25994179)
+
+- [看见统计](https://seeing-theory.brown.edu/cn.html)
 
 - Business Analytics
 
@@ -60,7 +70,7 @@ redirect_from:
 
   - [rawgraphs](https://www.rawgraphs.io/)
 
-## 影视后期
+## 摄影和剪辑
 
 - [剪辑初学者如何开始学习视频剪辑？](https://www.zhihu.com/question/22457234)
 
@@ -69,6 +79,12 @@ redirect_from:
 - [Premiere Pro 10 大奇技淫巧](https://zhuanlan.zhihu.com/p/43223857)
 
 - [怎样学好构图](https://daily.zhihu.com/story/9741878)
+
+- [光与影的解释](https://ciechanow.ski/lights-and-shadows/)
+
+- [摄影可视化理解](https://jherr.github.io/depth-of-field/)
+
+- [摄影构图指南](https://antongorlin.com/blog/photography-composition-definitive-guide/)
 
 ## 音乐创作
 
@@ -154,6 +170,8 @@ redirect_from:
   - [100-exercises-to-learn-rust](https://github.com/mainmatter/100-exercises-to-learn-rust)
   
   - [mini-lsm](https://skyzh.github.io/mini-lsm/)
+
+  - [ferrous-systems-exercises](https://github.com/ferrous-systems/rust-exercises)
 
 - ruby
 
@@ -566,3 +584,5 @@ redirect_from:
 - [连词成句](https://earthworm.cuixueshe.com/)
 
 - [薄冰英语语法](https://oldwestenglish.github.io/grammar/#/)
+
+- [新概念学习笔记](https://github.com/andylee1890/NewConceptEnglish)

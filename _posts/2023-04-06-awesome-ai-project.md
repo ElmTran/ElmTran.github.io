@@ -386,6 +386,12 @@ redirect_from:
 
 - [realesrgan-gui-本地无损放大](https://github.com/TransparentLC/realesrgan-gui/releases)
 
+- [Stable Diffusion WebUI 启动器](https://www.easyartx.com/landing)
+
+- [图像增强](https://mejorarimagen.org/)
+
+- [背景去除](https://rmbg.fun/)
+
 ## Tools
 
 - [FUTUREPEDIA-AI 工具聚合](https://www.futurepedia.io/)
@@ -529,6 +535,16 @@ redirect_from:
 - [langchain-rust](https://github.com/Abraxas-365/langchain-rust)
 
 - [langchain](https://python.langchain.com/v0.2/docs/introduction/)
+
+- [rockai](https://www.rockai.online/)
+
+- [室内装修AI](https://www.kainoai.com/)
+
+- [股票机器人](https://github.com/bklieger-groq/stockbot-on-groq)
+
+- [ai-emoji](https://ai-emoji.bettergogo.com/)
+
+- [周报通](https://zhoubaotong.com/zh)
 
 ## Video
 
@@ -696,9 +712,7 @@ redirect_from:
 
 - [ChatTTS](https://github.com/2noise/ChatTTS)
 
-- [ChatTTS-Forge](https://github.com/lenML/ChatTTS-Forge?tab=readme-ov-file#%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2)
-
-- [ChatTTS_colab](https://github.com/6drf21e/ChatTTS_colab)
+- [awesome-chattts](https://github.com/panyanyany/Awesome-ChatTTS)
 
 - [FishSpeech](https://github.com/fishaudio/fish-speech)
 
@@ -707,6 +721,28 @@ redirect_from:
 - [edge-tts](https://voice.wangwangit.com/)
 
 - [insanely-fast-whisper](https://github.com/Vaibhavs10/insanely-fast-whisper)
+
+- [texttospeech](https://texttospeech.im/zh-CN)
+
+- [elevenlabs](https://elevenlabs.io/)
+
+- [Fish-Audio](https://fish.audio/zh-CN/)
+
+- [gladia-语音识别](https://www.gladia.io/)
+
+- [sensevoice](https://github.com/FunAudioLLM/SenseVoice)
+
+- [cosyvoice](https://github.com/FunAudioLLM/CosyVoice)
+
+- [voice-changer](https://voicechanger.im/)
+
+- [azure-tts-web](https://github.com/Femoon/tts-azure-web)
+
+- [CapsWriter-Offline-语音转录](https://github.com/HaujetZhao/CapsWriter-Offline/releases)
+
+- [aisaver-支持较多方言](https://aisaver.io/tools/text-to-speech)
+
+- [funaudiollm-声音克隆](https://funaudiollm.github.io/)
 
 ## 3D & Animation
 
@@ -889,3 +925,5 @@ redirect_from:
 - [openedai-vision](https://github.com/matatonic/openedai-vision)
 
 - [insanely-fast-whisper-api](https://github.com/JigsawStack/insanely-fast-whisper-api)
+
+- [免费AI API](https://www.freeaihunter.com/)

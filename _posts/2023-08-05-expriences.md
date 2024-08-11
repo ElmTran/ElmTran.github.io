@@ -46,9 +46,11 @@ redirect_from:
 
 - [sex-position-NSFW](https://sex-positions.online/zh-cn/)
 
-- [摄影构图指南](https://antongorlin.com/blog/photography-composition-definitive-guide/)
-
 - [corporatecode](https://www.corporatecode.org/)
+
+- [有用的经验](https://yyjingyan.com/)
+
+- [带插头的旅行者指南](https://whatplug.info/)
 
 ## World Wide Web
 
@@ -186,6 +188,12 @@ redirect_from:
 
 - [interview-pilot-ai](https://github.com/tejpshah/interview-pilot-ai)
 
+- [算法高频](https://code.gpthanghai.com/)
+
+- [jobcorner](https://jobincorner.com/)
+
+- [developer2gwy-程序员考公指南](https://github.com/miss-mumu/developer2gwy)
+
 - 自由职业/副业
 
   - [https://www.freelancer.com/jobs](https://www.freelancer.com/jobs)
@@ -218,8 +226,6 @@ redirect_from:
 
   - [https://www.linkedin.com](https://www.linkedin.com)
 
-  - [算法高频](https://code.gpthanghai.com/)
-
 ## 投资
 
 - [confluence](https://www.confluence.vc/)
@@ -233,6 +239,14 @@ redirect_from:
 - [moneywise](https://moneywise.com/)
 
 - [每日黄金](https://goldprice.fun/)
+
+- [tradingeconomics-全球经济指标](https://zh.tradingeconomics.com/)
+
+- [dapanyuntu](https://dapanyuntu.com/)
+
+- [ark基金追踪](https://www.arktrack.com/)
+
+- [personalfinance-个人投资者指南](https://www.reddit.com/r/personalfinance/wiki/index/)
 
 ## 购物
 
@@ -251,6 +265,8 @@ redirect_from:
 - [choosebest](https://www.slant.co/)
 
 - [大麦网抢票辅助](https://github.com/RookieTree/DaMaiHelper)
+
+- [股票机器人](https://github.com/bklieger-groq/stockbot-on-groq)
 
 ### 虚拟服务
 
@@ -281,3 +297,7 @@ redirect_from:
 - [富贵论坛](https://www.fglt.net/)
 
 - [A5 新媒体](https://xmt.a5.net/)
+
+- [一起拼车](https://www.pinche.world/category)
+
+- [龙喵商店](https://longmiao.store/)

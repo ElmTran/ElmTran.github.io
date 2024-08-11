@@ -12,6 +12,8 @@ redirect_from:
 
 ### 通用
 
+- [30tool](https://www.30aitool.com/)
+
 - 图片压缩
 
   - [Jpeg.io](https://www.jpeg.io/)
@@ -33,6 +35,8 @@ redirect_from:
 - [无需上传文件也可在线处理图片](https://imagestool.com/zh_CN/)
 
 - [改图神器-无损放大](https://img.logosc.cn/bigjpg)
+
+- [图像优化命令行工具](https://github.com/SalOne22/rimage)
 
 - [十六进制颜色代码表，图表及调色板 - Encycolorpedia](https://encycolorpedia.cn/)
 
@@ -66,6 +70,8 @@ redirect_from:
 
 - [videoscribe-视频制作](https://www.videoscribe.co/en/free-trial/)
 
+- [视频批量化处理](https://271374667.github.io/VideoFusion/)
+
 - [Aegisub-字幕编辑](https://aegi.vmoe.info/)
 
 - [chillin-在线剪辑](https://chillin.online/)
@@ -75,6 +81,8 @@ redirect_from:
 - [4download](https://4download.net)
 
 - [Text2Handwriting](https://saurabhdaware.github.io/text-to-handwriting/)
+
+- [手写体转换](https://cloud.myfont.bid/)
 
 - [身份生成](http://www.haoweichi.com/)
 
@@ -103,8 +111,6 @@ redirect_from:
 - [anti-ad-广告过滤列表](https://anti-ad.net/)
 
 - [虚拟定位](https://github.com/ZCShou/GoGoGo)
-
-- [魂类游戏备份](https://github.com/BugLordI/EldenRingAutoArchive)
 
 - [steamautocrack](https://github.com/oureveryday/Steam-auto-crack)
 
@@ -172,6 +178,16 @@ redirect_from:
 
 - [网站图片提取](https://extract.pics/)
 
+- [SnapAny-视频图片解析](https://snapany.com/zh)
+
+- [图标制作工具](https://chartcube.alipay.com/)
+
+- [ulPCat-手机监控](https://uipcat.cn/)
+
+- [VectorCut-矢量插图](https://vectorcraftr.com/)
+
+- [骤雨重山图床](https://github.com/uxiaohan/ZYCS-IMG)
+
 ### 文档
 
 - [TinyWow Tool](https://tinywow.com/)
@@ -195,6 +211,10 @@ redirect_from:
 - [google-translate-pdf](https://translate.google.com/?sl=auto&tl=zh-CN&op=docs)
 
 - [lumentis-structure_doc](https://github.com/hrishioa/lumentis)
+
+- [电子书文档格式转换](epub2kindle.com/zh)
+
+- [自托管pdf处理](https://github.com/Stirling-Tools/Stirling-PDF)
 
 ### 云存储和局域网传输
 
@@ -282,6 +302,24 @@ redirect_from:
 
 - [receive-sms](https://receive-sms.cc/)
 
+- [sms-activate](https://sms-activate.io/en)
+
+### 企业查询
+
+- [国家企业信用信息公示系统](https://shiming.gsxt.gov.cn/)
+
+- [中国裁判文书网](https://wenshu.court.gov.cn)
+
+- [中国执行信息公开网](http://zxgk.court.gov.cn/index.jsp)
+
+- [国家知识产权局](https://cnipa.gov.cn)
+
+- [国家版权局](https://ncac.gov.cn)
+
+- [信用中国](https://creditchina.gov.cn)
+
+- [民政部](https://mca.gov.cn/index.html)
+
 ### 开发工具
 
 - [smarGate-内网穿透工具](https://github.com/lazy-luo/smarGate)
@@ -365,6 +403,8 @@ redirect_from:
 - [waitlist-wtf](https://www.waitlist.wtf/)
 
 - [域名比价](https://zh-hans.tld-list.com/)
+
+- [NameBeta-域名比价](https://www.namebeta.com/)
 
 - [MathB.in-在线数学编辑器](https://mathb.in/)
 
@@ -490,8 +530,6 @@ redirect_from:
 
 - [ddns-go-本地反向代理](https://github.com/jeessy2/ddns-go)
 
-- [渐变色生成](https://gradientor.app/)
-
 - [i18n-json-translate](https://tools.newzone.top/json-translate)
 
 - [TTE-终端文本效果](https://chrisbuilds.github.io/terminaltexteffects/showroom/)
@@ -504,7 +542,17 @@ redirect_from:
 
 - [git-absorb](https://github.com/tummychow/git-absorb)
 
-- [blip-端到端chuan'shu](https://blip.net/)
+- [blip-端到端传输](https://blip.net/)
+
+- [websoft9-开源linux应用](https://www.websoft9.com/)
+
+- [公共api](https://github.com/public-api-lists/public-api-lists)
+
+- [codemap-代码辅助阅读](https://codemap.info/index.html)
+
+- [rustscan-端口扫描](https://github.com/RustScan/RustScan)
+
+- [chsrc-换源工具](https://github.com/RubyMetric/chsrc/releases)
 
 #### Frameworks
 
@@ -523,6 +571,10 @@ redirect_from:
 - [easyfrontend](https://easyfrontend.com/)
 
 - [hyperui](https://github.com/markmead/hyperui)
+
+- [UILibHub](https://uilibhub.com/)
+
+- [preline UI](https://preline.co/)
 
 #### Database
 
@@ -595,6 +647,10 @@ redirect_from:
 - [电影数据库 API](https://developers.themoviedb.org/3/getting-started/introduction)
 
 - [随机地址生成](https://www.addresscopy.com/)
+
+- [地址证明生成](https://app.freeinvoicebuilder.com/InvoiceBuilder/)
+
+- [完整的虚假个人信息](https://fauxid.com/)
 
 - [ApyHub: The Developer API Utility Belt](https://apyhub.com/)
 
@@ -673,6 +729,16 @@ redirect_from:
 - [Kyoo-基于网页的媒体库](https://github.com/zoriya/Kyoo)
 
 - [oneminutepark](https://oneminutepark.tv/)
+
+- [steam信息网](https://steamdb.info/)
+
+- [世界森林声音地图](https://timberfestival.org.uk/soundsoftheforest-soundmap/)
+
+- [很cool的主页](https://www.igloo.inc/shadcn)
+
+- [github收藏标签](https://starflare.app/#/login)
+
+- [柚坛工具箱-刷机](https://toolbox.uotan.cn/)
 
 ## 设计/创意
 
@@ -803,3 +869,5 @@ redirect_from:
 - [devv](https://devv.ai/)
 
 - [企典-企业查询](https://dingtalk.com/qidian/)
+
+- [the-book-of-secret-knowledge-工具手册](https://github.com/trimstray/the-book-of-secret-knowledge)
