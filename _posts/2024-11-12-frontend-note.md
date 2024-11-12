@@ -39,14 +39,39 @@ margin: unset; // reset to default value
 
 ## 固定表头
 
-https://btxx.org/posts/Please_Make_Your_Table_Headings_Sticky/
-
+```css
+position: sticky;
+top: 0;
+```
 
 ## dom实现
 
-https://lazamar.github.io/virtual-dom/
+- [virtual-dom](https://lazamar.github.io/virtual-dom/)
 
 
 ## unicss图标无法显示
 
-https://www.whidy.net/unocss-dynamic-icon-not-show
+将被扫描的文件加入配置当中，比如要加入路由文件，在`uno.config.ts`中添加
+```ts
+export default defineConfig({
+  // ...
+  content: {
+    pipeline: {
+      include: [
+        // the default
+        /\.(vue|svelte|[jt]sx|mdx?|astro|elm|php|phtml|html)($|\?)/,
+        // 这里只写我需要的，当然你也可以定制，参考：https://unocss.dev/guide/extracting#extracting-from-build-tools-pipeline
+        "src/router/index.ts",
+      ],
+      // exclude files
+      // exclude: []
+    }
+  }
+)}
+```
+
+## 引用
+
+- [Please Make Your Table Headings Sticky](https://btxx.org/posts/Please_Make_Your_Table_Headings_Sticky/)
+
+- [UnoCSS动态图标icon无法显示解决方案](https://www.whidy.net/unocss-dynamic-icon-not-show)
