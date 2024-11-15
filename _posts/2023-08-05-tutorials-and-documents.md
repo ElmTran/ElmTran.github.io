@@ -359,6 +359,8 @@ redirect_from:
 
 - [日语的声调](https://zhuanlan.zhihu.com/p/29977744)
 
+- [時雨の町](https://www.sigure.tw/)
+
 ## 英语
 
 ### 写作
@@ -586,3 +588,5 @@ redirect_from:
 - [薄冰英语语法](https://oldwestenglish.github.io/grammar/#/)
 
 - [新概念学习笔记](https://github.com/andylee1890/NewConceptEnglish)
+
+- [英语提升指南](https://vvyst0z7tes.feishu.cn/wiki/HQuawZepyiwNiNkImw6c00IXnmc)

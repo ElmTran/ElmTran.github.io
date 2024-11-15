@@ -146,6 +146,8 @@ redirect_from:
 
 - [摸鱼之路](https://996.ninja/docs/ninjutsu/intro/)
 
+- [摸鱼指北](https://github.com/akira-cn/moyu)
+
 - [screego-网页共享屏幕](https://github.com/screego/server)
 
 - [终端文件管理器](https://superfile.netlify.app/)
@@ -187,6 +189,14 @@ redirect_from:
 - [VectorCut-矢量插图](https://vectorcraftr.com/)
 
 - [骤雨重山图床](https://github.com/uxiaohan/ZYCS-IMG)
+
+- [文档下载](https://github.com/systemmin/kill-doc)
+
+- [windows优化](https://github.com/Cybecho/Windows_Setting_dotfiles)
+
+- [telegram图床](https://github.com/0-RTT/telegraph)
+
+- [emoji-spark](https://emojispark.com/)
 
 ### 文档
 
@@ -504,6 +514,10 @@ redirect_from:
 
 - [证书续期](https://httpsok.com/doc/)
 
+- [证书管理工具](https://github.com/usual2970/certimate)
+
+- [证书自动化](https://github.com/certd/certd)
+
 - [dev-raven-webhook 转发工具](https://github.com/iyjian/dev-raven)
 
 - [ToolsBox-webhook](https://hook.tltr.top/)
@@ -552,7 +566,13 @@ redirect_from:
 
 - [rustscan-端口扫描](https://github.com/RustScan/RustScan)
 
-- [chsrc-换源工具](https://github.com/RubyMetric/chsrc/releases)
+- [chsrc-镜像换源工具](https://github.com/RubyMetric/chsrc/releases)
+
+- [开源镜像缓存服务](https://github.com/NoCLin/LightMirrors)
+
+- [备案查询](https://www.beiancx.com/)
+
+- [python脚本](https://github.com/geekcomputers/Python)
 
 #### Frameworks
 
@@ -648,6 +668,8 @@ redirect_from:
 
 - [随机地址生成](https://www.addresscopy.com/)
 
+- [真实地址生成](https://realaddress.fuyiran.com/)
+
 - [地址证明生成](https://app.freeinvoicebuilder.com/InvoiceBuilder/)
 
 - [完整的虚假个人信息](https://fauxid.com/)
@@ -740,6 +762,10 @@ redirect_from:
 
 - [柚坛工具箱-刷机](https://toolbox.uotan.cn/)
 
+- [steam解锁工具](https://www.steamtools.net/)
+
+- [steamtools教程](https://mp.weixin.qq.com/s/AfyHUR-ALjM7d0lm1g6yHw)
+
 ## 设计/创意
 
 - [在线免费制作 Logo，定制专属于你的 Logo 设计 – DesignEvo](https://www.designevo.com/cn/)
@@ -812,6 +838,10 @@ redirect_from:
 
 - [clean-png](https://www.cleanpng.com/)
 
+- [uiboy-图标](https://app.uiboy.com/)
+
+- [ray.so图标](https://ray.so/icon)
+
 ## 搜索引擎
 
 - [Brave](https://search.brave.com/)
@@ -871,3 +901,5 @@ redirect_from:
 - [企典-企业查询](https://dingtalk.com/qidian/)
 
 - [the-book-of-secret-knowledge-工具手册](https://github.com/trimstray/the-book-of-secret-knowledge)
+
+- [grep.app-代码搜索](https://grep.app/)
