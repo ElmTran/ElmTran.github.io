@@ -2,7 +2,7 @@
 import type { Theme } from "vitepress";
 import { h } from "vue";
 import Home from "./views/Home/index.vue";
-import "./style.css";
+// import "./style/common/index.scss";
 export default {
   Layout: () => {
     return h(Home, null, {

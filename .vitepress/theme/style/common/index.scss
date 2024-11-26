@@ -1,0 +1,14 @@
+@use "./fonts" as *;
+@use "./variables" as *;
+html {
+  background: url("../../../assets/images/noisy_texture_section0-200x200.png") repeat 0
+    0 #f9f9f9;
+}
+
+body {
+  font-family: $fonts-body;
+  font-size: 18px;
+  line-height: 32px;
+
+  color: $color-text;
+}

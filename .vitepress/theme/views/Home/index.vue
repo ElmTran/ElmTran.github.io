@@ -3,9 +3,19 @@ import { useData } from "vitepress";
 
 // https://vitepress.dev/reference/runtime-api#usedata
 const { site, frontmatter } = useData();
+import "../../style/home/index.scss";
 </script>
 
 <template>
-  <h1>{{ site.title }}</h1>
-  <p>{{ site.description }}</p>
+  <div v-if="frontmatter.home" class="home">
+    <div class="headings animated fadeInLeft">
+      <h1 class="title">{{ site.title }}</h1>
+      <h3 class="description">
+        {{ site.description }}
+      </h3>
+    </div>
+  </div>
+  <div v-else>
+    <Content />
+  </div>
 </template>

@@ -1,0 +1,43 @@
+@use "./variables" as *;
+@use "./animates" as *;
+@use "./fonts" as *;
+
+html {
+  background: url("../../../assets/images/noisy_texture_section0-200x200.png")
+    repeat 0 0 #f9f9f9;
+}
+
+body {
+  font-family: $fonts-body;
+  font-size: 18px;
+  line-height: 36px;
+
+  color: $color-text-dark;
+}
+
+h1 {
+  font-family: "Junge Regular";
+  font-size: 5em;
+
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 2.225em;
+}
+
+h3 {
+  font-size: 1.725em;
+}
+
+.headings {
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+}
+
+.description {
+  white-space: pre-wrap;
+}
