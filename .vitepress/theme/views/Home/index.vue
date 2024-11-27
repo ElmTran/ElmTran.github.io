@@ -13,6 +13,10 @@ import "../../style/home/index.scss";
       <h3 class="description">
         {{ site.description }}
       </h3>
+      <button class="enter-button animated fadeInUp">
+        <span class="button-text">Enter</span>
+        <span class="button-icon">→</span>
+      </button>
     </div>
   </div>
   <div v-else>
