@@ -13,10 +13,13 @@ import "../../style/home/index.scss";
       <h3 class="description">
         {{ site.description }}
       </h3>
-      <a href="/blog/index" class="enter-button animated fadeInUp">
+      <button
+        class="enter-button animated fadeInUp"
+        onclick="window.location.href='/blog/'"
+      >
         <span class="button-text">Enter</span>
         <span class="button-icon">→</span>
-      </a>
+      </button>
     </div>
   </div>
   <div v-else>
