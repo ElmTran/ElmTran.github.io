@@ -8,7 +8,7 @@
           <ul>
             <li class="logo nav-link">
               <button class="btn-menu" title="Menu"></button>
-              <a href="/">Mengqing's Blog</a>
+              <a href="/blog/">Mengqing's Blog</a>
               <button class="btn-search" title="Search"></button>
             </li>
             <li class="nav-link">
@@ -18,7 +18,7 @@
               <a title="Tags" href="/blog/tags/">Tags</a>
             </li>
             <li class="nav-link">
-              <a title="About" href="/blog/about/">About</a>
+              <a title="About" href="/about/">About</a>
             </li>
             <!-- TODO: Add search -->
           </ul>

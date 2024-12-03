@@ -3,6 +3,7 @@ import { useData } from "vitepress";
 
 // https://vitepress.dev/reference/runtime-api#usedata
 const { site, frontmatter } = useData();
+import { withBase } from "vitepress";
 import "../../style/home/index.scss";
 </script>
 
@@ -13,13 +14,7 @@ import "../../style/home/index.scss";
       <h3 class="description">
         {{ site.description }}
       </h3>
-      <button
-        class="enter-button animated fadeInUp"
-        onclick="window.location.href='/blog/'"
-      >
-        <span class="button-text">Enter</span>
-        <span class="button-icon">→</span>
-      </button>
+      <button onclick="window.location.href='/blog/'">Get Started</button>
     </div>
   </div>
   <div v-else>

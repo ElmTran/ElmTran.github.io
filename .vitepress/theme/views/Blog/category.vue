@@ -4,16 +4,20 @@ import { data as posts } from "../../posts.data";
 import { computed, ref } from "vue";
 import { withBase } from "vitepress";
 
-// Get all unique tags
-const allTags = Array.from(new Set(posts.flatMap((post) => post.tags || [])));
+// Get all unique categories
+const allCategories = Array.from(
+  new Set(posts.flatMap((post) => post.categories || [])),
+);
 
-// Selected tag
-const selectedTag = ref<string | null>(null);
+// Selected category
+const selectedCategory = ref<string | null>(null);
 
-// Filter posts by selected tag
+// Filter posts by selected category
 const filteredPosts = computed(() => {
-  if (!selectedTag.value) return posts;
-  return posts.filter((post) => post.tags?.includes(selectedTag.value!));
+  if (!selectedCategory.value) return posts;
+  return posts.filter((post) =>
+    post.categories?.includes(selectedCategory.value!),
+  );
 });
 
 function formatDate(dateStr: string) {
@@ -30,17 +34,19 @@ function formatDate(dateStr: string) {
   <div class="blog-container">
     <Header />
     <main class="blog-content">
-      <div class="tags-container animated fadeInUp">
-        <h2 class="tags-title">Tags</h2>
-        <div class="tags-list">
+      <div class="categories-container animated fadeInUp">
+        <h2 class="categories-title">Categories</h2>
+        <div class="categories-list">
           <span
-            v-for="tag in allTags"
-            :key="tag"
-            class="tag"
-            :class="{ active: selectedTag === tag }"
-            @click="selectedTag = tag === selectedTag ? null : tag"
+            v-for="category in allCategories"
+            :key="category"
+            class="category"
+            :class="{ active: selectedCategory === category }"
+            @click="
+              selectedCategory = category === selectedCategory ? null : category
+            "
           >
-            {{ tag }}
+            {{ category }}
           </span>
         </div>
       </div>
@@ -55,9 +61,13 @@ function formatDate(dateStr: string) {
             <h2 class="post-title">{{ post.title }}</h2>
             <div class="post-meta">
               <span class="post-date">{{ formatDate(post.date) }}</span>
-              <span v-if="post.tags" class="post-tags">
-                <span v-for="tag in post.tags" :key="tag" class="tag">
-                  {{ tag }}
+              <span v-if="post.categories" class="post-categories">
+                <span
+                  v-for="category in post.categories"
+                  :key="category"
+                  class="category"
+                >
+                  {{ category }}
                 </span>
               </span>
             </div>
@@ -82,35 +92,35 @@ function formatDate(dateStr: string) {
   padding: 2rem;
 }
 
-.tags-container {
+.categories-container {
   margin-bottom: 3rem;
 
-  .tags-title {
+  .categories-title {
     font-size: 2rem;
     color: #333;
     margin-bottom: 1.5rem;
   }
 
-  .tags-list {
+  .categories-list {
     display: flex;
     flex-wrap: wrap;
     gap: 0.8rem;
 
-    .tag {
+    .category {
       cursor: pointer;
       padding: 0.4rem 1rem;
-      background: rgba(0, 102, 204, 0.1);
+      background: rgba(102, 0, 204, 0.1);
       border-radius: 20px;
       font-size: 0.9rem;
-      color: #0066cc;
+      color: #6600cc;
       transition: all 0.3s ease;
 
       &:hover {
-        background: rgba(0, 102, 204, 0.2);
+        background: rgba(102, 0, 204, 0.2);
       }
 
       &.active {
-        background: #0066cc;
+        background: #6600cc;
         color: white;
       }
     }
@@ -156,18 +166,18 @@ function formatDate(dateStr: string) {
       font-weight: 500;
     }
 
-    .post-tags {
+    .post-categories {
       display: flex;
       gap: 0.5rem;
     }
 
-    .tag {
+    .category {
       display: inline-block;
       padding: 0.2rem 0.5rem;
-      background: rgba(0, 102, 204, 0.1);
+      background: rgba(102, 0, 204, 0.1);
       border-radius: 4px;
       font-size: 0.8rem;
-      color: #0066cc;
+      color: #6600cc;
     }
   }
 

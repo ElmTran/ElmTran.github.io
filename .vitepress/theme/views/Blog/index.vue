@@ -27,18 +27,18 @@ function formatDate(dateStr: string) {
   });
 }
 </script>
-
 <template>
   <div class="blog-container">
     <Header />
     <main class="blog-content">
       <div class="posts-list">
-        <div v-for="year in sortedYears" :key="year" class="year-section">
+        <div v-for="year in sortedYears" :key="year" class="year-section animated fadeInUp">
           <h1 class="year-title">{{ year }}</h1>
           <div
             v-for="post in postsByYear[year]"
             :key="post.title"
-            class="post-item"
+            class="post-item animated fadeInUp"
+            style="animation-delay: calc(var(--index) * 0.1s)"
           >
             <a :href="withBase(`/blog/posts/${post.title}`)" class="post-link">
               <h2 class="post-title">{{ post.title }}</h2>
@@ -81,8 +81,29 @@ function formatDate(dateStr: string) {
   padding: 2rem;
 }
 
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animated {
+  animation-duration: 0.6s;
+  animation-fill-mode: both;
+}
+
+.fadeInUp {
+  animation-name: fadeInUp;
+}
+
 .year-section {
   margin-bottom: 3rem;
+  opacity: 0;
 
   .year-title {
     font-size: 2rem;
@@ -100,10 +121,12 @@ function formatDate(dateStr: string) {
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.8);
     box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
-    transition: transform 0.2s ease;
+    transition: all 0.3s ease;
+    opacity: 0;
 
     &:hover {
       transform: translateY(-2px);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     }
   }
 
@@ -144,6 +167,11 @@ function formatDate(dateStr: string) {
       border-radius: 4px;
       font-size: 0.8rem;
       color: #6600cc;
+      transition: all 0.3s ease;
+
+      &:hover {
+        background: rgba(102, 0, 204, 0.2);
+      }
     }
 
     .tag {
@@ -153,6 +181,11 @@ function formatDate(dateStr: string) {
       border-radius: 4px;
       font-size: 0.8rem;
       color: #0066cc;
+      transition: all 0.3s ease;
+
+      &:hover {
+        background: rgba(0, 102, 204, 0.2);
+      }
     }
   }
 
