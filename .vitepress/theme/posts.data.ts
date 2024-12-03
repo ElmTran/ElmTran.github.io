@@ -7,6 +7,7 @@ interface Post {
   categories: string[];
   tags: string[];
   date: string;
+  url: string;
 }
 
 declare const data: Post[];
@@ -18,7 +19,8 @@ export default createContentLoader("blog/_posts/*.md", {
   excerpt: false,
   transform: (raw): Post[] => {
     return raw
-      .map(({ frontmatter }) => ({
+      .map(({ url, frontmatter }) => ({
+        url,
         layout: frontmatter.layout,
         title: frontmatter.title,
         description: frontmatter.description,

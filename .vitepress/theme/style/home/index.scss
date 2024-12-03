@@ -7,96 +7,96 @@ html {
     repeat 0 0 #f9f9f9;
 }
 
-body {
+.layout-home {
   font-family: $fonts-body;
   font-size: 18px;
   line-height: 36px;
 
   color: $color-text-dark;
-}
 
-h1 {
-  font-family: "Junge Regular";
-  font-size: 5em;
+  h1 {
+    font-family: "Junge Regular";
+    font-size: 5em;
 
-  text-transform: uppercase;
-}
+    text-transform: uppercase;
+  }
 
-h2 {
-  font-size: 2.225em;
-}
+  h2 {
+    font-size: 2.225em;
+  }
 
-h3 {
-  font-size: 1.725em;
-  margin-top: 2em;
-}
+  h3 {
+    font-size: 1.725em;
+    margin-top: 2em;
+  }
 
-.home {
-  display: flex;
-  justify-content: center;
-  padding: 20vh 0;
-}
+  .home {
+    display: flex;
+    justify-content: center;
+    padding: 20vh 0;
+  }
 
-.headings {
-  text-align: center;
-  max-width: 80%;
-}
+  .headings {
+    text-align: center;
+    max-width: 80%;
+  }
 
-.title {
-  text-align: center;
-  margin-bottom: 0.5em;
-}
+  .title {
+    text-align: center;
+    margin-bottom: 0.5em;
+  }
 
-.description {
-  white-space: pre-wrap;
-  text-align: center;
-}
-button {
-  width: 150px;
-  height: 50px;
-  border: 2px solid #000;
-  font-family: "Lato", sans-serif;
-  font-size: 17px;
-  text-decoration: none;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-weight: 500;
-  background: transparent;
-  cursor: pointer;
-  position: relative;
-  display: inline-block;
-  margin: 20px;
-  outline: none;
-  text-align: center;
-  z-index: 2;
-  transition: all 0.3s ease;
-  overflow: hidden;
-}
+  .description {
+    white-space: pre-wrap;
+    text-align: center;
+  }
+  button {
+    width: 150px;
+    height: 50px;
+    border: 2px solid #000;
+    font-family: "Lato", sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+    outline: none;
+    text-align: center;
+    z-index: 2;
+    transition: all 0.3s ease;
+    overflow: hidden;
+  }
 
-button::after {
-  position: absolute;
-  content: " ";
-  z-index: -1;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  transition: all 0.3s ease;
-}
+  button::after {
+    position: absolute;
+    content: " ";
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease;
+  }
 
-button:hover {
-  box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.5),
-    -4px -4px 6px 0 rgba(116, 125, 136, 0.2),
-    inset -4px -4px 6px 0 rgba(255, 255, 255, 0.5),
-    inset 4px 4px 6px 0 rgba(116, 125, 136, 0.3);
-  color: #fff;
-}
+  button:hover {
+    box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.5),
+      -4px -4px 6px 0 rgba(116, 125, 136, 0.2),
+      inset -4px -4px 6px 0 rgba(255, 255, 255, 0.5),
+      inset 4px 4px 6px 0 rgba(116, 125, 136, 0.3);
+    color: #fff;
+  }
 
-button:hover::after {
-  transform: scale(2) rotate(180deg);
-  background: #000;
-  box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.5),
-    -4px -4px 6px 0 rgba(116, 125, 136, 0.2),
-    inset -4px -4px 6px 0 rgba(255, 255, 255, 0.5),
-    inset 4px 4px 6px 0 rgba(116, 125, 136, 0.3);
+  button:hover::after {
+    transform: scale(2) rotate(180deg);
+    background: #000;
+    box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.5),
+      -4px -4px 6px 0 rgba(116, 125, 136, 0.2),
+      inset -4px -4px 6px 0 rgba(255, 255, 255, 0.5),
+      inset 4px 4px 6px 0 rgba(116, 125, 136, 0.3);
+  }
 }

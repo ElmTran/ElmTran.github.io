@@ -15,4 +15,12 @@ export default defineConfig({
       },
     },
   },
+  markdown: {
+    image: {
+      // 开启图片懒加载
+      lazyLoading: true,
+    },
+    lineNumbers: true,
+    theme: "material-theme-palenight",
+  },
 });

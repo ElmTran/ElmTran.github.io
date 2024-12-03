@@ -51,7 +51,7 @@ function formatDate(dateStr: string) {
           :key="post.title"
           class="post-item animated fadeInUp"
         >
-          <a :href="withBase(`/blog/posts/${post.title}`)" class="post-link">
+          <a :href="withBase(`${post.url}`)" class="post-link">
             <h2 class="post-title">{{ post.title }}</h2>
             <div class="post-meta">
               <span class="post-date">{{ formatDate(post.date) }}</span>

@@ -1,14 +1,8 @@
 // https://vitepress.dev/guide/custom-theme
 import type { Theme } from "vitepress";
-import { h } from "vue";
-import Home from "./views/Home/index.vue";
-// import "./style/common/index.scss";
+import Layout from "./views/Layout.vue";
 export default {
-  Layout: () => {
-    return h(Home, null, {
-      // https://vitepress.dev/guide/extending-default-theme#layout-slots
-    });
-  },
+  Layout: Layout,
   enhanceApp({ app, router, siteData }) {
     // ...
   },
