@@ -6,7 +6,7 @@ interface Post {
   description: string;
   categories: string[];
   tags: string[];
-  redirect_from?: string[];
+  date: string;
 }
 
 declare const data: Post[];
@@ -24,8 +24,12 @@ export default createContentLoader("blog/_posts/*.md", {
         description: frontmatter.description,
         categories: frontmatter.categories,
         tags: frontmatter.tags,
-        redirect_from: frontmatter.redirect_from,
+        date: frontmatter.date,
       }))
-      .sort((a, b) => b.title.localeCompare(a.title));
+      .sort((a, b) => {
+        const dateA = new Date(a.date);
+        const dateB = new Date(b.date);
+        return dateB.getTime() - dateA.getTime();
+      });
   },
 });
