@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import Header from "./components/Header.vue";
+import Footer from "./components/Footer.vue";
 import { data as posts } from "../../posts.data";
 import { computed, ref } from "vue";
 import { withBase } from "vitepress";
@@ -78,6 +79,7 @@ function formatDate(dateStr: string) {
         </div>
       </div>
     </main>
+    <Footer />
   </div>
 </template>
 

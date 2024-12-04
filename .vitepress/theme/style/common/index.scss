@@ -1,6 +1,7 @@
 @use "./fonts" as *;
 @use "./variables" as *;
 
+// 基础页面样式
 html {
   background: url("../../../assets/images/noisy_texture_section0-200x200.png")
     repeat 0 0 #f9f9f9;
@@ -10,24 +11,38 @@ html {
   font-family: $fonts-body;
   font-size: 18px;
   line-height: 1.8;
+}
+
+// 主要内容布局
+.layout-post {
+  font-family: $fonts-body;
+  font-size: 18px;
+  line-height: 1.8;
   color: $color-text;
   max-width: 800px;
   margin: 0 auto;
   padding: 2rem 1.5rem;
 
+  // 标题样式
   h1,
   h2,
   h3,
   h4,
   h5,
   h6 {
-    margin: 2rem 0 1rem;
+    margin: 3rem 0 1rem; // 增加上边距，让标题与上文有更明显的间隔
     font-weight: 600;
     line-height: 1.25;
+
+    // 为标题前的段落增加额外的下边距
+    + p {
+      margin-top: 1.2em;
+    }
   }
 
   h1 {
     font-size: 2.2em;
+    margin-top: 2rem; // 第一个h1标题可以稍微少一点上边距
   }
 
   h2 {
@@ -40,9 +55,15 @@ html {
     font-size: 1.5em;
   }
 
+  // 基础文本元素
   p {
     margin: 1em 0;
     line-height: 1.7;
+
+    // 段落之间的间距增加
+    + p {
+      margin-top: 1.5em;
+    }
   }
 
   ul,
@@ -52,13 +73,16 @@ html {
     line-height: 1.6;
   }
 
+  // 图片样式
   img {
     max-width: 100%;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 1.5em 0;
+    animation: fadeInScale 0.8s ease-out;
   }
 
+  // 引用块样式
   blockquote {
     border-left: 4px solid #42b883;
     margin: 1.5em 0;
@@ -66,70 +90,118 @@ html {
     background-color: rgba(66, 184, 131, 0.1);
     color: #476582;
     font-style: italic;
+    animation: slideInLeft 0.6s ease-out;
   }
 
+  // 表格样式
+  table {
+    display: block;
+    width: 100%;
+    margin: 1em 0;
+    overflow-x: auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+    animation: fadeIn 0.8s ease-out;
+
+    th,
+    td {
+      padding: 0.6em 1em;
+      border: 1px solid #dfe2e5;
+    }
+
+    th {
+      font-weight: 600;
+      background-color: #f6f8fa;
+    }
+
+    tr {
+      background-color: #fff;
+      border-top: 1px solid #dfe2e5;
+      transition: background-color 0.3s ease;
+
+      &:nth-child(2n) {
+        background-color: #f6f8fa;
+      }
+
+      &:hover {
+        background-color: #f0f7ff;
+      }
+    }
+  }
+  // 代码块样式
   [class*="language-"] {
     position: relative;
-    margin: 1em 0;
+    margin: 1em 0 1.5em; // 增加底部间距
     background-color: $color-code-background;
     border-radius: 8px;
     overflow: hidden;
+    color: #c9c9c9;
+    animation: slideInUp 0.8s ease-out;
 
+    // 复制按钮
     > button.copy {
       position: absolute;
       top: 12px;
       right: 12px;
       z-index: 3;
-      width: 40px;
+      width: auto;
+      min-width: 40px;
       height: 40px;
-      border: 1px solid rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.2);
       border-radius: 4px;
-      background-color: rgba(255, 255, 255, 0.05);
+      background-color: rgba(255, 255, 255, 0.1);
       opacity: 0;
       cursor: pointer;
-      background-position: 50%;
-      background-size: 20px;
-      background-repeat: no-repeat;
-      transition: border-color 0.25s, background-color 0.25s, opacity 0.25s;
+      padding: 0 12px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      color: rgba(255, 255, 255, 0.8);
+      font-size: 14px;
+      transition: all 0.25s ease;
 
-      &:hover,
-      &.copied {
-        border-color: rgba(255, 255, 255, 0.2);
-        background-color: rgba(255, 255, 255, 0.1);
+      // 复制按钮图标和文本
+      &:before {
+        content: "📋";
+        font-size: 16px;
       }
 
-      &.copied,
-      &:hover.copied {
-        border-radius: 0 4px 4px 0;
+      &:after {
+        content: "copy";
+      }
+
+      // 复制按钮悬停状态
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+        border-color: rgba(255, 255, 255, 0.3);
+        color: rgba(255, 255, 255, 1);
+        transform: scale(1.05);
+      }
+
+      // 复制成功状态
+      &.copied {
+        background-color: rgba(66, 184, 131, 0.2);
+        border-color: rgba(66, 184, 131, 0.4);
+        color: rgba(66, 184, 131, 1);
+        animation: pulse 0.3s ease-out;
 
         &:before {
-          position: absolute;
-          top: -1px;
-          right: 40px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          border: 1px solid rgba(255, 255, 255, 0.2);
-          border-right: 0;
-          border-radius: 4px 0 0 4px;
-          padding: 0 10px;
-          width: fit-content;
-          height: 100%;
-          font-size: 12px;
-          font-weight: 500;
-          color: rgba(255, 255, 255, 0.9);
-          background-color: rgba(255, 255, 255, 0.1);
-          white-space: nowrap;
-          content: "Copied!";
+          content: "✓";
+        }
+
+        &:after {
+          content: "copied!";
         }
       }
     }
 
+    // 复制按钮交互状态
     &:hover > button.copy,
     > button.copy:focus {
       opacity: 1;
     }
 
+    // 语言标签
     > span.lang {
       position: absolute;
       top: 2px;
@@ -147,6 +219,7 @@ html {
       opacity: 0;
     }
 
+    // 行号容器
     > div.line-numbers-wrapper {
       position: absolute;
       top: 0;
@@ -161,6 +234,7 @@ html {
       border-right: 1px solid rgba(255, 255, 255, 0.1);
       z-index: 1;
 
+      // 行号样式
       .line-number {
         position: relative;
         z-index: 3;
@@ -169,12 +243,36 @@ html {
       }
     }
 
+    // 行号模式
     &.line-numbers-mode {
       pre {
         margin-left: 3.5rem;
         padding-left: 1rem;
-      }
+        padding-right: 1rem;
 
+        overflow-x: auto;
+        // 自定义滚动条样式
+        &::-webkit-scrollbar {
+          height: 12px;
+          background-color: transparent;
+          border-radius: 6px;
+        }
+
+        &::-webkit-scrollbar-thumb {
+          background-color: rgba(255, 255, 255, 0.1);
+          border-radius: 6px;
+          border: 3px solid $color-code-background;
+          transition: background-color 0.3s ease;
+
+          &:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+          }
+        }
+
+        &::-webkit-scrollbar-track {
+          background-color: transparent;
+        }
+      }
       &::after {
         content: "";
         position: absolute;

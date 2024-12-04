@@ -70,7 +70,7 @@
             font-weight: 500;
 
             &:hover {
-              color: #0066cc;
+              color: #f39292;
             }
           }
 
