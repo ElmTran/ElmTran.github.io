@@ -4,11 +4,11 @@ title: "Awesome Telegram Bot"
 description: "There are some useful Telegram bots edited by me or collected from the Internet."
 categories: [technology]
 tags: [Telegram, bot]
-date: 2023/06/11
+redirect_from:
+  - /2023/06/11/
 ---
 
 ## OCR
-
 - [TexifyBot](https://telegram.me/TexifyBot)
 
 - [BruhulBot](https://telegram.me/BruhulBot)
@@ -50,7 +50,6 @@ date: 2023/06/11
 - [语音识别](https://t.me/bot_zh/137)
 
 ## 搜图
-
 - [reverseSearchBot](https://telegram.me/reverseSearchBot)
 
 - [SauceNAObot](https://telegram.me/SauceNAObot)
@@ -79,9 +78,9 @@ date: 2023/06/11
 
 ## 搜索
 
-- [TG 三方搜索](https://cse.google.com/cse?cx=004805129374225513871:p8lhfo0g3hg)
+- [TG三方搜索](https://cse.google.com/cse?cx=004805129374225513871:p8lhfo0g3hg)
 
-- [TG 三方搜索 2](https://meow.tg/private/voidrss)
+- [TG三方搜索2](https://meow.tg/private/voidrss)
 
 - [Bot 检索](https://botostore.com/collections/best-official-chatbots-verified-with-blue-badges-by-telegram/)
 
@@ -91,7 +90,7 @@ date: 2023/06/11
 
 - [MotiveMe-心理咨询师](https://telegram.me/MotivateMe23_bot)
 
-- [托福口语 bot](https://telegram.me/toefl_rater_ivy_bot)
+- [托福口语bot](https://telegram.me/toefl_rater_ivy_bot)
 
 ## 频道
 
@@ -109,6 +108,6 @@ date: 2023/06/11
 
 - [你有一个打折需要了解](https://t.me/SteamNy)
 
-- [Steam 快讯](https://t.me/steamsteam)
+- [Steam快讯](https://t.me/steamsteam)
 
 - [资源分享](https://t.me/LCGFX/2988)

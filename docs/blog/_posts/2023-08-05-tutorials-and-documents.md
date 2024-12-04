@@ -11,7 +11,7 @@ date: 2023/08/05
 
 - [简明字帖](https://www.babawar.com/)
 
-- [z2h 字帖](https://paper.z2h.cn/)
+- [z2h字帖](https://paper.z2h.cn/)
 
 - [练字本生成](https://github.com/jaywcjlove/copybook-generator)
 
@@ -359,6 +359,8 @@ date: 2023/08/05
 
 - [日语的声调](https://zhuanlan.zhihu.com/p/29977744)
 
+- [時雨の町](https://www.sigure.tw/)
+
 ## 英语
 
 ### 写作
@@ -586,3 +588,5 @@ date: 2023/08/05
 - [薄冰英语语法](https://oldwestenglish.github.io/grammar/#/)
 
 - [新概念学习笔记](https://github.com/andylee1890/NewConceptEnglish)
+
+- [英语提升指南](https://vvyst0z7tes.feishu.cn/wiki/HQuawZepyiwNiNkImw6c00IXnmc)

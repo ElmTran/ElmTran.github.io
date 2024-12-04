@@ -201,6 +201,8 @@ date: 2023/04/06
 
 - [Code Llma 70b](https://huggingface.co/chat/?model=codellama/CodeLlama-70b-Instruct-hf)
 
+- [lmstudio-本地运行大模型](https://lmstudio.ai/)
+
 ## Text Checker
 
 - [gptzero - 检查是否由 GPT-3 生成的文本](https://etedward-gptzero-main-zqgfwb.streamlit.app/)
@@ -545,6 +547,10 @@ date: 2023/04/06
 
 - [周报通](https://zhoubaotong.com/zh)
 
+- [sensei-ai 文档引擎](https://github.com/jjleng/sensei)
+
+- [FinGPT-金融 GPT](https://github.com/AI4Finance-Foundation/FinGPT)
+
 ## Video
 
 - [NUWA-Infinity](https://nuwa-infinity.microsoft.com)
@@ -600,6 +606,8 @@ date: 2023/04/06
 ## Audio & Voice
 
 - [whisper-windows](https://github.com/Const-me/Whisper)
+
+- [whisperfile-whisper 高性能实现](https://huggingface.co/Mozilla/whisperfile)
 
 - [resemble-语音合成](https://www.resemble.ai/)
 
@@ -666,6 +674,8 @@ date: 2023/04/06
 - [whisper 应用](https://zj1123581321.com/post/liao-liao-gao-jing-du-yin-shi-pin-zhuan-wen-zi-gong-zuo-liu/)
 
 - [fast-whisper](https://github.com/Vaibhavs10/insanely-fast-whisper)
+
+- [whisper-ui](https://whisper-webui.streamlit.app/)
 
 - [tts-online](https://www.ttson.cn/)
 
@@ -742,6 +752,16 @@ date: 2023/04/06
 - [aisaver-支持较多方言](https://aisaver.io/tools/text-to-speech)
 
 - [funaudiollm-声音克隆](https://funaudiollm.github.io/)
+
+- [AIhear-实时转录翻译](https://hear.thucydides.net/zh-cn/)
+
+- [AsrTools](https://github.com/WEIFENG2333/AsrTools)
+
+- [fish-speech.rs](https://github.com/EndlessReform/fish-speech.rs)
+
+- [easy-voice-toolkit](https://github.com/Spr-Aachen/Easy-Voice-Toolkit)
+
+- [tiktokvoice](https://tiktokvoice.net/zh)
 
 ## 3D & Animation
 
@@ -898,6 +918,10 @@ date: 2023/04/06
 - [llm 百宝箱](https://github.com/liguodongiot/llm-resource)
 
 - [Awesome-Chinese-LLM](https://github.com/HqWu-HITCS/Awesome-Chinese-LLM)
+
+- [cursor-rules](https://github.com/PatrickJS/awesome-cursorrules)
+
+- [awesome-generative-ai-guide](https://github.com/aishwaryanr/awesome-generative-ai-guide)
 
 ## API
 

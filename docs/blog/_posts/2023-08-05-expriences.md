@@ -73,6 +73,8 @@ date: 2023/08/05
 
   - [eightydays](https://eightydays.me/)
 
+  - [visalist-签证](https://visalist.io/cn)
+
 - [Radio Garden-世界各地广播频道](https://radio.garden/visit/susupe/2x7wJD11)
 
 - [BBC 声音数据库](https://sound-effects.bbcrewind.co.uk/)
@@ -193,6 +195,16 @@ date: 2023/08/05
 
 - [developer2gwy-程序员考公指南](https://github.com/miss-mumu/developer2gwy)
 
+- [系统设计面试](https://learning-guide.gitbook.io/system-design-interview)
+
+- [反向面试](https://github.com/perklet/reverse-interview-zh)
+
+- [Awesome-Remote-Job](https://github.com/lukasz-madon/awesome-remote-job)
+
+- [自动投简历](https://github.com/loks666/get_jobs)
+
+- [领英自动投简历](https://github.com/feder-cr/linkedIn_auto_jobs_applier_with_AI)
+
 - 自由职业/副业
 
   - [https://www.freelancer.com/jobs](https://www.freelancer.com/jobs)
@@ -243,7 +255,7 @@ date: 2023/08/05
 
 - [dapanyuntu](https://dapanyuntu.com/)
 
-- [ark 基金追踪](https://www.arktrack.com/)
+- [ark基金追踪](https://www.arktrack.com/)
 
 - [personalfinance-个人投资者指南](https://www.reddit.com/r/personalfinance/wiki/index/)
 
