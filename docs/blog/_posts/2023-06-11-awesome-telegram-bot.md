@@ -4,8 +4,7 @@ title: "Awesome Telegram Bot"
 description: "There are some useful Telegram bots edited by me or collected from the Internet."
 categories: [technology]
 tags: [Telegram, bot]
-redirect_from:
-  - /2023/06/11/
+date: 2023/06/11
 ---
 
 ## OCR
