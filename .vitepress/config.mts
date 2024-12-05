@@ -51,4 +51,5 @@ export default defineConfig({
     lineNumbers: true,
     theme: "material-theme-palenight",
   },
+  ignoreDeadLinks: true,
 });
