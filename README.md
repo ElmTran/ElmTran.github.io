@@ -1,4 +1,4 @@
-# Personal Blog
+# Personal Blog Based on VitePress
 
 A personal blog built with VitePress, featuring a clean and modern design with smooth animations.
 
@@ -10,9 +10,24 @@ A personal blog built with VitePress, featuring a clean and modern design with s
 - 📱 Fully responsive design
 - 🎨 Clean and minimal aesthetic
 
+## Demo
+
+- [My Blog](https://elmtran.me)
+
 ## Tech Stack
 
 - [VitePress](https://vitepress.dev/) - Static Site Generator
-- Vue 3 - Frontend Framework
-- SCSS - Styling
-- JavaScript/TypeScript
+
+- [Sass](http://sass-lang.com/)
+
+- [Vue 3](https://vuejs.org/)
+
+## Credits
+
+- [YiZeng' blog](https://yizeng.me/blog)
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+[![License][license-shield]][license-url]
