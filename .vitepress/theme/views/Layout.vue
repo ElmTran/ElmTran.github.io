@@ -2,6 +2,7 @@
 import { useData } from "vitepress";
 import Home from "./Home/index.vue";
 import Post from "./Blog/post.vue";
+import About from "./Blog/about.vue";
 // https://vitepress.dev/reference/runtime-api#usedata
 const { site, frontmatter } = useData();
 import "../style/common/index.scss";
@@ -13,6 +14,9 @@ import "../style/common/index.scss";
   </div>
   <div v-else-if="frontmatter.layout === 'post'" class="layout-post">
     <Post />
+  </div>
+  <div v-else-if="frontmatter.layout === 'about'" class="layout-about">
+    <About />
   </div>
   <div v-else class="layout-content">
     <Content />

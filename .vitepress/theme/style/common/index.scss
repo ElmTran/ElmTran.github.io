@@ -13,6 +13,87 @@ html {
   line-height: 1.8;
 }
 
+.layout-about {
+  font-family: $fonts-body;
+  font-size: 18px;
+  line-height: 1.8;
+  color: $color-text;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+
+  // 标题样式
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 3rem 0 1rem; // 增加上边距，让标题与上文有更明显的间隔
+    font-weight: 600;
+    line-height: 1.25;
+
+    // 为标题前的段落增加额外的下边距
+    + p {
+      margin-top: 1.2em;
+    }
+  }
+
+  h1 {
+    font-size: 2.2em;
+    margin-top: 2rem; // 第一个h1标题可以稍微少一点上边距
+  }
+
+  h2 {
+    font-size: 1.8em;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 0.3em;
+    animation: slideInLeft 0.8s ease-out;
+    opacity: 0;
+    animation-fill-mode: forwards;
+
+    @keyframes slideInLeft {
+      from {
+        transform: translateX(-20px);
+        opacity: 0;
+      }
+      to {
+        transform: translateX(0);
+        opacity: 1;
+      }
+    }
+  }
+
+  h3 {
+    font-size: 1.5em;
+  }
+
+  // 基础文本元素
+  p {
+    margin: 1.2em 0;
+    line-height: 1.8;
+    opacity: 0;
+    animation: fadeInUp 0.8s ease-out;
+    animation-fill-mode: forwards;
+
+    @keyframes fadeInUp {
+      from {
+        transform: translateY(20px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    // 段落之间的间距增加
+    + p {
+      margin-top: 1.5em;
+    }
+  }
+}
+
 // 主要内容布局
 .layout-post {
   font-family: $fonts-body;
