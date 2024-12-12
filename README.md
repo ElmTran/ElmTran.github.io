@@ -31,3 +31,9 @@ A personal blog built with VitePress, featuring a clean and modern design with s
 Distributed under the MIT License. See `LICENSE` for more information.
 
 [![License][license-shield]][license-url]
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+[license-shield]: https://img.shields.io/github/license/ElmTran/elmtran.github.io
+[license-url]: https://github.com/ElmTran/elmtran.github.io/blob/master/LICENSE
