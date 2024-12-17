@@ -2,8 +2,8 @@
 layout: post
 title: "Expriences"
 description: "生活经验贴"
-categories: [Diary]
-tags: [Diary, Expriences, resources]
+categories: [collection]
+tags: [collection, Expriences, resources, life]
 date: 2023/08/05
 ---
 

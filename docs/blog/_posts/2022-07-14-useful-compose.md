@@ -2,7 +2,7 @@
 layout: post
 title: "Useful Compose"
 description: "一些docker compose安装命令"
-categories: [technology]
+categories: [collection]
 tags: [Docker, Docker Compose]
 date: 2022/07/14
 ---
