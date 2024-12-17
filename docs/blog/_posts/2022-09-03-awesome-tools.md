@@ -2,8 +2,8 @@
 layout: post
 title: "Awesome Tools"
 description: "一些有用的链接"
-categories: [technology]
-tags: [learning, technology, tools, resources]
+categories: [collection]
+tags: [learning, collection, tools, resources]
 date: 2022/09/03
 ---
 

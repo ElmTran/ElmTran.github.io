@@ -2,8 +2,8 @@
 layout: post
 title: "Awesome AI Project"
 description: "This is a collection of some awesome AI projects."
-categories: [technology]
-tags: [learning, technology, AI, GPT, LLM]
+categories: [collection]
+tags: [learning, collection, AI, GPT, LLM]
 date: 2023/04/06
 ---
 
