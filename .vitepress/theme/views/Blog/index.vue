@@ -33,7 +33,11 @@ function formatDate(dateStr: string) {
     <Header />
     <main class="blog-content">
       <div class="posts-list">
-        <div v-for="year in sortedYears" :key="year" class="year-section animated fadeInUp">
+        <div
+          v-for="year in sortedYears"
+          :key="year"
+          class="year-section animated fadeInUp"
+        >
           <h1 class="year-title">{{ year }}</h1>
           <div
             v-for="post in postsByYear[year]"
@@ -81,6 +85,10 @@ function formatDate(dateStr: string) {
   max-width: 800px;
   margin: 0 auto;
   padding: 2rem;
+
+  @media (max-width: 768px) {
+    padding: 1rem;
+  }
 }
 
 @keyframes fadeInUp {
@@ -129,6 +137,11 @@ function formatDate(dateStr: string) {
     &:hover {
       transform: translateY(-2px);
       box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    @media (max-width: 768px) {
+      padding: 1rem;
+      margin-bottom: 1.5rem;
     }
   }
 
@@ -187,6 +200,17 @@ function formatDate(dateStr: string) {
 
       &:hover {
         background: rgba(0, 102, 204, 0.2);
+      }
+    }
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.5rem;
+
+      .post-categories,
+      .post-tags {
+        flex-wrap: wrap;
       }
     }
   }

@@ -116,6 +116,27 @@ const { frontmatter } = useData();
         margin-right: 0.5rem;
       }
     }
+
+    @media (max-width: 768px) {
+      padding: 1rem;
+
+      > div {
+        flex-wrap: wrap;
+      }
+
+      .post-categories,
+      .post-tags {
+        span:not(:first-child) {
+          padding: 0.15rem 0.6rem;
+          font-size: 0.8rem;
+        }
+      }
+
+      .post-description {
+        padding: 0.8rem;
+        font-size: 0.9rem;
+      }
+    }
   }
 }
 
