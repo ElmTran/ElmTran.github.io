@@ -1,6 +1,22 @@
 @use "./fonts" as *;
 @use "./variables" as *;
 
+:root {
+  --animation-duration: 0.4s;
+  --animation-timing: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+[data-mounted="true"] {
+  .animated {
+    animation-timing-function: var(--animation-timing);
+  }
+}
+
+.blog-container {
+  min-height: 100vh;
+  opacity: 1 !important;
+}
+
 // 基础页面样式
 html {
   background: url("../../../assets/images/noisy_texture_section0-200x200.png")

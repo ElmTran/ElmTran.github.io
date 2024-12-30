@@ -3,8 +3,14 @@ import { useData } from "vitepress";
 import Home from "./Home/index.vue";
 import Post from "./Blog/post.vue";
 import About from "./Blog/about.vue";
-// https://vitepress.dev/reference/runtime-api#usedata
+import { onMounted } from "vue";
+
 const { site, frontmatter } = useData();
+
+onMounted(() => {
+  document.documentElement.setAttribute("data-mounted", "true");
+});
+
 import "../style/common/index.scss";
 </script>
 
