@@ -92,6 +92,23 @@ html {
       margin-top: 1.5em;
     }
   }
+
+  @media (max-width: 768px) {
+    padding: 1rem;
+    font-size: 16px;
+
+    h1 {
+      font-size: 1.8em;
+    }
+
+    h2 {
+      font-size: 1.5em;
+    }
+
+    h3 {
+      font-size: 1.3em;
+    }
+  }
 }
 
 // 主要内容布局
@@ -362,6 +379,50 @@ html {
         width: 3.5rem;
         height: 100%;
         border-right: 1px solid rgba(255, 255, 255, 0.1);
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    padding: 1rem;
+    font-size: 16px;
+
+    h1 {
+      font-size: 1.8em;
+    }
+
+    h2 {
+      font-size: 1.5em;
+    }
+
+    h3 {
+      font-size: 1.3em;
+    }
+
+    // 调整代码块在移动端的显示
+    [class*="language-"] {
+      margin: 0.8em 0;
+      border-radius: 4px;
+
+      > button.copy {
+        top: 8px;
+        right: 8px;
+        min-width: 32px;
+        height: 32px;
+        padding: 0 8px;
+        font-size: 12px;
+      }
+
+      &.line-numbers-mode {
+        pre {
+          margin-left: 3rem;
+          padding-left: 0.5rem;
+          padding-right: 0.5rem;
+        }
+
+        > div.line-numbers-wrapper {
+          width: 3rem;
+        }
       }
     }
   }
