@@ -17,8 +17,10 @@ html {
   h1 {
     font-family: "Junge Regular";
     font-size: 5em;
-
     text-transform: uppercase;
+    line-height: 1.2; // 添加行高控制
+    word-wrap: break-word; // 允许在任意字符间换行
+    overflow-wrap: break-word; // 现代浏览器的换行控制
   }
 
   h2 {

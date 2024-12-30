@@ -401,8 +401,8 @@ html {
 
     // 调整代码块在移动端的显示
     [class*="language-"] {
-      margin: 0.8em 0;
-      border-radius: 4px;
+      margin: 0.8em -1rem; // 让代码块占满屏幕宽度
+      border-radius: 0; // 移除圆角
 
       > button.copy {
         top: 8px;
@@ -418,12 +418,63 @@ html {
           margin-left: 3rem;
           padding-left: 0.5rem;
           padding-right: 0.5rem;
+          font-size: 14px; // 调小代码字体
         }
 
         > div.line-numbers-wrapper {
           width: 3rem;
+          font-size: 12px; // 调小行号字体
         }
       }
+    }
+
+    // 调整图片显示
+    img {
+      margin: 1em -1rem; // 让图片占满屏幕宽度
+      border-radius: 0; // 移除圆角
+      max-width: calc(100% + 2rem);
+    }
+
+    // 调整表格显示
+    table {
+      margin: 1em -1rem;
+      width: calc(100% + 2rem);
+
+      th,
+      td {
+        padding: 0.4em 0.6em;
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+// 添加针对高分辨率全面屏的媒体查询
+@media screen and (min-width: 1080px) and (max-height: 2400px) and (orientation: portrait) {
+  .layout-post {
+    max-width: 95%;
+    padding: 1.5rem;
+
+    // 优化长屏幕阅读体验
+    p {
+      margin: 1.5em 0;
+      line-height: 1.9;
+    }
+
+    // 调整代码块显示
+    [class*="language-"] {
+      margin: 1.2em 0;
+
+      pre {
+        max-height: 80vh; // 限制代码块最大高度
+        overflow-y: auto;
+      }
+    }
+
+    // 优化图片显示
+    img {
+      max-height: 80vh;
+      object-fit: contain;
     }
   }
 }
