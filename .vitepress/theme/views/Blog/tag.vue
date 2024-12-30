@@ -86,6 +86,7 @@ function formatDate(dateStr: string) {
 
 .tags-container {
   margin-bottom: 3rem;
+  width: 100%;
 
   .tags-title {
     font-size: 2rem;
@@ -97,18 +98,29 @@ function formatDate(dateStr: string) {
     display: flex;
     flex-wrap: wrap;
     gap: 0.8rem;
+    width: 100%;
 
     .tag {
       cursor: pointer;
-      padding: 0.4rem 1rem;
-      background: rgba(0, 102, 204, 0.1);
-      border-radius: 20px;
-      font-size: 0.9rem;
+      padding: 0.4rem 0.8rem;
+      background: rgba(0, 102, 204, 0.08);
+      border-radius: 16px;
+      font-size: 0.875rem;
       color: #0066cc;
       transition: all 0.3s ease;
+      white-space: nowrap;
+      line-height: 1.2;
+      will-change: transform, background-color;
+      opacity: 1;
+      transform: translateY(0);
+
+      @media (max-width: 768px) {
+        padding: 0.3rem 0.6rem;
+        font-size: 0.8125rem;
+      }
 
       &:hover {
-        background: rgba(0, 102, 204, 0.2);
+        background: rgba(0, 102, 204, 0.15);
       }
 
       &.active {
@@ -152,6 +164,7 @@ function formatDate(dateStr: string) {
     display: flex;
     gap: 1rem;
     align-items: center;
+    flex-wrap: wrap;
 
     .post-date {
       color: #888;
@@ -161,15 +174,23 @@ function formatDate(dateStr: string) {
     .post-tags {
       display: flex;
       gap: 0.5rem;
+      flex-wrap: wrap;
     }
 
     .tag {
       display: inline-block;
       padding: 0.2rem 0.5rem;
-      background: rgba(0, 102, 204, 0.1);
+      background: rgba(0, 102, 204, 0.08);
       border-radius: 4px;
-      font-size: 0.8rem;
+      font-size: 0.8125rem;
       color: #0066cc;
+      line-height: 1.2;
+      white-space: nowrap;
+
+      @media (max-width: 768px) {
+        padding: 0.15rem 0.4rem;
+        font-size: 0.75rem;
+      }
     }
   }
 
@@ -184,7 +205,7 @@ function formatDate(dateStr: string) {
 @keyframes fadeInUp {
   from {
     opacity: 0;
-    transform: translateY(20px);
+    transform: translateY(10px);
   }
   to {
     opacity: 1;
@@ -193,8 +214,29 @@ function formatDate(dateStr: string) {
 }
 
 .animated {
-  animation-duration: 0.6s;
+  animation-duration: 0.4s;
   animation-fill-mode: both;
-  animation-name: fadeInUp;
+  will-change: transform, opacity;
+}
+
+@media (max-width: 768px) {
+  .blog-content {
+    padding: 1rem;
+  }
+
+  .tags-container {
+    margin-bottom: 2rem;
+
+    .tags-list {
+      gap: 0.5rem;
+    }
+  }
+
+  .posts-list {
+    .post-item {
+      padding: 1rem;
+      margin-bottom: 1rem;
+    }
+  }
 }
 </style>
