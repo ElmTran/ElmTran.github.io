@@ -50,6 +50,9 @@ export default defineConfig({
     },
     lineNumbers: true,
     theme: "material-theme-palenight",
+    headers: {
+      level: [2, 3, 4], // 支持到 h4 级别的标题
+    },
   },
   ignoreDeadLinks: true,
 });
