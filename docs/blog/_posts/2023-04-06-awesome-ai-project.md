@@ -393,6 +393,12 @@ date: 2023/04/06
 
 - [背景去除](https://rmbg.fun/)
 
+- [免费文生图](https://raphael.app/)
+
+- [鲜艺抠图](https://kt.94xy.com/)
+
+- [bylo-文生图](https://bylo.ai/)
+
 ## Tools
 
 - [FUTUREPEDIA-AI 工具聚合](https://www.futurepedia.io/)
@@ -867,6 +873,10 @@ date: 2023/04/06
 
 - [Jan](https://github.com/janhq/jan)
 
+- [gensfx-ai音效](https://gensfx.com/)
+
+- [AI语言分离识别翻译](https://github.com/abus-aikorea/voice-pro/blob/main/docs/README.zh.md)
+
 ## Websites
 
 - [AI 论文速递](https://briefgpt.xyz/)
@@ -922,6 +932,8 @@ date: 2023/04/06
 - [cursor-rules](https://github.com/PatrickJS/awesome-cursorrules)
 
 - [awesome-generative-ai-guide](https://github.com/aishwaryanr/awesome-generative-ai-guide)
+
+- [gpt学习宝典](https://gpt.candobear.com/courses/kv2510-openai-deep-research)
 
 ## API
 

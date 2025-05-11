@@ -51,6 +51,8 @@ date: 2023/08/05
 
 - [带插头的旅行者指南](https://whatplug.info/)
 
+- [酒店协议代码](https://corporate-codes.online/zh)
+
 ## World Wide Web
 
 - 旅行
