@@ -67,6 +67,8 @@ date: 2022/09/03
 
 - [vocalremover-音频提取](https://vocalremover.org/zh/)
 
+- [音频在线处理](https://audiocutter.online/)
+
 - [videoscribe-视频制作](https://www.videoscribe.co/en/free-trial/)
 
 - [视频批量化处理](https://271374667.github.io/VideoFusion/)
@@ -258,6 +260,8 @@ date: 2022/09/03
 - [koofr-支持 onedrive，google，webdav](https://app.koofr.net/)
 
 - [云鸽](https://yunge.in/)
+
+- [transfer.zip-大文件传输](https://transfer.zip/)
 
 ### 临时邮箱
 
@@ -694,6 +698,8 @@ date: 2022/09/03
 - [public-apis](https://github.com/public-apis/public-apis)
 
 - [IP_INFO_API](https://github.com/ihmily/ip-info-api)
+
+- [AI公司研究](https://github.com/exa-labs/company-researcher)
 
 #### 短网址
 

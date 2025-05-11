@@ -117,6 +117,8 @@ date: 2023/08/05
 
 - [黑猫影视](https://heimaotv.vip/)
 
+- [gying](https://www.gying.in/)
+
 ### 网盘
 
 - [searchsearchgo](https://github.com/Justin3go/SearchSearchGo)
@@ -509,6 +511,8 @@ date: 2023/08/05
 
 - [byruthub](https://byruthub.org/)
 
+- [savegame-游戏存档](https://savegame.pro/)
+
 ## Books
 
 - [tmzn-alist 书库](https://book.tmzn.top/)
@@ -630,6 +634,144 @@ date: 2023/08/05
 - [阅读书源](https://shuyuan.yiove.com/)
 
 - [经典电子书](https://github.com/kska32/ebooks)
+
+- [英文小说](https://bookyell.com/)
+
+## Books
+
+- [Zhelper 帮助文档](https://v2.zhelper.net/)
+- [Zhelper V3 网址列表](https://v3.zhelper.net/)
+- [Z-Library 镜像 - 小白工具箱](https://www.ooopn.com/tool/zlibrary/)
+- [易书论坛 #论坛](https://bbs.yibook.org/)
+- [镜像站](https://bk.hallowlib.org/)
+- [zlibrary 镜像](https://zlibsearch.1kbtool.com/)
+- [易书搜索](https://search.yibook.org/)
+- [openlibary](https://openlibrary.org/)
+- [老画报](http://www.laohuabao.com/index.html)
+- [浙江图书馆-连环画](http://wx.zhlhh.com/zhejianglib)
+- [loudreader](https://www.loudreader.com/)
+- [FreeMbook Search](https://freembook.com/)
+- [在线博物馆](https://gallerix.asia/)
+- [苦瓜书盘](https://www.kgbook.com/)
+- [liber3](https://liber3.eth.limo/)
+- [librum-开源电子书数据库](https://github.com/Librum-Reader/Librum)
+- [calibre-电子书管理](https://calibre-ebook.com/)
+- [一书单](https://yidanshu.com/)
+- [中国成人文学网-NSFW](https://www.xbookcn.net/)
+- [24h 搜书](https://24hbook.com/)
+- [中文教科书](https://textbook.synaiv.com/)
+- [SaltyLeo 的书架](https://book.tstrs.me/)
+- [阅读书源](https://shuyuan.yiove.com/)
+- [经典电子书](https://github.com/kska32/ebooks)
+- [英文小说](https://bookyell.com/)
+- [SoBooks](https://sobooks.cc/)
+- [Elib](https://elib.cc/)
+- [J9P](http://www.j9p.com/class/r_16_1.html)
+- [PC1999](http://www.pc1999.com/forum-39-1.html)
+- [恩京书房](https://www.enjing.com/)
+- [各种书](http://www.gezhongshu.com/forum.php)
+- [MyDBFX](http://mydbfx.com/?m=202010)
+- [SXPDF](https://www.sxpdf.com/)
+- [PDF之家](http://pdf.018zy.com/)
+- [EbookList](https://ebooklist.mobi/)
+- [淘书党](http://www.tbookk.com/)
+- [知识库](https://book.zhishikoo.com/)
+- [JS电子书](http://jsebook.com/)
+- [电子书分享](https://www.dzsfx.com/)
+- [书语录](http://www.ssylu.com/)
+- [心晴网](http://www.ixinqing.com/)
+- [XXURLS](https://www.xxurls.com/)
+- [Booksee](https://en.booksee.org/)
+- [WordPress书库](https://http561856124.wordpress.com/)
+- [SN9](https://sn9.us/dir/17192461-27868687-4e3441)
+- [94FBR](https://94fbr.net/)
+- [MyDBFX](http://mydbfx.com/)
+- [545C](https://545c.com/dir/18000042-29172273-c7324c?29339938)
+- [Reader Book House](https://readerbookhouse.ml/?i=1)
+- [金丝雀](http://www.jinsy.cc/)
+- [SaltTiger](https://salttiger.com/)
+- [BobZhang图书馆](http://bobzhang.dscloud.me/Library_ch/_catalog/index.html)
+- [Book899](http://book899.com/)
+- [NMOD](https://www.nmod.net/)
+- [JEbook](http://www.jebook.org/bbs/forum-54-1.html)
+- [52zcmm](https://52zcmm.com/)
+- [慧眼看](https://www.huiyankan.com/)
+- [天翼云分享](https://cloud.189.cn/web/share?code=qAvmYbUjQZFf)
+- [2Lib](https://2lib.org/Love-erotic-cat201)
+- [XZ577](https://www.xz577.com/)
+- [新书吧](http://www.newbook8.com/)
+- [鸠摩搜书](https://www.jiumodiary.com/)
+- [未来图书馆](https://bks.thefuture.top/)
+- [书单网](https://www.shudan.vip/)
+- [悦读指南](https://www.yuedu.pro/)
+- [聚能饭](https://www.junengfan.cn/bd)
+- [猫头鹰搜索](https://www.owlook.com.cn/)
+- [我帮找](http://www.wobangzhao.com/thread-5175-1-1.html)
+
+### 书屋
+
+1. **亚伦·希勒尔·斯沃茨精神网站**：
+   - [Lorefree](https://ebook2.lorefree.com/)
+
+2. **Zlibrary**：世界最大的电子图书馆
+   - [Book4you](https://book4you.org/)
+   - [Z-Library镜像](https://zh.zlib.life/s/?languages%5B%5D=chinese&order=date)
+   - [统一登录入口](https://zh.singlelogin.me/)
+
+3. **创世纪图书馆**：
+   - [Libgen](https://libgen.unblockit.tv/)
+
+4. **三秋书屋**：
+   - [三秋书屋](https://www.sanqiu.cc/)
+
+5. **英文网站**：
+   - [古登堡计划](https://www.gutenberg.org/)
+   - [Planet Ebook](https://www.planetebook.com/)
+   - [PDF Drive](https://www.pdfdrive.com/)
+   - [HathiTrust](https://www.hathitrust.org/)
+   - [World Mags](https://worldmags.net/)
+   - [Many Books](https://manybooks.net/)
+
+6. **英语学习网站**：
+   - [推荐书籍](https://www.tjxz.cc/tag/books)
+
+7. **青空文库**（日语经典）：
+   - [青空文库](https://www.aozora.gr.jp/)
+
+#### 杂志网站
+
+**英文杂志**：
+- [EMagazines](https://emagazines.site/)
+- [MG4F](https://mg4f.com/)
+- [Yige Plus](https://yigeplus.xyz/)
+- [Magazine Lib](https://magazinelib.com/)
+- [八点一刻](https://www.badianyike.com/)
+- [Down Magaz](https://downmagaz.net/)
+- [PDF Magazines](https://pdf-magazines.org/)
+- [PDF Magazines Club](https://pdfmagazines.club/sci-fi/)
+- [World of Magazine](https://www.worldofmagazine.com/)
+- [Mag Download](https://magdownload.org/category/language/english/)
+- [杂志爸爸](https://www.zazhibaba.com/)
+- [经济学人电子版](https://github.com/hehonghui/the-economist-ebooks)
+- [Yumpu](https://www.yumpu.com/en/magazines)
+- [PDF Magazines Download](https://pdf-magazines-download.com/)
+
+**中文杂志**：
+- [期刊网](http://new-qk.lifves.com/wap.php?url=aHR0cCUzQSUyRiUyRm5ldy1xay5saWZ2ZXMuY29tJTJG)
+
+#### 漫画网站
+
+- [搜漫](https://www.soman.com/)
+- [X漫画](https://www.xmanhua.com/)
+- [看漫画啦](https://kanmanhuala.com/)
+- [1KKK漫画](https://www.1kkk.com/)
+- [漫画BZ](https://www.mangabz.com/)
+- [漫画柜](https://www.mhgui.com/)
+- [漫白分](https://www.manbaifen.com/)
+- [咕咕漫画](http://www.gugu5.com/)
+- [猫飞漫画](https://www.maofly.com/)
+- [野漫](https://yemancomic.com/)
+
 
 ## Software
 
@@ -893,8 +1035,6 @@ date: 2023/08/05
 
 - [老生常谈](https://laosheng.top/)
 
-- [free-for-dev](https://github.com/ripienaar/free-for-dev)
-
 - [公开实时数据库](https://github.com/bytewax/awesome-public-real-time-datasets)
 
 - [海棠诗社](https://haitang.app/)
@@ -926,3 +1066,7 @@ date: 2023/08/05
 - [birdify-世界各地的鸟声](https://birdify.co.uk/)
 
 - [skylinewebcams-世界景区摄像头](https://www.skylinewebcams.com/)
+
+- [1000个中国独立开发者项目汇总](https://github.com/XiaomingX/1000-chinese-independent-developer-plus)
+
+- [awesome-machine-learning-startups](https://github.com/gmberton/awesome-machine-learning-startups)
