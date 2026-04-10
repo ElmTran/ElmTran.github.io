@@ -1,0 +1,117 @@
+---
+import { getCollection } from "astro:content";
+import Main from "../../layouts/BaseLayout.astro";
+import EssayList from "../../components/EssayList.astro";
+import { sortPosts } from "../../lib/posts";
+
+const posts = sortPosts(await getCollection("blog"));
+---
+
+<Main
+  title="Essays"
+  description="A chronological index of essays, notes, and long-form writing."
+  canonicalPath="/essays/"
+>
+  <section class="page-intro site-shell page-intro--compact">
+    <h1>Essays</h1>
+  </section>
+
+  <section class="site-shell">
+    <EssayList posts={posts} />
+  </section>
+
+  <script is:inline>
+    (function () {
+      function isEssaysIndexPath() {
+        const normalized = (location.pathname.replace(/\/$/, "") || "/").toLowerCase();
+        return normalized === "/essays";
+      }
+
+      if (!isEssaysIndexPath()) {
+        return;
+      }
+
+      const form = document.querySelector("form.site-nav-search");
+      const searchEl = document.getElementById("site-essay-search");
+
+      function rows() {
+        return document.querySelectorAll("[data-essay-row]");
+      }
+
+      function sections() {
+        return document.querySelectorAll("[data-essay-year]");
+      }
+
+      function readUrl() {
+        const p = new URLSearchParams(window.location.search);
+        if (searchEl instanceof HTMLInputElement) {
+          searchEl.value = p.get("q") || "";
+        }
+      }
+
+      function writeUrl() {
+        const p = new URLSearchParams();
+        const qRaw = searchEl instanceof HTMLInputElement ? searchEl.value.trim() : "";
+        if (qRaw) {
+          p.set("q", qRaw);
+        }
+        const qs = p.toString();
+        const path = window.location.pathname;
+        history.replaceState(null, "", qs ? `${path}?${qs}` : path);
+      }
+
+      function apply() {
+        const qRaw = searchEl instanceof HTMLInputElement ? searchEl.value.trim() : "";
+        const q = qRaw.toLowerCase();
+
+        for (const row of rows()) {
+          if (!(row instanceof HTMLElement)) {
+            continue;
+          }
+          const blob = (row.dataset.search || "").toLowerCase();
+          const ok = !q || blob.includes(q);
+          row.hidden = !ok;
+        }
+
+        for (const sec of sections()) {
+          if (!(sec instanceof HTMLElement)) {
+            continue;
+          }
+          const any = sec.querySelector("[data-essay-row]:not([hidden])");
+          sec.hidden = !any;
+        }
+
+        writeUrl();
+      }
+
+      readUrl();
+      apply();
+
+      searchEl?.addEventListener("input", apply);
+
+      form?.addEventListener("submit", (e) => {
+        e.preventDefault();
+        apply();
+      });
+
+      document.addEventListener("keydown", (e) => {
+        if (e.key !== "/" || e.ctrlKey || e.metaKey || e.altKey) {
+          return;
+        }
+        const t = e.target;
+        if (
+          t instanceof HTMLInputElement ||
+          t instanceof HTMLTextAreaElement ||
+          (t instanceof HTMLElement && t.isContentEditable)
+        ) {
+          return;
+        }
+        e.preventDefault();
+        searchEl?.focus();
+        if (searchEl instanceof HTMLInputElement) {
+          searchEl.select();
+        }
+      });
+    })();
+  </script>
+</Main>

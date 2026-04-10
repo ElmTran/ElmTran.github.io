@@ -1,0 +1,41 @@
+---
+import type { BlogEntry } from "../lib/posts";
+import { formatPostDate, getPostSearchBlob, getPostUrl, groupPostsByYear, sortPosts } from "../lib/posts";
+
+interface Props {
+  posts: BlogEntry[];
+}
+
+const { posts } = Astro.props;
+const groups = groupPostsByYear(sortPosts(posts));
+---
+
+<div class="essay-list essay-list--text" data-essay-list>
+  {
+    [...groups.entries()].map(([year, items]) => (
+      <section class="essay-year-group essay-year-group--text" data-essay-year>
+        <div class="essay-year-label">{year}</div>
+        <div class="essay-year-items">
+          {items.map((post) => (
+            <article
+              class="essay-index-row"
+              data-essay-row
+              data-tags={JSON.stringify(post.data.tags)}
+              data-categories={JSON.stringify(post.data.categories)}
+              data-search={getPostSearchBlob(post)}
+            >
+              <div class="essay-index-meta">
+                <time datetime={post.data.date}>{formatPostDate(post)}</time>
+                {post.data.categories.length > 0 && <span>{post.data.categories.join(" · ")}</span>}
+              </div>
+              <h2 class="essay-index-title">
+                <a href={getPostUrl(post)}>{post.data.title}</a>
+              </h2>
+              {post.data.description && <p class="essay-index-dek">{post.data.description}</p>}
+            </article>
+          ))}
+        </div>
+      </section>
+    ))
+  }
+</div>

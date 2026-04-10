@@ -1,0 +1,42 @@
+---
+import SiteFooter from "../components/SiteFooter.astro";
+import SiteHeader from "../components/SiteHeader.astro";
+import { siteMeta } from "../site";
+import "../styles/global.css";
+
+interface Props {
+  title?: string;
+  description?: string;
+  bodyClass?: string;
+  canonicalPath?: string;
+}
+
+const {
+  title = siteMeta.title,
+  description = siteMeta.description,
+  bodyClass = "",
+  canonicalPath,
+} = Astro.props;
+
+const pageTitle = title === siteMeta.title ? title : `${title} | ${siteMeta.title}`;
+const canonicalUrl = canonicalPath ? new URL(canonicalPath, Astro.site) : undefined;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={description} />
+    <meta name="theme-color" content={siteMeta.accent} />
+    {canonicalUrl && <link rel="canonical" href={canonicalUrl.toString()} />}
+  </head>
+  <body class={bodyClass}>
+    <SiteHeader />
+    <main class="site-main">
+      <slot />
+    </main>
+    <SiteFooter />
+  </body>
+</html>

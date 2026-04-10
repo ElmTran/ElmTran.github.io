@@ -1,0 +1,42 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { collectTaxonomy, getPostUrl, sortPosts } from "../../lib/posts";
+
+const posts = sortPosts(await getCollection("blog"));
+const categories = collectTaxonomy(posts, "categories");
+---
+
+<BaseLayout
+  title="Categories"
+  description="Broad themes across the archive, presented with restraint."
+  canonicalPath="/essays/categories/"
+>
+  <section class="taxonomy-section site-shell">
+    <div class="page-intro page-intro--compact">
+      <h1>Categories</h1>
+      <p class="page-intro-single">High-level buckets for the same essay collection.</p>
+    </div>
+
+    <div class="taxonomy-grid">
+      {
+        categories.map((category) => {
+          const related = posts.filter((post) => post.data.categories.includes(category.name)).slice(0, 2);
+
+          return (
+            <article class="taxonomy-card">
+              <p class="eyebrow">{category.count} essay{category.count > 1 ? "s" : ""}</p>
+              <h3>{category.name}</h3>
+              <p>{related.map((post) => post.data.title).join(" / ")}</p>
+              {related[0] && (
+                <a class="text-link" href={getPostUrl(related[0])}>
+                  Open latest
+                </a>
+              )}
+            </article>
+          );
+        })
+      }
+    </div>
+  </section>
+</BaseLayout>

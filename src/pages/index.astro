@@ -1,0 +1,51 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { homeHero, publicImages } from "../site";
+
+const heroStyle = {
+  "--photo-hero-image": `url('${publicImages.hero}')`,
+  "--photo-grain-opacity": String(homeHero.effects.grainOpacity),
+} as const;
+---
+
+<BaseLayout
+  title={homeHero.headline}
+  description={homeHero.lines.join(" ")}
+  bodyClass="page-home-photo"
+  canonicalPath="/"
+>
+  <section
+    class:list={[
+      "photo-hero",
+      { "photo-hero--grayscale": homeHero.effects.grayscale, "photo-hero--vignette": homeHero.effects.vignette },
+    ]}
+    style={heroStyle}
+  >
+    <div class="photo-hero-grain" aria-hidden="true"></div>
+    <div class="photo-hero-inner">
+      <div class="photo-hero-card">
+        <h1 class="photo-hero-title photo-hero-title--welcome">{homeHero.headline}</h1>
+        <div class="photo-hero-lines">
+          {homeHero.lines.map((line) => (
+            <p>{line}</p>
+          ))}
+        </div>
+        <div class="photo-hero-actions">
+          {homeHero.links.map((item) => (
+            <a class="photo-hero-link" href={item.href}>
+              {item.label}
+            </a>
+          ))}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="photo-home-below site-shell">
+    <p class="photo-home-below-text">
+      <a class="text-link" href="/about/">About</a>
+      <span class="photo-home-dot" aria-hidden="true">·</span>
+      <a class="text-link" href="/essays/tags/">Tags</a>
+    </p>
+  </section>
+</BaseLayout>

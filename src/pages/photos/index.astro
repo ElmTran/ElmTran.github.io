@@ -1,0 +1,129 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { discoverPublicImages } from "../../lib/public-images";
+
+const photos = discoverPublicImages("images");
+---
+
+<BaseLayout
+  title="Photos"
+  description="Photographs from public/images — built automatically at compile time."
+  canonicalPath="/photos/"
+>
+  <div class="photos-page site-shell">
+    <header class="photos-page-head">
+      <h1>Photos</h1>
+      <p class="photos-page-lead">
+        Images are read from <code class="photos-code">public/images/</code> on each build. Click a tile to view
+        larger. Arrows, Escape, or backdrop to close.
+      </p>
+    </header>
+
+    {
+      photos.length === 0 ? (
+        <p class="photos-empty">No image files found in public/images.</p>
+      ) : (
+        <ul class="photo-masonry" role="list">
+          {photos.map((p, index) => (
+            <li class="photo-masonry-item">
+              <button
+                type="button"
+                class="photo-masonry-thumb"
+                data-photo-index={index}
+                aria-label={`View larger: ${p.alt}`}
+              >
+                <img src={p.src} alt={p.alt} loading="lazy" decoding="async" />
+              </button>
+            </li>
+          ))}
+        </ul>
+      )
+    }
+  </div>
+
+  <dialog id="photo-lightbox" class="photo-lightbox" aria-modal="true" aria-label="Image preview">
+    <div class="photo-lightbox-inner">
+      <button type="button" class="photo-lightbox-close" data-lightbox-close aria-label="Close">
+        ×
+      </button>
+      <button type="button" class="photo-lightbox-prev" data-lightbox-prev aria-label="Previous">
+        ‹
+      </button>
+      <button type="button" class="photo-lightbox-next" data-lightbox-next aria-label="Next">
+        ›
+      </button>
+      <img class="photo-lightbox-img" src="" alt="" />
+    </div>
+  </dialog>
+
+  <script
+    is:inline
+    define:vars={{
+      photoList: photos.map((p) => ({ src: p.src, alt: p.alt })),
+    }}
+  >
+    const dialog = document.getElementById("photo-lightbox");
+    const imgEl = dialog?.querySelector(".photo-lightbox-img");
+
+    if (!dialog || !(imgEl instanceof HTMLImageElement)) {
+      throw new Error("Lightbox markup missing");
+    }
+
+    let currentIndex = 0;
+
+    const openAt = (index) => {
+      const n = photoList.length;
+      if (n === 0) {
+        return;
+      }
+      currentIndex = ((index % n) + n) % n;
+      const item = photoList[currentIndex];
+      if (item) {
+        imgEl.src = item.src;
+        imgEl.alt = item.alt;
+      }
+      dialog.showModal();
+    };
+
+    document.querySelectorAll("[data-photo-index]").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const i = Number(btn.getAttribute("data-photo-index"));
+        if (!Number.isNaN(i)) {
+          openAt(i);
+        }
+      });
+    });
+
+    dialog.querySelectorAll("[data-lightbox-close]").forEach((el) => {
+      el.addEventListener("click", () => dialog.close());
+    });
+
+    const prev = dialog.querySelector("[data-lightbox-prev]");
+    const next = dialog.querySelector("[data-lightbox-next]");
+    prev?.addEventListener("click", (e) => {
+      e.stopPropagation();
+      openAt(currentIndex - 1);
+    });
+    next?.addEventListener("click", (e) => {
+      e.stopPropagation();
+      openAt(currentIndex + 1);
+    });
+
+    dialog.addEventListener("click", (e) => {
+      if (e.target === dialog) {
+        dialog.close();
+      }
+    });
+
+    document.addEventListener("keydown", (e) => {
+      if (!dialog.open) {
+        return;
+      }
+      if (e.key === "ArrowLeft") {
+        openAt(currentIndex - 1);
+      } else if (e.key === "ArrowRight") {
+        openAt(currentIndex + 1);
+      }
+    });
+  </script>
+</BaseLayout>

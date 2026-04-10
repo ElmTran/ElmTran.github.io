@@ -1,0 +1,100 @@
+---
+import { render } from "astro:content";
+import type { BlogEntry } from "../lib/posts";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { formatPostDate, getPostUrl, getRelatedPosts } from "../lib/posts";
+
+interface Props {
+  post: BlogEntry;
+  posts: BlogEntry[];
+  canonicalPath?: string;
+}
+
+const { post, posts, canonicalPath = getPostUrl(post) } = Astro.props;
+const { Content } = await render(post);
+const relatedPosts = getRelatedPosts(posts, post);
+const categoryLine = post.data.categories.length > 0 ? post.data.categories.join(" · ") : "";
+---
+
+<BaseLayout
+  title={post.data.title}
+  description={post.data.description || post.data.title}
+  bodyClass="page-post"
+  canonicalPath={canonicalPath}
+>
+  <article class="post-shell">
+    <header class="post-masthead site-shell">
+      <div class="post-masthead-meta">
+        <time datetime={post.data.date}>{formatPostDate(post)}</time>
+        {categoryLine && (
+          <>
+            <span class="post-masthead-sep" aria-hidden="true">·</span>
+            <span>{categoryLine}</span>
+          </>
+        )}
+      </div>
+      <h1 class="post-masthead-title">{post.data.title}</h1>
+      {post.data.description && <p class="post-masthead-lead">{post.data.description}</p>}
+      <div class="post-masthead-actions">
+        <a class="post-masthead-back" href="/essays/">← All essays</a>
+      </div>
+    </header>
+
+    <section class="post-body site-shell">
+      <div class="post-aside">
+        <div>
+          <span class="post-aside-label">Tags</span>
+          <ul class="meta-list">
+            {post.data.tags.map((tag) => (
+              <li>
+                <a class="meta-list-link" href={`/essays/?${new URLSearchParams({ tag }).toString()}`}>
+                  {tag}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div>
+          <span class="post-aside-label">Categories</span>
+          <ul class="meta-list">
+            {post.data.categories.map((category) => (
+              <li>
+                <a
+                  class="meta-list-link"
+                  href={`/essays/?${new URLSearchParams({ category }).toString()}`}
+                >
+                  {category}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+
+      <div class="post-prose">
+        <Content />
+      </div>
+    </section>
+
+    {
+      relatedPosts.length > 0 && (
+        <section class="related-section site-shell">
+          <div class="section-heading section-heading--compact">
+            <h2>Related</h2>
+          </div>
+          <ul class="related-list" role="list">
+            {relatedPosts.map((related) => (
+              <li class="related-list-item">
+                <time datetime={related.data.date}>{formatPostDate(related)}</time>
+                <h3>
+                  <a href={getPostUrl(related)}>{related.data.title}</a>
+                </h3>
+                {related.data.description && <p>{related.data.description}</p>}
+              </li>
+            ))}
+          </ul>
+        </section>
+      )
+    }
+  </article>
+</BaseLayout>

@@ -1,0 +1,46 @@
+---
+import { navigation, siteMeta } from "../site";
+
+const pathname = Astro.url.pathname;
+
+const isActive = (href: string) => {
+  if (href === "/") {
+    return pathname === "/";
+  }
+
+  return pathname === href || pathname.startsWith(href);
+};
+---
+
+<header class="site-header">
+  <div class="site-shell site-header-inner">
+    <a class="site-brand" href="/">
+      <span class="site-brand-mark"></span>
+      <span>{siteMeta.title}</span>
+    </a>
+    <div class="site-header-actions">
+      <form class="site-nav-search" action="/essays/" method="get" role="search">
+        <label class="sr-only" for="site-essay-search">Search essays</label>
+        <input
+          class="essay-search-input site-nav-search-input"
+          type="search"
+          name="q"
+          id="site-essay-search"
+          placeholder="Search essays…"
+          autocomplete="off"
+          spellcheck="false"
+          enterkeyhint="search"
+        />
+      </form>
+      <nav class="site-nav" aria-label="Primary">
+        {
+          navigation.map((item) => (
+            <a class:list={["site-nav-link", { active: isActive(item.href) }]} href={item.href}>
+              {item.label}
+            </a>
+          ))
+        }
+      </nav>
+    </div>
+  </div>
+</header>

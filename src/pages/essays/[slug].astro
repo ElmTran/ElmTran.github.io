@@ -1,0 +1,18 @@
+---
+import { getCollection } from "astro:content";
+import PostShell from "../../components/PostShell.astro";
+import { getPostSlug, getPostUrl, sortPosts } from "../../lib/posts";
+
+export async function getStaticPaths() {
+  const posts = sortPosts(await getCollection("blog"));
+
+  return posts.map((post) => ({
+    params: { slug: getPostSlug(post) },
+    props: { post, posts },
+  }));
+}
+
+const { post, posts } = Astro.props;
+---
+
+<PostShell post={post} posts={posts} canonicalPath={getPostUrl(post)} />
