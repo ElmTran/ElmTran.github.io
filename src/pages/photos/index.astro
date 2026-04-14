@@ -1,27 +1,52 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { discoverPublicImages } from "../../lib/public-images";
+import { galleryPhotos } from "../../site";
 
-const photos = discoverPublicImages("images");
+const photosFromConfig = galleryPhotos.map((p) => ({
+  src: p.src,
+  alt: p.alt?.trim() || "Photo",
+  exif: p.exif,
+}));
+const photos = photosFromConfig.length > 0 ? photosFromConfig : discoverPublicImages("images");
+const photosSourceRemote = photosFromConfig.length > 0;
 ---
 
 <BaseLayout
   title="Photos"
-  description="Photographs from public/images — built automatically at compile time."
+  description={
+    photosSourceRemote
+      ? "Photographs linked from external storage."
+      : "Photographs from public/images — built automatically at compile time."
+  }
   canonicalPath="/photos/"
 >
   <div class="photos-page site-shell">
     <header class="photos-page-head" data-reveal>
       <h1>Photos</h1>
       <p class="photos-page-lead">
-        Images are read from <code class="photos-code">public/images/</code> on each build. Click a tile to view
-        larger. Arrows, Escape, or backdrop to close.
+        {
+          photosSourceRemote ? (
+            <>
+              Images are loaded from URLs configured in <code class="photos-code">src/site.ts</code> (
+              <code class="photos-code">galleryPhotos</code>). Click a tile to view larger. Arrows, Escape, or backdrop
+              to close.
+            </>
+          ) : (
+            <>
+              Images are read from <code class="photos-code">public/images/</code> on each build. Click a tile to view
+              larger. Arrows, Escape, or backdrop to close.
+            </>
+          )
+        }
       </p>
     </header>
 
     {
       photos.length === 0 ? (
-        <p class="photos-empty">No image files found in public/images.</p>
+        <p class="photos-empty">
+          {photosSourceRemote ? "No URLs in galleryPhotos yet." : "No image files found in public/images."}
+        </p>
       ) : (
         <ul class="photo-masonry" role="list">
           {photos.map((p, index) => (
@@ -42,7 +67,7 @@ const photos = discoverPublicImages("images");
   </div>
 
   <dialog id="photo-lightbox" class="photo-lightbox" aria-modal="true" aria-label="Image preview">
-    <div class="photo-lightbox-inner">
+    <div class="photo-lightbox-inner" data-lightbox-inner>
       <button type="button" class="photo-lightbox-close" data-lightbox-close aria-label="Close">
         ×
       </button>
@@ -52,24 +77,86 @@ const photos = discoverPublicImages("images");
       <button type="button" class="photo-lightbox-next" data-lightbox-next aria-label="Next">
         ›
       </button>
-      <img class="photo-lightbox-img" src="" alt="" />
+      <span class="photo-lightbox-counter" data-lightbox-counter aria-live="polite"></span>
+      <div class="photo-lightbox-stage">
+        <figure class="photo-lightbox-frame">
+          <img class="photo-lightbox-img" src="" alt="" />
+          <figcaption class="photo-lightbox-overlay" data-lightbox-overlay hidden>
+            <p class="photo-lightbox-caption" data-lightbox-caption></p>
+            <dl class="photo-lightbox-spec photo-lightbox-spec--overlay" data-lightbox-spec></dl>
+          </figcaption>
+        </figure>
+      </div>
     </div>
   </dialog>
 
   <script
     is:inline
     define:vars={{
-      photoList: photos.map((p) => ({ src: p.src, alt: p.alt })),
+      photoList: photos.map((p) => ({ src: p.src, alt: p.alt, exif: p.exif })),
     }}
   >
     const dialog = document.getElementById("photo-lightbox");
+    const innerEl = dialog?.querySelector("[data-lightbox-inner]");
     const imgEl = dialog?.querySelector(".photo-lightbox-img");
+    const overlayEl = dialog?.querySelector("[data-lightbox-overlay]");
+    const captionEl = dialog?.querySelector("[data-lightbox-caption]");
+    const specEl = dialog?.querySelector("[data-lightbox-spec]");
+    const counterEl = dialog?.querySelector("[data-lightbox-counter]");
 
-    if (!dialog || !(imgEl instanceof HTMLImageElement)) {
+    if (!dialog || !(imgEl instanceof HTMLImageElement) || !innerEl || !overlayEl || !captionEl || !specEl) {
       throw new Error("Lightbox markup missing");
     }
 
+    const EXIF_ORDER = [
+      ["camera", "Camera"],
+      ["lens", "Lens"],
+      ["focalLength", "Focal length"],
+      ["aperture", "Aperture"],
+      ["shutter", "Shutter"],
+      ["iso", "ISO"],
+      ["exposureComp", "Exp. comp."],
+      ["flash", "Flash"],
+    ];
+
     let currentIndex = 0;
+
+    function fillLightboxMeta(item) {
+      const hasCaption = Boolean(item.alt && String(item.alt).trim());
+      captionEl.textContent = hasCaption ? item.alt : "";
+      captionEl.hidden = !hasCaption;
+
+      specEl.replaceChildren();
+      const exif = item.exif;
+      if (exif && typeof exif === "object") {
+        for (let i = 0; i < EXIF_ORDER.length; i++) {
+          const key = EXIF_ORDER[i][0];
+          const label = EXIF_ORDER[i][1];
+          const raw = exif[key];
+          if (raw == null || String(raw).trim() === "") {
+            continue;
+          }
+          const row = document.createElement("div");
+          row.className = "photo-lightbox-spec-row";
+          const dt = document.createElement("dt");
+          dt.textContent = label;
+          const dd = document.createElement("dd");
+          dd.textContent = String(raw);
+          row.appendChild(dt);
+          row.appendChild(dd);
+          specEl.appendChild(row);
+        }
+      }
+
+      const hasSpec = specEl.children.length > 0;
+      const showOverlay = hasCaption || hasSpec;
+      overlayEl.hidden = !showOverlay;
+      overlayEl.classList.toggle("photo-lightbox-overlay--caption-only", hasCaption && !hasSpec);
+
+      if (counterEl) {
+        counterEl.textContent = photoList.length ? `${currentIndex + 1} / ${photoList.length}` : "";
+      }
+    }
 
     const openAt = (index) => {
       const n = photoList.length;
@@ -81,6 +168,7 @@ const photos = discoverPublicImages("images");
       if (item) {
         imgEl.src = item.src;
         imgEl.alt = item.alt;
+        fillLightboxMeta(item);
       }
       dialog.showModal();
     };

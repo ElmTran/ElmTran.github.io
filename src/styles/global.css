@@ -523,20 +523,194 @@ body.page-home-photo .site-nav-link:focus-visible {
 
 .photo-lightbox-inner {
   position: relative;
+  box-sizing: border-box;
   min-height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr;
+  align-items: center;
+  padding: min(4.5rem, 8vw) min(5rem, 10vw) min(2rem, 5vw);
+  background: rgba(5, 5, 5, 0.92);
+}
+
+.photo-lightbox-stage {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: min(5rem, 10vw);
-  background: rgba(5, 5, 5, 0.88);
+  min-height: 0;
+  max-height: calc(100vh - 5rem);
+}
+
+.photo-lightbox-frame {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  max-height: calc(100vh - 5rem);
+  margin: 0;
+  line-height: 0;
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.45);
 }
 
 .photo-lightbox-img {
+  display: block;
   max-width: 100%;
-  max-height: calc(100vh - 6rem);
+  max-height: calc(100vh - 5rem);
   width: auto;
   height: auto;
   object-fit: contain;
+}
+
+.photo-lightbox-overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  padding: 2.25rem 1.35rem 1.1rem;
+  text-align: left;
+  pointer-events: none;
+  background: linear-gradient(
+    185deg,
+    transparent 0%,
+    rgba(0, 0, 0, 0.22) 28%,
+    rgba(0, 0, 0, 0.72) 72%,
+    rgba(0, 0, 0, 0.88) 100%
+  );
+}
+
+.photo-lightbox-overlay .photo-lightbox-caption,
+.photo-lightbox-overlay .photo-lightbox-spec {
+  pointer-events: auto;
+  user-select: text;
+}
+
+.photo-lightbox-overlay--caption-only .photo-lightbox-caption {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.photo-lightbox-counter {
+  position: fixed;
+  top: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(245, 242, 235, 0.45);
+  font-variant-numeric: tabular-nums;
+  pointer-events: none;
+}
+
+.photo-lightbox-caption {
+  margin: 0 0 0.85rem;
+  padding-bottom: 0.85rem;
+  border-bottom: 1px solid rgba(245, 242, 235, 0.14);
+  font-family: var(--serif);
+  font-size: clamp(0.92rem, 2.2vw, 1.08rem);
+  font-weight: 400;
+  line-height: 1.5;
+  color: rgba(252, 251, 248, 0.94);
+  letter-spacing: 0.01em;
+  text-shadow: 0 1px 12px rgba(0, 0, 0, 0.55);
+}
+
+.photo-lightbox-caption:empty,
+.photo-lightbox-caption[hidden] {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.photo-lightbox-spec {
+  margin: 0;
+  display: grid;
+  gap: 0;
+  font-size: 0.8125rem;
+  line-height: 1.45;
+}
+
+.photo-lightbox-spec--overlay {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 0.2rem;
+  align-items: flex-end;
+}
+
+.photo-lightbox-spec-row {
+  display: grid;
+  grid-template-columns: minmax(5.5rem, 7.25rem) minmax(0, 1fr);
+  gap: 0.75rem 1rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid rgba(245, 242, 235, 0.06);
+}
+
+.photo-lightbox-spec--overlay .photo-lightbox-spec-row {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  padding: 0 0.85rem 0 0;
+  margin: 0 0.65rem 0 0;
+  border: none;
+  border-right: 1px solid rgba(245, 242, 235, 0.18);
+  border-bottom: none;
+  min-width: 0;
+}
+
+.photo-lightbox-spec--overlay .photo-lightbox-spec-row:last-child {
+  border-right: none;
+  margin-right: 0;
+  padding-right: 0;
+}
+
+.photo-lightbox-spec-row:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.photo-lightbox-spec-row:first-child {
+  padding-top: 0;
+}
+
+.photo-lightbox-spec dt {
+  margin: 0;
+  font-family: var(--sans);
+  font-size: 0.68rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(245, 242, 235, 0.38);
+  align-self: start;
+  padding-top: 0.12em;
+}
+
+.photo-lightbox-spec--overlay dt {
+  font-size: 0.6rem;
+  letter-spacing: 0.14em;
+  color: rgba(245, 242, 235, 0.52);
+  padding-top: 0;
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.5);
+}
+
+.photo-lightbox-spec dd {
+  margin: 0;
+  font-family: var(--sans);
+  font-weight: 400;
+  font-variant-numeric: tabular-nums;
+  color: rgba(245, 242, 235, 0.78);
+  letter-spacing: 0.02em;
+}
+
+.photo-lightbox-spec--overlay dd {
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: rgba(252, 251, 248, 0.9);
+  letter-spacing: 0.03em;
+  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.45);
 }
 
 .photo-lightbox-close,
@@ -1558,6 +1732,44 @@ body.page-home-photo .site-nav-search-input:focus {
 
   .photo-lightbox-next {
     right: 0.35rem;
+  }
+
+  .photo-lightbox-inner {
+    padding: 3.5rem 0.85rem 1.25rem;
+  }
+
+  .photo-lightbox-stage,
+  .photo-lightbox-frame,
+  .photo-lightbox-img {
+    max-height: calc(100vh - 4.25rem);
+  }
+
+  .photo-lightbox-overlay {
+    padding: 1.65rem 0.9rem 0.85rem;
+  }
+
+  .photo-lightbox-spec--overlay .photo-lightbox-spec-row {
+    flex: 1 1 calc(50% - 0.5rem);
+    margin: 0 0.5rem;
+    padding: 0 0.5rem 0 0;
+    border-right: none;
+    border-bottom: 1px solid rgba(245, 242, 235, 0.1);
+    padding-bottom: 0.45rem;
+  }
+
+  .photo-lightbox-spec--overlay .photo-lightbox-spec-row:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .photo-lightbox-counter {
+    font-size: 0.62rem;
+    max-width: calc(100vw - 8rem);
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   body.page-home-photo .site-header-inner {

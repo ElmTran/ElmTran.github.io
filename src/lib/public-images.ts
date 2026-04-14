@@ -1,11 +1,13 @@
 import fs from "node:fs";
 import path from "node:path";
+import type { GalleryExif } from "../site";
 
 const IMAGE_EXT = new Set([".jpg", ".jpeg", ".png", ".webp", ".gif", ".avif", ".bmp", ".svg"]);
 
 export type PublicImage = {
   src: string;
   alt: string;
+  exif?: GalleryExif;
 };
 
 /**

@@ -13,8 +13,7 @@ Personal site and blog, built with [Astro](https://astro.build/). Essays live un
 
 ## Content
 
-- Blog posts: `docs/blog/_posts/*.md`
-- Optional page markdown: `docs/about.md` (not used by the live About page; kept as reference text)
+- Blog posts: `content/blog/*.md`
 
 ## Deploy
 
