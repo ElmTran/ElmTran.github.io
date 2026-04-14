@@ -38,5 +38,51 @@ const canonicalUrl = canonicalPath ? new URL(canonicalPath, Astro.site) : undefi
       <slot />
     </main>
     <SiteFooter />
+    <script is:inline>
+      (function () {
+        var header = document.querySelector(".site-header");
+        var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+        if (header && document.body.classList.contains("page-home-photo")) {
+          var threshold = 48;
+          var ticking = false;
+          function syncHeader() {
+            header.classList.toggle("site-header--scrolled", window.scrollY > threshold);
+            ticking = false;
+          }
+          function onScroll() {
+            if (!ticking) {
+              requestAnimationFrame(syncHeader);
+              ticking = true;
+            }
+          }
+          syncHeader();
+          window.addEventListener("scroll", onScroll, { passive: true });
+        }
+
+        if (reduceMotion || !("IntersectionObserver" in window)) {
+          document.querySelectorAll("[data-reveal]").forEach(function (el) {
+            el.classList.add("is-revealed");
+          });
+          return;
+        }
+
+        var io = new IntersectionObserver(
+          function (entries) {
+            entries.forEach(function (entry) {
+              if (entry.isIntersecting) {
+                entry.target.classList.add("is-revealed");
+                io.unobserve(entry.target);
+              }
+            });
+          },
+          { rootMargin: "0px 0px -8% 0px", threshold: 0.06 }
+        );
+
+        document.querySelectorAll("[data-reveal]").forEach(function (el) {
+          io.observe(el);
+        });
+      })();
+    </script>
   </body>
 </html>

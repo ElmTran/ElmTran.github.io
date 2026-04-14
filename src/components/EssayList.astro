@@ -16,10 +16,12 @@ const groups = groupPostsByYear(sortPosts(posts));
       <section class="essay-year-group essay-year-group--text" data-essay-year>
         <div class="essay-year-label">{year}</div>
         <div class="essay-year-items">
-          {items.map((post) => (
+          {items.map((post, rowIndex) => (
             <article
               class="essay-index-row"
               data-essay-row
+              data-reveal
+              style={{ "--reveal-delay": `${Math.min(rowIndex, 12) * 0.045}s` }}
               data-tags={JSON.stringify(post.data.tags)}
               data-categories={JSON.stringify(post.data.categories)}
               data-search={getPostSearchBlob(post)}

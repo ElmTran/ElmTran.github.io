@@ -12,7 +12,7 @@ const posts = sortPosts(await getCollection("blog"));
   description="A chronological index of essays, notes, and long-form writing."
   canonicalPath="/essays/"
 >
-  <section class="page-intro site-shell page-intro--compact">
+  <section class="page-intro site-shell page-intro--compact" data-reveal>
     <h1>Essays</h1>
   </section>
 
@@ -49,60 +49,143 @@ const posts = sortPosts(await getCollection("blog"));
         }
       }
 
-      function writeUrl() {
+      function syncUrl(qRaw, tag, category) {
         const p = new URLSearchParams();
-        const qRaw = searchEl instanceof HTMLInputElement ? searchEl.value.trim() : "";
-        if (qRaw) {
-          p.set("q", qRaw);
-        }
+        if (qRaw) p.set("q", qRaw);
+        if (tag) p.set("tag", tag);
+        if (category) p.set("category", category);
         const qs = p.toString();
         const path = window.location.pathname;
         history.replaceState(null, "", qs ? `${path}?${qs}` : path);
       }
 
-      function apply() {
-        const qRaw = searchEl instanceof HTMLInputElement ? searchEl.value.trim() : "";
-        const q = qRaw.toLowerCase();
+      function parseRow(row) {
+        return {
+          el: row,
+          tags: JSON.parse(row.dataset.tags || "[]"),
+          categories: JSON.parse(row.dataset.categories || "[]"),
+          blob: (row.dataset.search || "").toLowerCase(),
+        };
+      }
 
-        for (const row of rows()) {
-          if (!(row instanceof HTMLElement)) {
-            continue;
-          }
-          const blob = (row.dataset.search || "").toLowerCase();
-          const ok = !q || blob.includes(q);
-          row.hidden = !ok;
+      function pruneFilters(qRaw, tag, category, rowData) {
+        const q = qRaw.toLowerCase();
+        const matchSearch = function (r) {
+          return !q || r.blob.includes(q);
+        };
+        const base = rowData.filter(matchSearch);
+        var nextTag = tag;
+        var nextCat = category;
+
+        if (nextTag && !base.some(function (r) { return r.tags.includes(nextTag); })) {
+          nextTag = "";
+        }
+        if (nextCat && !base.some(function (r) { return r.categories.includes(nextCat); })) {
+          nextCat = "";
         }
 
-        for (const sec of sections()) {
+        if (nextTag) {
+          var withTag = base.filter(function (r) {
+            return r.tags.includes(nextTag);
+          });
+          var catSet = new Set();
+          for (var i = 0; i < withTag.length; i++) {
+            var r = withTag[i];
+            for (var j = 0; j < r.categories.length; j++) {
+              catSet.add(r.categories[j]);
+            }
+          }
+          if (nextCat && !catSet.has(nextCat)) {
+            nextCat = "";
+          }
+        }
+
+        if (nextCat) {
+          var withCat = base.filter(function (r) {
+            return r.categories.includes(nextCat);
+          });
+          var tagSet = new Set();
+          for (var k = 0; k < withCat.length; k++) {
+            var r2 = withCat[k];
+            for (var m = 0; m < r2.tags.length; m++) {
+              tagSet.add(r2.tags[m]);
+            }
+          }
+          if (nextTag && !tagSet.has(nextTag)) {
+            nextTag = "";
+          }
+        }
+
+        return { tag: nextTag, category: nextCat };
+      }
+
+      function apply() {
+        var p0 = new URLSearchParams(window.location.search);
+        var tag = p0.get("tag") || "";
+        var category = p0.get("category") || "";
+        var qRaw = searchEl instanceof HTMLInputElement ? searchEl.value.trim() : "";
+
+        var rowData = [];
+        for (var i = 0; i < rows().length; i++) {
+          var row = rows()[i];
+          if (row instanceof HTMLElement) {
+            rowData.push(parseRow(row));
+          }
+        }
+
+        var pruned = pruneFilters(qRaw, tag, category, rowData);
+        if (pruned.tag !== tag || pruned.category !== category) {
+          tag = pruned.tag;
+          category = pruned.category;
+        }
+
+        syncUrl(qRaw, tag, category);
+
+        var q = qRaw.toLowerCase();
+        for (var j = 0; j < rowData.length; j++) {
+          var rd = rowData[j];
+          var ok =
+            (!q || rd.blob.includes(q)) &&
+            (!tag || rd.tags.includes(tag)) &&
+            (!category || rd.categories.includes(category));
+          rd.el.hidden = !ok;
+        }
+
+        for (var s = 0; s < sections().length; s++) {
+          var sec = sections()[s];
           if (!(sec instanceof HTMLElement)) {
             continue;
           }
-          const any = sec.querySelector("[data-essay-row]:not([hidden])");
+          var any = sec.querySelector("[data-essay-row]:not([hidden])");
           sec.hidden = !any;
         }
 
-        writeUrl();
       }
 
       readUrl();
       apply();
 
+      window.addEventListener("popstate", function () {
+        readUrl();
+        apply();
+      });
+
       searchEl?.addEventListener("input", apply);
 
-      form?.addEventListener("submit", (e) => {
+      form?.addEventListener("submit", function (e) {
         e.preventDefault();
         apply();
       });
 
-      document.addEventListener("keydown", (e) => {
+      document.addEventListener("keydown", function (e) {
         if (e.key !== "/" || e.ctrlKey || e.metaKey || e.altKey) {
           return;
         }
-        const t = e.target;
+        var target = e.target;
         if (
-          t instanceof HTMLInputElement ||
-          t instanceof HTMLTextAreaElement ||
-          (t instanceof HTMLElement && t.isContentEditable)
+          target instanceof HTMLInputElement ||
+          target instanceof HTMLTextAreaElement ||
+          (target instanceof HTMLElement && target.isContentEditable)
         ) {
           return;
         }

@@ -11,7 +11,7 @@ const photos = discoverPublicImages("images");
   canonicalPath="/photos/"
 >
   <div class="photos-page site-shell">
-    <header class="photos-page-head">
+    <header class="photos-page-head" data-reveal>
       <h1>Photos</h1>
       <p class="photos-page-lead">
         Images are read from <code class="photos-code">public/images/</code> on each build. Click a tile to view
@@ -25,7 +25,7 @@ const photos = discoverPublicImages("images");
       ) : (
         <ul class="photo-masonry" role="list">
           {photos.map((p, index) => (
-            <li class="photo-masonry-item">
+            <li class="photo-masonry-item" data-reveal style={{ "--reveal-delay": `${Math.min(index, 16) * 0.035}s` }}>
               <button
                 type="button"
                 class="photo-masonry-thumb"

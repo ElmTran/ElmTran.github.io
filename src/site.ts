@@ -10,7 +10,7 @@ export const siteMeta = {
  * 首页全屏背景：public/ 下的路径。
  */
 export const publicImages = {
-  hero: "/images/DSC04586.jpg",
+  hero: "/images/DSC02474.jpg",
 };
 
 /** 首页全屏卡：沿用原独立 Welcome 页的标题与诗句 */
