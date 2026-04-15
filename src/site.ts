@@ -10,7 +10,7 @@ export const siteMeta = {
  * 首页全屏背景：本站相对路径（如 /images/x.jpg）或任意 HTTPS绝对地址（图床 / R2 / CDN）。
  */
 export const publicImages = {
-  hero: "/images/background.jpg",
+  hero: "https://img.elmtran.com/DSC03295.jpg",
 };
 
 /** 可选拍摄参数（相册大图 / lightbox 展示）。字段均可选，只填有的项。 */
