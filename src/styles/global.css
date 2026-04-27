@@ -1,12 +1,12 @@
 :root {
-  --bg: #fcfcfb;
+  --bg: #f5f8fc;
   --surface: rgba(255, 255, 255, 0.68);
   --surface-strong: rgba(255, 255, 255, 0.9);
   --line: rgba(18, 18, 18, 0.12);
   --line-strong: rgba(18, 18, 18, 0.26);
   --text: #171413;
   --muted: rgba(23, 20, 19, 0.64);
-  --accent: #7a1f32;
+  --accent: #607a96;
   --shadow: 0 28px 70px rgba(29, 21, 19, 0.12);
   --serif: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
   --sans: Inter, "Segoe UI", Helvetica, Arial, sans-serif;
@@ -32,8 +32,9 @@ body {
   font-family: var(--sans);
   color: var(--text);
   background:
-    radial-gradient(circle at top right, rgba(122, 31, 50, 0.035), transparent 30%),
-    linear-gradient(180deg, #ffffff 0%, #fcfcfb 52%, #f4f1eb 100%);
+    radial-gradient(circle at top right, rgba(89, 116, 146, 0.06), transparent 30%),
+    radial-gradient(circle at top left, rgba(255, 255, 255, 0.85), transparent 34%),
+    linear-gradient(180deg, #ffffff 0%, #f7f9fc 50%, #edf2f8 100%);
   text-rendering: optimizeLegibility;
 }
 
@@ -91,26 +92,70 @@ button {
   font-size: 0.95rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
+  transition: color 180ms ease;
 }
 
 .site-brand-mark {
-  width: 0.6rem;
-  height: 0.6rem;
-  border-radius: 999px;
-  background: var(--accent);
-  box-shadow: 0 0 0 0.35rem rgba(122, 31, 50, 0.12);
+  position: relative;
+  width: 1.2rem;
+  height: 1.2rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   transition:
     transform 240ms cubic-bezier(0.2, 0.8, 0.2, 1),
-    box-shadow 240ms ease;
+    filter 240ms ease;
+}
+
+.site-brand-mark-svg {
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+
+.site-brand-mark-hand {
+  fill: color-mix(in srgb, var(--accent) 18%, white);
+  stroke: color-mix(in srgb, var(--accent) 58%, white);
+  stroke-width: 0.7;
+  stroke-linejoin: round;
+  transition:
+    fill 180ms ease,
+    stroke 180ms ease;
+}
+
+.site-brand-mark-heart {
+  fill: color-mix(in srgb, var(--accent) 72%, white);
+  transition: fill 180ms ease;
 }
 
 .site-brand:hover .site-brand-mark {
-  transform: scale(1.12);
-  box-shadow: 0 0 0 0.45rem rgba(122, 31, 50, 0.16);
+  transform: translateY(-1px) scale(1.04);
+  filter: brightness(1.03);
+}
+
+.site-brand:active .site-brand-mark {
+  transform: translateY(0) scale(0.97);
+  filter: brightness(0.99);
+}
+
+.site-brand:hover .site-brand-mark-heart {
+  fill: color-mix(in srgb, var(--accent) 82%, white);
+}
+
+.site-brand:active .site-brand-mark-heart {
+  fill: color-mix(in srgb, var(--accent) 66%, white);
+}
+
+.site-brand:active .site-brand-mark-hand {
+  fill: color-mix(in srgb, var(--accent) 22%, white);
 }
 
 body.page-home-photo .site-brand:hover .site-brand-mark {
-  box-shadow: 0 0 0 0.45rem rgba(245, 242, 235, 0.14);
+  filter: brightness(1.08);
+}
+
+body.page-home-photo .site-brand:active .site-brand-mark {
+  filter: brightness(1.02);
 }
 
 .site-nav {
@@ -155,7 +200,7 @@ body.page-home-photo .site-brand:hover .site-brand-mark {
 }
 
 .site-nav-link:focus-visible {
-  outline: 2px solid rgba(122, 31, 50, 0.4);
+  outline: 2px solid rgba(96, 122, 150, 0.38);
   outline-offset: 4px;
   border-radius: 2px;
 }
@@ -221,8 +266,7 @@ body.page-home-photo .site-brand {
 }
 
 body.page-home-photo .site-brand-mark {
-  background: #f5f2eb;
-  box-shadow: 0 0 0 0.35rem rgba(245, 242, 235, 0.18);
+  filter: saturate(0.72) brightness(1.16);
 }
 
 body.page-home-photo .site-nav-link {
@@ -306,7 +350,7 @@ body.page-home-photo .site-nav-link:focus-visible {
   text-align: center;
   background: rgba(10, 9, 9, 0.5);
   border: 1px solid rgba(245, 242, 235, 0.14);
-  border-top: 1px solid rgba(122, 31, 50, 0.42);
+  border-top: 1px solid rgba(96, 122, 150, 0.36);
   backdrop-filter: blur(18px) saturate(140%);
   -webkit-backdrop-filter: blur(18px) saturate(140%);
   border-radius: 2px;
@@ -1067,7 +1111,7 @@ body.page-home-photo .site-nav-link:focus-visible {
 .featured-card:hover,
 .related-card:hover,
 .taxonomy-card:hover {
-  border-color: rgba(122, 31, 50, 0.22);
+  border-color: rgba(96, 122, 150, 0.22);
   box-shadow: 0 20px 48px rgba(29, 21, 19, 0.08);
   transform: translateY(-2px);
 }
@@ -1345,7 +1389,7 @@ body.page-home-photo .site-nav-link:focus-visible {
 .post-prose blockquote {
   padding: 1.5rem 1.75rem;
   border-left: 2px solid var(--accent);
-  background: rgba(122, 31, 50, 0.04);
+  background: rgba(96, 122, 150, 0.05);
   color: var(--muted);
 }
 
@@ -1512,7 +1556,7 @@ body.page-home-photo .site-nav-link:focus-visible {
 }
 
 .essay-search-input:focus {
-  outline: 2px solid rgba(122, 31, 50, 0.35);
+  outline: 2px solid rgba(96, 122, 150, 0.35);
   outline-offset: 1px;
 }
 

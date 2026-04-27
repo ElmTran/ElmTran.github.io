@@ -15,7 +15,18 @@ const isActive = (href: string) => {
 <header class="site-header">
   <div class="site-shell site-header-inner">
     <a class="site-brand" href="/">
-      <span class="site-brand-mark"></span>
+      <span class="site-brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" class="site-brand-mark-svg" aria-hidden="true">
+          <path
+            class="site-brand-mark-hand"
+            d="M7.6 18.2c-.8-.9-1.1-2.1-.8-3.2l1.2-4.7c.2-.7.8-1.1 1.5-1 .7.1 1.2.7 1.2 1.4v2.3l.2-.2c.5-.5 1.2-.7 1.8-.4l.4.2V8.1c0-.7.5-1.3 1.2-1.4.9-.1 1.6.6 1.6 1.5v5l.5-.5c.5-.5 1.3-.6 1.9-.2.7.5.8 1.5.2 2.2l-3.6 4.1c-.6.6-1.4 1-2.3 1H10c-.9 0-1.8-.4-2.4-1.1Z"
+          />
+          <path
+            class="site-brand-mark-heart"
+            d="M15.9 4.5c.5-.8 1.6-1 2.4-.4.8.6.9 1.7.3 2.5l-2.5 2.9-2.6-2.8c-.7-.7-.6-1.9.2-2.5.8-.6 1.9-.5 2.4.3Z"
+          />
+        </svg>
+      </span>
       <span>{siteMeta.title}</span>
     </a>
     <div class="site-header-actions">
