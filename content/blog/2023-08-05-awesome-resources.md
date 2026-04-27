@@ -9,155 +9,35 @@ date: 2023/08/05
 
 ## Moives
 
-- [btnull](https://www.btnull.org/)
-
-- [音丝范](http://www.yinfans.me/)
-
-- [movie-web](https://movie-web.app/)
-
-- [nunflix](https://nunflix.com/)
-
-- [vk-video](https://vk.com/video)
-
-- [mymovies](https://www.mymovies.it/)
-
 - [ipersphera](https://www.ipersphera.com/)
 
 - [rarbt](http://www.rarbt.fun/)
 
 - [ubuweb](https://ubu.com/)
 
-- [mini4k](https://www.mini4k.org/)
-
-- [小纸条-开放资源网站](https://ali.gitcafe.ink)
-
 - [justwatch-电影搜索](https://www.justwatch.com/)
-
-- [弹幕网-追番](https://girigirilove.com/)
-
-- [直播资源](https://github.com/youshandefeiyang/IPTV)
-
-- [体育赛事直播](http://www.sjb.asia/), [配套去广告脚本](https://greasyfork.org/zh-CN/scripts/465829-%E4%BD%93%E8%82%B2%E7%9B%B4%E6%92%AD%E7%AB%99%E5%A2%9E%E5%BC%BA%E8%84%9A%E6%9C%AC)
-
-- [OvenTV](https://github.com/owen2000wy/owentv)
-
-- [星视界](https://www.histar.tv/)
-
-- [bileizhen 的收纳箱](http://bileizhen.ysepan.com/)
-
-- [爱动漫](https://anime.girigirilove.com/)
-
-- [cockmovie](https://cokemv.net/)
-
-- [爱笑聚](https://www.axjbt.com/)
 
 - [字幕库](http://zimuku.org/)
 
 - [蜜柑计划](https://mikanani.me/)
 
-- [LimeTorrents](https://limetorrent.cc/)
-
 - [nyaa](https://nyaa.si/)
 
-- [团长资源](https://t-rex.tzfile.com/)
-
-- [影猫的仓库](https://ymck.me/)
-
 - [此刻](https://www.cikeee.com/)
-
-- [樱花动漫](http://www.yinghuavideo.com/)
-
-- [打驴动漫](https://www.dqsj.top/)
-
-- [仓库](https://www.cangkus.com/)
-
-- [海外看](https://haiwaikan.com/)
-
-- [小纸条](https://ali.gitcafe.ink/)
-
-- [meow-tg](https://meow.tg/private/Aliyundrive_Share_Channel)
-
-- [自动追番](https://www.autobangumi.org/)
-
-- [kubespider-全局资源编排下载](https://github.com/opennaslab/kubespider)
-
-- [novipnoad](http://novipnoad.net/)
-
-- [libvio](http://libvio.la/)
-
-- [茶杯狐](https://cupfox.love/)
-
-- [ddys.pro](https://ddys.info/)
-
-- [voflix](http://voflix.me/)
-
-- [哔嘀影视](http://bdys10.com/)
-
-- [trackerslist](https://trackerslist.com/)
-
-- [蓝光电影网](https://www.languangdy.com/)
-
-- [不太灵影视](https://2bt0.com/)
-
-- [流真岁月](https://www.thhtyh.com/)
-
-- [gofilm](https://github.com/ProudMuBai/GoFilm)
 
 - [tg-影视资源贴](https://t.me/LCGFX/2905)
 
 - [knkanime-多源看番](https://github.com/KNKPA/KNKPAnime)
 
-- [freeok](https://www.freeok.vip/)
-
 - [seedhub](https://www.seedhub.cc/)
 
 - [短剧狗](https://duanjugou.top/)
 
-- [streamflix](https://github.com/stantanasi/streamflix)
-
-- [黑猫影视](https://heimaotv.vip/)
-
-- [gying](https://www.gying.in/)
+- [gying](https://www.xn--ykq321c.com/)
 
 ### 网盘
 
-- [searchsearchgo](https://github.com/Justin3go/SearchSearchGo)
-
-- [齐乐搜](https://www.qileso.com/)
-
-- [小兔搜搜](https://xiaotusoso.com/)
-
-- [小雅](http://alist.xiaoya.pro)
-
-- [晴园](https://alist.aqingyuan.repl.co)
-
-- [Puppet Studio](https://www.kugutsu.ml)
-
-- [七米蓝](https://al.chirmyram.com)
-
-- [Banana 的资源站](https://alist.advanced360.top)
-
-- [小瑞](https://ruipan.bestruirui.repl.co/)
-
-- [Arley's Drive](https://pan.arley.cn/)
-
-- [微资源](https://apps.weixinqqq.com/)
-
-- [小云搜索](https://www.yunso.net/)
-
 - [lapanx](https://lzpanx.com/)
-
-- [秒搜](https://miaosou.fun/)
-
-- [ssgo](https://ssgo.app/)
-
-- [41T 4K 电影资源](https://www.aliyundrive.com/s/aEEGWV4hF33)
-
-- [yapan](https://pan.ccof.cc/)
-
-- [影巢](https://hdhive.org/search)
-
-- [易搜](https://yiso.eu.org/)
 
 - [搜片](https://soupian.one/)
 
