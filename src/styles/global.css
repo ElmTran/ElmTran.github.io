@@ -1,7 +1,7 @@
 :root {
-  --bg: #f5f1ea;
+  --bg: #fcfcfb;
   --surface: rgba(255, 255, 255, 0.68);
-  --surface-strong: rgba(255, 255, 255, 0.92);
+  --surface-strong: rgba(255, 255, 255, 0.9);
   --line: rgba(18, 18, 18, 0.12);
   --line-strong: rgba(18, 18, 18, 0.26);
   --text: #171413;
@@ -32,9 +32,8 @@ body {
   font-family: var(--sans);
   color: var(--text);
   background:
-    radial-gradient(circle at top right, rgba(122, 31, 50, 0.1), transparent 34%),
-    radial-gradient(ellipse 80% 50% at 50% 100%, rgba(122, 31, 50, 0.04), transparent 55%),
-    linear-gradient(180deg, #fbf8f3 0%, var(--bg) 38%, #efe9df 100%);
+    radial-gradient(circle at top right, rgba(122, 31, 50, 0.035), transparent 30%),
+    linear-gradient(180deg, #ffffff 0%, #fcfcfb 52%, #f4f1eb 100%);
   text-rendering: optimizeLegibility;
 }
 
@@ -66,7 +65,7 @@ button {
   top: 0;
   z-index: 20;
   backdrop-filter: blur(18px) saturate(140%);
-  background: rgba(245, 241, 234, 0.72);
+  background: rgba(255, 255, 255, 0.5);
   border-bottom: 1px solid rgba(18, 18, 18, 0.08);
   transition:
     transform 220ms ease,

@@ -30,6 +30,14 @@ const canonicalUrl = canonicalPath ? new URL(canonicalPath, Astro.site) : undefi
     <title>{pageTitle}</title>
     <meta name="description" content={description} />
     <meta name="theme-color" content={siteMeta.accent} />
+    <style is:inline>
+      .site-header {
+        background: rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(18px) saturate(140%);
+        -webkit-backdrop-filter: blur(18px) saturate(140%);
+        border-bottom: 1px solid rgba(18, 18, 18, 0.08);
+      }
+    </style>
     {canonicalUrl && <link rel="canonical" href={canonicalUrl.toString()} />}
   </head>
   <body class={bodyClass}>
