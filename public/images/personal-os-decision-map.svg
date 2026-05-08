@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="2750" viewBox="0 0 900 2750" role="img" aria-labelledby="title desc">
+  <title id="title">Personal OS 人生决策系统</title>
+  <desc id="desc">一张纵向的人生决策地图，包含底层原则、消费、投资、关系、人生选择和情绪决策。</desc>
+  <defs>
+    <style>
+      .bg { fill: #f7f4ee; }
+      .rail { stroke: #b9ad9f; stroke-width: 3; fill: none; }
+      .dot { fill: #92795c; }
+      .title { font: 700 40px "Microsoft YaHei", "PingFang SC", Arial, sans-serif; fill: #1c1f23; }
+      .subtitle { font: 400 20px "Microsoft YaHei", "PingFang SC", Arial, sans-serif; fill: #5c626b; }
+      .card { fill: #ffffff; stroke: #d8cfc1; stroke-width: 2; }
+      .entry { fill: #efe8dc; stroke: #b99d72; stroke-width: 2; }
+      .money { fill: #eef2ff; stroke: #8797cf; stroke-width: 2; }
+      .relation { fill: #fff0ee; stroke: #d59b91; stroke-width: 2; }
+      .life { fill: #eaf7f7; stroke: #7db3b4; stroke-width: 2; }
+      .invest { fill: #edf7e9; stroke: #93b77f; stroke-width: 2; }
+      .emotion { fill: #fff5df; stroke: #d7aa55; stroke-width: 2; }
+      .base { fill: #f1eadf; stroke: #b99d72; stroke-width: 2; }
+      .card-title { font: 700 28px "Microsoft YaHei", "PingFang SC", Arial, sans-serif; fill: #1c1f23; }
+      .section-title { font: 700 23px "Microsoft YaHei", "PingFang SC", Arial, sans-serif; fill: #1c1f23; }
+      .text { font: 400 20px "Microsoft YaHei", "PingFang SC", Arial, sans-serif; fill: #2d3339; }
+      .muted { font: 400 18px "Microsoft YaHei", "PingFang SC", Arial, sans-serif; fill: #59616b; }
+      .principle { font: 700 20px "Microsoft YaHei", "PingFang SC", Arial, sans-serif; fill: #202428; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="900" height="2750"/>
+
+  <text class="title" x="450" y="70" text-anchor="middle">Personal OS：人生决策系统</text>
+  <text class="subtitle" x="450" y="108" text-anchor="middle">健康做本金，时间做预算，主体性做边界，长期价值做方向</text>
+
+  <line class="rail" x1="450" y1="160" x2="450" y2="2535"/>
+
+  <g transform="translate(70 145)">
+    <rect class="entry" x="0" y="0" width="760" height="145" rx="22"/>
+    <text class="card-title" x="380" y="45" text-anchor="middle">总入口</text>
+    <text class="text" x="70" y="88">
+      <tspan x="70" dy="0">先问：这是事实、价值、需求，还是幻想？</tspan>
+      <tspan x="70" dy="32">状态很差时，先恢复身体，再做重大判断。</tspan>
+    </text>
+  </g>
+
+  <circle class="dot" cx="450" cy="340" r="8"/>
+  <g transform="translate(70 360)">
+    <rect class="base" x="0" y="0" width="760" height="295" rx="22"/>
+    <text class="card-title" x="380" y="44" text-anchor="middle">底层总原则</text>
+    <text class="text" x="52" y="88">
+      <tspan x="52" dy="0">1. 健康是核心资产：锻炼、早睡、吃碳水、晒太阳。</tspan>
+      <tspan x="52" dy="34">2. 时间 > 金钱 > 情绪刺激，珍惜光阴，抛弃状态洁癖。</tspan>
+      <tspan x="52" dy="34">3. 像做投资一样经营人生，把资源投向高价值的人和事。</tspan>
+      <tspan x="52" dy="34">4. 克制物欲，不为幻想付费，减少重复消费和拿铁因子。</tspan>
+      <tspan x="52" dy="34">5. 保持主体性，不成为附属品或工具，不轻易贴标签。</tspan>
+      <tspan x="52" dy="34">6. 清醒但不失热爱：扩大视野，走出去，独立思考。</tspan>
+    </text>
+  </g>
+
+  <circle class="dot" cx="450" cy="710" r="8"/>
+  <g transform="translate(70 730)">
+    <rect class="money" x="0" y="0" width="760" height="340" rx="22"/>
+    <text class="card-title" x="380" y="44" text-anchor="middle">一、消费决策</text>
+    <text class="section-title" x="52" y="88">消费前先判断：这是需求，还是陷阱？</text>
+    <text class="text" x="52" y="126">
+      <tspan x="52" dy="0">1. 功能需求，还是情绪幻想？没人知道我买了它，还买吗？</tspan>
+      <tspan x="52" dy="32">2. 长期收益，还是短期刺激？优先健康、学习、效率、恢复。</tspan>
+      <tspan x="52" dy="32">3. 使用频率 × 使用周期是否支撑价格？单位使用成本合理吗？</tspan>
+      <tspan x="52" dy="32">4. 有没有低成本替代？拆开功能、情绪和社交认同。</tspan>
+      <tspan class="principle" x="52" dy="48">最终原则：高频使用、长期收益、稳定幸福感，其余默认谨慎。</tspan>
+    </text>
+  </g>
+
+  <circle class="dot" cx="450" cy="1100" r="8"/>
+  <g transform="translate(70 1120)">
+    <rect class="invest" x="0" y="0" width="760" height="340" rx="22"/>
+    <text class="card-title" x="380" y="44" text-anchor="middle">二、投资决策</text>
+    <text class="section-title" x="52" y="88">投资前先判断：这是投资，还是投机？</text>
+    <text class="text" x="52" y="126">
+      <tspan x="52" dy="0">1. 是否理解价值来源？现金流、需求、优势、风险在哪里？</tspan>
+      <tspan x="52" dy="32">2. 是否拒绝杠杆和负债冲动？保护未来的行动自由。</tspan>
+      <tspan x="52" dy="32">3. 是否理解原理、产品和供应链？从现象追到结构。</tspan>
+      <tspan x="52" dy="32">4. 标的选择是否基于财务数据和行业数据，而不是情绪？</tspan>
+      <tspan x="52" dy="32">5. 阅读行业，建立比较尺度；没有尺度，价格只是数字。</tspan>
+      <tspan class="principle" x="52" dy="48">最终原则：价值优先，数据落地，拒绝市场情绪裹挟。</tspan>
+    </text>
+  </g>
+
+  <circle class="dot" cx="450" cy="1510" r="8"/>
+  <g transform="translate(70 1530)">
+    <rect class="relation" x="0" y="0" width="760" height="340" rx="22"/>
+    <text class="card-title" x="380" y="44" text-anchor="middle">三、关系决策</text>
+    <text class="section-title" x="52" y="88">关系里先分清：真实的人，还是理想关系的投射？</text>
+    <text class="text" x="52" y="126">
+      <tspan x="52" dy="0">1. 如果对方永远不改变，我还会喜欢吗？</tspan>
+      <tspan x="52" dy="32">2. 关系是否双向流动？观察投入、责任、关心和回应。</tspan>
+      <tspan x="52" dy="32">3. 主体性是否被侵蚀？是否压抑、失界、焦虑或讨好？</tspan>
+      <tspan x="52" dy="32">4. 这是爱，还是孤独补偿？生活充实时还会如此执着吗？</tspan>
+      <tspan x="52" dy="32">5. 和理想中的人享受爱情，不拿理想爱情投射别人。</tspan>
+      <tspan class="principle" x="52" dy="48">最终原则：保持主体性，接受真实的人，双向投入。</tspan>
+    </text>
+  </g>
+
+  <circle class="dot" cx="450" cy="1920" r="8"/>
+  <g transform="translate(70 1940)">
+    <rect class="life" x="0" y="0" width="760" height="340" rx="22"/>
+    <text class="card-title" x="380" y="44" text-anchor="middle">四、人生选择</text>
+    <text class="section-title" x="52" y="88">大选择不要只问想逃离什么，也要问想走向什么。</text>
+    <text class="text" x="52" y="126">
+      <tspan x="52" dy="0">1. 这是逃避痛苦，还是追求价值？痛苦只提供信号。</tspan>
+      <tspan x="52" dy="32">2. 是否扩大人生半径？视野、能力、机会、人脉、认知。</tspan>
+      <tspan x="52" dy="32">3. 是否具备长期复利？5 年后是否更强、更稳、更自由？</tspan>
+      <tspan x="52" dy="32">4. 最坏结果能承受吗？不伤根本，就可以小步试错。</tspan>
+      <tspan x="52" dy="32">5. 不在节假日旅行，减少高成本低体验的拥挤选择。</tspan>
+      <tspan class="principle" x="52" dy="48">最终原则：扩大世界，保持成长，避免路径锁死。</tspan>
+    </text>
+  </g>
+
+  <circle class="dot" cx="450" cy="2330" r="8"/>
+  <g transform="translate(70 2350)">
+    <rect class="emotion" x="0" y="0" width="760" height="340" rx="22"/>
+    <text class="card-title" x="380" y="44" text-anchor="middle">五、情绪决策</text>
+    <text class="section-title" x="52" y="88">情绪是信号，但不能直接当作现实。</text>
+    <text class="text" x="52" y="126">
+      <tspan x="52" dy="0">1. 这是事实，还是脑补？真实发生了什么，我添加了什么？</tspan>
+      <tspan x="52" dy="32">2. 一年后还重要吗？重要就解决，不重要就减少消耗。</tspan>
+      <tspan x="52" dy="32">3. 我是失败了，还是累了？检查睡眠、运动、饮食和压力。</tspan>
+      <tspan x="52" dy="32">4. 是否灾难化？不要默认最坏结局，先找可行动部分。</tspan>
+      <tspan x="52" dy="32">5. 不贬低自己，不迷信，不把无关的东西强行关联。</tspan>
+      <tspan class="principle" x="52" dy="48">最终原则：先恢复状态，停止内耗，聚焦行动。</tspan>
+    </text>
+  </g>
+
+  <text class="muted" x="450" y="2732" text-anchor="middle">人生不是一笔单次交易，而是一套长期复利系统。</text>
+</svg>
