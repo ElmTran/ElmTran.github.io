@@ -1,7 +1,7 @@
 import { defineConfig } from "astro/config";
 
 export default defineConfig({
-  site: "https://elmtran.github.io",
+  site: "https://elmtran.com",
   trailingSlash: "always",
   redirects: {
     "/album/": "/photos/",
