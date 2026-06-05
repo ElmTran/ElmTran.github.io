@@ -3,7 +3,7 @@ layout: post
 title: "Solution for integration socket-io in flask container"
 description: "在flask容器中集成socket-io"
 categories: [technology]
-tags: [flask, socket-io, docker, python, k8s, nginx, gunicorn]
+tags: [python, flask, socket-io, docker, nginx]
 date: 2024/12/09
 ---
 

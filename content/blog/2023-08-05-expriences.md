@@ -2,8 +2,8 @@
 layout: post
 title: "Expriences"
 description: "生活经验贴"
-categories: [collection]
-tags: [collection, Expriences, resources, life]
+categories: [resources]
+tags: [life-hacks, travel, home, reference]
 date: 2023/08/05
 ---
 

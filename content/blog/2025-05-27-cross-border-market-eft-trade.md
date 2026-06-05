@@ -2,8 +2,8 @@
 layout: post
 title: "Cross-border market mechanism of ETF index tracking"
 description: "A股跨境ETF如何追踪海外指数，时区影响，以及不同ETF策略的特点与选择。"
-categories: [investment]
-tags: [investment, ETF, index tracking, cross-border, risk management, thoughts]
+categories: [markets]
+tags: [etf, index-tracking, cross-border, risk-management]
 date: 2025/07/28
 ---
 

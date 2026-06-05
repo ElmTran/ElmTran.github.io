@@ -2,8 +2,8 @@
 layout: post
 title: "Carry Trade"
 description: "carry trade"
-categories: [investment]
-tags: [investment, economics, money, thoughts]
+categories: [markets]
+tags: [carry-trade, macro, currency, risk]
 date: 2025/07/27
 ---
 

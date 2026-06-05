@@ -1284,14 +1284,23 @@ body.page-home-photo .site-nav-link:focus-visible {
 
 .post-body {
   display: grid;
-  grid-template-columns: minmax(13rem, 16rem) minmax(0, var(--reading-width));
-  gap: var(--wide-gap);
+  width: min(calc(100% - 2rem), 86rem);
+  grid-template-columns: minmax(10rem, 13rem) minmax(0, var(--reading-width)) minmax(12rem, 15rem);
+  gap: clamp(2rem, 4vw, 4.5rem);
   align-items: start;
 }
 
-.post-aside {
+.post-aside,
+.post-toc {
   position: sticky;
   top: 6.5rem;
+  max-height: calc(100vh - 8rem);
+  overflow: auto;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(96, 122, 150, 0.26) transparent;
+}
+
+.post-aside {
   display: grid;
   gap: 2rem;
   padding-top: 0.4rem;
@@ -1329,6 +1338,52 @@ body.page-home-photo .site-nav-link:focus-visible {
   color: var(--accent);
 }
 
+.post-toc {
+  padding-top: 0.4rem;
+}
+
+.post-toc-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 0.35rem;
+  font-size: 0.88rem;
+  line-height: 1.45;
+}
+
+.post-toc-item {
+  min-width: 0;
+}
+
+.post-toc-item--depth-3 {
+  padding-left: 0.9rem;
+}
+
+.post-toc-link {
+  position: relative;
+  display: block;
+  padding: 0.28rem 0 0.28rem 0.85rem;
+  color: var(--muted);
+  border-left: 1px solid rgba(18, 18, 18, 0.12);
+  transition:
+    color 160ms ease,
+    border-color 160ms ease,
+    transform 160ms ease;
+}
+
+.post-toc-link:hover,
+.post-toc-link:focus-visible {
+  color: var(--text);
+  border-left-color: var(--accent);
+  transform: translateX(2px);
+}
+
+.post-toc-link:focus-visible {
+  outline: 2px solid rgba(96, 122, 150, 0.32);
+  outline-offset: 2px;
+}
+
 .post-prose {
   font-size: 1.08rem;
   line-height: 1.95;
@@ -1351,6 +1406,7 @@ body.page-home-photo .site-nav-link:focus-visible {
 .post-prose h1,
 .post-prose h2,
 .post-prose h3 {
+  scroll-margin-top: 6rem;
   margin: 3.5rem 0 1.2rem;
   line-height: 1.1;
 }
@@ -1700,7 +1756,6 @@ body.page-home-photo .site-nav-search-input:focus {
 @media (max-width: 1080px) {
   .hero-panel,
   .page-intro,
-  .post-body,
   .about-intro,
   .album-lead,
   .essay-year-group,
@@ -1728,6 +1783,36 @@ body.page-home-photo .site-nav-search-input:focus {
   .post-aside {
     position: static;
     grid-template-columns: repeat(2, minmax(0, 1fr));
+    max-height: none;
+    overflow: visible;
+  }
+
+  .post-body {
+    width: min(calc(100% - 2rem), var(--content-width));
+    grid-template-columns: minmax(11rem, 14rem) minmax(0, var(--reading-width));
+  }
+
+  .post-toc {
+    position: static;
+    grid-column: 2;
+    order: -1;
+    max-height: none;
+    overflow: visible;
+    padding: 0 0 1.5rem;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .post-toc-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.25rem 1rem;
+  }
+
+  .post-toc-item--depth-3 {
+    padding-left: 0;
+  }
+
+  .post-prose {
+    grid-column: 2;
   }
 }
 
@@ -1763,6 +1848,26 @@ body.page-home-photo .site-nav-search-input:focus {
 
   .post-prose {
     font-size: 1rem;
+  }
+
+  .post-body {
+    grid-template-columns: 1fr;
+  }
+
+  .post-prose {
+    grid-column: auto;
+  }
+
+  .post-aside {
+    grid-template-columns: 1fr;
+  }
+
+  .post-toc {
+    grid-column: auto;
+  }
+
+  .post-toc-list {
+    grid-template-columns: 1fr;
   }
 
   .photo-masonry {

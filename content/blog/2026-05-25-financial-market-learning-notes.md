@@ -2,8 +2,8 @@
 layout: post
 title: "金融市场认知手册：股票、ETF、趋势交易与指标体系学习笔记"
 description: "一份从零基础建立股票、ETF、趋势交易、市场分析与常见指标体系的长期学习笔记。"
-categories: [investment]
-tags: [investment, stock market, ETF, trend following, market analysis, learning notes]
+categories: [markets]
+tags: [stock-market, etf, trend-following, market-analysis]
 date: 2026/05/25
 ---
 

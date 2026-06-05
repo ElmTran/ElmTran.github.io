@@ -3,7 +3,7 @@ layout: post
 title: "Windows Dev Environment"
 description: "安装scoop和美化windows terminal"
 categories: [technology]
-tags: [windows, scoop, windows terminal, efficiency]
+tags: [windows, scoop, terminal, dev-environment]
 date: 2022/03/22
 ---
 

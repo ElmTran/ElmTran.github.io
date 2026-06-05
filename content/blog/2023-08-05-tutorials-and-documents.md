@@ -2,8 +2,8 @@
 layout: post
 title: "Tutorial and Document"
 description: "Some tutorials and documents for learning"
-categories: [collection]
-tags: [collection, learning, tools]
+categories: [resources]
+tags: [tutorials, documentation, learning, reference]
 date: 2023/08/05
 ---
 

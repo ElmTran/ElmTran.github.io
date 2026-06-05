@@ -3,7 +3,7 @@ layout: post
 title: "Vim Commands"
 description: "Vim速查表"
 categories: [technology]
-tags: [vim, text editor, efficiency]
+tags: [vim, editor, cheatsheet]
 date: 2022/03/24
 ---
 

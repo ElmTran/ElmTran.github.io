@@ -3,7 +3,7 @@ layout: post
 title: "Bash Tutorial"
 description: "bash笔记"
 categories: [technology]
-tags: [Shell, Bash, Script, Linux]
+tags: [bash, shell, scripting, linux]
 date: 2022/06/29
 ---
 

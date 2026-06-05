@@ -2,8 +2,8 @@
 layout: post
 title: "Personal OS：把人生当作长期复利系统"
 description: "一套关于消费、投资、关系、人生选择与情绪管理的个人决策框架。"
-categories: [life]
-tags: [life, personal-os, decision-making, investment, psychology]
+categories: [reflection]
+tags: [personal-os, decision-making, psychology, long-termism]
 date: 2026/05/08
 ---
 

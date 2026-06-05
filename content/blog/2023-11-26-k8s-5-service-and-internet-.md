@@ -3,7 +3,7 @@ layout: post
 title: "K8s-05: Service and Internet"
 description: "Kubernetes Series: service and internet"
 categories: [technology]
-tags: [kubernetes, docker, container, devops, k8s, Ingress, IPVS]
+tags: [kubernetes, k8s, service, ingress, networking]
 date: 2023/11/26
 ---
 

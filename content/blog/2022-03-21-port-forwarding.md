@@ -3,7 +3,7 @@ layout: post
 title: "Port Forwarding"
 description: "三种端口转发及ssh实现"
 categories: [technology]
-tags: [port forwarding, ssh, tennel]
+tags: [networking, ssh, port-forwarding]
 date: 2022/03/21
 ---
 

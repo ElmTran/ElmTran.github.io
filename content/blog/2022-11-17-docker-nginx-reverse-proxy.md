@@ -3,7 +3,7 @@ layout: post
 title: "Docker Nginx Reverse Proxy"
 description: "Docker Nginx Reverse Proxy"
 categories: [technology]
-tags: [learning, technology, docker, nginx, reverse-proxy]
+tags: [docker, nginx, reverse-proxy]
 date: 2022/11/17
 ---
 

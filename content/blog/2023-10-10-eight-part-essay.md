@@ -2,8 +2,8 @@
 layout: post
 title: "Interview Preparation"
 description: "本科时期准备的面试复习资料"
-categories: [technology]
-tags: [computer science, interview]
+categories: [interview]
+tags: [computer-science, interview-prep]
 date: 2023/10/10
 ---
 

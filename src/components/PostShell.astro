@@ -11,9 +11,11 @@ interface Props {
 }
 
 const { post, posts, canonicalPath = getPostUrl(post) } = Astro.props;
-const { Content } = await render(post);
+const { Content, headings } = await render(post);
 const relatedPosts = getRelatedPosts(posts, post);
 const categoryLine = post.data.categories.length > 0 ? post.data.categories.join(" · ") : "";
+const tocHeadings = headings.filter((heading) => heading.depth >= 2 && heading.depth <= 3);
+const showToc = tocHeadings.length > 1;
 ---
 
 <BaseLayout
@@ -74,6 +76,23 @@ const categoryLine = post.data.categories.length > 0 ? post.data.categories.join
       <div class="post-prose">
         <Content />
       </div>
+
+      {
+        showToc && (
+          <nav class="post-toc" aria-label="Table of contents">
+            <span class="post-aside-label">Contents</span>
+            <ol class="post-toc-list">
+              {tocHeadings.map((heading) => (
+                <li class:list={["post-toc-item", `post-toc-item--depth-${heading.depth}`]}>
+                  <a class="post-toc-link" href={`#${heading.slug}`}>
+                    {heading.text}
+                  </a>
+                </li>
+              ))}
+            </ol>
+          </nav>
+        )
+      }
     </section>
 
     {

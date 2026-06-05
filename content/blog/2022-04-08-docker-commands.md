@@ -3,7 +3,7 @@ layout: post
 title: "Docker Commands"
 description: "Docker命令速查表"
 categories: [technology]
-tags: [docker, docker-compose, docker-swarm]
+tags: [docker, docker-compose, docker-swarm, cheatsheet]
 date: 2022/04/08
 ---
 

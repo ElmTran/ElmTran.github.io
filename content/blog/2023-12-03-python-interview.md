@@ -2,8 +2,8 @@
 layout: post
 title: "Interview Questions for Python"
 description: "常见的Python面试题"
-categories: [technology]
-tags: [computer science, interview, python, Django, Flask]
+categories: [interview]
+tags: [python, django, flask, interview-prep]
 date: 2023/12/03
 ---
 

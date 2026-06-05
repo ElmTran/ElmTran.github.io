@@ -2,8 +2,8 @@
 layout: post
 title: "Awesome Resources"
 description: "Movies, music, books, and other resources"
-categories: [collection]
-tags: [collection, resources]
+categories: [resources]
+tags: [media, books, assets, reference]
 date: 2023/08/05
 ---
 

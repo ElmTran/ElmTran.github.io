@@ -3,7 +3,7 @@ layout: post
 title: "K8s-07: Scheduler"
 description: "Kubernetes Series: scheduler"
 categories: [technology]
-tags: [kubernetes, docker, container, devops, k8s]
+tags: [kubernetes, k8s, scheduler]
 date: 2023/11/26
 ---
 

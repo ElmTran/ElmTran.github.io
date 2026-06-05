@@ -3,7 +3,7 @@ layout: post
 title: "K8s-01: Kubernetes Overview"
 description: "Study notes for Kubernetes"
 categories: [technology]
-tags: [kubernetes, docker, container, devops, k8s]
+tags: [kubernetes, k8s, cloud-native]
 date: 2023/11/26
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: "Go Channel"
 description: "Usage and implementation of Go Channel"
 categories: [technology]
-tags: [programming language, go, channel, concurrency]
+tags: [go, concurrency, channel]
 date: 2023/04/21
 ---
 

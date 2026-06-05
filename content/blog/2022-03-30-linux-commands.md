@@ -3,7 +3,7 @@ layout: post
 title: "Linux commands"
 description: "Linux命令速查表"
 categories: [technology]
-tags: [linux, bash, shell, efficiency]
+tags: [linux, shell, cli, cheatsheet]
 date: 2022/03/30
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: "K8s-04: Controller"
 description: "Kubernetes Series: controller"
 categories: [technology]
-tags: [kubernetes, docker, container, devops, controller, k8s]
+tags: [kubernetes, k8s, controller, workload]
 date: 2023/11/26
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: "Go interface"
 description: "go接口"
 categories: [technology]
-tags: [Go, Programming Language, Development]
+tags: [go, interface, programming]
 date: 2022/06/16
 ---
 

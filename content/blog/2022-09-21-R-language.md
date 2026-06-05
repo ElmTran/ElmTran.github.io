@@ -3,7 +3,7 @@ layout: post
 title: "R Language"
 description: "R Language"
 categories: [technology]
-tags: [learning, technology, R, programming, data science]
+tags: [r, programming, data-science]
 date: 2022/09/21
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: "K8s-10: Monitoring"
 description: "Kubernetes Series: monitoring"
 categories: [technology]
-tags: [kubernetes, docker, container, devops, k8s，prometheus, grafana]
+tags: [kubernetes, k8s, monitoring, prometheus, grafana]
 date: 2023/11/26
 ---
 

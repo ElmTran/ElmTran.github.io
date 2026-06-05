@@ -2,8 +2,8 @@
 layout: post
 title: "一套标准化交易框架：标的筛选、行情监控与交易流程"
 description: "一份用于建立交易观察体系的标准化框架笔记，覆盖标的筛选、市场监控、交易计划、执行、风控与复盘。"
-categories: [investment]
-tags: [investment, trading framework, screener, watchlist, risk management, trading process]
+categories: [markets]
+tags: [trading-system, screener, watchlist, risk-management]
 date: 2026/05/25
 ---
 

@@ -2,8 +2,8 @@
 layout: post
 title: "Interview Questions for Go"
 description: "常见的Go语言面试题"
-categories: [technology]
-tags: [computer science, interview, Go]
+categories: [interview]
+tags: [go, interview-prep, computer-science]
 date: 2023/12/03
 ---
 

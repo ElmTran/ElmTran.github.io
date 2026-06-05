@@ -3,7 +3,7 @@ layout: post
 title: "Go Dev Environment"
 description: "搭建go开发环境"
 categories: [technology]
-tags: [Go, Programming Language, Development]
+tags: [go, dev-environment, programming]
 date: 2022/05/06
 ---
 

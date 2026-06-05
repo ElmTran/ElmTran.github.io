@@ -2,8 +2,8 @@
 layout: post
 title: "Neediness"
 description: "外求和内需"
-categories: [life]
-tags: [neediness, life, psychology]
+categories: [reflection]
+tags: [neediness, psychology, relationship]
 date: 2024/11/12
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: "AC Automaton(python)"
 description: "Implement AC Automaton in python"
 categories: [technology]
-tags: [Aho–Corasick algorithm, python, string-searching]
+tags: [python, algorithm, aho-corasick, string-search]
 date: 2023/02/18
 ---
 

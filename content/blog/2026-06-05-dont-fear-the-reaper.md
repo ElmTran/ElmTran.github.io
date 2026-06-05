@@ -3,7 +3,7 @@ layout: post
 title: "以我残躯化烈火"
 description: "v和强尼一段虚构的对白"
 categories: [writing]
-tags: [writing, fiction, dialogue, game, cyberpunk]
+tags: [fiction, dialogue, cyberpunk, game]
 date: 2026/06/05
 ---
 
