@@ -1368,15 +1368,13 @@ body.page-home-photo .site-nav-link:focus-visible {
   border-left: 1px solid rgba(18, 18, 18, 0.12);
   transition:
     color 160ms ease,
-    border-color 160ms ease,
-    transform 160ms ease;
+    border-color 160ms ease;
 }
 
 .post-toc-link:hover,
 .post-toc-link:focus-visible {
   color: var(--text);
   border-left-color: var(--accent);
-  transform: translateX(2px);
 }
 
 .post-toc-link:focus-visible {
