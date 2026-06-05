@@ -2,8 +2,8 @@
 layout: post
 title: "六一"
 description: "祝曾经的小孩儿，现在的小孩儿，未来的小孩儿儿童节快乐"
-categories: [life]
-tags: [life, children's day, memory]
+categories: [writing]
+tags: [writing, life, children's day, memory]
 date: 2026/06/01
 ---
 

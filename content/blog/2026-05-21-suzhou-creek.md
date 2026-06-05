@@ -2,8 +2,8 @@
 layout: post
 title: "苏州河"
 description: "一段往事"
-categories: [life]
-tags: [life, memory, love]
+categories: [writing]
+tags: [writing, life, memory, love]
 date: 2026/05/21
 ---
 
