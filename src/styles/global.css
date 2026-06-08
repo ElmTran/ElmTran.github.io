@@ -234,6 +234,17 @@ body.page-home-photo .site-brand:active .site-brand-mark {
   color: color-mix(in srgb, var(--accent) 78%, var(--text));
 }
 
+.site-footer-link {
+  color: color-mix(in srgb, var(--accent) 76%, var(--text));
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+}
+
+.site-footer-link:hover {
+  color: var(--text);
+}
+
 .site-footer-dot {
   margin: 0 0.45rem;
   opacity: 0.4;

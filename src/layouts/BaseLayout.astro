@@ -20,6 +20,7 @@ const {
 
 const pageTitle = title === siteMeta.title ? title : `${title} | ${siteMeta.title}`;
 const canonicalUrl = canonicalPath ? new URL(canonicalPath, Astro.site) : undefined;
+const feedUrl = new URL("/feed.xml", Astro.site);
 ---
 
 <!doctype html>
@@ -30,6 +31,7 @@ const canonicalUrl = canonicalPath ? new URL(canonicalPath, Astro.site) : undefi
     <title>{pageTitle}</title>
     <meta name="description" content={description} />
     <meta name="theme-color" content={siteMeta.accent} />
+    <link rel="alternate" type="application/rss+xml" title={`${siteMeta.title} Feed`} href={feedUrl.toString()} />
     <style is:inline>
       .site-header {
         background: rgba(255, 255, 255, 0.5);
