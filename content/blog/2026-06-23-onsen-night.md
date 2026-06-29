@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "登别之夜"
-description: "远离城市的一个夜晚"
+title: "温泉之夜"
+description: "北海道旅行的一些碎片：登别篇"
 categories: [writing]
 tags: [memoir, travel, japan, winter]
 date: 2026/06/23
