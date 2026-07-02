@@ -1,8 +1,10 @@
 import { defineConfig } from "astro/config";
+import sitemap from "@astrojs/sitemap";
 
 export default defineConfig({
   site: "https://elmtran.com",
   trailingSlash: "always",
+  integrations: [sitemap()],
   redirects: {
     "/album/": "/photos/",
     "/welcome/": "/",
