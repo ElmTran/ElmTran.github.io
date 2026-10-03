@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "苏州河"
-description: "一段往事"
+description: "故事开始的地方"
 categories: [writing]
 tags: [memoir, memory, love, shanghai]
 date: 2026/05/21
