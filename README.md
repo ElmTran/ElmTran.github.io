@@ -25,6 +25,9 @@ Personal site and blog, built with [Astro](https://astro.build/). Essays live un
   `public/gallery/` to `https://img.elmtran.com/gallery/` — the site loads them from there (`galleryAssetBase` in `src/site.ts`).
   The host must allow CORS for every origin the site is served from, otherwise `/photos/` falls back to the grid.
   `/photos/?view=grid` shows the grid.
+- About: the places, photos and the notes on the back of each print are `aboutStops` in `src/site.ts` (photos must be
+  in `galleryPhotos`). The globe's land dots come from `src/data/globe-land.json`; regenerate with
+  `node tools/about/land-dots.mjs` only if you change the dot count.
 
 ## Deploy
 

@@ -1,28 +1,195 @@
 ---
+import { getCollection } from "astro:content";
 import BaseLayout from "../layouts/BaseLayout.astro";
+import { loadGallery } from "../lib/gallery";
+import { getLegacySlug, getPostUrl } from "../lib/posts";
+import { aboutStops } from "../site";
+import "../styles/about.css";
+
+const { items } = loadGallery();
+const posts = await getCollection("blog");
+const pad = (n: number) => String(n).padStart(2, "0");
+const coords = (lat: number, lon: number) =>
+  `${Math.abs(lat).toFixed(2)}°${lat >= 0 ? "N" : "S"} ${Math.abs(lon).toFixed(2)}°${lon >= 0 ? "E" : "W"}`;
+
+const stops = aboutStops.map((stop, index) => {
+  const photo = stop.photo ? items.find((item) => item.src === stop.photo) : undefined;
+  if (stop.photo && !photo) {
+    throw new Error(`aboutStops[${index}].photo is not in galleryPhotos: ${stop.photo}`);
+  }
+  const essay = stop.note.essay ? posts.find((post) => getLegacySlug(post) === stop.note.essay) : undefined;
+  if (stop.note.essay && !essay) {
+    throw new Error(`aboutStops[${index}].note.essay has no post in content/blog: ${stop.note.essay}`);
+  }
+  const [year, month, day] = photo?.date?.split("-") ?? [];
+  const exif = photo?.exif;
+  return {
+    ...stop,
+    index,
+    photo,
+    essay: essay && { url: getPostUrl(essay), title: essay.data.title },
+    kicker: stop.kicker ?? (stop.place ? `${pad(index)} · ${coords(stop.place.lat, stop.place.lon)}` : ""),
+    /** Orange date imprint, the way a point-and-shoot burns it into the corner. */
+    stamp: year && `'${year.slice(2)} ${Number(month)} ${Number(day)}`,
+    printed: year ? `${year} · ${month} · ${day}` : "",
+    exposure: exif && [exif.focalLength, exif.aperture, exif.shutter, exif.iso && `ISO ${exif.iso}`].filter(Boolean).join(" · "),
+  };
+});
+const backprint = "Mengqing Chen · Printed in Shanghai · ".repeat(90);
 ---
 
 <BaseLayout
   title="About"
-  description="A short introduction: who I am and what this site is for."
+  description="Hi, I'm Mengqing — a software engineer in Shanghai who writes and takes photographs. A walk across the places on the globe where I've carried a camera."
   canonicalPath="/about/"
+  bodyClass="page-about page-home-photo"
 >
-  <article class="about-page site-shell" data-reveal>
-    <h1>About</h1>
-    <div class="about-page-prose post-prose">
-      <p>
-        Hi — I'm <strong>Mengqing Chen</strong>. I grew up in southwest China, was born in &rsquo;97, and
-        work as a software engineer. I used to want to be a writer; code won out day-to-day, but I still
-        like clear sentences.
-      </p>
-      <p>
-        Think of this site as a small <strong>digital coffee shop</strong>: mostly notes on building
-        software, tools, and things I learned the slow way — with room for the occasional personal
-        aside.
-      </p>
-      <p>
-        <a class="text-link" href="https://github.com/ElmTran">GitHub</a> · say hello via the footer.
-      </p>
+  <script is:inline>
+    (function () {
+      var webgl = false;
+      try {
+        var gl = document.createElement("canvas").getContext("webgl2");
+        webgl = !!gl;
+        var lose = gl && gl.getExtension("WEBGL_lose_context");
+        if (lose) lose.loseContext();
+      } catch (e) {}
+      var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      document.documentElement.dataset.about = webgl && !reduce ? "3d" : "flat";
+    })();
+  </script>
+
+  <div class="about" data-about>
+    <div class="about-track" data-about-track style={{ "--stops": stops.length }}>
+      <div class="about-stage">
+        <canvas class="about-globe" data-about-canvas aria-hidden="true"></canvas>
+        <p class="about-pin" data-about-pin aria-hidden="true"></p>
+
+        <div class="about-copy">
+          {
+            stops.map((stop) => (
+              <section
+                class:list={["about-stop", { "is-current": stop.index === 0 }]}
+                data-about-stop
+                data-lat={stop.place?.lat}
+                data-lon={stop.place?.lon}
+                data-name={stop.place?.name}
+                data-label={stop.sub}
+                data-now={stop.now ? "" : undefined}
+                aria-labelledby={`about-stop-${stop.index}`}
+              >
+                <p class="about-kicker">{stop.kicker}</p>
+                {stop.index === 0 ? (
+                  <h1 class="about-title" id={`about-stop-${stop.index}`}>
+                    {stop.title}
+                  </h1>
+                ) : (
+                  <h2 class="about-title" id={`about-stop-${stop.index}`}>
+                    {stop.title}
+                    {stop.sub && <span class="about-sub">{stop.sub}</span>}
+                  </h2>
+                )}
+                <p class="about-text">{stop.text}</p>
+
+                <button
+                  type="button"
+                  class="about-print"
+                  data-about-print={stop.index}
+                  aria-haspopup="dialog"
+                  aria-label={`Turn over the print: ${stop.note.heading}`}
+                  style={{ "--print-tilt": `${stop.index % 2 ? 2 : -2.5}deg` }}
+                >
+                  <span class="print-sheet">
+                    <span class="print-face print-front">
+                      <span class="print-photo">
+                        {stop.photo ? (
+                          <img
+                            src={stop.photo.sm}
+                            alt={stop.photo.alt}
+                            loading={stop.index === 0 ? "eager" : "lazy"}
+                            decoding="async"
+                          />
+                        ) : (
+                          <span class="print-cover">
+                            <span class="print-cover-big">{stop.cover?.big ?? stop.title}</span>
+                            {stop.cover?.small && <span class="print-cover-small">{stop.cover.small}</span>}
+                          </span>
+                        )}
+                        {stop.stamp && <span class="print-stamp">{stop.stamp}</span>}
+                      </span>
+                      <span class="print-caption">
+                        <span class="print-title">{stop.photo?.title ?? stop.cover?.small ?? stop.title}</span>
+                        <span class="print-no">No. {pad(stop.index + 1)}</span>
+                      </span>
+                    </span>
+                  </span>
+                  <span class="about-print-hint" aria-hidden="true">Turn it over ↻</span>
+                </button>
+
+                <div data-about-back={stop.index} hidden>
+                  <span class="print-backprint" aria-hidden="true">{backprint}</span>
+                  <div class="print-note">
+                    <p class="print-note-top">
+                      <span>{stop.place?.name ?? "Shanghai"}</span>
+                      <span>{stop.printed}</span>
+                    </p>
+                    <h2 class="print-note-heading">{stop.note.heading}</h2>
+                    {stop.note.body.map((line) => <p>{line}</p>)}
+                    <div class="print-note-foot">
+                      <span class="print-note-sign">— M.</span>
+                      <span class="print-note-meta">
+                        {stop.exposure && <span>{stop.exposure}</span>}
+                        {stop.essay && (
+                          <a class="print-note-link" href={stop.essay.url}>
+                            Read “{stop.essay.title}” →
+                          </a>
+                        )}
+                      </span>
+                    </div>
+                  </div>
+                </div>
+
+                {stop.index === stops.length - 1 && (
+                  <p class="about-links">
+                    <a href="/essays/">Essays</a>
+                    <a href="/photos/">Photos</a>
+                    <a href="https://github.com/ElmTran">GitHub</a>
+                    <a href="/feed.xml">Feed</a>
+                  </p>
+                )}
+              </section>
+            ))
+          }
+        </div>
+
+        <nav class="about-steps" aria-label="Places">
+          {
+            stops.map((stop) => (
+              <button type="button" class="about-step" data-about-step aria-label={stop.place?.name ?? stop.title} />
+            ))
+          }
+        </nav>
+        <p class="about-hint" data-about-hint aria-hidden="true"><span></span>Scroll</p>
+      </div>
     </div>
-  </article>
+  </div>
+
+  <dialog class="about-viewer" data-about-viewer aria-label="Print">
+    <div class="about-viewer-veil" data-about-veil></div>
+    <div class="about-card" data-about-card>
+      <div class="about-card-tilt" data-about-tilt>
+        <div class="about-card-flip">
+          <div class="print-face print-front" data-card-front></div>
+          <div class="print-face print-back" data-card-back></div>
+        </div>
+      </div>
+    </div>
+    <div class="about-viewer-bar">
+      <button type="button" class="about-viewer-btn" data-about-turn autofocus>Turn over ↻</button>
+      <button type="button" class="about-viewer-btn" data-about-close>Close <span aria-hidden="true">✕</span></button>
+    </div>
+  </dialog>
+
+  <script>
+    import "../scripts/about/main";
+  </script>
 </BaseLayout>

@@ -31,6 +31,8 @@ const feedUrl = new URL("/feed.xml", Astro.site);
     <title>{pageTitle}</title>
     <meta name="description" content={description} />
     <meta name="theme-color" content={siteMeta.accent} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <link rel="alternate" type="application/rss+xml" title={`${siteMeta.title} Feed`} href={feedUrl.toString()} />
     <style is:inline>
       .site-header {

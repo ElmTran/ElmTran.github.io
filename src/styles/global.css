@@ -102,9 +102,6 @@ button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  transition:
-    transform 240ms cubic-bezier(0.2, 0.8, 0.2, 1),
-    filter 240ms ease;
 }
 
 .site-brand-mark-svg {
@@ -113,49 +110,36 @@ button {
   overflow: visible;
 }
 
-.site-brand-mark-hand {
-  fill: color-mix(in srgb, var(--accent) 18%, white);
-  stroke: color-mix(in srgb, var(--accent) 58%, white);
-  stroke-width: 0.7;
-  stroke-linejoin: round;
-  transition:
-    fill 180ms ease,
-    stroke 180ms ease;
+/* Strokes stay the same width while the blades scale open on hover. */
+.site-brand-mark-rim,
+.site-brand-mark-blades {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.25;
+  stroke-linecap: round;
+  vector-effect: non-scaling-stroke;
 }
 
-.site-brand-mark-heart {
-  fill: color-mix(in srgb, var(--accent) 72%, white);
-  transition: fill 180ms ease;
+.site-brand-mark-blades {
+  transform-box: view-box;
+  transform-origin: 12px 12px;
+  transition: transform 560ms cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
-.site-brand:hover .site-brand-mark {
-  transform: translateY(-1px) scale(1.04);
-  filter: brightness(1.03);
+.site-brand:hover .site-brand-mark-blades,
+.site-brand:focus-visible .site-brand-mark-blades {
+  transform: rotate(36deg) scale(1.62);
 }
 
-.site-brand:active .site-brand-mark {
-  transform: translateY(0) scale(0.97);
-  filter: brightness(0.99);
+.site-brand:active .site-brand-mark-blades {
+  transform: rotate(20deg) scale(1.25);
+  transition-duration: 160ms;
 }
 
-.site-brand:hover .site-brand-mark-heart {
-  fill: color-mix(in srgb, var(--accent) 82%, white);
-}
-
-.site-brand:active .site-brand-mark-heart {
-  fill: color-mix(in srgb, var(--accent) 66%, white);
-}
-
-.site-brand:active .site-brand-mark-hand {
-  fill: color-mix(in srgb, var(--accent) 22%, white);
-}
-
-body.page-home-photo .site-brand:hover .site-brand-mark {
-  filter: brightness(1.08);
-}
-
-body.page-home-photo .site-brand:active .site-brand-mark {
-  filter: brightness(1.02);
+@media (prefers-reduced-motion: reduce) {
+  .site-brand-mark-blades {
+    transition: none;
+  }
 }
 
 .site-nav {
@@ -274,10 +258,6 @@ body.page-home-photo .site-header--scrolled {
 
 body.page-home-photo .site-brand {
   color: #f5f2eb;
-}
-
-body.page-home-photo .site-brand-mark {
-  filter: saturate(0.72) brightness(1.16);
 }
 
 body.page-home-photo .site-nav-link {
@@ -1414,14 +1394,6 @@ body.page-home-photo .site-nav-search-input:focus {
   }
 
   .essay-index-row:hover {
-    transform: none;
-  }
-
-  .site-brand-mark {
-    transition: none;
-  }
-
-  .site-brand:hover .site-brand-mark {
     transform: none;
   }
 

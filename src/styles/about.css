@@ -1,0 +1,865 @@
+/*
+ * /about/ — a scroll walk across a dot globe, with a print for each place that turns over to a note.
+ * Loaded only on this page. html[data-about] is set before first paint: "3d" for the globe walk, "flat" for a plain
+ * column of prints (no WebGL, reduced motion). Without it (no JS) the page is the flat column too.
+ */
+
+.page-about {
+  --about-ink: #ece8e1;
+  --about-muted: rgba(236, 232, 225, 0.62);
+  --about-faint: rgba(236, 232, 225, 0.38);
+  --about-ember: #e0663a;
+  --about-paper: #f1ece2;
+  --about-mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  --about-ease: cubic-bezier(0.2, 0.8, 0.2, 1);
+  /* Prints are landscape 5:4 with a 3:2 photo window; portrait 4:5 on phones. */
+  --print-w: clamp(10rem, 27vh, 15rem);
+  --print-ar: 5 / 4;
+  --print-ratio: 1.25;
+  --photo-h: 60.5cqi;
+  --card-w: min(92vw, 40rem, calc((100svh - 9rem) * 1.25));
+  background: #09090a;
+  color: var(--about-ink);
+}
+
+html[data-about] {
+  background: #09090a;
+}
+
+html[data-about="3d"] {
+  scrollbar-width: none;
+}
+
+html[data-about="3d"]::-webkit-scrollbar {
+  display: none;
+}
+
+html.is-print-open {
+  overflow: hidden;
+  scrollbar-gutter: stable;
+}
+
+.page-about .site-footer {
+  margin-top: 0;
+  border-top-color: rgba(245, 242, 235, 0.08);
+  background: #09090a;
+}
+
+.page-about .site-footer p,
+.page-about .site-footer-tagline,
+.page-about .site-footer-link {
+  color: rgba(245, 242, 235, 0.5);
+}
+
+/* ---------- Stops (both layouts) ---------- */
+
+.about-kicker {
+  margin: 0;
+  font-family: var(--about-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.16em;
+  color: var(--about-ember);
+}
+
+.about-title {
+  margin: 0.7rem 0 0.9rem;
+  font-family: var(--serif);
+  font-size: clamp(2.1rem, 4vw, 3.2rem);
+  font-weight: 400;
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  color: #f2efe9;
+}
+
+.about-sub {
+  display: block;
+  margin-top: 0.5rem;
+  font-family: var(--sans);
+  font-size: 0.74rem;
+  letter-spacing: 0.2em;
+  color: var(--about-faint);
+}
+
+.about-text {
+  max-width: 26rem;
+  margin: 0;
+  color: var(--about-muted);
+  font-size: 0.97rem;
+  line-height: 1.8;
+}
+
+.about-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.1rem;
+  margin: 1.6rem 0 0;
+  font-size: 0.7rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.about-links a {
+  color: var(--about-ink);
+  text-decoration: none;
+  border-bottom: 1px solid var(--about-faint);
+  padding-bottom: 2px;
+  transition: border-color 200ms ease;
+}
+
+.about-links a:hover {
+  border-color: var(--about-ink);
+}
+
+.about-print {
+  display: grid;
+  justify-items: start;
+  gap: 0.9rem;
+  margin: 1.8rem 0 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.about-print:focus-visible {
+  outline: none;
+}
+
+.about-print .print-sheet {
+  transform: rotate(var(--print-tilt, 0deg));
+  box-shadow: 0 1.2rem 2.6rem rgba(0, 0, 0, 0.55);
+  transition:
+    transform 450ms var(--about-ease),
+    box-shadow 450ms ease;
+}
+
+.about-print:hover .print-sheet,
+.about-print:focus-visible .print-sheet {
+  transform: translateY(-4px) rotate(0deg);
+  box-shadow: 0 1.6rem 3.2rem rgba(0, 0, 0, 0.6);
+}
+
+.about-print:focus-visible .print-sheet {
+  outline: 1px solid rgba(236, 232, 225, 0.6);
+  outline-offset: 5px;
+}
+
+.about-print-hint {
+  font-size: 0.66rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--about-faint);
+  transition: color 200ms ease;
+}
+
+.about-print:hover .about-print-hint,
+.about-print:focus-visible .about-print-hint {
+  color: var(--about-ink);
+}
+
+/* ---------- The print ---------- */
+
+.print-sheet {
+  position: relative;
+  display: block;
+  width: var(--print-w);
+  aspect-ratio: var(--print-ar);
+}
+
+.print-face {
+  position: absolute;
+  inset: 0;
+  display: block;
+  overflow: hidden;
+  container-type: inline-size;
+  border-radius: 2px;
+  background: var(--about-paper);
+  color: #2b2622;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.6),
+    0 0 0 1px rgba(0, 0, 0, 0.06);
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.print-photo {
+  position: absolute;
+  top: 4.5cqi;
+  left: 4.5cqi;
+  right: 4.5cqi;
+  height: var(--photo-h);
+  overflow: hidden;
+  background: #111;
+}
+
+.print-photo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.print-stamp {
+  position: absolute;
+  right: 2.4cqi;
+  bottom: 1.8cqi;
+  font-family: var(--about-mono);
+  font-size: 2.7cqi;
+  letter-spacing: 0.06em;
+  color: #ff8a3d;
+  text-shadow:
+    0 0 0.6cqi rgba(255, 110, 40, 0.9),
+    0 0 1.6cqi rgba(255, 90, 20, 0.5);
+}
+
+.print-cover {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  gap: 1.6cqi;
+  background: radial-gradient(circle at 50% 40%, #2a2622, #12100f 75%);
+  color: #ece6da;
+}
+
+.print-cover-big {
+  font-family: var(--serif);
+  font-size: 15cqi;
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+
+.print-cover-small {
+  font-size: 2.2cqi;
+  letter-spacing: 0.26em;
+  text-transform: uppercase;
+  color: rgba(236, 230, 218, 0.6);
+}
+
+.print-caption {
+  position: absolute;
+  left: 4.5cqi;
+  right: 4.5cqi;
+  bottom: 4cqi;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 2cqi;
+}
+
+.print-title {
+  overflow: hidden;
+  font-family: var(--serif);
+  font-size: 4.2cqi;
+  font-style: italic;
+  color: #3b3631;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.print-no {
+  flex: none;
+  font-size: 2cqi;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #8d857b;
+}
+
+.print-back {
+  transform: rotateY(180deg);
+}
+
+.print-backprint {
+  position: absolute;
+  inset: -40%;
+  transform: rotate(-24deg);
+  font-size: 1.45cqi;
+  letter-spacing: 0.24em;
+  line-height: 2.6;
+  text-transform: uppercase;
+  word-break: break-all;
+  color: rgba(70, 60, 50, 0.09);
+  pointer-events: none;
+  user-select: none;
+}
+
+.print-note {
+  position: absolute;
+  inset: 6cqi 7cqi 5.5cqi;
+  display: flex;
+  flex-direction: column;
+}
+
+.print-note-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 2cqi;
+  margin: 0;
+  font-family: var(--about-mono);
+  font-size: 1.75cqi;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #8d857b;
+}
+
+.print-note-heading {
+  margin: 4cqi 0 2.6cqi;
+  font-family: var(--serif);
+  font-size: 5.6cqi;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+  color: #231f1b;
+}
+
+.print-note > p:not(.print-note-top) {
+  margin: 0 0 1.7cqi;
+  font-family: var(--serif);
+  font-size: 2.9cqi;
+  line-height: 1.62;
+}
+
+.print-note-foot {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 3cqi;
+  margin-top: auto;
+  padding-top: 2cqi;
+}
+
+.print-note-sign {
+  flex: none;
+  font-family: var(--serif);
+  font-size: 3.4cqi;
+}
+
+.print-note-meta {
+  display: grid;
+  justify-items: end;
+  gap: 1.1cqi;
+  text-align: right;
+  font-family: var(--about-mono);
+  font-size: 1.55cqi;
+  letter-spacing: 0.06em;
+  color: #8d857b;
+}
+
+.print-note-link {
+  padding-bottom: 0.3cqi;
+  border-bottom: 1px solid rgba(43, 38, 34, 0.3);
+  font-family: var(--sans);
+  font-size: 1.75cqi;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #2b2622;
+  transition: border-color 200ms ease;
+}
+
+.print-note-link:hover {
+  border-color: currentColor;
+}
+
+/* ---------- Viewer: the print up close ---------- */
+
+.about-viewer {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  max-height: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  background: transparent;
+  color: var(--about-ink);
+  perspective: 1800px;
+}
+
+.about-viewer::backdrop {
+  background: transparent;
+}
+
+.about-viewer:focus {
+  outline: none;
+}
+
+.about-viewer-veil {
+  position: absolute;
+  inset: 0;
+  background: rgba(5, 5, 6, 0.72);
+  backdrop-filter: blur(10px) saturate(120%);
+  -webkit-backdrop-filter: blur(10px) saturate(120%);
+}
+
+.about-card {
+  position: absolute;
+  left: calc(50% - var(--card-w) / 2);
+  top: calc(50% - var(--card-w) / var(--print-ratio) / 2 - 1.75rem);
+  width: var(--card-w);
+  aspect-ratio: var(--print-ar);
+  transform-style: preserve-3d;
+  cursor: pointer;
+}
+
+.about-card-tilt,
+.about-card-flip {
+  position: absolute;
+  inset: 0;
+  transform-style: preserve-3d;
+}
+
+.about-card-flip {
+  transition: transform 1s cubic-bezier(0.2, 0.75, 0.15, 1);
+}
+
+.about-card.is-flipped .about-card-flip {
+  transform: rotateY(180deg);
+}
+
+.about-card.no-transition .about-card-flip {
+  transition: none;
+}
+
+.about-card .print-face {
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.6),
+    0 2.5rem 6rem rgba(0, 0, 0, 0.6);
+}
+
+/* Light catching the paper as it tilts. */
+.about-card .print-face::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: radial-gradient(
+    circle at var(--glare-x, 30%) var(--glare-y, 20%),
+    rgba(255, 255, 255, 0.36),
+    rgba(255, 255, 255, 0.05) 32%,
+    transparent 60%
+  );
+  mix-blend-mode: soft-light;
+}
+
+.about-viewer-bar {
+  position: absolute;
+  left: 50%;
+  bottom: max(1.25rem, env(safe-area-inset-bottom));
+  display: flex;
+  gap: 0.6rem;
+  translate: -50% 0;
+}
+
+.about-viewer[open] .about-viewer-bar {
+  animation: about-rise 600ms var(--about-ease) 350ms both;
+}
+
+.about-viewer-btn {
+  padding: 0.6rem 1.05rem;
+  border: 1px solid rgba(236, 232, 225, 0.18);
+  border-radius: 999px;
+  background: rgba(10, 10, 11, 0.5);
+  color: var(--about-ink);
+  font-size: 0.68rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  cursor: pointer;
+  transition:
+    border-color 200ms ease,
+    background 200ms ease;
+}
+
+.about-viewer-btn:hover,
+.about-viewer-btn:focus-visible {
+  border-color: rgba(236, 232, 225, 0.5);
+  background: rgba(30, 30, 32, 0.6);
+  outline: none;
+}
+
+/* ---------- Flat layout (default) ---------- */
+
+.about-track {
+  padding: clamp(7rem, 14vh, 9rem) 0 clamp(4rem, 10vh, 7rem);
+}
+
+.about-copy {
+  display: grid;
+  gap: clamp(4.5rem, 12vh, 7.5rem);
+  width: min(calc(100% - 2.5rem), 42rem);
+  margin: 0 auto;
+}
+
+.about-globe,
+.about-pin,
+.about-steps,
+.about-hint {
+  display: none;
+}
+
+/* ---------- Globe walk ---------- */
+
+html[data-about="3d"] .about-track {
+  height: calc(100vh + (var(--stops) - 1) * 90vh);
+  padding: 0;
+}
+
+html[data-about="3d"] .about-stage {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  height: 100svh;
+  overflow: hidden;
+}
+
+/* Keeps the copy readable where the globe passes behind it. */
+html[data-about="3d"] .about-stage::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background:
+    linear-gradient(90deg, rgba(9, 9, 10, 0.92) 0%, rgba(9, 9, 10, 0.55) 26%, transparent 48%),
+    radial-gradient(ellipse 80% 75% at 60% 50%, transparent 55%, rgba(0, 0, 0, 0.5) 100%);
+}
+
+html[data-about="3d"] .about-globe {
+  display: block;
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 1.4s ease;
+}
+
+html[data-about="3d"] .about-globe.is-ready {
+  opacity: 1;
+}
+
+html[data-about="3d"] .about-copy {
+  position: absolute;
+  z-index: 2;
+  left: clamp(1.5rem, 7vw, 6rem);
+  top: 50%;
+  display: block;
+  width: min(25rem, 34vw);
+  height: 0;
+  margin: 0;
+}
+
+html[data-about="3d"] .about-stop {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-50%) translateY(22px);
+  transition:
+    opacity 450ms ease,
+    transform 700ms var(--about-ease),
+    visibility 0s linear 700ms;
+}
+
+html[data-about="3d"] .about-stop.is-past {
+  transform: translateY(-50%) translateY(-22px);
+}
+
+html[data-about="3d"] .about-stop.is-current {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(-50%);
+  transition:
+    opacity 600ms ease 120ms,
+    transform 800ms var(--about-ease) 80ms,
+    visibility 0s;
+}
+
+html[data-about="3d"] .about-pin {
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin: 0;
+  opacity: 0;
+  font-family: var(--about-mono);
+  font-size: 0.66rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: var(--about-ink);
+  pointer-events: none;
+  transition: opacity 300ms ease;
+  will-change: transform;
+}
+
+.about-pin::before {
+  content: "";
+  width: 2.6rem;
+  height: 1px;
+  background: currentColor;
+  opacity: 0.5;
+}
+
+.about-pin small {
+  font-size: inherit;
+  color: var(--about-faint);
+}
+
+.about-pin.is-now {
+  color: var(--about-ember);
+}
+
+html[data-about="3d"] .about-steps {
+  position: absolute;
+  z-index: 2;
+  right: clamp(0.75rem, 3vw, 2.5rem);
+  top: 50%;
+  display: grid;
+  gap: 0.2rem;
+  translate: 0 -50%;
+}
+
+.about-step {
+  display: grid;
+  place-items: center;
+  width: 1.6rem;
+  height: 1.6rem;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+
+.about-step::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--about-faint);
+  transition:
+    background 300ms ease,
+    transform 300ms ease;
+}
+
+.about-step:hover::before {
+  background: var(--about-ink);
+}
+
+.about-step[aria-current]::before {
+  background: var(--about-ember);
+  transform: scale(1.5);
+}
+
+html[data-about="3d"] .about-hint {
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  bottom: 2.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 0;
+  translate: -50% 0;
+  font-size: 0.66rem;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: rgba(245, 242, 235, 0.55);
+  pointer-events: none;
+  transition: opacity 500ms ease;
+}
+
+.about-hint span {
+  width: 1px;
+  height: 3rem;
+  background: linear-gradient(180deg, transparent, rgba(245, 242, 235, 0.8));
+  transform-origin: top;
+  animation: about-scroll-line 2.2s cubic-bezier(0.6, 0, 0.2, 1) infinite;
+}
+
+.about-hint.is-hidden {
+  opacity: 0;
+}
+
+/* ---------- Phones: portrait prints, globe above the copy ---------- */
+
+@media (max-width: 760px) {
+  .page-about {
+    --print-w: 7.4rem;
+    --print-ar: 4 / 5;
+    --print-ratio: 0.8;
+    --photo-h: 92cqi;
+    --card-w: min(88vw, 24rem, calc((100svh - 10rem) * 0.8));
+  }
+
+  .about-stop {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    column-gap: 1.1rem;
+    align-items: start;
+  }
+
+  .about-kicker,
+  .about-title,
+  .about-links {
+    grid-column: 1 / -1;
+  }
+
+  .about-title {
+    margin: 0.5rem 0 1rem;
+    font-size: 2rem;
+  }
+
+  .about-print {
+    grid-row: 3;
+    grid-column: 1;
+    gap: 0.7rem;
+    margin: 0.2rem 0 0;
+  }
+
+  .about-text {
+    grid-row: 3;
+    grid-column: 2;
+    font-size: 0.88rem;
+    line-height: 1.7;
+  }
+
+  .about-print-hint {
+    font-size: 0.58rem;
+  }
+
+  .print-caption {
+    bottom: 5cqi;
+  }
+
+  .print-title {
+    font-size: 6cqi;
+  }
+
+  .print-no {
+    font-size: 3cqi;
+  }
+
+  .print-stamp {
+    font-size: 3.8cqi;
+  }
+
+  .print-backprint {
+    font-size: 2.2cqi;
+  }
+
+  .print-note {
+    inset: 7cqi 7cqi 6.5cqi;
+  }
+
+  .print-note-top {
+    font-size: 2.5cqi;
+  }
+
+  .print-note-heading {
+    margin: 4.5cqi 0 3cqi;
+    font-size: 7cqi;
+  }
+
+  .print-note > p:not(.print-note-top) {
+    margin-bottom: 2.2cqi;
+    font-size: 3.95cqi;
+  }
+
+  .print-note-sign {
+    font-size: 5cqi;
+  }
+
+  .print-note-meta {
+    font-size: 2.4cqi;
+  }
+
+  .print-note-link {
+    font-size: 2.6cqi;
+  }
+
+  html[data-about="3d"] .about-stage::after {
+    background: linear-gradient(0deg, rgba(9, 9, 10, 0.96) 0%, rgba(9, 9, 10, 0.75) 32%, transparent 58%);
+  }
+
+  html[data-about="3d"] .about-copy {
+    left: 1.25rem;
+    right: 1.25rem;
+    top: auto;
+    bottom: calc(1.5rem + env(safe-area-inset-bottom));
+    width: auto;
+  }
+
+  html[data-about="3d"] .about-stop {
+    top: auto;
+    bottom: 0;
+    transform: translateY(18px);
+  }
+
+  html[data-about="3d"] .about-stop.is-past {
+    transform: translateY(-18px);
+  }
+
+  html[data-about="3d"] .about-stop.is-current {
+    transform: none;
+  }
+
+  html[data-about="3d"] .about-steps {
+    top: 32%;
+    right: 0.4rem;
+  }
+
+  html[data-about="3d"] .about-hint {
+    display: none;
+  }
+}
+
+@keyframes about-rise {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+}
+
+@keyframes about-scroll-line {
+  0% {
+    transform: scaleY(0);
+    opacity: 1;
+  }
+  60% {
+    transform: scaleY(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scaleY(1);
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .about-print .print-sheet,
+  .about-card-flip {
+    transition: none;
+  }
+
+  .about-hint span,
+  .about-viewer[open] .about-viewer-bar {
+    animation: none;
+  }
+}
