@@ -8,10 +8,12 @@
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.8",
+    "@types/three": "^0.187.0",
     "astro": "^6.1.5",
     "typescript": "^5.8.3"
   },
   "dependencies": {
-    "@astrojs/sitemap": "^3.7.3"
+    "@astrojs/sitemap": "^3.7.3",
+    "three": "^0.187.0"
   }
 }

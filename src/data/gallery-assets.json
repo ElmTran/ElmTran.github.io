@@ -1,0 +1,156 @@
+{
+  "https://img.elmtran.com/DSC01536-Enhanced-NR.jpg": {
+    "width": 2102,
+    "height": 1401,
+    "sm": "DSC01536-Enhanced-NR-sm.webp",
+    "lg": "DSC01536-Enhanced-NR-lg.webp",
+    "depth": "DSC01536-Enhanced-NR-depth.png",
+    "smWidth": 1280,
+    "lgWidth": 2102,
+    "color": "#161622",
+    "focus": 0.443
+  },
+  "https://img.elmtran.com/DSC03234.jpg": {
+    "width": 2717,
+    "height": 1588,
+    "sm": "DSC03234-sm.webp",
+    "lg": "DSC03234-lg.webp",
+    "depth": "DSC03234-depth.png",
+    "smWidth": 1280,
+    "lgWidth": 2560,
+    "color": "#755d54",
+    "focus": 0.576
+  },
+  "https://img.elmtran.com/DSC01460-Enhanced-NR.jpg": {
+    "width": 4672,
+    "height": 7008,
+    "sm": "DSC01460-Enhanced-NR-sm.webp",
+    "lg": "DSC01460-Enhanced-NR-lg.webp",
+    "depth": "DSC01460-Enhanced-NR-depth.png",
+    "smWidth": 853,
+    "lgWidth": 1707,
+    "color": "#1a3d6c",
+    "focus": 0.247
+  },
+  "https://img.elmtran.com/DSC02732.jpg": {
+    "width": 6541,
+    "height": 4672,
+    "sm": "DSC02732-sm.webp",
+    "lg": "DSC02732-lg.webp",
+    "depth": "DSC02732-depth.png",
+    "smWidth": 1280,
+    "lgWidth": 2560,
+    "color": "#5f98b5",
+    "focus": 0.082
+  },
+  "https://img.elmtran.com/DSC03273.jpg": {
+    "width": 3072,
+    "height": 4608,
+    "sm": "DSC03273-sm.webp",
+    "lg": "DSC03273-lg.webp",
+    "depth": "DSC03273-depth.png",
+    "smWidth": 853,
+    "lgWidth": 1707,
+    "color": "#825a24",
+    "focus": 0.275
+  },
+  "https://img.elmtran.com/DSC03295.jpg": {
+    "width": 4608,
+    "height": 3072,
+    "sm": "DSC03295-sm.webp",
+    "lg": "DSC03295-lg.webp",
+    "depth": "DSC03295-depth.png",
+    "smWidth": 1280,
+    "lgWidth": 2560,
+    "color": "#a57331",
+    "focus": 0.153
+  },
+  "https://img.elmtran.com/DSC03403.jpg": {
+    "width": 3072,
+    "height": 4608,
+    "sm": "DSC03403-sm.webp",
+    "lg": "DSC03403-lg.webp",
+    "depth": "DSC03403-depth.png",
+    "smWidth": 853,
+    "lgWidth": 1707,
+    "color": "#744139",
+    "focus": 0.133
+  },
+  "https://img.elmtran.com/DSC03503.jpg": {
+    "width": 4608,
+    "height": 3072,
+    "sm": "DSC03503-sm.webp",
+    "lg": "DSC03503-lg.webp",
+    "depth": "DSC03503-depth.png",
+    "smWidth": 1280,
+    "lgWidth": 2560,
+    "color": "#603214",
+    "focus": 0.353
+  },
+  "https://img.elmtran.com/DSC04586.jpg": {
+    "width": 3072,
+    "height": 4608,
+    "sm": "DSC04586-sm.webp",
+    "lg": "DSC04586-lg.webp",
+    "depth": "DSC04586-depth.png",
+    "smWidth": 853,
+    "lgWidth": 1707,
+    "color": "#92735d",
+    "focus": 0.271
+  },
+  "https://img.elmtran.com/DSC04680.jpg": {
+    "width": 4527,
+    "height": 3018,
+    "sm": "DSC04680-sm.webp",
+    "lg": "DSC04680-lg.webp",
+    "depth": "DSC04680-depth.png",
+    "smWidth": 1280,
+    "lgWidth": 2560,
+    "color": "#8b9ba2",
+    "focus": 0.004
+  },
+  "https://img.elmtran.com/DSC09884.png": {
+    "width": 4473,
+    "height": 6709,
+    "sm": "DSC09884-sm.webp",
+    "lg": "DSC09884-lg.webp",
+    "depth": "DSC09884-depth.png",
+    "smWidth": 853,
+    "lgWidth": 1707,
+    "color": "#bd4930",
+    "focus": 0.165
+  },
+  "https://img.elmtran.com/DSC02481.jpg": {
+    "width": 3545,
+    "height": 2609,
+    "sm": "DSC02481-sm.webp",
+    "lg": "DSC02481-lg.webp",
+    "depth": "DSC02481-depth.png",
+    "smWidth": 1280,
+    "lgWidth": 2560,
+    "color": "#453d37",
+    "focus": 0.357
+  },
+  "https://img.elmtran.com/DSC02174.jpg": {
+    "width": 3768,
+    "height": 2158,
+    "sm": "DSC02174-sm.webp",
+    "lg": "DSC02174-lg.webp",
+    "depth": "DSC02174-depth.png",
+    "smWidth": 1280,
+    "lgWidth": 2560,
+    "color": "#1a1911",
+    "focus": 0.2
+  },
+  "https://img.elmtran.com/DSC02474.jpg": {
+    "width": 1544,
+    "height": 1447,
+    "sm": "DSC02474-sm.webp",
+    "lg": "DSC02474-lg.webp",
+    "depth": "DSC02474-depth.png",
+    "smWidth": 1280,
+    "lgWidth": 1544,
+    "color": "#7f6248",
+    "focus": 0.325
+  }
+}

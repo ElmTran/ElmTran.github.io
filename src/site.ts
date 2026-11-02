@@ -29,6 +29,12 @@ export type GalleryExif = {
 export type GalleryPhoto = { src: string; alt?: string; exif?: GalleryExif };
 
 /**
+ * tools/gallery/prepare.mjs 生成的纹理和深度图的访问前缀。脚本把文件写到 public/gallery/（已 gitignore），新生成的文件需手动传到这里。
+ * 3D 视图要把这些图载入 WebGL，所以该域名必须返回 CORS 头（站点的每个访问域名都要允许）。改回 "/gallery/" 即用本地文件。
+ */
+export const galleryAssetBase = "https://img.elmtran.com/gallery/";
+
+/**
  * Photos 页面图源。非空时只使用此列表，不再扫描 public/images（适合大图放对象存储或图床，减轻 git 体积）。
  * 留空则沿用构建时扫描 public/images/。
  */
@@ -36,7 +42,7 @@ export const galleryPhotos: GalleryPhoto[] = [
   // { src: "https://your-cdn.example/photo.webp", alt: "Optional caption" },
   {
     src: "https://img.elmtran.com/DSC01536-Enhanced-NR.jpg",
-    alt: "2025-01-09 Mt. Hakan, Hakan",
+    alt: "2025-01-09 Mt. Hakodate, Hakodate",
     exif: {
       camera: "SONY ILCE-7CM2",
       focalLength: "70 mm",

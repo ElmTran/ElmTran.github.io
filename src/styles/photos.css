@@ -1,0 +1,869 @@
+/*
+ * /photos/ — 3D corridor + lightbox. Loaded only on this page.
+ * html[data-gallery] is set before first paint: "3d" for the corridor, "grid" for the classic masonry.
+ */
+
+html[data-gallery="3d"] {
+  scrollbar-width: none;
+  background: #060608;
+}
+
+html[data-gallery="3d"]::-webkit-scrollbar {
+  display: none;
+}
+
+html.is-lightbox-open {
+  overflow: hidden;
+}
+
+html:not([data-gallery="3d"]) .gallery-stage,
+html[data-gallery="3d"] .gallery-grid {
+  display: none;
+}
+
+body.gallery-3d {
+  background: #060608;
+}
+
+body.gallery-3d .site-footer {
+  margin-top: 0;
+  border-top-color: rgba(245, 242, 235, 0.08);
+  background: #060608;
+}
+
+body.gallery-3d .site-footer p,
+body.gallery-3d .site-footer-tagline,
+body.gallery-3d .site-footer-link {
+  color: rgba(245, 242, 235, 0.5);
+}
+
+.is-lightbox-open .site-header {
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* ---------- Corridor ---------- */
+
+.gallery-track {
+  position: relative;
+  height: calc(100vh + (var(--count) + 1) * 80vh);
+}
+
+.gallery-sticky {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  height: 100svh;
+  overflow: hidden;
+  color: #f2efe9;
+}
+
+.gallery-canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  touch-action: pan-y;
+}
+
+.gallery-vignette,
+.gallery-grain {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.gallery-vignette {
+  background:
+    radial-gradient(ellipse 75% 70% at 50% 48%, transparent 55%, rgba(0, 0, 0, 0.55) 100%),
+    linear-gradient(180deg, rgba(0, 0, 0, 0.35) 0%, transparent 14%, transparent 80%, rgba(0, 0, 0, 0.45) 100%);
+}
+
+.gallery-grain {
+  opacity: 0.06;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+.gallery-intro {
+  position: absolute;
+  left: max(1.5rem, calc((100vw - var(--content-width)) / 2));
+  right: 1.5rem;
+  top: 50%;
+  translate: 0 calc(-50% - (1 - var(--intro, 1)) * 48px);
+  opacity: var(--intro, 1);
+  pointer-events: none;
+}
+
+.gallery-intro > * {
+  animation: gallery-rise 1.3s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+
+.gallery-kicker {
+  margin: 0;
+  font-size: 0.72rem;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: rgba(245, 242, 235, 0.6);
+}
+
+.gallery-title {
+  margin: 0.2em 0 0.15em -0.04em;
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: clamp(4.5rem, 14vw, 11rem);
+  line-height: 0.92;
+  letter-spacing: -0.035em;
+  animation-delay: 0.12s !important;
+}
+
+.gallery-lede {
+  margin: 0;
+  max-width: 27rem;
+  font-size: 1rem;
+  line-height: 1.65;
+  color: rgba(245, 242, 235, 0.68);
+  animation-delay: 0.24s !important;
+}
+
+.gallery-scroll-hint {
+  position: absolute;
+  left: 50%;
+  bottom: 2.25rem;
+  translate: -50% 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.66rem;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: rgba(245, 242, 235, 0.55);
+  opacity: var(--intro, 1);
+  pointer-events: none;
+  animation: gallery-rise 1.3s cubic-bezier(0.2, 0.8, 0.2, 1) 0.6s both;
+}
+
+.gallery-scroll-hint span {
+  width: 1px;
+  height: 3rem;
+  background: linear-gradient(180deg, transparent, rgba(245, 242, 235, 0.8));
+  transform-origin: top;
+  animation: gallery-scroll-line 2.2s cubic-bezier(0.6, 0, 0.2, 1) infinite;
+}
+
+.gallery-hud {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  transition: opacity 400ms ease;
+}
+
+.is-lightbox-open .gallery-hud,
+.is-lightbox-open .gallery-intro,
+.is-lightbox-open .gallery-scroll-hint,
+.is-lightbox-open .gallery-outro {
+  opacity: 0 !important;
+}
+
+.gallery-hud > * {
+  pointer-events: auto;
+}
+
+.gallery-caption {
+  position: absolute;
+  left: max(1.5rem, calc((100vw - var(--content-width)) / 2));
+  bottom: clamp(1.5rem, 5vh, 3rem);
+  max-width: min(30rem, calc(100vw - 6rem));
+  display: grid;
+  gap: 0.35rem;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.gallery-caption[hidden] {
+  display: none;
+}
+
+.gallery-caption-no {
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.18em;
+  color: rgba(245, 242, 235, 0.5);
+}
+
+.gallery-caption-title {
+  font-family: var(--serif);
+  font-size: clamp(1.6rem, 3vw, 2.4rem);
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+}
+
+.gallery-caption-meta {
+  font-size: 0.74rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgba(245, 242, 235, 0.62);
+}
+
+.gallery-caption-cta {
+  justify-self: start;
+  margin-top: 0.6rem;
+  font-size: 0.7rem;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  padding-bottom: 0.2rem;
+  border-bottom: 1px solid rgba(245, 242, 235, 0.35);
+  color: rgba(245, 242, 235, 0.8);
+  transition:
+    border-color 200ms ease,
+    color 200ms ease;
+}
+
+.gallery-caption:hover .gallery-caption-cta,
+.gallery-caption:focus-visible .gallery-caption-cta {
+  color: #fff;
+  border-color: #fff;
+}
+
+.gallery-caption:focus-visible,
+.gallery-dot:focus-visible,
+.gallery-switch:focus-visible {
+  outline: 1px solid rgba(245, 242, 235, 0.7);
+  outline-offset: 6px;
+}
+
+.gallery-timeline {
+  position: absolute;
+  right: clamp(1rem, 3vw, 2.5rem);
+  top: 50%;
+  translate: 0 -50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 1.1rem;
+}
+
+.gallery-timeline-year {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.15rem;
+}
+
+.gallery-timeline-label {
+  margin-bottom: 0.35rem;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  font-size: 0.64rem;
+  letter-spacing: 0.16em;
+  color: rgba(245, 242, 235, 0.45);
+}
+
+.gallery-dot {
+  position: relative;
+  width: 1.4rem;
+  height: 0.9rem;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+
+.gallery-dot::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 0.55rem;
+  height: 1px;
+  background: rgba(245, 242, 235, 0.35);
+  transition:
+    width 400ms cubic-bezier(0.2, 0.8, 0.2, 1),
+    background 300ms ease;
+}
+
+.gallery-dot:hover::after {
+  width: 0.9rem;
+  background: rgba(245, 242, 235, 0.75);
+}
+
+.gallery-dot[aria-current]::after {
+  width: 1.4rem;
+  background: #fff;
+}
+
+.gallery-switch {
+  position: absolute;
+  right: clamp(1rem, 3vw, 2.5rem);
+  bottom: clamp(1.5rem, 5vh, 3rem);
+  font-size: 0.68rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: rgba(245, 242, 235, 0.6);
+  border-bottom: 1px solid rgba(245, 242, 235, 0.25);
+  padding-bottom: 0.2rem;
+  transition: color 200ms ease;
+}
+
+.gallery-switch:hover {
+  color: #fff;
+}
+
+.gallery-outro {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  opacity: 0;
+}
+
+.gallery-outro-title {
+  margin: 0;
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: clamp(2rem, 5vw, 3.6rem);
+  letter-spacing: -0.01em;
+}
+
+.gallery-outro-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.75rem;
+  margin: 1.5rem 0 0;
+}
+
+.gallery-outro-links > * {
+  padding: 0 0 0.2rem;
+  border: 0;
+  border-bottom: 1px solid rgba(245, 242, 235, 0.3);
+  background: none;
+  color: rgba(245, 242, 235, 0.72);
+  font-size: 0.72rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.gallery-outro-links > *:hover {
+  color: #fff;
+  border-color: #fff;
+}
+
+/* ---------- Grid view ---------- */
+
+/* Registered so wall.ts can read the resolved length; without @property it simply keeps the CSS-only rows. */
+@property --row-target {
+  syntax: "<length>";
+  inherits: true;
+  initial-value: 360px;
+}
+
+/* No title bar: the photos start one gutter below the header, framed like the sides. */
+.photos-page {
+  --wall-pad: clamp(12px, 2.5vw, 40px);
+  padding-top: var(--wall-pad);
+}
+
+.photos-empty {
+  margin-block: 2rem 0;
+  color: var(--muted);
+}
+
+/* Floating pill back to the 3D view; only offered when WebGL is available. */
+.gallery-grid-switch {
+  position: fixed;
+  right: clamp(1rem, 2.5vw, 2.5rem);
+  bottom: calc(clamp(1rem, 2.5vw, 2rem) + env(safe-area-inset-bottom));
+  z-index: 15;
+  display: none;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.7rem 1.1rem;
+  border: 1px solid rgba(245, 242, 235, 0.14);
+  border-radius: 999px;
+  background: rgba(14, 14, 16, 0.72);
+  backdrop-filter: blur(14px) saturate(140%);
+  -webkit-backdrop-filter: blur(14px) saturate(140%);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.22);
+  color: #f5f2eb;
+  font-size: 0.7rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  animation: gallery-rise 0.9s cubic-bezier(0.2, 0.8, 0.2, 1) 0.8s both;
+  transition:
+    background 200ms ease,
+    transform 200ms ease;
+}
+
+.gallery-grid-switch:hover {
+  background: rgba(14, 14, 16, 0.9);
+  transform: translateY(-2px);
+}
+
+.gallery-grid-switch:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+html[data-webgl] .gallery-grid-switch {
+  display: inline-flex;
+}
+
+/* Justified rows: each tile grows in proportion to its aspect ratio, so a row is one height edge to edge. */
+.photo-wall {
+  --row-target: clamp(240px, min(30vw, 60vh), 640px);
+  --wall-gap: clamp(6px, 0.7vw, 12px);
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--wall-gap);
+  width: min(100%, 2600px);
+  margin: 0 auto;
+  padding: 0 var(--wall-pad);
+  list-style: none;
+}
+
+/* Keeps a short last row at its natural size. */
+.photo-wall::after {
+  content: "";
+  flex-grow: 1000000;
+}
+
+.photo-tile {
+  flex: var(--aspect) 1 calc(var(--aspect) * var(--row-h, var(--row-target)));
+  min-width: 0;
+}
+
+.photo-tile-button {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  text-align: left;
+  cursor: zoom-in;
+}
+
+.photo-tile-button:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.photo-tile-frame {
+  display: block;
+  overflow: hidden;
+  aspect-ratio: var(--aspect);
+  /* Shows through until the image arrives. */
+  background: var(--tile-color);
+}
+
+.photo-tile-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition:
+    transform 900ms cubic-bezier(0.2, 0.8, 0.2, 1),
+    opacity 700ms ease;
+}
+
+.photo-tile.is-loading img {
+  opacity: 0;
+}
+
+.photo-tile-caption {
+  display: grid;
+  gap: 0.15rem;
+  padding: 0.6rem 0.1rem 0;
+}
+
+.photo-tile-title {
+  overflow: hidden;
+  font-family: var(--serif);
+  font-size: 1.05rem;
+  line-height: 1.3;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.photo-tile-meta {
+  overflow: hidden;
+  font-size: 0.68rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: var(--muted);
+}
+
+/* With a real pointer the caption stays out of the way until you reach for the photo. */
+@media (hover: hover) and (pointer: fine) {
+  .photo-tile-caption {
+    position: absolute;
+    inset: auto 0 0;
+    padding: 3rem 1.1rem 0.9rem;
+    background: linear-gradient(0deg, rgba(8, 8, 10, 0.62), transparent);
+    color: #f5f2eb;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 320ms ease;
+  }
+
+  .photo-tile-meta {
+    color: rgba(245, 242, 235, 0.72);
+  }
+
+  .photo-tile-button:hover .photo-tile-caption,
+  .photo-tile-button:focus-visible .photo-tile-caption {
+    opacity: 1;
+  }
+
+  .photo-tile-button:hover img {
+    transform: scale(1.025);
+  }
+}
+
+@media (min-width: 721px) and (max-width: 1100px) {
+  .photo-wall {
+    --row-target: clamp(240px, 40vw, 420px);
+  }
+}
+
+@media (max-width: 720px) {
+  /* Phones: every photo edge to edge, one per row. */
+  .photos-page {
+    --wall-pad: 0px;
+  }
+
+  .photo-wall {
+    gap: 1.5rem;
+  }
+
+  .photo-tile {
+    flex: 1 1 100%;
+  }
+
+  .photo-tile-caption {
+    padding-inline: 0.75rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .photo-tile-frame img {
+    transition: none;
+  }
+}
+
+/* ---------- Lightbox ---------- */
+
+.lightbox {
+  /* Keep the photo box in sync with lightboxInsets() in src/scripts/gallery/layout.ts. */
+  --inset-top: 68px;
+  --inset-right: 14px;
+  --inset-bottom: min(250px, 36vh);
+  --inset-left: 14px;
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  height: 100svh;
+  max-width: none;
+  max-height: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: #f2efe9;
+  overflow: hidden;
+}
+
+.lightbox::backdrop {
+  background: transparent;
+}
+
+.lightbox--plain {
+  background: rgba(8, 8, 10, 0.94);
+}
+
+.lightbox--plain::backdrop {
+  background: rgba(8, 8, 10, 0.6);
+  backdrop-filter: blur(8px);
+}
+
+.lightbox-stage {
+  position: absolute;
+  inset: 0;
+  cursor: zoom-out;
+}
+
+.lightbox-img {
+  display: none;
+  position: absolute;
+  top: var(--inset-top);
+  right: var(--inset-right);
+  bottom: var(--inset-bottom);
+  left: var(--inset-left);
+  width: calc(100% - var(--inset-left) - var(--inset-right));
+  height: calc(100% - var(--inset-top) - var(--inset-bottom));
+  max-width: none;
+  object-fit: contain;
+}
+
+.lightbox--plain .lightbox-img {
+  display: block;
+}
+
+.lightbox-label,
+.lightbox-nav,
+.lightbox-hint {
+  opacity: 0;
+  translate: 0 10px;
+  transition:
+    opacity 500ms ease,
+    translate 600ms cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.lightbox.is-ready .lightbox-label,
+.lightbox.is-ready .lightbox-nav,
+.lightbox.is-ready .lightbox-hint {
+  opacity: 1;
+  translate: 0 0;
+}
+
+.lightbox.is-ready .lightbox-nav {
+  transition-delay: 80ms;
+}
+
+.lightbox.is-ready .lightbox-hint {
+  transition-delay: 600ms;
+}
+
+/* A museum wall label. */
+.lightbox-label {
+  position: absolute;
+  left: 14px;
+  right: 14px;
+  bottom: 14px;
+  max-height: calc(var(--inset-bottom) - 28px);
+  overflow: auto;
+  padding: 1.1rem 1.25rem;
+  background: #f3f0e9;
+  color: #1c1a17;
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.6) inset,
+    0 24px 60px rgba(0, 0, 0, 0.45);
+}
+
+.lightbox-label-no {
+  margin: 0;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  font-size: 0.66rem;
+  letter-spacing: 0.2em;
+  color: rgba(28, 26, 23, 0.5);
+}
+
+.lightbox-label-title {
+  margin: 0.45rem 0 0.2rem;
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: 1.45rem;
+  line-height: 1.15;
+}
+
+.lightbox-label-meta {
+  margin: 0;
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: rgba(28, 26, 23, 0.6);
+}
+
+.lightbox-label-spec {
+  display: grid;
+  gap: 0.4rem;
+  margin: 1rem 0 0;
+  padding-top: 0.9rem;
+  border-top: 1px solid rgba(28, 26, 23, 0.14);
+  font-size: 0.78rem;
+}
+
+.lightbox-label-spec[hidden] {
+  display: none;
+}
+
+.lightbox-label-spec div {
+  display: grid;
+  grid-template-columns: 4.6rem 1fr;
+  gap: 0.5rem;
+}
+
+.lightbox-label-spec dt {
+  font-size: 0.64rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(28, 26, 23, 0.5);
+  padding-top: 0.12rem;
+}
+
+.lightbox-label-spec dd {
+  margin: 0;
+  font-variant-numeric: tabular-nums;
+}
+
+.lightbox-nav {
+  position: absolute;
+  left: 14px;
+  top: 14px;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.lightbox-counter {
+  min-width: 4.5rem;
+  text-align: center;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  color: rgba(242, 239, 233, 0.7);
+}
+
+.lightbox-btn,
+.lightbox-close {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  height: 2.4rem;
+  min-width: 2.4rem;
+  padding: 0 0.8rem;
+  border: 1px solid rgba(242, 239, 233, 0.18);
+  border-radius: 999px;
+  background: rgba(10, 10, 12, 0.35);
+  backdrop-filter: blur(10px);
+  color: #f2efe9;
+  font-size: 0.72rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition:
+    background 200ms ease,
+    border-color 200ms ease;
+}
+
+.lightbox-btn:hover,
+.lightbox-close:hover {
+  background: rgba(242, 239, 233, 0.12);
+  border-color: rgba(242, 239, 233, 0.45);
+}
+
+.lightbox-btn:focus-visible,
+.lightbox-close:focus-visible {
+  outline: 1px solid rgba(242, 239, 233, 0.8);
+  outline-offset: 3px;
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+}
+
+.lightbox-hint {
+  display: none;
+  position: absolute;
+  left: var(--inset-left);
+  bottom: 28px;
+  margin: 0;
+  font-size: 0.66rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgba(242, 239, 233, 0.4);
+}
+
+@media (min-width: 960px) {
+  .lightbox {
+    --inset-top: 76px;
+    --inset-right: 380px;
+    --inset-bottom: 76px;
+    --inset-left: 76px;
+  }
+
+  .lightbox-label {
+    left: auto;
+    right: 48px;
+    bottom: var(--inset-bottom);
+    width: 284px;
+    max-height: calc(100% - 2 * var(--inset-bottom) - 4rem);
+    padding: 1.6rem 1.6rem 1.4rem;
+  }
+
+  .lightbox-label-title {
+    font-size: 1.75rem;
+  }
+
+  .lightbox-nav {
+    left: auto;
+    right: 48px;
+    top: var(--inset-top);
+    width: 284px;
+    justify-content: space-between;
+  }
+
+  .lightbox-close {
+    top: 22px;
+    right: 28px;
+  }
+
+  .lightbox-hint {
+    display: block;
+  }
+
+  .lightbox--plain .lightbox-hint {
+    display: none;
+  }
+}
+
+@media (max-width: 720px) {
+  .gallery-timeline {
+    display: none;
+  }
+
+  .gallery-caption {
+    bottom: 4.5rem;
+  }
+
+  .gallery-switch {
+    left: 1.5rem;
+    right: auto;
+  }
+}
+
+@keyframes gallery-rise {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 28px, 0);
+  }
+}
+
+@keyframes gallery-scroll-line {
+  0% {
+    transform: scaleY(0);
+    opacity: 1;
+  }
+  60% {
+    transform: scaleY(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scaleY(1);
+    opacity: 0;
+  }
+}

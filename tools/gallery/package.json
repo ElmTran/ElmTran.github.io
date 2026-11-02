@@ -1,0 +1,13 @@
+{
+  "name": "gallery-tools",
+  "private": true,
+  "type": "module",
+  "description": "Offline asset prep for /photos/: textures, depth maps, dominant colours. Not part of the site build.",
+  "scripts": {
+    "prepare-assets": "node prepare.mjs"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "^4.3.2",
+    "sharp": "^0.34.5"
+  }
+}

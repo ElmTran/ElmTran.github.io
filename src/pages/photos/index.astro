@@ -1,217 +1,177 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import { discoverPublicImages } from "../../lib/public-images";
-import { galleryPhotos } from "../../site";
+import { loadGallery } from "../../lib/gallery";
+import "../../styles/photos.css";
 
-const photosFromConfig = galleryPhotos.map((p) => ({
-  src: p.src,
-  alt: p.alt?.trim() || "Photo",
-  exif: p.exif,
-}));
-const photos = photosFromConfig.length > 0 ? photosFromConfig : discoverPublicImages("images");
-const photosSourceRemote = photosFromConfig.length > 0;
+const { items, remote } = loadGallery();
+const years = [...new Set(items.map((p) => p.year).filter(Boolean))] as string[];
+const range = years.length > 1 ? `${years[0]} — ${years.at(-1)}` : (years[0] ?? "");
+// Dots follow item order (oldest first, undated last), which is what main.ts relies on.
+const timeline = years.map((year) => ({ year, photos: items.filter((item) => item.year === year) }));
+const undated = items.filter((item) => !item.year);
+if (undated.length > 0) {
+  timeline.push({ year: "—", photos: undated });
+}
 ---
 
 <BaseLayout
   title="Photos"
   description={
-    photosSourceRemote
-      ? "Photographs linked from external storage."
+    remote
+      ? "A walk through time: photographs in a 3D corridor, with depth you can look around."
       : "Photographs from public/images — built automatically at compile time."
   }
   canonicalPath="/photos/"
+  bodyClass="page-photos"
 >
-  <div class="photos-page site-shell">
-    <header class="photos-page-head" data-reveal>
-      <h1>Photos</h1>
-      <p class="photos-page-lead">
-        {
-          photosSourceRemote ? (
-            <>
-              Images are loaded from URLs configured in <code class="photos-code">src/site.ts</code> (
-              <code class="photos-code">galleryPhotos</code>). Click a tile to view larger. Arrows, Escape, or backdrop
-              to close.
-            </>
-          ) : (
-            <>
-              Images are read from <code class="photos-code">public/images/</code> on each build. Click a tile to view
-              larger. Arrows, Escape, or backdrop to close.
-            </>
-          )
-        }
-      </p>
-    </header>
+  <script is:inline>
+    (function () {
+      var root = document.documentElement;
+      var view = new URLSearchParams(location.search).get("view");
+      var webgl = false;
+      try {
+        var gl = document.createElement("canvas").getContext("webgl2");
+        webgl = !!gl;
+        var lose = gl && gl.getExtension("WEBGL_lose_context");
+        if (lose) lose.loseContext();
+      } catch (e) {}
+      var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      var mode = webgl && (view === "3d" || (view !== "grid" && !reduce)) ? "3d" : "grid";
+      root.dataset.gallery = mode;
+      if (webgl) root.dataset.webgl = "";
+      if (mode === "3d") document.body.classList.add("page-home-photo", "gallery-3d");
+    })();
+  </script>
 
-    {
-      photos.length === 0 ? (
-        <p class="photos-empty">
-          {photosSourceRemote ? "No URLs in galleryPhotos yet." : "No image files found in public/images."}
-        </p>
-      ) : (
-        <ul class="photo-masonry" role="list">
-          {photos.map((p, index) => (
-            <li class="photo-masonry-item" data-reveal style={{ "--reveal-delay": `${Math.min(index, 16) * 0.035}s` }}>
-              <button
-                type="button"
-                class="photo-masonry-thumb"
-                data-photo-index={index}
-                aria-label={`View larger: ${p.alt}`}
+  <div class="gallery" data-gallery>
+    <section class="gallery-stage" aria-label="Photo corridor">
+      <div class="gallery-track" data-gallery-track style={{ "--count": items.length }}>
+        <div class="gallery-sticky">
+          <canvas class="gallery-canvas" data-gallery-canvas aria-hidden="true"></canvas>
+          <div class="gallery-vignette" aria-hidden="true"></div>
+          <div class="gallery-grain" aria-hidden="true"></div>
+
+          <header class="gallery-intro">
+            <p class="gallery-kicker">{items.length} frames · {range}</p>
+            <h1 class="gallery-title">Photos</h1>
+            <p class="gallery-lede">A walk through time. Move the cursor to look around; click a frame to step inside.</p>
+          </header>
+          <p class="gallery-scroll-hint" aria-hidden="true"><span></span>Scroll</p>
+
+          <div class="gallery-hud">
+            <button type="button" class="gallery-caption" data-gallery-caption hidden>
+              <span class="gallery-caption-no" data-caption-no></span>
+              <span class="gallery-caption-title" data-caption-title></span>
+              <span class="gallery-caption-meta" data-caption-meta></span>
+              <span class="gallery-caption-cta">View <span aria-hidden="true">↗</span></span>
+            </button>
+
+            <nav class="gallery-timeline" aria-label="Timeline">
+              {
+                timeline.map((group) => (
+                  <div class="gallery-timeline-year">
+                    <span class="gallery-timeline-label">{group.year}</span>
+                    {group.photos.map((item) => (
+                      <button
+                        type="button"
+                        class="gallery-dot"
+                        data-gallery-dot
+                        aria-label={`${item.title}${item.place ? `, ${item.place}` : ""}${item.date ? `, ${item.date}` : ""}`}
+                        title={item.title}
+                      />
+                    ))}
+                  </div>
+                ))
+              }
+            </nav>
+
+            <a class="gallery-switch" href="?view=grid">Grid view</a>
+          </div>
+
+          <div class="gallery-outro" data-gallery-outro inert>
+            <p class="gallery-outro-title">To be continued.</p>
+            <p class="gallery-outro-links">
+              <button type="button" data-gallery-restart>Back to the start ↑</button>
+              <a href="?view=grid">See them all at once</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="photos-page gallery-grid">
+      <h1 class="sr-only">Photos</h1>
+
+      {
+        items.length === 0 ? (
+          <p class="photos-empty site-shell">
+            {remote ? "No URLs in galleryPhotos yet." : "No image files found in public/images."}
+          </p>
+        ) : (
+          <ul class="photo-wall" role="list" data-photo-wall>
+            {items.map((p, index) => (
+              <li
+                class="photo-tile"
+                data-reveal
+                style={{
+                  "--aspect": p.aspect,
+                  "--tile-color": p.color,
+                  "--reveal-delay": `${Math.min(index, 8) * 0.04}s`,
+                }}
               >
-                <img src={p.src} alt={p.alt} loading="lazy" decoding="async" />
-              </button>
-            </li>
-          ))}
-        </ul>
-      )
-    }
+                <button
+                  type="button"
+                  class="photo-tile-button"
+                  data-photo-index={index}
+                  aria-label={`View larger: ${p.alt}`}
+                >
+                  <span class="photo-tile-frame">
+                    <img
+                      src={p.sm}
+                      srcset={p.srcset}
+                      sizes={`(max-width: 720px) 100vw, ${Math.round(p.aspect * 32)}vw`}
+                      alt={p.alt}
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </span>
+                  <span class="photo-tile-caption" aria-hidden="true">
+                    <span class="photo-tile-title">{p.title}</span>
+                    <span class="photo-tile-meta">
+                      {[p.place, p.date?.replaceAll("-", ".")].filter(Boolean).join(" · ")}
+                    </span>
+                  </span>
+                </button>
+              </li>
+            ))}
+          </ul>
+        )
+      }
+      <a class="gallery-grid-switch" href="?view=3d">View in 3D <span aria-hidden="true">→</span></a>
+    </div>
   </div>
 
-  <dialog id="photo-lightbox" class="photo-lightbox" aria-modal="true" aria-label="Image preview">
-    <div class="photo-lightbox-inner" data-lightbox-inner>
-      <button type="button" class="photo-lightbox-close" data-lightbox-close aria-label="Close">
-        ×
-      </button>
-      <button type="button" class="photo-lightbox-prev" data-lightbox-prev aria-label="Previous">
-        ‹
-      </button>
-      <button type="button" class="photo-lightbox-next" data-lightbox-next aria-label="Next">
-        ›
-      </button>
-      <span class="photo-lightbox-counter" data-lightbox-counter aria-live="polite"></span>
-      <div class="photo-lightbox-stage">
-        <figure class="photo-lightbox-frame">
-          <img class="photo-lightbox-img" src="" alt="" />
-          <figcaption class="photo-lightbox-overlay" data-lightbox-overlay hidden>
-            <p class="photo-lightbox-caption" data-lightbox-caption></p>
-            <dl class="photo-lightbox-spec photo-lightbox-spec--overlay" data-lightbox-spec></dl>
-          </figcaption>
-        </figure>
-      </div>
+  <dialog class="lightbox" data-lightbox aria-label="Photo viewer">
+    <div class="lightbox-stage" data-lightbox-stage>
+      <img class="lightbox-img" data-lightbox-img alt="" />
     </div>
+    <aside class="lightbox-label" data-lightbox-label>
+      <p class="lightbox-label-no" data-label-no></p>
+      <h2 class="lightbox-label-title" data-label-title></h2>
+      <p class="lightbox-label-meta" data-label-meta></p>
+      <dl class="lightbox-label-spec" data-label-spec></dl>
+    </aside>
+    <div class="lightbox-nav">
+      <button type="button" class="lightbox-btn" data-lightbox-prev aria-label="Previous photo">←</button>
+      <span class="lightbox-counter" data-lightbox-counter aria-live="polite"></span>
+      <button type="button" class="lightbox-btn" data-lightbox-next aria-label="Next photo">→</button>
+    </div>
+    <button type="button" class="lightbox-close" data-lightbox-close>Close <span aria-hidden="true">✕</span></button>
+    <p class="lightbox-hint" aria-hidden="true">Move to look around · ← → to browse · Esc to close</p>
   </dialog>
 
-  <script
-    is:inline
-    define:vars={{
-      photoList: photos.map((p) => ({ src: p.src, alt: p.alt, exif: p.exif })),
-    }}
-  >
-    const dialog = document.getElementById("photo-lightbox");
-    const innerEl = dialog?.querySelector("[data-lightbox-inner]");
-    const imgEl = dialog?.querySelector(".photo-lightbox-img");
-    const overlayEl = dialog?.querySelector("[data-lightbox-overlay]");
-    const captionEl = dialog?.querySelector("[data-lightbox-caption]");
-    const specEl = dialog?.querySelector("[data-lightbox-spec]");
-    const counterEl = dialog?.querySelector("[data-lightbox-counter]");
-
-    if (!dialog || !(imgEl instanceof HTMLImageElement) || !innerEl || !overlayEl || !captionEl || !specEl) {
-      throw new Error("Lightbox markup missing");
-    }
-
-    const EXIF_ORDER = [
-      ["camera", "Camera"],
-      ["lens", "Lens"],
-      ["focalLength", "Focal length"],
-      ["aperture", "Aperture"],
-      ["shutter", "Shutter"],
-      ["iso", "ISO"],
-      ["exposureComp", "Exp. comp."],
-      ["flash", "Flash"],
-    ];
-
-    let currentIndex = 0;
-
-    function fillLightboxMeta(item) {
-      const hasCaption = Boolean(item.alt && String(item.alt).trim());
-      captionEl.textContent = hasCaption ? item.alt : "";
-      captionEl.hidden = !hasCaption;
-
-      specEl.replaceChildren();
-      const exif = item.exif;
-      if (exif && typeof exif === "object") {
-        for (let i = 0; i < EXIF_ORDER.length; i++) {
-          const key = EXIF_ORDER[i][0];
-          const label = EXIF_ORDER[i][1];
-          const raw = exif[key];
-          if (raw == null || String(raw).trim() === "") {
-            continue;
-          }
-          const row = document.createElement("div");
-          row.className = "photo-lightbox-spec-row";
-          const dt = document.createElement("dt");
-          dt.textContent = label;
-          const dd = document.createElement("dd");
-          dd.textContent = String(raw);
-          row.appendChild(dt);
-          row.appendChild(dd);
-          specEl.appendChild(row);
-        }
-      }
-
-      const hasSpec = specEl.children.length > 0;
-      const showOverlay = hasCaption || hasSpec;
-      overlayEl.hidden = !showOverlay;
-      overlayEl.classList.toggle("photo-lightbox-overlay--caption-only", hasCaption && !hasSpec);
-
-      if (counterEl) {
-        counterEl.textContent = photoList.length ? `${currentIndex + 1} / ${photoList.length}` : "";
-      }
-    }
-
-    const openAt = (index) => {
-      const n = photoList.length;
-      if (n === 0) {
-        return;
-      }
-      currentIndex = ((index % n) + n) % n;
-      const item = photoList[currentIndex];
-      if (item) {
-        imgEl.src = item.src;
-        imgEl.alt = item.alt;
-        fillLightboxMeta(item);
-      }
-      dialog.showModal();
-    };
-
-    document.querySelectorAll("[data-photo-index]").forEach((btn) => {
-      btn.addEventListener("click", () => {
-        const i = Number(btn.getAttribute("data-photo-index"));
-        if (!Number.isNaN(i)) {
-          openAt(i);
-        }
-      });
-    });
-
-    dialog.querySelectorAll("[data-lightbox-close]").forEach((el) => {
-      el.addEventListener("click", () => dialog.close());
-    });
-
-    const prev = dialog.querySelector("[data-lightbox-prev]");
-    const next = dialog.querySelector("[data-lightbox-next]");
-    prev?.addEventListener("click", (e) => {
-      e.stopPropagation();
-      openAt(currentIndex - 1);
-    });
-    next?.addEventListener("click", (e) => {
-      e.stopPropagation();
-      openAt(currentIndex + 1);
-    });
-
-    dialog.addEventListener("click", (e) => {
-      if (e.target === dialog) {
-        dialog.close();
-      }
-    });
-
-    document.addEventListener("keydown", (e) => {
-      if (!dialog.open) {
-        return;
-      }
-      if (e.key === "ArrowLeft") {
-        openAt(currentIndex - 1);
-      } else if (e.key === "ArrowRight") {
-        openAt(currentIndex + 1);
-      }
-    });
+  <script is:inline type="application/json" id="gallery-data" set:html={JSON.stringify(items).replaceAll("<", "\\u003c")} />
+  <script>
+    import "../../scripts/gallery/main";
   </script>
 </BaseLayout>
