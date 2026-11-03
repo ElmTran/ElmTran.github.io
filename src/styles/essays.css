@@ -1741,19 +1741,3 @@ html[data-essays-view="opening"] .essays-view--opening {
   margin-left: 0.3rem;
   color: var(--essays-ember);
 }
-
-/* ---------- Tags ---------- */
-
-.essays-tags {
-  padding: clamp(9rem, 22vh, 12rem) 0 clamp(5rem, 12vh, 8rem);
-}
-
-.essays-tags-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.55rem;
-  max-width: 60rem;
-  margin: 3rem 0 0;
-  padding: 0;
-  list-style: none;
-}
