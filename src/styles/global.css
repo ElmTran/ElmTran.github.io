@@ -76,17 +76,12 @@ button {
     border-color 320ms ease;
 }
 
-.site-header-inner,
-.site-footer-inner {
+.site-header-inner {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
   padding: 1rem 0;
-}
-
-.site-footer-inner {
-  justify-content: flex-end;
 }
 
 .site-brand {
@@ -196,23 +191,6 @@ button {
 .site-nav-link:focus-visible::after {
   opacity: 1;
   transform: scaleX(1);
-}
-
-.site-footer {
-  border-top: 1px solid rgba(18, 18, 18, 0.08);
-  margin-top: var(--section-gap);
-  transition: transform 220ms ease, opacity 220ms ease;
-}
-
-.site-footer-link {
-  color: color-mix(in srgb, var(--accent) 76%, var(--text));
-  text-decoration: underline;
-  text-decoration-thickness: 1px;
-  text-underline-offset: 0.18em;
-}
-
-.site-footer-link:hover {
-  color: var(--text);
 }
 
 body.page-home-photo {

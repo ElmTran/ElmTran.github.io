@@ -25,16 +25,6 @@ body.gallery-3d {
   background: #060608;
 }
 
-body.gallery-3d .site-footer {
-  margin-top: 0;
-  border-top-color: rgba(245, 242, 235, 0.08);
-  background: #060608;
-}
-
-body.gallery-3d .site-footer-link {
-  color: rgba(245, 242, 235, 0.5);
-}
-
 .is-lightbox-open .site-header {
   opacity: 0;
   pointer-events: none;

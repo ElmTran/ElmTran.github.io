@@ -39,16 +39,6 @@ html.is-print-open {
   scrollbar-gutter: stable;
 }
 
-.page-about .site-footer {
-  margin-top: 0;
-  border-top-color: rgba(245, 242, 235, 0.08);
-  background: #09090a;
-}
-
-.page-about .site-footer-link {
-  color: rgba(245, 242, 235, 0.5);
-}
-
 /* ---------- Stops (both layouts) ---------- */
 
 .about-kicker {

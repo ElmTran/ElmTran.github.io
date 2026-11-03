@@ -55,16 +55,6 @@ html[data-essays-font="song"] body.page-essays {
   color: #fff;
 }
 
-.page-essays .site-footer {
-  margin-top: 0;
-  border-top-color: rgba(245, 242, 235, 0.08);
-  background: transparent;
-}
-
-.page-essays .site-footer-link {
-  color: rgba(245, 242, 235, 0.5);
-}
-
 .essays-shell {
   width: var(--essays-shell);
   margin: 0 auto;
@@ -76,6 +66,20 @@ html[data-essays-font="song"] body.page-essays {
   letter-spacing: 0.32em;
   text-transform: uppercase;
   color: rgba(245, 242, 235, 0.6);
+}
+
+.essays-kicker a {
+  text-decoration: underline;
+  text-decoration-color: rgba(245, 242, 235, 0.25);
+  text-underline-offset: 0.35em;
+  transition:
+    color 180ms ease,
+    text-decoration-color 180ms ease;
+}
+
+.essays-kicker a:hover {
+  color: var(--essays-strong);
+  text-decoration-color: var(--essays-ember);
 }
 
 .essays-mono {
@@ -1035,12 +1039,18 @@ html[data-essays-font="song"] body.page-essays {
   color: var(--essays-ember);
 }
 
-.read-back {
-  display: inline-block;
-  margin-top: 4rem;
+.read-foot {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 4rem 0 0;
 }
 
-.read-back:hover {
+.note-end .read-foot {
+  margin-top: 1rem;
+}
+
+.read-foot a:hover {
   color: var(--essays-strong);
 }
 

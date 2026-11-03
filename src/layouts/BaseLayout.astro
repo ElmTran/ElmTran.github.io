@@ -1,5 +1,4 @@
 ---
-import SiteFooter from "../components/SiteFooter.astro";
 import SiteHeader from "../components/SiteHeader.astro";
 import { siteMeta } from "../site";
 import "../styles/global.css";
@@ -49,7 +48,6 @@ const feedUrl = new URL("/feed.xml", Astro.site);
     <main class="site-main">
       <slot />
     </main>
-    <SiteFooter />
     <script is:inline>
       (function () {
         var header = document.querySelector(".site-header");
