@@ -85,6 +85,10 @@ button {
   padding: 1rem 0;
 }
 
+.site-footer-inner {
+  justify-content: flex-end;
+}
+
 .site-brand {
   display: inline-flex;
   align-items: center;
@@ -200,24 +204,6 @@ button {
   transition: transform 220ms ease, opacity 220ms ease;
 }
 
-.site-footer p {
-  margin: 0;
-  color: var(--muted);
-  font-size: 0.95rem;
-}
-
-.site-footer-secondary {
-  margin: 0.45rem 0 0;
-  font-size: 0.9rem;
-  line-height: 1.65;
-  color: var(--muted);
-}
-
-.site-footer-tagline {
-  font-style: italic;
-  color: color-mix(in srgb, var(--accent) 78%, var(--text));
-}
-
 .site-footer-link {
   color: color-mix(in srgb, var(--accent) 76%, var(--text));
   text-decoration: underline;
@@ -227,11 +213,6 @@ button {
 
 .site-footer-link:hover {
   color: var(--text);
-}
-
-.site-footer-dot {
-  margin: 0 0.45rem;
-  opacity: 0.4;
 }
 
 body.page-home-photo {
@@ -627,8 +608,7 @@ body.page-home-photo .site-nav-search-input:focus {
     width: min(calc(100% - 1.25rem), var(--content-width));
   }
 
-  .site-header-inner,
-  .site-footer-inner {
+  .site-header-inner {
     align-items: flex-start;
     flex-direction: column;
   }

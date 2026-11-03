@@ -45,8 +45,6 @@ html.is-print-open {
   background: #09090a;
 }
 
-.page-about .site-footer p,
-.page-about .site-footer-tagline,
 .page-about .site-footer-link {
   color: rgba(245, 242, 235, 0.5);
 }

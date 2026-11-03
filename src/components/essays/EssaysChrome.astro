@@ -1,12 +1,13 @@
 ---
 /**
  * Fonts, styles and the floating switch for /essays/ pages: three views of the index (片语 / 成章 / 开卷, index only)
- * and the reading font (宋 / 楷). The font is remembered (localStorage); the view only for this tab (sessionStorage),
+ * and the reading font (楷 by default, or 宋). The font is remembered (localStorage); the view only for this tab (sessionStorage),
  * so a new visit always opens on 片语.
  */
 import "@fontsource/noto-serif-sc/400.css";
 import "@fontsource/noto-serif-sc/600.css";
 import "lxgw-wenkai-webfont/lxgwwenkai-regular.css";
+import "lxgw-wenkai-webfont/lxgwwenkai-bold.css";
 import "../../styles/essays.css";
 
 interface Props {
@@ -53,7 +54,7 @@ const { views = false } = Astro.props;
   (function () {
     var root = document.documentElement;
     var settings = {
-      font: { key: "essaysFont", store: "localStorage", fallback: "song" },
+      font: { key: "essaysFont", store: "localStorage", fallback: "kai" },
       view: { key: "essaysView", store: "sessionStorage", fallback: "lines" },
     };
     var buttons = document.querySelectorAll("[data-essays-set]");

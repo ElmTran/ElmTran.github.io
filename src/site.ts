@@ -1,8 +1,6 @@
 export const siteMeta = {
   title: "Mengqing Chen",
   description: "A minimal blog about software, systems, and the things worth thinking twice about.",
-  tagline: "Leave room for the image. Leave room for the sentence.",
-  footer: "Train hard, turn up, run your best.",
   accent: "#607a96",
 };
 

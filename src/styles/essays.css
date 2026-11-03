@@ -1,7 +1,7 @@
 /*
  * /essays/ — the three views of the index (片语 / 成章 / 开卷), the Notes index, and both kinds of article.
  * Loaded only on essays pages. Palette follows /about/ and /photos/: near-black, warm ink, one ember accent.
- * The reading font (思源宋体 or 霞鹜文楷) is html[data-essays-font], set before first paint.
+ * The reading font is 霞鹜文楷, or 思源宋体 with html[data-essays-font="song"] (set before first paint).
  */
 
 .page-essays {
@@ -15,7 +15,7 @@
   --essays-hair-strong: rgba(236, 232, 225, 0.2);
   --essays-ember: #e0663a;
   --essays-mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
-  --essays-zh: "Noto Serif SC", "Source Han Serif SC", "Songti SC", serif;
+  --essays-zh: "LXGW WenKai", "Noto Serif SC", serif;
   --essays-latin: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, "Noto Serif SC", serif;
   --essays-sans: Inter, "Segoe UI", "PingFang SC", "Microsoft YaHei", "Noto Sans SC", sans-serif;
   --essays-ease: cubic-bezier(0.2, 0.8, 0.2, 1);
@@ -31,8 +31,8 @@ html:has(body.page-essays) {
   background: #0b0b0c;
 }
 
-html[data-essays-font="kai"] body.page-essays {
-  --essays-zh: "LXGW WenKai", "Noto Serif SC", serif;
+html[data-essays-font="song"] body.page-essays {
+  --essays-zh: "Noto Serif SC", "Source Han Serif SC", "Songti SC", serif;
 }
 
 .page-essays::before {
@@ -61,8 +61,6 @@ html[data-essays-font="kai"] body.page-essays {
   background: transparent;
 }
 
-.page-essays .site-footer p,
-.page-essays .site-footer-tagline,
 .page-essays .site-footer-link {
   color: rgba(245, 242, 235, 0.5);
 }
