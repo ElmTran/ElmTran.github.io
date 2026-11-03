@@ -354,6 +354,18 @@ export const aboutStops: AboutStop[] = [
   },
 ];
 
+/**
+ * /essays/ 写作部分的章节，按故事发生的地方编排。每篇用 frontmatter 的 `chapter` 填这里的 id；
+ * 不填或填错的归到最后一章。章内按发布日期从旧到新。
+ */
+export const essayChapters = [
+  { id: "sichuan", no: "I", title: "四川", en: "Sichuan" },
+  { id: "shanghai", no: "II", title: "上海", en: "Shanghai" },
+  { id: "road", no: "III", title: "路上", en: "On the road" },
+  { id: "fiction", no: "IV", title: "虚构", en: "Fiction" },
+  { id: "thoughts", no: "V", title: "随想", en: "Thoughts" },
+];
+
 export const navigation = [
   { href: "/", label: "Home" },
   { href: "/essays/", label: "Essays" },

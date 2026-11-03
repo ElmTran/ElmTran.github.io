@@ -13,7 +13,18 @@ Personal site and blog, built with [Astro](https://astro.build/). Essays live un
 
 ## Content
 
-- Blog posts: `content/blog/*.md`
+- Blog posts: `content/blog/*.md`. Posts in category `writing` or `reflection` are **Writing**; everything else is a
+  **Note**. `/essays/` shows Writing in three views — 片语 (each piece by one line; the default for a new visit), 成章
+  (chapters) and 开卷 (list + opening lines) — with Notes below. The 宋 / 楷 switch picks the reading font. Optional
+  frontmatter:
+
+  | Field     | Used for                                                                                     |
+  | --------- | -------------------------------------------------------------------------------------------- |
+  | `chapter` | Writing: an `essayChapters` id in `src/site.ts` (missing → last chapter)                     |
+  | `place`   | Writing: where the story happens, shown above the title                                      |
+  | `line`    | Writing: the one line kept from the piece (片语); falls back to `description`                |
+  | `photo`   | Photo above the title — a `galleryPhotos` src adds its caption and EXIF, any URL also works |
+  | `series`  | Same name links posts as a series; in Notes they fold into one row                          |
 - Photos: list them in `galleryPhotos` (`src/site.ts`), then generate textures and depth maps for the 3D gallery:
 
   ```bash

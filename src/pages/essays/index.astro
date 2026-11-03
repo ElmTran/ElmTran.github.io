@@ -1,200 +1,232 @@
 ---
-import { getCollection } from "astro:content";
-import Main from "../../layouts/BaseLayout.astro";
-import EssayList from "../../components/EssayList.astro";
-import { sortPosts } from "../../lib/posts";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import EssaysChrome from "../../components/essays/EssaysChrome.astro";
+import NotesIndex from "../../components/essays/NotesIndex.astro";
+import { getPostSlug, getPostUrl, type BlogEntry } from "../../lib/posts";
+import {
+  charCount,
+  chapterOf,
+  dotDate,
+  hasChinese,
+  keptLine,
+  loadEssays,
+  openingParagraphs,
+  postPhoto,
+  searchBlob,
+  sentences,
+} from "../../lib/essays";
 
-const posts = sortPosts(await getCollection("blog"));
+const { writing, chapters, notes, noteYears } = await loadEssays();
+const kicker = `${writing.length} pieces · ${notes.length} notes`;
+const latest = writing[0];
+const rowData = (post: BlogEntry) => ({
+  "data-essays-row": "",
+  "data-tags": JSON.stringify(post.data.tags),
+  "data-search": searchBlob(post),
+});
+const numbers = new Map(chapters.flatMap((c) => c.posts).map((post, i) => [post, String(i + 1).padStart(2, "0")]));
 ---
 
-<Main
+<BaseLayout
   title="Essays"
-  description="A chronological index of essays, notes, and long-form writing."
+  description="Memoir, a little fiction, the odd translation — and notes on software and markets."
   canonicalPath="/essays/"
+  bodyClass="page-essays page-home-photo"
 >
-  <section class="page-intro site-shell page-intro--compact" data-reveal>
-    <h1>Essays</h1>
+  <EssaysChrome views />
+
+  <!-- 片语: every piece by the one line kept from it. -->
+  <section class="essays-view essays-view--lines" aria-label="片语">
+    <header class="essays-intro essays-intro--frags essays-shell">
+      <p class="essays-kicker">{kicker}</p>
+      <h1 class="essays-title">Most of it fades.<br />A line or two stays.</h1>
+      <p class="essays-lede">Each piece, by the one line I kept from it. Click a line to read the rest.</p>
+      <div class="essays-filter" data-essays-filter hidden></div>
+      <p class="essays-scroll-hint essays-mono">Scroll</p>
+    </header>
+
+    <div class="essays-frags essays-shell" data-essays-group>
+      {
+        writing.map((post) => {
+          const line = keptLine(post);
+          return (
+            <a class="essays-frag" href={getPostUrl(post)} {...rowData(post)} data-essays-frag>
+              <p class="essays-frag-line" lang={hasChinese(line) ? "zh-CN" : "en"}>
+                {sentences(line).map((t) => (
+                  <span>{t}</span>
+                ))}
+              </p>
+              <span class="essays-frag-cap">
+                <span class="essays-frag-title">{post.data.title}</span>
+                <span class="essays-mono">{[post.data.place, dotDate(post)].filter(Boolean).join(" · ")}</span>
+              </span>
+            </a>
+          );
+        })
+      }
+    </div>
   </section>
 
-  <section class="site-shell">
-    <EssayList posts={posts} />
+  <!-- 成章: the writing as a book, chapter by chapter; hover a piece for its line. -->
+  <section class="essays-view essays-view--chapters" aria-label="成章">
+    <header class="essays-intro essays-shell">
+      <p class="essays-kicker">{kicker}</p>
+      <h1 class="essays-title">Essays</h1>
+      <p class="essays-lede">
+        Memoir, a little fiction, the odd translation — mostly in Chinese. Notes on software and markets are further
+        down.
+      </p>
+      <div class="essays-filter" data-essays-filter hidden></div>
+      <ol class="essays-toc">
+        {
+          chapters.map((ch) => (
+            <li>
+              <a href={`#${ch.id}`}>
+                <span class="essays-toc-no">{ch.no}</span>
+                <span class="essays-toc-name">{ch.title}</span>
+              </a>
+            </li>
+          ))
+        }
+        <li>
+          <a href="#notes">
+            <span class="essays-toc-no">—</span>
+            <span class="essays-toc-name">Notes</span>
+          </a>
+        </li>
+      </ol>
+    </header>
+
+    {
+      chapters.map((ch) => (
+        <section class="essays-chapter essays-shell" id={ch.id} data-essays-group>
+          <header class="essays-chapter-head">
+            <p class="essays-chapter-no">{ch.no}</p>
+            <h2 class="essays-chapter-title">{ch.title}</h2>
+            <p class="essays-chapter-sub essays-mono">
+              {ch.en} · {ch.posts.length}
+            </p>
+          </header>
+          <ol class="essays-entries">
+            {ch.posts.map((post) => (
+              <li class="essays-entry" {...rowData(post)} data-reveal>
+                <span class="essays-entry-no">{numbers.get(post)}</span>
+                <div>
+                  <h3 class="essays-entry-title" lang={hasChinese(post.data.title) ? "zh-CN" : "en"}>
+                    <a href={getPostUrl(post)}>{post.data.title}</a>
+                  </h3>
+                  {post.data.description && <p class="essays-entry-dek">{post.data.description}</p>}
+                </div>
+                <div class="essays-entry-side">
+                  <p class="essays-entry-meta essays-mono">
+                    <span>{dotDate(post)}</span>
+                    <span>{charCount(post)} 字</span>
+                  </p>
+                  <p class="essays-entry-line">
+                    {sentences(keptLine(post)).map((t, i) => (
+                      <>
+                        {i > 0 && <br />}
+                        {t}
+                      </>
+                    ))}
+                  </p>
+                </div>
+              </li>
+            ))}
+          </ol>
+        </section>
+      ))
+    }
   </section>
 
-  <script is:inline>
-    (function () {
-      function isEssaysIndexPath() {
-        const normalized = (location.pathname.replace(/\/$/, "") || "/").toLowerCase();
-        return normalized === "/essays";
-      }
+  <!-- 开卷: a quiet list; the piece under the cursor opens on the right with its first lines. -->
+  <section class="essays-view essays-view--opening" aria-label="开卷">
+    <div class="essays-pv essays-shell">
+      <div class="essays-pv-list">
+        <p class="essays-kicker">{kicker}</p>
+        <h1 class="essays-title">Essays</h1>
+        <p class="essays-lede">Memoir, a little fiction, the odd translation — mostly in Chinese.</p>
+        <div class="essays-filter" data-essays-filter hidden></div>
 
-      if (!isEssaysIndexPath()) {
-        return;
-      }
-
-      const form = document.querySelector("form.site-nav-search");
-      const searchEl = document.getElementById("site-essay-search");
-
-      function rows() {
-        return document.querySelectorAll("[data-essay-row]");
-      }
-
-      function sections() {
-        return document.querySelectorAll("[data-essay-year]");
-      }
-
-      function readUrl() {
-        const p = new URLSearchParams(window.location.search);
-        if (searchEl instanceof HTMLInputElement) {
-          searchEl.value = p.get("q") || "";
+        {
+          chapters.map((ch) => (
+            <section class="essays-pv-chapter" data-essays-group>
+              <h2 class="essays-pv-chapter-head">
+                <span class="essays-chapter-no">{ch.no}</span>
+                <span class="essays-pv-chapter-name">{ch.title}</span>
+                <span class="essays-mono">{ch.en}</span>
+              </h2>
+              <ol>
+                {ch.posts.map((post) => (
+                  <li {...rowData(post)}>
+                    <a
+                      class:list={["essays-pv-link", { "is-active": post === latest }]}
+                      href={getPostUrl(post)}
+                      data-pv={getPostSlug(post)}
+                    >
+                      <span class="essays-pv-name">{post.data.title}</span>
+                      <span class="essays-mono">{dotDate(post).slice(0, 7)}</span>
+                      {post.data.description && <span class="essays-pv-dek">{post.data.description}</span>}
+                    </a>
+                  </li>
+                ))}
+              </ol>
+            </section>
+          ))
         }
-      }
+      </div>
 
-      function syncUrl(qRaw, tag, category) {
-        const p = new URLSearchParams();
-        if (qRaw) p.set("q", qRaw);
-        if (tag) p.set("tag", tag);
-        if (category) p.set("category", category);
-        const qs = p.toString();
-        const path = window.location.pathname;
-        history.replaceState(null, "", qs ? `${path}?${qs}` : path);
-      }
-
-      function parseRow(row) {
-        return {
-          el: row,
-          tags: JSON.parse(row.dataset.tags || "[]"),
-          categories: JSON.parse(row.dataset.categories || "[]"),
-          blob: (row.dataset.search || "").toLowerCase(),
-        };
-      }
-
-      function pruneFilters(qRaw, tag, category, rowData) {
-        const q = qRaw.toLowerCase();
-        const matchSearch = function (r) {
-          return !q || r.blob.includes(q);
-        };
-        const base = rowData.filter(matchSearch);
-        var nextTag = tag;
-        var nextCat = category;
-
-        if (nextTag && !base.some(function (r) { return r.tags.includes(nextTag); })) {
-          nextTag = "";
+      <div class="essays-pv-stage" aria-hidden="true">
+        {
+          writing.map((post) => {
+            const photo = postPhoto(post);
+            const ch = chapterOf(post);
+            return (
+              <a
+                class:list={["essays-pv-card", { "is-active": post === latest }]}
+                href={getPostUrl(post)}
+                tabindex="-1"
+                data-pv-card={getPostSlug(post)}
+              >
+                {photo && (
+                  <figure class="essays-pv-photo">
+                    <img src={photo.src} alt="" loading="lazy" decoding="async" />
+                  </figure>
+                )}
+                <p class="read-crumb">
+                  <span>
+                    {ch.no} · {ch.en}
+                  </span>
+                  {post.data.place && <span class="read-crumb-zh">{post.data.place}</span>}
+                </p>
+                <h2 class="essays-pv-card-title" lang={hasChinese(post.data.title) ? "zh-CN" : "en"}>
+                  {post.data.title}
+                </h2>
+                {post.data.description && <p class="essays-pv-card-dek">{post.data.description}</p>}
+                <div class="essays-pv-excerpt" lang={hasChinese(post.body ?? "") ? "zh-CN" : "en"}>
+                  {openingParagraphs(post).map((p) => (
+                    <p>{p}</p>
+                  ))}
+                </div>
+                <p class="essays-pv-card-foot essays-mono">
+                  <span>
+                    {dotDate(post)} · {charCount(post)} 字
+                  </span>
+                  <span>Read →</span>
+                </p>
+              </a>
+            );
+          })
         }
-        if (nextCat && !base.some(function (r) { return r.categories.includes(nextCat); })) {
-          nextCat = "";
-        }
+      </div>
+    </div>
+  </section>
 
-        if (nextTag) {
-          var withTag = base.filter(function (r) {
-            return r.tags.includes(nextTag);
-          });
-          var catSet = new Set();
-          for (var i = 0; i < withTag.length; i++) {
-            var r = withTag[i];
-            for (var j = 0; j < r.categories.length; j++) {
-              catSet.add(r.categories[j]);
-            }
-          }
-          if (nextCat && !catSet.has(nextCat)) {
-            nextCat = "";
-          }
-        }
+  <p class="essays-empty essays-writing-empty essays-shell" data-essays-writing-empty hidden>没有找到相关的文章。</p>
 
-        if (nextCat) {
-          var withCat = base.filter(function (r) {
-            return r.categories.includes(nextCat);
-          });
-          var tagSet = new Set();
-          for (var k = 0; k < withCat.length; k++) {
-            var r2 = withCat[k];
-            for (var m = 0; m < r2.tags.length; m++) {
-              tagSet.add(r2.tags[m]);
-            }
-          }
-          if (nextTag && !tagSet.has(nextTag)) {
-            nextTag = "";
-          }
-        }
+  <NotesIndex notes={notes} noteYears={noteYears} />
 
-        return { tag: nextTag, category: nextCat };
-      }
-
-      function apply() {
-        var p0 = new URLSearchParams(window.location.search);
-        var tag = p0.get("tag") || "";
-        var category = p0.get("category") || "";
-        var qRaw = searchEl instanceof HTMLInputElement ? searchEl.value.trim() : "";
-
-        var rowData = [];
-        for (var i = 0; i < rows().length; i++) {
-          var row = rows()[i];
-          if (row instanceof HTMLElement) {
-            rowData.push(parseRow(row));
-          }
-        }
-
-        var pruned = pruneFilters(qRaw, tag, category, rowData);
-        if (pruned.tag !== tag || pruned.category !== category) {
-          tag = pruned.tag;
-          category = pruned.category;
-        }
-
-        syncUrl(qRaw, tag, category);
-
-        var q = qRaw.toLowerCase();
-        for (var j = 0; j < rowData.length; j++) {
-          var rd = rowData[j];
-          var ok =
-            (!q || rd.blob.includes(q)) &&
-            (!tag || rd.tags.includes(tag)) &&
-            (!category || rd.categories.includes(category));
-          rd.el.hidden = !ok;
-        }
-
-        for (var s = 0; s < sections().length; s++) {
-          var sec = sections()[s];
-          if (!(sec instanceof HTMLElement)) {
-            continue;
-          }
-          var any = sec.querySelector("[data-essay-row]:not([hidden])");
-          sec.hidden = !any;
-        }
-
-      }
-
-      readUrl();
-      apply();
-
-      window.addEventListener("popstate", function () {
-        readUrl();
-        apply();
-      });
-
-      searchEl?.addEventListener("input", apply);
-
-      form?.addEventListener("submit", function (e) {
-        e.preventDefault();
-        apply();
-      });
-
-      document.addEventListener("keydown", function (e) {
-        if (e.key !== "/" || e.ctrlKey || e.metaKey || e.altKey) {
-          return;
-        }
-        var target = e.target;
-        if (
-          target instanceof HTMLInputElement ||
-          target instanceof HTMLTextAreaElement ||
-          (target instanceof HTMLElement && target.isContentEditable)
-        ) {
-          return;
-        }
-        e.preventDefault();
-        searchEl?.focus();
-        if (searchEl instanceof HTMLInputElement) {
-          searchEl.select();
-        }
-      });
-    })();
+  <script>
+    import "../../scripts/essays/index";
   </script>
-</Main>
+</BaseLayout>

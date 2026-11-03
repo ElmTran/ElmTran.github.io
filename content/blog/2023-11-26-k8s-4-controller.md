@@ -5,6 +5,7 @@ description: "Kubernetes Series: controller"
 categories: [technology]
 tags: [kubernetes, k8s, controller, workload]
 date: 2023/11/26
+series: "Kubernetes"
 ---
 
 ## Controller

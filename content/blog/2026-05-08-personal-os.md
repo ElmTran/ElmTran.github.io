@@ -5,6 +5,8 @@ description: "一套关于消费、投资、关系、人生选择与情绪管理
 categories: [reflection]
 tags: [personal-os, decision-making, psychology, long-termism]
 date: 2026/05/08
+chapter: "thoughts"
+line: "健康是本金，时间是预算，主体性是边界，长期价值是方向。"
 ---
 
 我想把一些零散的行为准则整理成一个可以长期使用的 **Personal OS**。

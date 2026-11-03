@@ -5,6 +5,7 @@ description: "Kubernetes Series: monitoring"
 categories: [technology]
 tags: [kubernetes, k8s, monitoring, prometheus, grafana]
 date: 2023/11/26
+series: "Kubernetes"
 ---
 
 ## 监控

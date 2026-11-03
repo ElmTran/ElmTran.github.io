@@ -5,6 +5,9 @@ description: "I want you to know one thing."
 categories: [writing]
 tags: [poetry, love, translation]
 date: 2022/03/17
+chapter: "thoughts"
+place: "Pablo Neruda · 译"
+line: "In me nothing is extinguished or forgotten."
 ---
 
 ![说明](/images/DSC04596.jpg "鼠标悬停时显示的标题（可选）")

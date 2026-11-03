@@ -5,6 +5,9 @@ description: "祝曾经的小孩儿，现在的小孩儿，未来的小孩儿儿
 categories: [writing]
 tags: [memoir, childhood, memory]
 date: 2026/06/01
+chapter: "sichuan"
+place: "四川 · 小镇"
+line: "但再也没有哪条路，像那条通往网吧的路一样让我满怀期待。"
 ---
 
 那时候我已经念初中了。

@@ -1,0 +1,137 @@
+---
+/** A note: same palette as the writing, but built for looking things up — sans body, contents on the right, code and tables. */
+import { render } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import EssaysChrome from "./EssaysChrome.astro";
+import { getPostDate, getPostUrl, type BlogEntry } from "../../lib/posts";
+import { dotDate, hasChinese, noteCategoryOf, seriesOf } from "../../lib/essays";
+
+interface Props {
+  post: BlogEntry;
+  notes: BlogEntry[];
+  canonicalPath: string;
+}
+
+const { post, notes, canonicalPath } = Astro.props;
+const { Content, headings } = await render(post);
+const toc = headings.filter((h) => h.depth >= 2 && h.depth <= 3);
+// Several market notes repeat the title as their first heading.
+const repeatsTitle = headings[0]?.depth === 1 && headings[0].text.trim() === post.data.title.trim();
+const category = noteCategoryOf(post);
+const series = seriesOf(post, notes);
+const time = getPostDate(post).getTime();
+const related = notes
+  .filter((p) => p !== post && !series.includes(p) && noteCategoryOf(p) === category)
+  .sort((a, b) => Math.abs(getPostDate(a).getTime() - time) - Math.abs(getPostDate(b).getTime() - time))
+  .slice(0, 4);
+---
+
+<BaseLayout
+  title={post.data.title}
+  description={post.data.description || post.data.title}
+  bodyClass="page-essays page-home-photo"
+  canonicalPath={canonicalPath}
+>
+  <EssaysChrome />
+
+  <article class="note" lang={hasChinese(post.body ?? "") ? "zh-CN" : "en"}>
+    <header class="note-head essays-shell">
+      <div class="note-head-inner">
+        <p class="read-crumb">
+          <a href={`/essays/?${new URLSearchParams({ category: category.id })}#notes`}>Notes</a>
+          <span aria-hidden="true">/</span>
+          <span>{category.label}</span>
+          <span aria-hidden="true">·</span>
+          <time datetime={post.data.date}>{dotDate(post)}</time>
+        </p>
+        <h1 class="note-title">{post.data.title}</h1>
+        {
+          post.data.description && post.data.description !== post.data.title && (
+            <p class="note-dek">{post.data.description}</p>
+          )
+        }
+        {
+          post.data.tags.length > 0 && (
+            <ul class="note-tags">
+              {post.data.tags.map((tag) => (
+                <li>
+                  <a class="essays-chip" href={`/essays/?${new URLSearchParams({ tag })}#notes`}>
+                    {tag}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          )
+        }
+      </div>
+    </header>
+
+    <div class="note-body essays-shell">
+      <div class="note-prose" data-repeats-title={repeatsTitle ? "" : undefined}>
+        <Content />
+      </div>
+      {
+        toc.length > 1 && (
+          <nav class="note-toc" aria-label="Contents">
+            <p class="essays-mono">Contents</p>
+            <ol>
+              {toc.map((h) => (
+                <li class={`depth-${h.depth}`}>
+                  <a href={`#${h.slug}`} data-toc={h.slug}>
+                    {h.text}
+                  </a>
+                </li>
+              ))}
+            </ol>
+          </nav>
+        )
+      }
+    </div>
+
+    <footer class="essays-shell">
+      <div class="note-end">
+        {
+          series.length > 1 && (
+            <section>
+              <p class="essays-mono">
+                {post.data.series} · {series.indexOf(post) + 1} / {series.length}
+              </p>
+              <ul class="note-related">
+                {series.map((p) => (
+                  <li>
+                    {p === post ? (
+                      <span class="note-related-current">{p.data.title}</span>
+                    ) : (
+                      <a href={getPostUrl(p)}>{p.data.title}</a>
+                    )}
+                    <span class="essays-mono">{dotDate(p)}</span>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )
+        }
+        {
+          related.length > 0 && (
+            <section>
+              <p class="essays-mono">More {category.label.toLowerCase()}</p>
+              <ul class="note-related">
+                {related.map((p) => (
+                  <li>
+                    <a href={getPostUrl(p)}>{p.data.title}</a>
+                    <span class="essays-mono">{dotDate(p)}</span>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )
+        }
+        <a class="read-back essays-mono" href="/essays/#notes">← All notes</a>
+      </div>
+    </footer>
+  </article>
+
+  <script>
+    import "../../scripts/essays/article";
+  </script>
+</BaseLayout>

@@ -5,6 +5,8 @@ description: "外求和内需"
 categories: [reflection]
 tags: [neediness, psychology, relationship]
 date: 2024/11/12
+chapter: "thoughts"
+line: "内需是一种对自身的投资。"
 ---
 
 ## 外求和内需

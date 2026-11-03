@@ -5,6 +5,9 @@ description: "故事开始的地方"
 categories: [writing]
 tags: [memoir, memory, love, shanghai]
 date: 2026/05/21
+chapter: "shanghai"
+place: "上海 · 苏州河"
+line: "唯独那对耳环和那件针织衫，到现在还有印象。"
 ---
 
 时间过去很久了，但我还记得那天下午，我在地铁口反反复复绕了很多圈。

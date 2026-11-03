@@ -5,6 +5,7 @@ description: "Kubernetes Series: service and internet"
 categories: [technology]
 tags: [kubernetes, k8s, service, ingress, networking]
 date: 2023/11/26
+series: "Kubernetes"
 ---
 
 ## Service

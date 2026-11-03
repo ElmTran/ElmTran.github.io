@@ -5,6 +5,9 @@ description: "它为什么还在运算？"
 categories: [writing]
 tags: [science-fiction, ai, horror, short-story]
 date: 2026/06/08
+chapter: "fiction"
+place: "实验室"
+line: "“这是第几次了？”"
 ---
 
 “负载率还在上升。”

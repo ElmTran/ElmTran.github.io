@@ -1,18 +1,21 @@
 ---
-import { getCollection } from "astro:content";
-import PostShell from "../../components/PostShell.astro";
-import { getPostSlug, getPostUrl, sortPosts } from "../../lib/posts";
+import NoteArticle from "../../components/essays/NoteArticle.astro";
+import WritingArticle from "../../components/essays/WritingArticle.astro";
+import { getPostSlug, getPostUrl } from "../../lib/posts";
+import { isWriting, loadEssays } from "../../lib/essays";
 
 export async function getStaticPaths() {
-  const posts = sortPosts(await getCollection("blog"));
-
-  return posts.map((post) => ({
-    params: { slug: getPostSlug(post) },
-    props: { post, posts },
-  }));
+  const essays = await loadEssays();
+  return essays.posts.map((post) => ({ params: { slug: getPostSlug(post) }, props: { post, essays } }));
 }
 
-const { post, posts } = Astro.props;
+const { post, essays } = Astro.props;
 ---
 
-<PostShell post={post} posts={posts} canonicalPath={getPostUrl(post)} />
+{
+  isWriting(post) ? (
+    <WritingArticle post={post} posts={essays.posts} readingOrder={essays.readingOrder} canonicalPath={getPostUrl(post)} />
+  ) : (
+    <NoteArticle post={post} notes={essays.notes} canonicalPath={getPostUrl(post)} />
+  )
+}

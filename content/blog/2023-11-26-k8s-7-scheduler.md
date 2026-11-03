@@ -5,6 +5,7 @@ description: "Kubernetes Series: scheduler"
 categories: [technology]
 tags: [kubernetes, k8s, scheduler]
 date: 2023/11/26
+series: "Kubernetes"
 ---
 
 ## Scheduler

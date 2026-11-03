@@ -5,6 +5,9 @@ description: "只道是一个寻常的午后"
 categories: [writing]
 tags: [memoir, memory, love, typhoon]
 date: 2026/08/18
+chapter: "shanghai"
+place: "上海"
+line: "随着呼吸，肩头的毛衣一点点抬起，又落下去。"
 ---
 
 那天下午，台风还没有过去。

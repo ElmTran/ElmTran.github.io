@@ -5,6 +5,10 @@ description: "北海道旅行的一些碎片：登别篇"
 categories: [writing]
 tags: [memoir, travel, japan, winter]
 date: 2026/06/23
+chapter: "road"
+place: "登別 · 北海道"
+line: "只有几颗星星，零零散散地挂在夜空里。"
+series: "北海道旅行的一些碎片"
 ---
 
 褪去浴袍，我缓缓走进温泉池中。

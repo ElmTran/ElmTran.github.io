@@ -1,38 +1,38 @@
 ---
 import { getCollection } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import { collectTaxonomy, getPostUrl, sortPosts } from "../../lib/posts";
+import EssaysChrome from "../../components/essays/EssaysChrome.astro";
 
-const posts = sortPosts(await getCollection("blog"));
-const tags = collectTaxonomy(posts, "tags");
+const posts = await getCollection("blog");
+const counts = new Map<string, number>();
+for (const post of posts) {
+  for (const tag of post.data.tags) counts.set(tag, (counts.get(tag) ?? 0) + 1);
+}
+const tags = [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
 ---
 
-<BaseLayout title="Tags" description="A restrained index of recurring topics." canonicalPath="/essays/tags/">
-  <section class="taxonomy-section site-shell">
-    <div class="page-intro page-intro--compact">
-      <h1>Tags</h1>
-      <p class="page-intro-single">Grouped by topic; each links back into the archive.</p>
-    </div>
+<BaseLayout
+  title="Tags"
+  description="Every tag across the writing and the notes."
+  canonicalPath="/essays/tags/"
+  bodyClass="page-essays page-home-photo"
+>
+  <EssaysChrome />
 
-    <div class="taxonomy-grid">
+  <section class="essays-tags essays-shell">
+    <p class="essays-kicker">{tags.length} tags · {posts.length} posts</p>
+    <h1 class="essays-title">Tags</h1>
+    <p class="essays-lede">Every tag across the writing and the notes, most used first.</p>
+    <ul class="essays-tags-list">
       {
-        tags.map((tag) => {
-          const related = posts.filter((post) => post.data.tags.includes(tag.name)).slice(0, 2);
-
-          return (
-            <article class="taxonomy-card">
-              <p class="eyebrow">{tag.count} essay{tag.count > 1 ? "s" : ""}</p>
-              <h3>{tag.name}</h3>
-              <p>{related.map((post) => post.data.title).join(" / ")}</p>
-              {related[0] && (
-                <a class="text-link" href={getPostUrl(related[0])}>
-                  Open latest
-                </a>
-              )}
-            </article>
-          );
-        })
+        tags.map(([tag, count]) => (
+          <li>
+            <a class="essays-chip" href={`/essays/?${new URLSearchParams({ tag })}`}>
+              {tag} <span>{count}</span>
+            </a>
+          </li>
+        ))
       }
-    </div>
+    </ul>
   </section>
 </BaseLayout>

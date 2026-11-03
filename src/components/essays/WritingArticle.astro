@@ -1,0 +1,142 @@
+---
+/**
+ * A piece of writing: one narrow column of Chinese serif, no sidebars. An optional photo opens it; it ends on an
+ * aperture closing, then the series it belongs to and the previous / next piece in reading order.
+ */
+import { render } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import EssaysChrome from "./EssaysChrome.astro";
+import { aperturePath } from "../../lib/aperture";
+import { getPostUrl, type BlogEntry } from "../../lib/posts";
+import { charCount, chapterOf, dotDate, hasChinese, photoExifLine, postPhoto, seriesOf } from "../../lib/essays";
+
+interface Props {
+  post: BlogEntry;
+  posts: BlogEntry[];
+  readingOrder: BlogEntry[];
+  canonicalPath: string;
+}
+
+const { post, posts, readingOrder, canonicalPath } = Astro.props;
+const { Content } = await render(post);
+const photo = postPhoto(post);
+const exifLine = photo ? photoExifLine(photo) : "";
+const chapter = chapterOf(post);
+const series = seriesOf(post, posts);
+const index = readingOrder.indexOf(post);
+const prev = readingOrder[index - 1];
+const next = readingOrder[index + 1];
+const count = charCount(post);
+const minutes = Math.max(1, Math.round(count / 400));
+---
+
+<BaseLayout
+  title={post.data.title}
+  description={post.data.description || post.data.title}
+  bodyClass="page-essays page-home-photo"
+  canonicalPath={canonicalPath}
+>
+  <EssaysChrome />
+  <div class="read-progress" aria-hidden="true" data-read-progress></div>
+
+  <article class="read" lang={hasChinese(post.body ?? "") ? "zh-CN" : "en"}>
+    {
+      photo && (
+        <figure class="read-hero">
+          <img src={photo.src} alt={photo.alt ?? ""} fetchpriority="high" decoding="async" />
+          {photo.alt && (
+            <figcaption class="essays-mono">
+              {photo.alt}
+              {exifLine && (
+                <>
+                  <br />
+                  {exifLine}
+                </>
+              )}
+            </figcaption>
+          )}
+        </figure>
+      )
+    }
+
+    <div class="read-main">
+      <header class="read-head">
+        <p class="read-crumb">
+          <a href="/essays/">Essays</a>
+          <span aria-hidden="true">/</span>
+          <span>{chapter.no} · {chapter.en}</span>
+          {post.data.place && <span class="read-crumb-zh">{post.data.place}</span>}
+        </p>
+        <h1 class="read-title" lang={hasChinese(post.data.title) ? "zh-CN" : "en"}>{post.data.title}</h1>
+        {post.data.description && <p class="read-dek">{post.data.description}</p>}
+        <p class="read-meta essays-mono">
+          <time datetime={post.data.date}>{dotDate(post)}</time>
+          <span>{count} 字</span>
+          <span>约 {minutes} 分钟</span>
+        </p>
+        <hr class="read-rule" />
+      </header>
+
+      <div class="read-prose" data-read-body>
+        <Content />
+      </div>
+    </div>
+
+    <footer class="read-end">
+      <svg class="read-end-mark" viewBox="0 0 24 24" aria-hidden="true" data-reveal>
+        <defs>
+          <clipPath id="read-end-clip">
+            <circle cx="12" cy="12" r="9.3"></circle>
+          </clipPath>
+        </defs>
+        <g clip-path="url(#read-end-clip)">
+          <path d={aperturePath(1.5)}></path>
+        </g>
+        <circle cx="12" cy="12" r="9.3"></circle>
+      </svg>
+
+      {
+        series.length > 1 && (
+          <nav class="read-series" aria-label="Series">
+            <p class="essays-mono">Series · {series.length}</p>
+            <p class="read-series-name">{post.data.series}</p>
+            <ol>
+              {series.map((p) => (
+                <li aria-current={p === post ? "page" : undefined}>
+                  {p === post ? <span>{p.data.title}</span> : <a href={getPostUrl(p)}>{p.data.title}</a>}
+                </li>
+              ))}
+            </ol>
+          </nav>
+        )
+      }
+
+      <nav class="read-pager" aria-label="More writing">
+        {
+          prev && (
+            <a href={getPostUrl(prev)}>
+              <span class="essays-mono">← Previous</span>
+              <span class="read-pager-title">{prev.data.title}</span>
+              {prev.data.description && <span class="read-pager-dek">{prev.data.description}</span>}
+            </a>
+          )
+        }
+        {
+          next && (
+            <a href={getPostUrl(next)}>
+              <span class="essays-mono">Next →</span>
+              <span class="read-pager-title">{next.data.title}</span>
+              {next.data.description && <span class="read-pager-dek">{next.data.description}</span>}
+            </a>
+          )
+        }
+      </nav>
+
+      <a class="read-back essays-mono" href="/essays/">← All essays</a>
+    </footer>
+  </article>
+
+  <script>
+    import "../../scripts/essays/article";
+  </script>
+</BaseLayout>

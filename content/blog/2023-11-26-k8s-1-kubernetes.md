@@ -5,6 +5,7 @@ description: "Study notes for Kubernetes"
 categories: [technology]
 tags: [kubernetes, k8s, cloud-native]
 date: 2023/11/26
+series: "Kubernetes"
 ---
 
 ## 概述

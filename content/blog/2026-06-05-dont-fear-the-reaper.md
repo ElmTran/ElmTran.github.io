@@ -5,6 +5,9 @@ description: "v和强尼一段虚构的对白"
 categories: [writing]
 tags: [fiction, dialogue, cyberpunk, game]
 date: 2026/06/05
+chapter: "fiction"
+place: "Night City"
+line: "“我忘了在来生留饮品配方了。”"
 ---
 
 “强尼，如果这次真活下来了……身体就给你吧。”

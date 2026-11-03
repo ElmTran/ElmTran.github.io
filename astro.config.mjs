@@ -10,7 +10,8 @@ export default defineConfig({
     "/welcome/": "/",
     "/blog/": "/essays/",
     "/blog/tags/": "/essays/tags/",
-    "/blog/categories/": "/essays/categories/",
+    "/blog/categories/": "/essays/",
+    "/essays/categories/": "/essays/",
   },
   markdown: {
     syntaxHighlight: "shiki",

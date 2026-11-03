@@ -1,0 +1,87 @@
+---
+/** The Notes half of /essays/: grouped by year, a series folded into one row, filtered by category (see index.astro). */
+import { getPostDate, getPostUrl, type BlogEntry } from "../../lib/posts";
+import { noteCategories, noteCategoryOf, searchBlob, type NoteItem } from "../../lib/essays";
+
+interface Props {
+  notes: BlogEntry[];
+  noteYears: Map<string, NoteItem[]>;
+}
+
+const { notes, noteYears } = Astro.props;
+const years = [...noteYears.keys()];
+const month = (post: BlogEntry) => String(getPostDate(post).getMonth() + 1).padStart(2, "0");
+const rowData = (post: BlogEntry) => ({
+  "data-essays-row": "",
+  "data-cat": noteCategoryOf(post).id,
+  "data-tags": JSON.stringify(post.data.tags),
+  "data-search": searchBlob(post),
+});
+---
+
+<section class="essays-notes essays-shell" id="notes" data-essays-notes>
+  <div class="essays-notes-head">
+    <div>
+      <p class="essays-kicker">{notes.length} notes · {years.at(-1)} — {years[0]}</p>
+      <h2 class="essays-notes-title">Notes</h2>
+      <p class="essays-notes-lede">
+        Software, markets, and lists of useful things — kept for looking up rather than reading through.
+      </p>
+    </div>
+    <div class="essays-chips" role="group" aria-label="Filter notes">
+      <button type="button" class="essays-chip" data-cat="" aria-pressed="true">All <span>{notes.length}</span></button>
+      {
+        noteCategories.map((c) => (
+          <button type="button" class="essays-chip" data-cat={c.id} aria-pressed="false">
+            {c.label} <span>{notes.filter((p) => noteCategoryOf(p) === c).length}</span>
+          </button>
+        ))
+      }
+    </div>
+  </div>
+
+  {
+    [...noteYears.entries()].map(([year, items]) => (
+      <div class="essays-notes-year" data-essays-group>
+        <div class="essays-notes-year-label essays-mono">{year}</div>
+        <ul class="essays-notes-list">
+          {items.map((item) =>
+            item.kind === "post" ? (
+              <li class="essays-note" {...rowData(item.post)}>
+                <span class="essays-note-title">
+                  <a href={getPostUrl(item.post)}>{item.post.data.title}</a>
+                </span>
+                <span class="essays-note-cat">{noteCategoryOf(item.post).label}</span>
+                <span class="essays-note-date">{month(item.post)}</span>
+              </li>
+            ) : (
+              <li data-essays-series>
+                <details class="essays-series">
+                  <summary class="essays-note">
+                    <span class="essays-note-title">
+                      {item.title} 系列<span class="essays-series-count">{item.posts.length} 篇</span>
+                    </span>
+                    <span class="essays-note-cat">{noteCategoryOf(item.posts[0]).label}</span>
+                    <span class="essays-note-date">{month(item.posts.at(-1)!)}</span>
+                  </summary>
+                  <ul class="essays-notes-list">
+                    {item.posts.map((post) => (
+                      <li class="essays-note" {...rowData(post)}>
+                        <span class="essays-note-title">
+                          <a href={getPostUrl(post)}>{post.data.title}</a>
+                        </span>
+                        <span class="essays-note-cat">{noteCategoryOf(post).label}</span>
+                        <span class="essays-note-date">{month(post)}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </details>
+              </li>
+            ),
+          )}
+        </ul>
+      </div>
+    ))
+  }
+  <p class="essays-empty" data-essays-notes-empty hidden>没有找到相关的笔记。</p>
+</section>

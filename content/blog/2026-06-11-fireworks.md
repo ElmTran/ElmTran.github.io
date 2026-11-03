@@ -5,6 +5,9 @@ description: "那场未燃尽的烟花"
 categories: [writing]
 tags: [memoir, youth, friendship, first-love]
 date: 2026/06/10
+chapter: "sichuan"
+place: "四川 · 小镇"
+line: "“新年快乐，笨蛋。”"
 ---
 
 “我出去一下。”

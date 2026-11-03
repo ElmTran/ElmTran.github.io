@@ -1,0 +1,84 @@
+---
+/**
+ * Fonts, styles and the floating switch for /essays/ pages: three views of the index (片语 / 成章 / 开卷, index only)
+ * and the reading font (宋 / 楷). The font is remembered (localStorage); the view only for this tab (sessionStorage),
+ * so a new visit always opens on 片语.
+ */
+import "@fontsource/noto-serif-sc/400.css";
+import "@fontsource/noto-serif-sc/600.css";
+import "lxgw-wenkai-webfont/lxgwwenkai-regular.css";
+import "../../styles/essays.css";
+
+interface Props {
+  views?: boolean;
+}
+
+const { views = false } = Astro.props;
+---
+
+<script is:inline>
+  (function () {
+    var root = document.documentElement;
+    try {
+      var font = localStorage.getItem("essays-font");
+      if (font) root.dataset.essaysFont = font;
+      var view = sessionStorage.getItem("essays-view");
+      if (view) root.dataset.essaysView = view;
+    } catch (e) {}
+  })();
+</script>
+
+<nav class="essays-bar" aria-label="Reading options">
+  {
+    views && (
+      <>
+        <button type="button" data-essays-set="view" data-value="lines" title="每篇只留一句">
+          片语
+        </button>
+        <button type="button" data-essays-set="view" data-value="chapters" title="按章节编排的目录">
+          成章
+        </button>
+        <button type="button" data-essays-set="view" data-value="opening" title="停在一篇上，读它的开头">
+          开卷
+        </button>
+        <span class="essays-bar-sep" aria-hidden="true" />
+      </>
+    )
+  }
+  <button type="button" data-essays-set="font" data-value="song" title="思源宋体">宋</button>
+  <button type="button" data-essays-set="font" data-value="kai" title="霞鹜文楷">楷</button>
+</nav>
+
+<script is:inline>
+  (function () {
+    var root = document.documentElement;
+    var settings = {
+      font: { key: "essaysFont", store: "localStorage", fallback: "song" },
+      view: { key: "essaysView", store: "sessionStorage", fallback: "lines" },
+    };
+    var buttons = document.querySelectorAll("[data-essays-set]");
+    function sync() {
+      buttons.forEach(function (b) {
+        var s = settings[b.dataset.essaysSet];
+        b.setAttribute("aria-pressed", String((root.dataset[s.key] || s.fallback) === b.dataset.value));
+      });
+    }
+    buttons.forEach(function (b) {
+      b.addEventListener("click", function () {
+        var name = b.dataset.essaysSet;
+        var s = settings[name];
+        if ((root.dataset[s.key] || s.fallback) === b.dataset.value) return;
+        root.dataset[s.key] = b.dataset.value;
+        try {
+          window[s.store].setItem("essays-" + name, b.dataset.value);
+        } catch (e) {}
+        sync();
+        if (name === "view") {
+          window.scrollTo({ top: 0, behavior: "instant" });
+          document.dispatchEvent(new CustomEvent("essays:view"));
+        }
+      });
+    });
+    sync();
+  })();
+</script>
