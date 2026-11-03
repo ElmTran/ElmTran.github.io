@@ -351,6 +351,7 @@ html.is-print-open {
 }
 
 .print-note-link {
+  position: relative;
   padding-bottom: 0.3cqi;
   border-bottom: 1px solid rgba(43, 38, 34, 0.3);
   font-family: var(--sans);
@@ -360,6 +361,13 @@ html.is-print-open {
   text-decoration: none;
   color: #2b2622;
   transition: border-color 200ms ease;
+}
+
+/* The type is tiny; give the finger and the cursor a bigger target than the letters. */
+.print-note-link::before {
+  content: "";
+  position: absolute;
+  inset: -1.6cqi -2cqi -1.8cqi;
 }
 
 .print-note-link:hover {
@@ -408,6 +416,10 @@ html.is-print-open {
   aspect-ratio: var(--print-ar);
   transform-style: preserve-3d;
   cursor: pointer;
+  /* The card's own box sits flat at z = 0 in the 3D scene. Once the tilt pushes a corner of the print behind that
+     plane, the empty box would take the click there (and turn the card over) instead of the note's link. Only the
+     faces take the pointer. */
+  pointer-events: none;
 }
 
 .about-card-tilt,
@@ -430,6 +442,7 @@ html.is-print-open {
 }
 
 .about-card .print-face {
+  pointer-events: auto;
   box-shadow:
     inset 0 1px 0 rgba(255, 255, 255, 0.6),
     0 2.5rem 6rem rgba(0, 0, 0, 0.6);

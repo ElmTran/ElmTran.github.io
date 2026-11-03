@@ -18,6 +18,7 @@ export function createPrintViewer(root: HTMLElement, dialog: HTMLDialogElement) 
   let source: HTMLElement | null = null;
   let busy = false;
   let flipped = false;
+  let pressedLink = false;
   let raf = 0;
   const pointer = { x: 0, y: 0 };
   const tilt = { x: 0, y: 0 };
@@ -136,9 +137,15 @@ export function createPrintViewer(root: HTMLElement, dialog: HTMLDialogElement) 
   dialog.addEventListener("close", () => {
     if (source) finish();
   });
+  dialog.addEventListener("pointerdown", (e) => {
+    pressedLink = !!(e.target as Element).closest("a");
+  });
   dialog.addEventListener("click", (e) => {
     const target = e.target as Element;
-    if (target.closest("a")) return;
+    // A press that started on a link and slipped off it lands here on the card; that is a missed link, not a flip.
+    const missedLink = pressedLink;
+    pressedLink = false;
+    if (target.closest("a") || missedLink) return;
     if (target.closest("[data-about-close], [data-about-veil]") || target === dialog) {
       void close();
     } else if (target.closest("[data-about-card], [data-about-turn]") && !busy) {
@@ -146,6 +153,12 @@ export function createPrintViewer(root: HTMLElement, dialog: HTMLDialogElement) 
     }
   });
   dialog.addEventListener("pointermove", (e) => {
+    // Hold the card still over a link, or the tilt slides it out from under the cursor.
+    if ((e.target as Element).closest("a")) {
+      pointer.x = tilt.x;
+      pointer.y = tilt.y;
+      return;
+    }
     pointer.x = clamp((e.clientX / innerWidth - 0.5) * 2, -1, 1);
     pointer.y = clamp((e.clientY / innerHeight - 0.5) * 2, -1, 1);
   });
