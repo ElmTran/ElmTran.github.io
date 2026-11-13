@@ -3,7 +3,8 @@
  * `essayChapters`, each piece also known by its one kept line. Notes (everything else) are for looking up.
  */
 import { getCollection } from "astro:content";
-import { essayChapters, galleryPhotos, type GalleryPhoto } from "../site";
+import { essayChapters } from "../site";
+import { loadGallery, type GalleryExif } from "./gallery";
 import { getPostDate, sortPosts, type BlogEntry } from "./posts";
 
 export type EssayChapter = (typeof essayChapters)[number];
@@ -39,12 +40,25 @@ export function sentences(line: string) {
   return line.split(/(?<=[。？！]”?)(?!”)/).filter(Boolean);
 }
 
-export function postPhoto(post: BlogEntry): GalleryPhoto | undefined {
-  const src = post.data.photo;
-  return src ? (galleryPhotos.find((p) => p.src === src) ?? { src }) : undefined;
+export type PostPhoto = { src: string; alt?: string; exif?: GalleryExif };
+
+/**
+ * Looks up a post's `photo`. A photo from content/photos comes back at lightbox size (~2560px) with its caption and
+ * EXIF, so an essay never loads the full original; any other URL is used as it is.
+ */
+export async function postPhotos() {
+  const { items } = await loadGallery();
+  return (post: BlogEntry): PostPhoto | undefined => {
+    const src = post.data.photo;
+    if (!src) {
+      return undefined;
+    }
+    const item = items.find((p) => p.src === src);
+    return item ? { src: item.lg, alt: item.alt, exif: item.exif } : { src };
+  };
 }
 
-export function photoExifLine(photo: GalleryPhoto) {
+export function photoExifLine(photo: PostPhoto) {
   const e = photo.exif;
   return e ? [e.focalLength, e.aperture, e.shutter, e.iso && `ISO ${e.iso}`].filter(Boolean).join("  ") : "";
 }

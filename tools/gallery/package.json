@@ -2,12 +2,13 @@
   "name": "gallery-tools",
   "private": true,
   "type": "module",
-  "description": "Offline asset prep for /photos/: textures, depth maps, dominant colours. Not part of the site build.",
+  "description": "pnpm photos (from the repo root): add photos to content/photos and R2, or rebuild their textures and depth maps. Not part of the site build.",
   "scripts": {
-    "prepare-assets": "node prepare.mjs"
+    "photos": "node photos.mjs"
   },
   "dependencies": {
     "@huggingface/transformers": "^4.3.2",
-    "sharp": "^0.34.5"
+    "sharp": "^0.34.5",
+    "yaml": "^2.9.1"
   }
 }

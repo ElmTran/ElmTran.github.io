@@ -14,8 +14,10 @@ function fallbackToGrid() {
 async function boot() {
   const root = document.querySelector<HTMLElement>("[data-gallery]");
   const dialog = document.querySelector<HTMLDialogElement>("[data-lightbox]");
-  const items = JSON.parse(document.getElementById("gallery-data")?.textContent ?? "[]") as GalleryItem[];
-  if (!root || !dialog || items.length === 0) {
+  const all = JSON.parse(document.getElementById("gallery-data")?.textContent ?? "[]") as GalleryItem[];
+  // The corridor (and its lightbox) shows only featured photos; the grid shows them all.
+  const items = all.filter((item) => item.featured);
+  if (!root || !dialog || all.length === 0) {
     return;
   }
 
@@ -24,7 +26,7 @@ async function boot() {
   let lightbox: ReturnType<typeof createLightbox> | undefined;
   let presenter: Presenter | undefined;
 
-  if (document.documentElement.dataset.gallery === "3d") {
+  if (document.documentElement.dataset.gallery === "3d" && items.length > 0) {
     try {
       const { createGalleryScene } = await import("./corridor");
       // If the asset host doesn't allow this origin (CORS), every texture fails; the first one tells us before we build.
@@ -104,7 +106,7 @@ async function boot() {
     }
   }
 
-  lightbox = createLightbox(dialog, items, presenter);
+  lightbox = createLightbox(dialog, presenter ? items : all, presenter);
   root.querySelectorAll<HTMLButtonElement>("[data-photo-index]").forEach((btn) =>
     btn.addEventListener("click", () => void lightbox?.open(Number(btn.dataset.photoIndex))),
   );

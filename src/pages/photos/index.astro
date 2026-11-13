@@ -3,12 +3,14 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import { loadGallery } from "../../lib/gallery";
 import "../../styles/photos.css";
 
-const { items, remote } = loadGallery();
-const years = [...new Set(items.map((p) => p.year).filter(Boolean))] as string[];
+// The grid shows every photo; the 3D corridor only the featured ones (rated galleryFeaturedRating and up).
+const { items, featured } = await loadGallery();
+const has3d = featured.length > 0;
+const years = [...new Set(featured.map((p) => p.year).filter(Boolean))] as string[];
 const range = years.length > 1 ? `${years[0]} — ${years.at(-1)}` : (years[0] ?? "");
-// Dots follow item order (oldest first, undated last), which is what main.ts relies on.
-const timeline = years.map((year) => ({ year, photos: items.filter((item) => item.year === year) }));
-const undated = items.filter((item) => !item.year);
+// Dots follow corridor order (oldest first, undated last), which is what main.ts relies on.
+const timeline = years.map((year) => ({ year, photos: featured.filter((item) => item.year === year) }));
+const undated = featured.filter((item) => !item.year);
 if (undated.length > 0) {
   timeline.push({ year: "—", photos: undated });
 }
@@ -16,15 +18,11 @@ if (undated.length > 0) {
 
 <BaseLayout
   title="Photos"
-  description={
-    remote
-      ? "A walk through time: photographs in a 3D corridor, with depth you can look around."
-      : "Photographs from public/images — built automatically at compile time."
-  }
+  description="A walk through time: photographs in a 3D corridor, with depth you can look around."
   canonicalPath="/photos/"
   bodyClass="page-photos"
 >
-  <script is:inline>
+  <script is:inline define:vars={{ has3d }}>
     (function () {
       var root = document.documentElement;
       var view = new URLSearchParams(location.search).get("view");
@@ -36,7 +34,7 @@ if (undated.length > 0) {
         if (lose) lose.loseContext();
       } catch (e) {}
       var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-      var mode = webgl && (view === "3d" || (view !== "grid" && !reduce)) ? "3d" : "grid";
+      var mode = has3d && webgl && (view === "3d" || (view !== "grid" && !reduce)) ? "3d" : "grid";
       root.dataset.gallery = mode;
       if (webgl) root.dataset.webgl = "";
       if (mode === "3d") document.body.classList.add("page-home-photo", "gallery-3d");
@@ -45,14 +43,14 @@ if (undated.length > 0) {
 
   <div class="gallery" data-gallery>
     <section class="gallery-stage" aria-label="Photo corridor">
-      <div class="gallery-track" data-gallery-track style={{ "--count": items.length }}>
+      <div class="gallery-track" data-gallery-track style={{ "--count": featured.length }}>
         <div class="gallery-sticky">
           <canvas class="gallery-canvas" data-gallery-canvas aria-hidden="true"></canvas>
           <div class="gallery-vignette" aria-hidden="true"></div>
           <div class="gallery-grain" aria-hidden="true"></div>
 
           <header class="gallery-intro">
-            <p class="gallery-kicker">{items.length} frames · {range}</p>
+            <p class="gallery-kicker">{featured.length} frames · {range}</p>
             <h1 class="gallery-title">Photos</h1>
             <p class="gallery-lede">A walk through time. Move the cursor to look around; click a frame to step inside.</p>
           </header>
@@ -105,7 +103,7 @@ if (undated.length > 0) {
       {
         items.length === 0 ? (
           <p class="photos-empty site-shell">
-            {remote ? "No URLs in galleryPhotos yet." : "No image files found in public/images."}
+            No photos in content/photos yet.
           </p>
         ) : (
           <ul class="photo-wall" role="list" data-photo-wall>
@@ -147,7 +145,7 @@ if (undated.length > 0) {
           </ul>
         )
       }
-      <a class="gallery-grid-switch" href="?view=3d">View in 3D <span aria-hidden="true">→</span></a>
+      {has3d && <a class="gallery-grid-switch" href="?view=3d">View in 3D <span aria-hidden="true">→</span></a>}
     </div>
   </div>
 

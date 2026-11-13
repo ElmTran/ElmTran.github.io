@@ -8,7 +8,7 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import EssaysChrome from "./EssaysChrome.astro";
 import { aperturePath } from "../../lib/aperture";
 import { getPostUrl, type BlogEntry } from "../../lib/posts";
-import { charCount, chapterOf, dotDate, hasChinese, photoExifLine, postPhoto, seriesOf } from "../../lib/essays";
+import { charCount, chapterOf, dotDate, hasChinese, photoExifLine, postPhotos, seriesOf } from "../../lib/essays";
 
 interface Props {
   post: BlogEntry;
@@ -19,7 +19,7 @@ interface Props {
 
 const { post, posts, readingOrder, canonicalPath } = Astro.props;
 const { Content } = await render(post);
-const photo = postPhoto(post);
+const photo = (await postPhotos())(post);
 const exifLine = photo ? photoExifLine(photo) : "";
 const chapter = chapterOf(post);
 const series = seriesOf(post, posts);

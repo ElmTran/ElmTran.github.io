@@ -6,7 +6,7 @@ import { getLegacySlug, getPostUrl } from "../lib/posts";
 import { aboutStops } from "../site";
 import "../styles/about.css";
 
-const { items } = loadGallery();
+const { items } = await loadGallery();
 const posts = await getCollection("blog");
 const pad = (n: number) => String(n).padStart(2, "0");
 const coords = (lat: number, lon: number) =>
@@ -15,7 +15,7 @@ const coords = (lat: number, lon: number) =>
 const stops = aboutStops.map((stop, index) => {
   const photo = stop.photo ? items.find((item) => item.src === stop.photo) : undefined;
   if (stop.photo && !photo) {
-    throw new Error(`aboutStops[${index}].photo is not in galleryPhotos: ${stop.photo}`);
+    throw new Error(`aboutStops[${index}].photo is not a photo in content/photos: ${stop.photo}`);
   }
   const essay = stop.note.essay ? posts.find((post) => getLegacySlug(post) === stop.note.essay) : undefined;
   if (stop.note.essay && !essay) {

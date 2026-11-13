@@ -23,21 +23,30 @@ Personal site and blog, built with [Astro](https://astro.build/). Essays live un
   | `chapter` | Writing: an `essayChapters` id in `src/site.ts` (missing → last chapter)                     |
   | `place`   | Writing: where the story happens, shown above the title                                      |
   | `line`    | Writing: the one line kept from the piece (片语); falls back to `description`                |
-  | `photo`   | Photo above the title — a `galleryPhotos` src adds its caption and EXIF, any URL also works |
+  | `photo`   | Photo above the title — a `content/photos` src adds its caption and EXIF, any URL also works |
   | `series`  | Same name links posts as a series; in Notes they fold into one row                          |
-- Photos: list them in `galleryPhotos` (`src/site.ts`), then generate textures and depth maps for the 3D gallery:
+- Photos: one YAML file per photo in `content/photos/` — `src`, `rating` (1–5), `title`, `place`, `date`, `exif`.
+  Photos rated `galleryFeaturedRating` (5, in `src/site.ts`) walk the 3D corridor; every photo is in the grid
+  (`/photos/?view=grid`). Add photos straight from local files or folders (Windows paths such as `E:\…` work too):
 
   ```bash
   ONNXRUNTIME_NODE_INSTALL=skip npm --prefix tools/gallery install   # once
-  npm --prefix tools/gallery run prepare-assets                      # new photos only; add -- --force to redo all
+  pnpm photos add <files or folders…> --dry-run                      # preview names, metadata and sizes
+  pnpm photos add <files or folders…> [--place 杭州] [--date 2022-10-31]
   ```
 
-  This writes `public/gallery/*` (git-ignored) and `src/data/gallery-assets.json` (commit it). Upload the new files from
-  `public/gallery/` to `https://img.elmtran.com/gallery/` — the site loads them from there (`galleryAssetBase` in `src/site.ts`).
-  The host must allow CORS for every origin the site is served from, otherwise `/photos/` falls back to the grid.
-  `/photos/?view=grid` shows the grid.
+  For each image it reads title, city, rating and EXIF with exiftool (missing → 无题 / 未知 / 3★), names the upload
+  `YYYYMMDD-<file>`, keeps the original under 10 MB, removes GPS from the uploaded copy, makes the textures and the
+  depth map, uploads it all to R2 with rclone (originals at the bucket root, the rest under `gallery/`; an existing
+  original is never overwritten), and writes `content/photos/<name>.yaml` and `src/data/gallery-assets.json`. Fill in
+  the YAML afterwards, then commit both. `--place` / `--date` set the place / date of every photo in the run, over
+  what the files say (say, when the camera clock was wrong). Needs exiftool, rclone with an `r2:` remote, and
+  `R2_BUCKET`.
+  `pnpm photos sync` makes the assets of any photo that has none (`--force` redoes them all) and prunes the manifest.
+  The asset host (`galleryAssetBase`) must allow CORS for every origin the site is served from, otherwise `/photos/`
+  falls back to the grid.
 - About: the places, photos and the notes on the back of each print are `aboutStops` in `src/site.ts` (photos must be
-  in `galleryPhotos`). The globe's land dots come from `src/data/globe-land.json`; regenerate with
+  in `content/photos`). The globe's land dots come from `src/data/globe-land.json`; regenerate with
   `node tools/about/land-dots.mjs` only if you change the dot count.
 
 ## Deploy

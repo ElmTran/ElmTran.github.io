@@ -11,12 +11,13 @@ import {
   keptLine,
   loadEssays,
   openingParagraphs,
-  postPhoto,
+  postPhotos,
   searchBlob,
   sentences,
 } from "../../lib/essays";
 
 const { writing, chapters, notes, noteYears } = await loadEssays();
+const postPhoto = await postPhotos();
 const kicker = `${writing.length} pieces · ${notes.length} notes`;
 const latest = writing[0];
 const rowData = (post: BlogEntry) => ({
