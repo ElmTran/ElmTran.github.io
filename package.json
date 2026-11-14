@@ -5,7 +5,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "check": "astro check",
-    "photos": "node tools/gallery/photos.mjs"
+    "photos": "node tools/gallery/cli.mjs"
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.8",

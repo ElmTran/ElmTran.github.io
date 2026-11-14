@@ -4,7 +4,7 @@
   "type": "module",
   "description": "pnpm photos (from the repo root): add photos to content/photos and R2, or rebuild their textures and depth maps. Not part of the site build.",
   "scripts": {
-    "photos": "node photos.mjs"
+    "photos": "node cli.mjs"
   },
   "dependencies": {
     "@huggingface/transformers": "^4.3.2",
