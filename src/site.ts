@@ -97,8 +97,8 @@ export const aboutStops: AboutStop[] = [
     place: { name: "Galway", lat: 53.27, lon: -9.05 },
     title: "Galway",
     sub: "Ireland · Christmas",
-    text: "Christmas on the west coast of Ireland. No photograph from this one — just a coin.",
-    cover: { big: "53°N", small: "Galway · Christmas" },
+    text: "Christmas on the west coast of Ireland: frost on the trees, the Cliffs of Moher, and a coin I didn’t give away.",
+    photo: "https://img.elmtran.com/20221217-DSC02904.jpg",
     note: {
       heading: "The coin",
       body: [

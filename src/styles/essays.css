@@ -689,6 +689,8 @@ html[data-essays-font="song"] body.page-essays {
 
 .read {
   --read-col: min(calc(100% - 2.5rem), 36rem);
+  /* So a photo in the prose can measure the page (cqi) rather than the text column. */
+  container-type: inline-size;
 }
 
 .read-hero {
@@ -922,6 +924,41 @@ html[data-essays-font="song"] body.page-essays {
   width: 100%;
   margin: 2.4em 0;
   border-radius: 2px;
+}
+
+/* A photo between paragraphs (src/lib/rehype-photos.ts): wider than the text on a wide screen, edge to edge on a
+   phone, never taller than most of the screen. A tall photo stays within the text column. */
+.read-prose .read-photo {
+  --photo-w: min(100cqi, 48rem, calc(80svh * var(--ratio, 1.5)));
+  width: var(--photo-w);
+  margin: 2.8em calc((100% - var(--photo-w)) / 2) 3em;
+}
+
+.read-prose .read-photo.is-tall {
+  --photo-w: min(100%, calc(80svh * var(--ratio)));
+}
+
+.read-prose .read-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+.read-prose .read-photo figcaption {
+  margin-top: 0.9rem;
+  /* Mono for any Latin and digits; Chinese in the reading face (楷 or 宋), not whatever the system falls back to. */
+  font-family: var(--essays-mono), var(--essays-zh);
+  font-size: 0.74rem;
+  line-height: 1.6;
+  letter-spacing: 0.14em;
+  color: var(--essays-faint);
+}
+
+@container (max-width: 48rem) {
+  .read-prose .read-photo:not(.is-tall) figcaption {
+    padding-inline: 1.25rem;
+  }
 }
 
 .read-prose code {

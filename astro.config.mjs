@@ -1,5 +1,6 @@
 import { defineConfig } from "astro/config";
 import sitemap from "@astrojs/sitemap";
+import rehypePhotos from "./src/lib/rehype-photos.ts";
 
 export default defineConfig({
   site: "https://elmtran.com",
@@ -15,6 +16,7 @@ export default defineConfig({
     "/essays/categories/": "/essays/",
   },
   markdown: {
+    rehypePlugins: [rehypePhotos],
     syntaxHighlight: "shiki",
     shikiConfig: {
       theme: "github-dark",

@@ -328,5 +328,159 @@
     "lgWidth": 1707,
     "color": "#1e2a4d",
     "focus": 0
+  },
+  "https://img.elmtran.com/20251006-6276301186881227926_119.jpg": {
+    "width": 1440,
+    "height": 2560,
+    "sm": "20251006-6276301186881227926_119-sm.webp",
+    "lg": "20251006-6276301186881227926_119-lg.webp",
+    "depth": "20251006-6276301186881227926_119-depth.png",
+    "smWidth": 720,
+    "lgWidth": 1440,
+    "color": "#6c88c3",
+    "focus": 0
+  },
+  "https://img.elmtran.com/20250525-DSC02232.jpg": {
+    "width": 7008,
+    "height": 4672,
+    "sm": "20250525-DSC02232-sm.webp",
+    "lg": "20250525-DSC02232-lg.webp",
+    "depth": "20250525-DSC02232-depth.png",
+    "smWidth": 1280,
+    "lgWidth": 2560,
+    "color": "#a07e59",
+    "focus": 0.149
+  },
+  "https://img.elmtran.com/20221217-DSC02581.png": {
+    "width": 1815,
+    "height": 1068,
+    "sm": "20221217-DSC02581-sm.webp",
+    "lg": "20221217-DSC02581-lg.webp",
+    "depth": "20221217-DSC02581-depth.png",
+    "smWidth": 1280,
+    "lgWidth": 1815,
+    "color": "#71a8d1",
+    "focus": 0.286
+  },
+  "https://img.elmtran.com/20221217-DSC02613.png": {
+    "width": 2355,
+    "height": 1660,
+    "sm": "20221217-DSC02613-sm.webp",
+    "lg": "20221217-DSC02613-lg.webp",
+    "depth": "20221217-DSC02613-depth.png",
+    "smWidth": 1280,
+    "lgWidth": 2355,
+    "color": "#b4b4b4",
+    "focus": 0
+  },
+  "https://img.elmtran.com/20221217-DSC02675.png": {
+    "width": 3000,
+    "height": 1688,
+    "sm": "20221217-DSC02675-sm.webp",
+    "lg": "20221217-DSC02675-lg.webp",
+    "depth": "20221217-DSC02675-depth.png",
+    "smWidth": 1280,
+    "lgWidth": 2560,
+    "color": "#b4824d",
+    "focus": 0
+  },
+  "https://img.elmtran.com/20221217-DSC02704.png": {
+    "width": 3000,
+    "height": 1688,
+    "sm": "20221217-DSC02704-sm.webp",
+    "lg": "20221217-DSC02704-lg.webp",
+    "depth": "20221217-DSC02704-depth.png",
+    "smWidth": 1280,
+    "lgWidth": 2560,
+    "color": "#37373a",
+    "focus": 0
+  },
+  "https://img.elmtran.com/20221217-DSC02753.jpg": {
+    "width": 6000,
+    "height": 4000,
+    "sm": "20221217-DSC02753-sm.webp",
+    "lg": "20221217-DSC02753-lg.webp",
+    "depth": "20221217-DSC02753-depth.png",
+    "smWidth": 1280,
+    "lgWidth": 2560,
+    "color": "#739095",
+    "focus": 0.129
+  },
+  "https://img.elmtran.com/20221217-DSC02840.png": {
+    "width": 1688,
+    "height": 1796,
+    "sm": "20221217-DSC02840-sm.webp",
+    "lg": "20221217-DSC02840-lg.webp",
+    "depth": "20221217-DSC02840-depth.png",
+    "smWidth": 1203,
+    "lgWidth": 1688,
+    "color": "#848484",
+    "focus": 0
+  },
+  "https://img.elmtran.com/20221217-DSC02876.png": {
+    "width": 3000,
+    "height": 1230,
+    "sm": "20221217-DSC02876-sm.webp",
+    "lg": "20221217-DSC02876-lg.webp",
+    "depth": "20221217-DSC02876-depth.png",
+    "smWidth": 1280,
+    "lgWidth": 2560,
+    "color": "#7da6b7",
+    "focus": 0.11
+  },
+  "https://img.elmtran.com/20221217-DSC02904.jpg": {
+    "width": 3000,
+    "height": 1740,
+    "sm": "20221217-DSC02904-sm.webp",
+    "lg": "20221217-DSC02904-lg.webp",
+    "depth": "20221217-DSC02904-depth.png",
+    "smWidth": 1280,
+    "lgWidth": 2560,
+    "color": "#6fa0b3",
+    "focus": 0.22
+  },
+  "https://img.elmtran.com/20221217-DSC02941.png": {
+    "width": 3000,
+    "height": 1780,
+    "sm": "20221217-DSC02941-sm.webp",
+    "lg": "20221217-DSC02941-lg.webp",
+    "depth": "20221217-DSC02941-depth.png",
+    "smWidth": 1280,
+    "lgWidth": 2560,
+    "color": "#4982b5",
+    "focus": 0.071
+  },
+  "https://img.elmtran.com/20221217-DSC027192.png": {
+    "width": 1521,
+    "height": 1789,
+    "sm": "20221217-DSC027192-sm.webp",
+    "lg": "20221217-DSC027192-lg.webp",
+    "depth": "20221217-DSC027192-depth.png",
+    "smWidth": 1088,
+    "lgWidth": 1521,
+    "color": "#a96a23",
+    "focus": 0.416
+  },
+  "https://img.elmtran.com/20231103-DSC06980.jpg": {
+    "width": 1976,
+    "height": 1204,
+    "sm": "20231103-DSC06980-sm.webp",
+    "lg": "20231103-DSC06980-lg.webp",
+    "depth": "20231103-DSC06980-depth.png",
+    "smWidth": 1280,
+    "lgWidth": 1976,
+    "color": "#4a5f38",
+    "focus": 0.337
+  },
+  "https://img.elmtran.com/20231103-DSC07041.png": {
+    "width": 1688,
+    "height": 2954,
+    "sm": "20231103-DSC07041-sm.webp",
+    "lg": "20231103-DSC07041-lg.webp",
+    "depth": "20231103-DSC07041-depth.png",
+    "smWidth": 731,
+    "lgWidth": 1463,
+    "color": "#626461",
+    "focus": 0.267
   }
 }
