@@ -82,7 +82,7 @@ if (condition) {
 ifelse(condition, true, false)
 ```
 
-```R
+```r
 switch(expression, case1, case2, case3, ...)
 
 switch(1, "a", "b", "c")
