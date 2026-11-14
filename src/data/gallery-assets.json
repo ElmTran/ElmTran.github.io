@@ -219,17 +219,6 @@
     "color": "#978887",
     "focus": 0.149
   },
-  "https://img.elmtran.com/20250327-DSC01889.jpg": {
-    "width": 4672,
-    "height": 7008,
-    "sm": "20250327-DSC01889-sm.webp",
-    "lg": "20250327-DSC01889-lg.webp",
-    "depth": "20250327-DSC01889-depth.png",
-    "smWidth": 853,
-    "lgWidth": 1707,
-    "color": "#8c797e",
-    "focus": 0.173
-  },
   "https://img.elmtran.com/20250327-DSC02133.jpg": {
     "width": 2355,
     "height": 3584,
@@ -240,17 +229,6 @@
     "lgWidth": 1682,
     "color": "#cbb099",
     "focus": 0.129
-  },
-  "https://img.elmtran.com/20250327-DSC02154.jpg": {
-    "width": 1235,
-    "height": 1547,
-    "sm": "20250327-DSC02154-sm.webp",
-    "lg": "20250327-DSC02154-lg.webp",
-    "depth": "20250327-DSC02154-depth.png",
-    "smWidth": 1022,
-    "lgWidth": 1235,
-    "color": "#c5a889",
-    "focus": 0.106
   },
   "https://img.elmtran.com/20250327-DSC02157-Enhanced-NR.jpg": {
     "width": 841,
