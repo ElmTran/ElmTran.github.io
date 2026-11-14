@@ -67,7 +67,7 @@ export const aboutStops: AboutStop[] = [
     kicker: "About",
     title: "Hi, I’m Mengqing.",
     text: "Born in ’97 in a small town in Sichuan; these days I write software in Shanghai. The lit points are places I’ve carried a camera. Scroll to travel, and click a print to turn it over.",
-    photo: "https://img.elmtran.com/DSC04680.jpg",
+    photo: "https://img.elmtran.com/20221031-DSC02391.png",
     note: {
       heading: "Hi, I’m Mengqing.",
       body: [
@@ -155,7 +155,7 @@ export const aboutStops: AboutStop[] = [
     title: "Shanghai",
     sub: "上海 · now",
     text: "Where I live and work, and where most of this site gets written.",
-    photo: "https://img.elmtran.com/DSC04586.jpg",
+    photo: "https://img.elmtran.com/DSC09884.png",
     now: true,
     note: {
       heading: "Now",

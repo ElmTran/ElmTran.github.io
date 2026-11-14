@@ -1,15 +1,18 @@
 import * as THREE from "three";
 import type { GalleryItem } from "../../lib/gallery";
-import { loadImage } from "./images";
+import { loadPixels, type Pixels } from "./images";
 import { clamp, lightboxInsets } from "./layout";
 import * as glsl from "./shaders";
 
 /**
  * The lightbox's depth view on its own, for the grid: the shader the corridor hands off to, on a canvas of its own laid
- * over the dialog's <img>. Nothing is loaded until a photo is opened; then only that photo's lg texture and depth map
- * (plus its two neighbours, so browsing cross-fades at once). The loop runs only while the dialog shows a photo.
- * The <img> stays underneath and carries the photo whenever the depth view can't: still loading, no depth map, or a
- * texture that failed (e.g. no CORS).
+ * over the dialog's <img>. Nothing is loaded until a photo is opened; then only that photo's lg texture and depth map,
+ * plus its two neighbours, fetched and decoded ahead so browsing cross-fades at once. The loop runs only while the
+ * dialog shows a photo. The <img> stays underneath and carries the photo whenever the depth view can't: still loading,
+ * no depth map, or a texture that failed (e.g. no CORS).
+ *
+ * Nothing heavy happens while something moves: a neighbour reaches the GPU only when it's shown, and a photo's depth
+ * effect starts only once the canvas fully covers the <img>, so the two are identical while one fades over the other.
  */
 
 THREE.ColorManagement.enabled = false;
@@ -17,7 +20,8 @@ THREE.ColorManagement.enabled = false;
 /** Same as the corridor's lightbox, so a photo moves the same way in both views. */
 const STRENGTH = 0.03;
 const SWAP_MS = 1300;
-const FADE_MS = 700;
+/** The canvas fades in flat over the same photo, so this only hides tiny resampling differences. */
+const FADE_MS = 400;
 
 const damp = (a: number, b: number, lambda: number, dt: number) => a + (b - a) * (1 - Math.exp(-lambda * dt));
 
@@ -28,6 +32,9 @@ function blankTexture(value: number) {
 }
 
 type Loaded = { map: THREE.Texture; depth: THREE.Texture; aspect: number; focus: number };
+type Decoded = { map: Pixels; depth: Pixels; aspect: number; focus: number };
+/** One photo: fetched and decoded ahead (off the main thread), uploaded to the GPU only when shown. */
+type Entry = { decoded: Promise<Decoded | null>; settled?: Decoded | null; gpu?: Loaded };
 
 export function createDepthViewer(dialog: HTMLDialogElement, items: GalleryItem[]) {
   const canvas = document.createElement("canvas");
@@ -41,17 +48,16 @@ export function createDepthViewer(dialog: HTMLDialogElement, items: GalleryItem[
   renderer.setClearColor(0x000000, 0);
   const anisotropy = Math.min(8, renderer.capabilities.getMaxAnisotropy());
 
-  const blankMap = blankTexture(0);
-  const blankDepth = blankTexture(128);
+  const blank: Loaded = { map: blankTexture(0), depth: blankTexture(128), aspect: 1.5, focus: 0.5 };
   const uniforms = {
-    uMapA: { value: blankMap as THREE.Texture },
-    uDepthA: { value: blankDepth as THREE.Texture },
-    uAspectA: { value: 1.5 },
-    uFocusA: { value: 0.5 },
-    uMapB: { value: blankMap as THREE.Texture },
-    uDepthB: { value: blankDepth as THREE.Texture },
-    uAspectB: { value: 1.5 },
-    uFocusB: { value: 0.5 },
+    uMapA: { value: blank.map },
+    uDepthA: { value: blank.depth },
+    uAspectA: { value: blank.aspect },
+    uFocusA: { value: blank.focus },
+    uMapB: { value: blank.map },
+    uDepthB: { value: blank.depth },
+    uAspectB: { value: blank.aspect },
+    uFocusB: { value: blank.focus },
     uMix: { value: 0 },
     uOpacity: { value: 0 },
     uCanvas: { value: new THREE.Vector2(1, 1) },
@@ -74,9 +80,17 @@ export function createDepthViewer(dialog: HTMLDialogElement, items: GalleryItem[
   );
   quad.frustumCulled = false;
   scene.add(quad);
+  // Compile while the first photo downloads, not on the fade's first frame. compileAsync only helps (and otherwise warns)
+  // where the browser compiles in parallel.
+  if (renderer.extensions.has("KHR_parallel_shader_compile")) {
+    void renderer.compileAsync(scene, camera).catch(() => {});
+  } else {
+    renderer.compile(scene, camera);
+  }
 
-  function texture(img: HTMLImageElement, color: boolean) {
-    const tex = new THREE.Texture(img);
+  function texture(pixels: Pixels, color: boolean) {
+    const tex = new THREE.Texture(pixels.image);
+    tex.flipY = pixels.flipY;
     if (color) {
       tex.anisotropy = anisotropy;
     } else {
@@ -88,56 +102,64 @@ export function createDepthViewer(dialog: HTMLDialogElement, items: GalleryItem[
     return tex;
   }
 
-  // ---------- Textures: the photo on screen and its neighbours stay on the GPU ----------
+  // ---------- Photos: the one on screen and its neighbours are decoded; only what's shown is on the GPU ----------
 
-  const pending = new Map<number, Promise<Loaded | null>>();
-  /** Settled loads; a photo missing here is still on its way. null = no depth view for it. */
-  const ready = new Map<number, Loaded | null>();
+  const entries = new Map<number, Entry>();
 
-  function load(index: number) {
-    let p = pending.get(index);
-    if (!p) {
-      const item = items[index];
-      p = (
-        item?.depth
-          ? Promise.all([loadImage(item.lg), loadImage(item.depth)]).then(
-              ([map, depth]): Loaded => ({
-                map: texture(map, true),
-                depth: texture(depth, false),
-                aspect: map.naturalWidth / map.naturalHeight || item.aspect,
-                focus: item.focus,
-              }),
-              () => null,
-            )
-          : Promise.resolve(null)
-      ).then((t) => {
-        if (pending.get(index) === p) ready.set(index, t);
-        return t;
-      });
-      pending.set(index, p);
+  function fetchPhoto(index: number) {
+    const known = entries.get(index);
+    if (known) {
+      return known;
     }
-    return p;
+    const item = items[index];
+    const entry: Entry = {
+      decoded: item?.depth
+        ? Promise.all([loadPixels(item.lg), loadPixels(item.depth)]).then(
+            ([map, depth]): Decoded => ({
+              map,
+              depth,
+              aspect: map.width / map.height || item.aspect,
+              focus: item.focus,
+            }),
+            () => null,
+          )
+        : Promise.resolve(null),
+    };
+    void entry.decoded.then((d) => (entry.settled = d));
+    entries.set(index, entry);
+    return entry;
+  }
+
+  /** The photo's textures, uploaded now if they aren't yet. null = no depth view for it. */
+  function upload(entry: Entry) {
+    const d = entry.settled;
+    if (!d) {
+      return null;
+    }
+    entry.gpu ??= { map: texture(d.map, true), depth: texture(d.depth, false), aspect: d.aspect, focus: d.focus };
+    return entry.gpu;
   }
 
   function dropExcept(keep: number) {
     const n = items.length;
-    for (const [index, p] of pending) {
+    for (const [index, entry] of entries) {
       const distance = Math.min(Math.abs(index - keep), n - Math.abs(index - keep));
       if (distance > 1) {
-        pending.delete(index);
-        ready.delete(index);
-        void p.then((t) => {
-          t?.map.dispose();
-          t?.depth.dispose();
+        entries.delete(index);
+        void entry.decoded.then((d) => {
+          entry.gpu?.map.dispose();
+          entry.gpu?.depth.dispose();
+          d?.map.close();
+          d?.depth.close();
         });
       }
     }
   }
 
-  function preloadAround(index: number) {
+  function prefetchAround(index: number) {
     const n = items.length;
-    void load((index + 1) % n);
-    void load((index - 1 + n) % n);
+    fetchPhoto((index + 1) % n);
+    fetchPhoto((index - 1 + n) % n);
   }
 
   function assign(slot: "A" | "B", t: Loaded) {
@@ -152,6 +174,7 @@ export function createDepthViewer(dialog: HTMLDialogElement, items: GalleryItem[
     uniforms.uDepthA.value = uniforms.uDepthB.value;
     uniforms.uAspectA.value = uniforms.uAspectB.value;
     uniforms.uFocusA.value = uniforms.uFocusB.value;
+    assign("B", blank);
     uniforms.uMix.value = 0;
     swapStart = -1;
   }
@@ -160,6 +183,8 @@ export function createDepthViewer(dialog: HTMLDialogElement, items: GalleryItem[
 
   /** The photo the dialog shows; a load that arrives for any other is ignored. */
   let wanted = -1;
+  /** The photo the canvas shows, or is dissolving to; -1 when it's off. */
+  let shown = -1;
   let visible = false;
   let opacity = 0;
   let swapStart = -1;
@@ -173,49 +198,50 @@ export function createDepthViewer(dialog: HTMLDialogElement, items: GalleryItem[
   /** Hand the photo straight back to the <img>. */
   function off() {
     visible = false;
+    shown = -1;
     opacity = 0;
     swapStart = -1;
     uniforms.uOpacity.value = 0;
     uniforms.uStrength.value = 0;
     uniforms.uMix.value = 0;
+    // Let go of the textures, so none is drawn again after its photo has been dropped.
+    assign("A", blank);
+    assign("B", blank);
     cover(false);
     stop();
     renderer.clear();
   }
 
-  /** Fade the depth view in over the <img>, starting flat so the two line up exactly. */
-  function fadeIn(t: Loaded) {
+  /** Fade the depth view in over the <img>; it starts flat (see tick) so the two line up exactly. */
+  function fadeIn(t: Loaded, index: number) {
     assign("A", t);
-    uniforms.uMix.value = 0;
-    uniforms.uStrength.value = 0;
-    swapStart = -1;
+    shown = index;
     visible = true;
     start();
   }
 
-  function crossFade(t: Loaded) {
+  function crossFade(t: Loaded, index: number) {
     if (swapStart >= 0) settleSwap();
     assign("B", t);
+    shown = index;
     uniforms.uMix.value = 0;
     swapStart = performance.now();
   }
 
   async function show(index: number) {
     wanted = index;
-    if (ready.has(index)) {
-      const t = ready.get(index)!;
-      if (!t) off();
-      else if (visible) crossFade(t);
-      else fadeIn(t);
-    } else {
+    const entry = fetchPhoto(index);
+    if (entry.settled === undefined) {
       // Not here yet: the <img> shows this photo meanwhile, rather than the canvas holding on to the last one.
       off();
-      const t = await load(index);
-      if (wanted !== index || !t) return;
-      fadeIn(t);
+      await entry.decoded;
+      if (wanted !== index || entries.get(index) !== entry) return;
     }
+    const t = upload(entry);
+    if (!t) off();
+    else if (shown !== index) (visible ? crossFade : fadeIn)(t, index);
     dropExcept(index);
-    preloadAround(index);
+    prefetchAround(index);
   }
 
   function hide() {
@@ -274,10 +300,13 @@ export function createDepthViewer(dialog: HTMLDialogElement, items: GalleryItem[
       if (t >= 1) settleSwap();
     }
 
+    // The <img> goes only after a frame with the canvas fully opaque over it, and the depth effect waits for that too:
+    // until then both show the same flat photo, so neither the fade nor the hand-over can be seen.
+    const covered = opacity >= 1;
+    cover(covered);
     opacity = clamp(opacity + (dt * 1000) / FADE_MS, 0, 1);
     uniforms.uOpacity.value = opacity;
-    uniforms.uStrength.value = damp(uniforms.uStrength.value, STRENGTH, 2.5, dt);
-    cover(opacity > 0.6);
+    uniforms.uStrength.value = covered ? damp(uniforms.uStrength.value, STRENGTH, 2.5, dt) : 0;
 
     renderer.render(scene, camera);
   }

@@ -2,6 +2,7 @@
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import EssaysChrome from "../../components/essays/EssaysChrome.astro";
 import NotesIndex from "../../components/essays/NotesIndex.astro";
+import { loadGallery } from "../../lib/gallery";
 import { getPostSlug, getPostUrl, type BlogEntry } from "../../lib/posts";
 import {
   charCount,
@@ -25,6 +26,9 @@ const rowData = (post: BlogEntry) => ({
   "data-tags": JSON.stringify(post.data.tags),
   "data-search": searchBlob(post),
 });
+/** Behind the intro: the Atlantic at Bray. Any photo in content/photos works; if it's gone, the page keeps its colour. */
+const backdropSrc = "https://img.elmtran.com/20221031-DSC02336.jpg";
+const backdrop = (await loadGallery()).items.find((p) => p.src === backdropSrc);
 const numbers = new Map(chapters.flatMap((c) => c.posts).map((post, i) => [post, String(i + 1).padStart(2, "0")]));
 ---
 
@@ -32,9 +36,16 @@ const numbers = new Map(chapters.flatMap((c) => c.posts).map((post, i) => [post,
   title="Essays"
   description="Memoir, a little fiction, the odd translation — and notes on software and markets."
   canonicalPath="/essays/"
-  bodyClass="page-essays page-home-photo"
+  bodyClass="page-essays page-essays-index page-home-photo"
 >
   <EssaysChrome views />
+  {
+    backdrop && (
+      <div class="essays-backdrop" aria-hidden="true">
+        <img src={backdrop.lg} srcset={backdrop.srcset} sizes="100vw" alt="" fetchpriority="high" decoding="async" />
+      </div>
+    )
+  }
 
   <!-- 片语: every piece by the one line kept from it. -->
   <section class="essays-view essays-view--lines" aria-label="片语">
@@ -42,6 +53,10 @@ const numbers = new Map(chapters.flatMap((c) => c.posts).map((post, i) => [post,
       <p class="essays-kicker">{kicker} · <a href="/feed.xml">Feed</a></p>
       <h1 class="essays-title">Most of it fades.<br />A line or two stays.</h1>
       <p class="essays-lede">Each piece, by the one line I kept from it. Click a line to read the rest.</p>
+      <figure class="essays-epigraph">
+        <blockquote lang="en">Either write things worth reading,<br />or do things worth the writing.</blockquote>
+        <figcaption class="essays-mono">Benjamin Franklin · <cite>Poor Richard’s Almanack</cite> · 1738</figcaption>
+      </figure>
       <div class="essays-filter" data-essays-filter hidden></div>
       <p class="essays-scroll-hint essays-mono">Scroll</p>
     </header>

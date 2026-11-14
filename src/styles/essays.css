@@ -375,6 +375,34 @@ html[data-essays-font="song"] body.page-essays {
   line-height: 0.98;
 }
 
+/* A borrowed line next to the kept ones, in its 1738 wording. */
+.essays-epigraph {
+  max-width: 34rem;
+  margin: 2.4rem 0 0;
+  padding-left: 1.1rem;
+  border-left: 1px solid var(--essays-ember);
+}
+
+.essays-epigraph blockquote {
+  margin: 0;
+  font-family: var(--essays-latin);
+  font-style: italic;
+  font-size: 1.22rem;
+  line-height: 1.55;
+  color: var(--essays-body);
+}
+
+.essays-epigraph figcaption {
+  margin-top: 0.6rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--essays-muted);
+}
+
+.essays-epigraph cite {
+  font-style: normal;
+}
+
 .essays-scroll-hint {
   display: inline-flex;
   align-items: center;
@@ -1699,7 +1727,8 @@ html[data-essays-font="song"] body.page-essays {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .read-hero img {
+  .read-hero img,
+  .essays-backdrop img {
     animation: none;
   }
 
@@ -1712,6 +1741,76 @@ html[data-essays-font="song"] body.page-essays {
   .essays-entry-line {
     transition-duration: 1ms;
   }
+}
+
+/* ---------- The list page: the Atlantic at Bray behind the intro, then sea-dark rather than black ---------- */
+
+/* body.page-home-photo (global.css) sets a background too; this has to outrank it. */
+body.page-essays.page-essays-index {
+  --essays-bg: #0e1620;
+  background: var(--essays-bg);
+}
+
+html:has(body.page-essays-index) {
+  background: #0e1620;
+}
+
+.page-essays-index .essays-bar {
+  background: rgba(14, 22, 32, 0.72);
+}
+
+body.page-home-photo.page-essays-index .site-header--scrolled {
+  background: rgba(14, 22, 32, 0.5);
+}
+
+.page-essays-index .essays-pv-photo::after {
+  background: linear-gradient(180deg, rgba(14, 22, 32, 0.35) 0%, rgba(14, 22, 32, 0.88) 45%, #0e1620 75%);
+}
+
+.essays-backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  height: 100svh;
+  min-height: 34rem;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.essays-backdrop img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 40%;
+  filter: saturate(0.85);
+  animation: read-hero-in 2.4s var(--essays-ease) both;
+}
+
+/* Darker where the words sit (top left), and down into the page colour. */
+.essays-backdrop::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(180deg, rgba(14, 22, 32, 0.55) 0%, rgba(14, 22, 32, 0.15) 22%),
+    linear-gradient(90deg, rgba(14, 22, 32, 0.7) 0%, rgba(14, 22, 32, 0.25) 55%, rgba(14, 22, 32, 0) 100%),
+    linear-gradient(0deg, #0e1620 0%, rgba(14, 22, 32, 0.6) 30%, rgba(14, 22, 32, 0) 65%);
+}
+
+/* Positioned, so the views paint over the photo that comes before them. */
+.page-essays-index .essays-view {
+  position: relative;
+}
+
+.page-essays-index .essays-intro {
+  text-shadow: 0 1px 18px rgba(0, 0, 0, 0.45);
+}
+
+/* 开卷 shows a photo of its own on the right; the colour alone there. */
+html[data-essays-view="opening"] .essays-backdrop {
+  display: none;
 }
 
 /* ---------- Views ---------- */
