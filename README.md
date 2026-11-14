@@ -27,7 +27,7 @@ Personal site and blog, built with [Astro](https://astro.build/). Essays live un
   | `series`  | Same name links posts as a series; in Notes they fold into one row                          |
 - Photos: one YAML file per photo in `content/photos/` — `src`, `rating` (1–5), `title`, `place`, `date`, `exif`.
   Photos rated `galleryFeaturedRating` (5, in `src/site.ts`) walk the 3D corridor; every photo is in the grid
-  (`/photos/?view=grid`). Add photos straight from local files or folders (Windows paths such as `E:\…` work too):
+  (`/photos/?view=grid`), whose lightbox shows the same depth view, loading a photo's depth map only once it's opened. Add photos straight from local files or folders (Windows paths such as `E:\…` work too):
 
   ```bash
   ONNXRUNTIME_NODE_INSTALL=skip npm --prefix tools/gallery install   # once

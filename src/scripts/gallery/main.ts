@@ -1,4 +1,5 @@
 import type { GalleryItem } from "../../lib/gallery";
+import type { DepthViewer } from "./depth-viewer";
 import { loadImage } from "./images";
 import { smoothstep } from "./layout";
 import { createLightbox, type Presenter } from "./lightbox";
@@ -106,7 +107,21 @@ async function boot() {
     }
   }
 
-  lightbox = createLightbox(dialog, presenter ? items : all, presenter);
+  // Grid view: the lightbox can still show depth, from the same maps. Nothing of it loads until a photo is opened.
+  const html = document.documentElement;
+  let depth: Promise<DepthViewer | null> | undefined;
+  const depthViewer =
+    !presenter && html.hasAttribute("data-webgl") && !matchMedia("(prefers-reduced-motion: reduce)").matches
+      ? () =>
+          (depth ??= import("./depth-viewer")
+            .then(({ createDepthViewer }) => createDepthViewer(dialog, all))
+            .catch((err) => {
+              console.error("Depth view unavailable, showing plain photos", err);
+              return null;
+            }))
+      : undefined;
+
+  lightbox = createLightbox(dialog, presenter ? items : all, presenter, depthViewer);
   root.querySelectorAll<HTMLButtonElement>("[data-photo-index]").forEach((btn) =>
     btn.addEventListener("click", () => void lightbox?.open(Number(btn.dataset.photoIndex))),
   );

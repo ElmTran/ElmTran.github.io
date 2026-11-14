@@ -1,4 +1,5 @@
 import type { GalleryItem } from "../../lib/gallery";
+import type { DepthViewer } from "./depth-viewer";
 
 /** What actually draws the photo: the WebGL corridor, or a plain <img> fallback. */
 export type Presenter = {
@@ -28,7 +29,16 @@ function specRows(item: GalleryItem): [string, string][] {
   return rows;
 }
 
-export function createLightbox(dialog: HTMLDialogElement, items: GalleryItem[], presenter?: Presenter) {
+/**
+ * `presenter` draws the photo when the corridor is running. Without one the dialog shows a plain <img>; `depth`, if
+ * given, then lays the depth view over it once that has loaded (it resolves to null when it can't).
+ */
+export function createLightbox(
+  dialog: HTMLDialogElement,
+  items: GalleryItem[],
+  presenter?: Presenter,
+  depth?: () => Promise<DepthViewer | null>,
+) {
   const q = <T extends Element>(selector: string) => dialog.querySelector<T>(selector)!;
   const img = q<HTMLImageElement>("[data-lightbox-img]");
   const label = q<HTMLElement>("[data-lightbox-label]");
@@ -45,15 +55,20 @@ export function createLightbox(dialog: HTMLDialogElement, items: GalleryItem[], 
     img.src = item.lg;
     img.alt = item.alt;
   };
+  const withDepth = (fn: (viewer: DepthViewer) => void) => void depth?.().then((viewer) => viewer && fn(viewer));
   const plain: Presenter = {
     async open(i) {
       showImage(items[i]);
+      withDepth((viewer) => dialog.open && !closing && index === i && viewer.show(i));
     },
     show(i) {
       img.animate([{ opacity: 0.2 }, { opacity: 1 }], { duration: 450, easing: "ease-out" });
       showImage(items[i]);
+      withDepth((viewer) => viewer.show(i));
     },
-    async close() {},
+    async close() {
+      withDepth((viewer) => viewer.hide());
+    },
   };
   const view = presenter ?? plain;
   dialog.classList.toggle("lightbox--plain", !presenter);

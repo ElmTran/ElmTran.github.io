@@ -608,6 +608,20 @@ html[data-webgl] .gallery-grid-switch {
   display: block;
 }
 
+/* Grid view: the depth view (src/scripts/gallery/depth-viewer.ts) fades in over the <img>, then takes its place. */
+.lightbox-canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  pointer-events: none;
+}
+
+.lightbox.has-depth .lightbox-img {
+  visibility: hidden;
+}
+
 .lightbox-label,
 .lightbox-nav,
 .lightbox-hint {
@@ -814,7 +828,7 @@ html[data-webgl] .gallery-grid-switch {
     display: block;
   }
 
-  .lightbox--plain .lightbox-hint {
+  .lightbox--plain:not(.has-depth) .lightbox-hint {
     display: none;
   }
 }
