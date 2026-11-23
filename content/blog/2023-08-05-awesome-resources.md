@@ -7,946 +7,524 @@ tags: [media, books, assets, reference]
 date: 2023/08/05
 ---
 
-## Moives
+按用途分组。同一站点只留一条，失效的链接已清理。
 
+## 影视
+
+### 在线观看与搜索
+
+- [JustWatch](https://www.justwatch.com/) — 查一部片子在哪家平台能看
+- [蜜柑计划](https://mikanani.me/) — 番剧 BT
+- [Nyaa](https://nyaa.si/) — 动漫与影视 BT
+- [SeedHub](https://www.seedhub.cc/)
 - [ipersphera](https://www.ipersphera.com/)
-
-- [rarbt](http://www.rarbt.fun/)
-
-- [ubuweb](https://ubu.com/)
-
-- [justwatch-电影搜索](https://www.justwatch.com/)
-
-- [字幕库](http://zimuku.org/)
-
-- [蜜柑计划](https://mikanani.me/)
-
-- [nyaa](https://nyaa.si/)
-
 - [此刻](https://www.cikeee.com/)
-
-- [tg-影视资源贴](https://t.me/LCGFX/2905)
-
-- [knkanime-多源看番](https://github.com/KNKPA/KNKPAnime)
-
-- [seedhub](https://www.seedhub.cc/)
-
+- [KNKPAnime](https://github.com/KNKPA/KNKPAnime) — 多源看番客户端
 - [短剧狗](https://duanjugou.top/)
-
 - [gying](https://www.xn--ykq321c.com/)
+- [TG 影视资源贴](https://t.me/LCGFX/2905)
 
-### 网盘
+### 网盘搜索
 
 - [lapanx](https://lzpanx.com/)
-
 - [搜片](https://soupian.one/)
-
 - [纯英字幕电影带台本](https://pan.quark.cn/s/29b7ed8b43ad#/list/share)
 
-### trailers
+### 字幕、剧本与台词
 
-- [好莱坞电影手册](http://moviesoon.com/trailers.html)
-
-- [预告片世界](https://www.yugaopian.cn/)
-
-- [thedigitaltheater](https://thedigitaltheater.com/)
-
-- [hd-trailers](https://hd-trailers.net/)
-
-- [itunes-trailers](https://trailers.apple.com/)
-
-- [rottentomatoes-youtube](https://www.youtube.com/user/movieclipsTRAILERS)
-
-- [imdb](https://www.imdb.com/trailers/)
-
-- [rottentomatoes](https://www.rottentomatoes.com/trailers)
-
-- [deadline](https://deadline.com/category/trailers/)
-
-- [commingsoon](https://www.comingsoon.net/trailers)
-
-- [screenrant](https://screenrant.com/movie-trailers/)
-
-- [IMSDb-电影剧本](https://imsdb.com/)
-
+- [字幕库](http://zimuku.org/)
+- [IMSDb](https://imsdb.com/) — 电影剧本
 - [台词社](https://www.taicishe.com/)
 
-## Video
+### 预告片
 
-- [videovo](https://www.videvo.net/)
+- [IMDb](https://www.imdb.com/trailers/)
+- [Rotten Tomatoes](https://www.rottentomatoes.com/trailers)
+- [Rotten Tomatoes / Movieclips](https://www.youtube.com/user/movieclipsTRAILERS)
+- [The Digital Theater](https://thedigitaltheater.com/)
+- [HD-Trailers](https://hd-trailers.net/)
+- [Apple TV Trailers](https://trailers.apple.com/)
+- [Deadline](https://deadline.com/category/trailers/)
+- [ComingSoon](https://www.comingsoon.net/trailers)
+- [ScreenRant](https://screenrant.com/movie-trailers/)
+- [好莱坞电影手册](http://moviesoon.com/trailers.html)
 
-- [xstockvideo](https://xstockvideo.com/)
+### 片段与剪辑
 
-- [footagecrate](https://footagecrate.com/)
+- [videocelebs](https://videocelebs.net/) — 电影删减片段
+- [Clip.Cafe](https://clip.cafe/) — 按台词搜电影片段
 
-- [freevideoclips](https://mazwai.com/)
+### 影视资料与工具
 
-- [pexels](https://www.pexels.com/videos/)
+- [世界电影史 100 部](https://www.scaruffi.com/cinema/best100.html)
+- [UbuWeb](https://ubu.com/) — 先锋艺术与实验影像档案
+- [Kodi](https://kodi.tv/) — 开源家庭影音中心
+- [Cobalt](https://cobalt.tools/) — 视频下载
 
-- [videocelebs-电影删减片段](https://videocelebs.net/)
+## 音乐
 
-- [cobalt-视频下载](https://cobalt.tools/)
+### 在线收听与发现
 
-- [clip-cafe-电影剪辑搜索](https://clip.cafe/)
-
-## Music
-
-- [liumingye](https://tools.liumingye.cn/music/#/)
-
-- [音乐和酒](http://drinkify.org/)
-
-- [Nightwave Plaza](https://plaza.one/)
-
-- [lastfm-音乐艺术家](https://www.last.fm/)
-
-- [mp3bst-音乐下载](https://mp3bst.com/)
-
-- [apeflac-无损音乐下载](http://www.ape-flac.com/)
-
+- [Last.fm](https://www.last.fm/) — 艺术家与收听记录
+- [SoundCloud](https://soundcloud.com/)
+- [Nightwave Plaza](https://plaza.one/) — 蒸汽波电台
 - [NCS](https://ncs.io/music)
-
-- [sacdr](https://sacdr.net/)
-
-- [白噪声](https://t.me/isaiahsystem/465)
-
 - [Coderadio](https://coderadio.freecodecamp.org/)
-
-- [顽狗音乐](https://music.dogged.cn/)
-
-- [uppbeat](https://uppbeat.io/)
-
-- [noise 的音乐库](https://www.noiseyp.top/Onedrive/%E9%9F%B3%E4%B9%90%E9%9F%B3%E6%95%88)
-
-- [freepd.com](https://freepd.com/)
-
-- [jumendo](https://www.jamendo.com/start)
-
-- [imslp-曲谱下载](https://cn.imslp.org/)
-
-- [audionautix](https://audionautix.com/)
-
-- [freeplaymusic](https://freeplaymusic.com/)
-
+- [Drinkify](http://drinkify.org/) — 按酒单找音乐
+- [Tonzhon](https://tonzhon.com/)
+- [歌曲宝](https://www.gequbao.com/)
+- [jbsou](https://www.jbsou.cn/)
+- [skymuz](https://skymuz.org/)
 - [xicxi](https://xicxi.com.cutestat.com/)
 
-- [premiumbeat](https://www.premiumbeat.com/zh)
+### 下载
 
-- [100audio](https://100audio.com/)
+- [下歌吧](https://so.liumingye.cn/) — 网盘资源搜索
+- [APE/FLAC](http://www.ape-flac.com/) — 无损音乐
+- [sacdr](https://sacdr.net/) — SACD 与无损
+- [Apple Music 无损下载](https://github.com/zhaarey/apple-music-alac-atmos-downloader)
 
-- [listennotes](https://www.listennotes.com/)
+### 免版权音乐
 
-- [mp3bst](https://mp3bst.com/)
+- [Uppbeat](https://uppbeat.io/)
+- [FreePD](https://freepd.com/)
+- [Jamendo](https://www.jamendo.com/start)
+- [Audionautix](https://audionautix.com/)
+- [Freeplay Music](https://freeplaymusic.com/)
+- [PremiumBeat](https://www.premiumbeat.com/zh)
+- [100Audio](https://100audio.com/)
+- [H/MIX GALLERY](http://www.hmix.net/music_gallery/music_top.htm)
 
-- [ape-flac](http://www.ape-flac.com/)
-
-- [limingye](https://tool.liumingye.cn/music/#/)
-
-- [tonzhon](https://tonzhon.com/)
-
-- [歌曲宝](https://www.gequbao.com/)
-
-- [jbsou](https://www.jbsou.cn/)
-
-- [musicenc](https://www.musicenc.com/)
-
-- [skymuz](https://skymuz.org/)
-
-- [spotify 去广告](https://github.com/mrpond/BlockTheSpot)
-
-- [Spicetify-Spotify 优化](https://spicetify.app/)
-
-- [apple-music 无损下载](https://github.com/zhaarey/apple-music-alac-atmos-downloader)
-
-## podcasts
-
-- [empire](https://linktr.ee/empirepoduk)
-
-- [BookRadio-有声读物](https://bookradio.vercel.app/)
-
-## Sound
+### 音效与环境音
 
 - [爱给网](http://www.aigei.com/)
+- [SoundSnap](https://www.soundsnap.com/)
+- [Freesound](https://freesound.org/)
+- [FindSounds](https://www.findsounds.com/typesChinese.html)
+- [A Soft Murmur](https://asoftmurmur.com/) — 背景音合成
+- [白噪声](https://t.me/isaiahsystem/465)
 
-- [soundsnap](https://www.soundsnap.com/)
+### 曲谱与学习
 
-- [背景音合成](https://asoftmurmur.com/)
+- [IMSLP](https://cn.imslp.org/) — 公有领域曲谱
+- [Learning Music](https://learningmusic.ableton.com/) — Ableton 音乐制作入门
 
-- [learningmusic](https://learningmusic.ableton.com/)
+### 播客与有声书
 
-- [freesound](https://freesound.org/)
+- [Listen Notes](https://www.listennotes.com/) — 播客搜索
+- [Empire](https://linktr.ee/empirepoduk)
+- [BookRadio](https://bookradio.vercel.app/) — 有声读物
 
-- [soundcloud](https://soundcloud.com/)
+### 客户端
 
-- [hmx gallery](http://www.hmix.net/music_gallery/music_top.htm)
+- [BlockTheSpot](https://github.com/mrpond/BlockTheSpot) — Spotify 去广告
+- [Spicetify](https://spicetify.app/) — Spotify 界面定制
 
-- [findsounds](https://www.findsounds.com/typesChinese.html)
+## 图像
 
-## Pictures
+### 图库
 
-- [Screen Plays](https://screenplays.io/)
-
-- [无料写真](https://www.pakutaso.com/)
-
-- [lexica](https://lexica.art/)
-
-- [freeimages](https://www.freeimages.com/icon?ref=findicons)
-
-- [hdqwalls](https://hdqwalls.com/1080x1920/4k-wallpapers)
-
-- [unsplash](https://unsplash.com/)
-
-- [visualhunt](https://visualhunt.com/)
-
-- [simpledesktops](http://simpledesktops.com/)
-
-- [goodfond](https://anime.goodfon.com/)
-
-- [sauceNAO](https://saucenao.com/)
-
-- [zedge](https://www.zedge.net/find/wallpapers/movie)
-
-- [pixiv](https://sketch.pixiv.net/popular)
-
-- [路人女主的养成方法壁纸](https://wall.alphacoders.com/by_sub_category.php?id=231137&name=%E8%B7%AF%E4%BA%BA%E5%A5%B3%E4%B8%BB%E7%9A%84%E5%85%BB%E6%88%90%E6%96%B9%E6%B3%95+%E5%A3%81%E7%BA%B8&lang=Chinese)
-
-- [全面屏壁纸](https://m.bcoderss.com/category/2160x1080/)
-
-- [云图片](https://www.ianfisherart.com/)
-
-- [Multi-service image search](http://iqdb.org/)
-
-- [360 全景](https://www.airpano.com/?n=10&sort_by=&page=1)
-
-- [Anime pictures and wallpapers for everyone!](https://anime-pictures.net/)
-
-- [upupoo](http://www.upupoo.com/mobile_index)
-
-- [wallpaperabyss](https://wall.alphacoders.com/?lang=Chinese)
-
-- [航拍爱好者](https://www.skypixel.com/)
-
-- [pixabay](https://pixabay.com/)
-
-- [picjump](https://picjump.com/)
-
+- [Unsplash](https://unsplash.com/)
+- [Pixabay](https://pixabay.com/)
+- [ぱくたそ](https://www.pakutaso.com/) — 免费人物写真素材
+- [StockCake](https://stockcake.com/) — 无版权 AI 图库
+- [Lexica](https://lexica.art/) — AI 生成图搜索
+- [Visual Hunt](https://visualhunt.com/)
+- [Ian Fisher](https://www.ianfisherart.com/) — 云
 - [花瓣网](https://huaban.com/)
-
-- [colorhub](https://colorhub.me/)
-
 - [图虫网](https://tuchong.com/)
 
-- [wallhaven](https://wallhaven.cc/)
+### 壁纸
 
-- [movie-screencaps-电影截图](https://movie-screencaps.com/)
+- [Wallhaven](https://wallhaven.cc/)
+- [Alphacoders](https://wall.alphacoders.com/?lang=Chinese)
+- [路人女主的养成方法壁纸](https://wall.alphacoders.com/by_sub_category.php?id=231137&name=%E8%B7%AF%E4%BA%BA%E5%A5%B3%E4%B8%BB%E7%9A%84%E5%85%BB%E6%88%90%E6%96%B9%E6%B3%95+%E5%A3%81%E7%BA%B8&lang=Chinese)
+- [Anime Pictures](https://anime-pictures.net/)
+- [Pixiv Sketch](https://sketch.pixiv.net/popular)
+- [GoodFon Anime](https://anime.goodfon.com/)
+- [Zedge](https://www.zedge.net/find/wallpapers/movie)
+- [HDQ Walls](https://hdqwalls.com/1080x1920/4k-wallpapers)
+- [Simple Desktops](http://simpledesktops.com/)
+- [全面屏壁纸](https://m.bcoderss.com/category/2160x1080/)
 
-- [moviemania-电影海报](https://www.moviemania.io/)
+### 电影截图与海报
 
-- [screenmusings-电影截图](https://screenmusings.org/)
+- [Movie-Screencaps](https://movie-screencaps.com/)
+- [ScreenMusings](https://screenmusings.org/)
+- [Film Grab](https://film-grab.com/)
+- [Movie Posters Perfected](https://www.moviepostersperfected.com/quick-setup)
 
-- [film-grab-电影截图](https://film-grab.com/)
+### 以图搜图
 
-- [stockcake-无版权 AI 图库](https://stockcake.com/)
+- [SauceNAO](https://saucenao.com/)
+- [IQDB](http://iqdb.org/) — 多站联合以图搜图
 
-- [movie-posters-perfected-电影海报](https://www.moviepostersperfected.com/quick-setup)
+### 全景与航拍
 
-- [videocelebs-电影删减片段](https://videocelebs.net/)
+- [AirPano](https://www.airpano.com/?n=10&sort_by=&page=1) — 360° 全景
+- [SkyPixel](https://www.skypixel.com/) — 航拍作品
 
-## Design
+### 艺术与博物馆
 
-- [dribbble](https://dribbble.com/shots)
+- [Gallerix](https://gallerix.asia/) — 在线博物馆
 
-- [colorspace](https://mycolor.space/)
+## 视频素材
 
-- [The easiest CSS color gradients generator \| Colorffy](https://colorffy.com/)
+### 免版权素材
 
-- [寻找配色](http://colorhunt.co)
+- [Videvo](https://www.videvo.net/)
+- [xStockVideo](https://xstockvideo.com/)
+- [FootageCrate](https://footagecrate.com/)
+- [Mazwai](https://mazwai.com/)
+- [Pexels Videos](https://www.pexels.com/videos/)
 
-- [Radix-配色](https://www.radix-ui.com/colors/custom)
+## 设计
 
-- [寻找矢量图片](http://iconfont.cn)
+### 配色与渐变
 
-- [freepreset-预设](https://freepreset.net/)
+- [Color Hunt](http://colorhunt.co)
+- [mycolor.space](https://mycolor.space/)
+- [Colorffy](https://colorffy.com/) — CSS 渐变生成
+- [Radix Colors](https://www.radix-ui.com/colors/custom)
+- [CHT Colors](https://cht-colors.pages.dev/)
+- [colorhub](https://colorhub.me/) — 配色分享
+- [ColorFlow](https://colorflow.ls.graphics/) — 网格渐变编辑
+- [Gradientor](https://gradientor.app/)
+- [Mesh Gradients](https://www.mshr.app/)
+- [Duotone](https://duotone.shapefactory.co/?f=f56468&t=27184f&q=_) — 双色调
 
-- [free-css](https://www.free-css.com/)
+### 图标与素材
 
-- [handsome-css](https://www.handsome-css.com/)
+- [iconfont](http://iconfont.cn) — 阿里巴巴矢量图标库
+- [IconPark](https://github.com/bytedance/IconPark) — 字节图标库
+- [Icongo](https://icongo.github.io/) — 图标搜索
+- [标智客](https://www.uugai.com/) — Logo 设计
+- [vsthemes](https://vsthemes.org/en/cursors/) — 鼠标指针
 
-- [boxcoding-css_components](https://avabucks.it/index)
+### 组件与动效
 
-- [loadership-css 加载动画](https://www.loadership.com/#configurator)
+- [BoxCoding](https://avabucks.it/index) — CSS 组件
+- [Loadership](https://www.loadership.com/#configurator) — CSS 加载动画
+- [Smashing Magazine](https://www.smashingmagazine.com/) — 前端与设计文章
 
-- [IconPark](https://github.com/bytedance/IconPark)
+### 模板
 
-- [shortcuts.design](https://shortcuts.design/)
-
-- [uugai-logo 设计](https://www.uugai.com/)
-
-- [cht-color](https://cht-colors.pages.dev/)
-
-- [microsoft-design](https://designer.microsoft.com/)
-
-- [searchicons](https://icongo.github.io/)
-
-- [refero.design](https://refero.design/)
-
-- [vsthemes-cursors](https://vsthemes.org/en/cursors/)
-
-- [渐变色](https://products-ls-graphics.b-cdn.net/mesh-gradients/)
-
-- [渐变色生成](https://gradientor.app/)
-
-- [CSS 渐变](https://www.mshr.app/)
-
-- [双色](https://duotone.shapefactory.co/?f=f56468&t=27184f&q=_)
-
-- [调色 lut-提取码:k5e4](https://pan.baidu.com/share/init?surl=PFVwWXNbOsIx5ROjPeJKwQ)
-
-- [藏宝阁](https://noisevip.cn/12876.html)
-
-- [电影分级 lut](https://noise.lanzoul.com/ifQ7Z0frridg)
-
-- [20 个 lut](https://noisevip.cn/14350.html)
-
-- [Photoshop 教程](https://www.photoshoplady.com/)
-
-- [新 CG 儿](https://www.newcger.com/)
-
-- [templatenet](https://www.template.net/)
-
+- [Template.net](https://www.template.net/)
 - [爱 PPT](https://www.2ppt.com/)
+- [Search the Deck](https://searchthedeck.com/) — PPT 搜索
+- [FreePreset](https://freepreset.net/) — 预设
+- [Microsoft Designer](https://designer.microsoft.com/)
 
-- [ppt 搜索](https://searchthedeck.com/)
+### 调色与 LUT
 
-## Games
+- [调色 LUT 合集](https://pan.baidu.com/share/init?surl=PFVwWXNbOsIx5ROjPeJKwQ) — 提取码 k5e4
+- [电影分级 LUT](https://noise.lanzoul.com/ifQ7Z0frridg)
+- [Photoshop Lady](https://www.photoshoplady.com/) — PS 教程
+- [新CG儿](https://www.newcger.com/) — AE 与 C4D 素材
 
-- [koyso](https://koyso.com/)
+### 灵感与参考
 
-- [低端游戏](https://ddyx.me/GameList)
+- [Dribbble](https://dribbble.com/shots)
+- [Refero](https://refero.design/) — 产品界面参考
+- [shortcuts.design](https://shortcuts.design/) — 各软件快捷键速查
 
-- [igg](https://igg-games.com/)
+## 游戏
 
-- [跨平台的开源家庭娱乐系统](https://kodi.tv/)
+### 下载站
 
-- [绝版游戏保护工程](https://github.com/skywind3000/preserve-cd)
-
-- [byrutor](https://s1.byrutor.com/)
-
-- [游戏天堂](https://www.zzzz688.com/)
-
-- [webrcade-老游戏模拟器](https://www.webrcade.com/)
-
-- [乐赏单机游戏](http://gbtgame.ysepan.com/)
-
-- [kims](https://kims3.xyz/)
-
-- [skidrowreloaded](https://www.skidrowreloaded.com/)
-
-- [fitgirl](https://fitgirl-repacks.site/)
-
-- [ppsspp](https://www.ppsspp.org/)
-
-- [无所不藏](https://www.nocang.com/)
-
-- [中文游戏博物馆](http://www.famicn.com/)
-
-- [老男人游戏网](http://www.oldmanemu.net/)
-
-- [老游戏在线玩](https://zaixianwan.app/)
-
-- [小游戏平台](https://games.imc.re/)
-
-- [中国象棋](https://play.xiangqi.com/)
-
-- [waves](https://sway.cloud.microsoft/HHSjaNhSbMuhNpTh)
-
-- [nostalgist](https://github.com/arianrhodsandlot/nostalgist)
-
-- [风灵月影管理器](https://github.com/dyang886/Game-Cheats-Manager)
-
-- [gamer520](https://www.gamer520.com/)
-
-- [shorttrip-网页小游戏](https://alexanderperrin.com.au/paper/shorttrip/)
-
-- [itch-游戏平台](https://itch.io/)
-
+- [FitGirl](https://fitgirl-repacks.site/)
+- [IGG Games](https://igg-games.com/)
+- [Skidrow Reloaded](https://www.skidrowreloaded.com/)
+- [ByrutHub](https://byruthub.org/)
+- [Gamer520](https://www.gamer520.com/)
 - [小妖怪](https://www.xyg688.com/)
-
+- [低端游戏](https://ddyx.me/GameList)
+- [PlayZip](https://koyso.com/)
+- [flysheep](https://www.flysheep6.com)
 - [单机游戏合集](https://t.me/fku0007/6308)
-
 - [单机游戏合集 2](https://t.me/fku0007/7240)
 
-- [playgame8](https://playgames8.com/)
+### 老游戏与模拟器
 
-- [flysheep](https://www.flysheep6.com)
+- [绝版游戏保护工程](https://github.com/skywind3000/preserve-cd)
+- [Webrcade](https://www.webrcade.com/) — 网页老游戏模拟器
+- [PPSSPP](https://www.ppsspp.org/) — PSP 模拟器
+- [Nostalgist](https://github.com/arianrhodsandlot/nostalgist) — 浏览器里的模拟器
+- [中文游戏博物馆](http://www.famicn.com/)
+- [老男人游戏网](http://www.oldmanemu.net/)
+- [老游戏在线玩](https://zaixianwan.app/)
 
-- [flysheep 资源避难](http://sj.ysupan.com/flysheep#/)
+### MOD、存档与修改器
 
-- [byrut](https://thebyrut.org)
+- [Nexus Mods](https://www.nexusmods.com/)
+- [SaveGame.pro](https://savegame.pro/) — 游戏存档
+- [ER Save Editor](https://github.com/ClayAmore/ER-Save-Editor) — 艾尔登法环存档编辑
+- [Elden Ring Archive](https://github.com/BugLordI/EldenRingAutoArchive) — 魂类游戏存档备份
+- [风灵月影管理器](https://github.com/dyang886/Game-Cheats-Manager)
 
-- [nexusmods](https://www.nexusmods.com/)
+### 在线小游戏
 
-- [魂类游戏备份](https://github.com/BugLordI/EldenRingAutoArchive)
+- [itch.io](https://itch.io/)
+- [Short Trip](https://alexanderperrin.com.au/paper/shorttrip/) — 手绘小游戏
+- [小游戏平台](https://games.imc.re/)
+- [中国象棋](https://play.xiangqi.com/)
 
-- [艾尔登法环存档编辑](https://github.com/ClayAmore/ER-Save-Editor)
+## 书
 
-- [byruthub](https://byruthub.org/)
+### 搜书
 
-- [savegame-游戏存档](https://savegame.pro/)
-
-## Books
-
-- [tmzn-alist 书库](https://book.tmzn.top/)
-
-- [Project Gutenberg](https://www.gutenberg.org/)
-
-- [Free-eBooks.net ](https://www.free-ebooks.net/)
-
-- [Electronic library](http://en.bookfi.net/)
-
-- [Electronic library](https://sg1lib.org/)
-
-- [Download free eBooks](https://bookboon.com/en)
-
-- [PDF Drive](https://www.pdfdrive.com/)
-
-- [Electronic Library](https://en.booksee.org/)
-
-- [Free Books ](https://www.bookyards.com/en/welcome)
-
-- [eBooks & eLearning](https://avxhm.se/ebooks)
-
-- [Manybooks](https://manybooks.net/)
-
-- [CoderProg ](https://coderprog.com/)
-
-- [FoxGreat](https://foxgreat.com/)
-
-- [Online Library](https://oapen.org/)
-
-- [free ebooks download](https://ebook-hunter.org/)
-
-- [Library Genesis](http://libgen.rs/search.php)
-
-- [Free Computer books Download \| Online computer ebooks \| online free computer science ebooks](http://www.freebookcentre.net/)
-
-- [WuxiaWorld](https://www.wuxiaworld.com/)
-
-- [Wuxiaworld ](https://m.wuxiaworld.co/)
-
-- [Read free English translated Light Novel online!](https://www.novelupdates.cc/)
-
-- [七彩英语](http://www.qcenglish.com/)
-
-- [英文小说网](http://novel.tingroom.com/)
-
-- [Ink East](https://inkeast.com/)
-
-- [Talk to Books](https://books.google.com/talktobooks/)
-
-- [zlibrary 地址检测](https://zlib.pro/)
-
-- [鸠摩读书](https://www.jiumodiary.com/)
-
-- [goodreads](https://www.goodreads.com/)
-
-- [zlibrary 镜像](https://www.ooopn.com/tool/zlibrary/)
-
-- [zlibrary 中文资源](https://bk.hallowlib.org/)
-
-- [Zlibrary 最新地址 民间搜集](https://find.looks.wang)
-
-- [中文书库](https://bk.hallowlib.org/)
-
-- [无名图书](https://www.book123.info/)
-
-- [zlibsearch](https://zlib.knat.network/)
-
-- [Internet Archive](https://archive.org/)
-
-- [bilinguis-双语阅读](http://zh.bilinguis.com/)
-
-- [anna's archive](https://annas-archive.org/)
-
-- [Zhelper 帮助文档](https://v2.zhelper.net/)
-
-- [Zhelper V3 网址列表](https://v3.zhelper.net/)
-
-- [Z-Library 镜像 - 小白工具箱 ](https://www.ooopn.com/tool/zlibrary/)
-
-- [易书论坛 #论坛](https://bbs.yibook.org/)
-
-- [镜像站](https://bk.hallowlib.org/)
-
-- [zlibrary 镜像](https://zlibsearch.1kbtool.com/)
-
-- [易书搜索](https://search.yibook.org/)
-
-- [openlibary](https://openlibrary.org/)
-
-- [老画报](http://www.laohuabao.com/index.html)
-
-- [浙江图书馆-连环画](http://wx.zhlhh.com/zhejianglib)
-
-- [loudreader](https://www.loudreader.com/)
-
-- [FreeMbook Search](https://freembook.com/)
-
-- [在线博物馆](https://gallerix.asia/)
-
-- [苦瓜书盘](https://www.kgbook.com/)
-
-- [liber3](https://liber3.eth.limo/)
-
-- [librum-开源电子书数据库](https://github.com/Librum-Reader/Librum)
-
-- [calibre-电子书管理](https://calibre-ebook.com/)
-
-- [一书单](https://yidanshu.com/)
-
-- [中国成人文学网-NSFW](https://www.xbookcn.net/)
-
+- [鸠摩搜书](https://www.jiumodiary.com/)
 - [24h 搜书](https://24hbook.com/)
-
-- [中文教科书](https://textbook.synaiv.com/)
-
-- [SaltyLeo 的书架](https://book.tstrs.me/)
-
-- [阅读书源](https://shuyuan.yiove.com/)
-
-- [经典电子书](https://github.com/kska32/ebooks)
-
-- [英文小说](https://bookyell.com/)
-
-## Books
-
-- [Zhelper 帮助文档](https://v2.zhelper.net/)
-- [Zhelper V3 网址列表](https://v3.zhelper.net/)
-- [Z-Library 镜像 - 小白工具箱](https://www.ooopn.com/tool/zlibrary/)
-- [易书论坛 #论坛](https://bbs.yibook.org/)
-- [镜像站](https://bk.hallowlib.org/)
-- [zlibrary 镜像](https://zlibsearch.1kbtool.com/)
-- [易书搜索](https://search.yibook.org/)
-- [openlibary](https://openlibrary.org/)
-- [老画报](http://www.laohuabao.com/index.html)
-- [浙江图书馆-连环画](http://wx.zhlhh.com/zhejianglib)
-- [loudreader](https://www.loudreader.com/)
-- [FreeMbook Search](https://freembook.com/)
-- [在线博物馆](https://gallerix.asia/)
-- [苦瓜书盘](https://www.kgbook.com/)
-- [liber3](https://liber3.eth.limo/)
-- [librum-开源电子书数据库](https://github.com/Librum-Reader/Librum)
-- [calibre-电子书管理](https://calibre-ebook.com/)
-- [一书单](https://yidanshu.com/)
-- [中国成人文学网-NSFW](https://www.xbookcn.net/)
-- [24h 搜书](https://24hbook.com/)
-- [中文教科书](https://textbook.synaiv.com/)
-- [SaltyLeo 的书架](https://book.tstrs.me/)
-- [阅读书源](https://shuyuan.yiove.com/)
-- [经典电子书](https://github.com/kska32/ebooks)
-- [英文小说](https://bookyell.com/)
-- [SoBooks](https://sobooks.cc/)
-- [Elib](https://elib.cc/)
+- [猫头鹰搜索](https://www.owlook.com.cn/) — 在线阅读搜索
+- [我帮找](http://www.wobangzhao.com/thread-5175-1-1.html)
+- [慧眼看](https://www.huiyankan.com/)
 - [J9P](http://www.j9p.com/class/r_16_1.html)
-- [PC1999](http://www.pc1999.com/forum-39-1.html)
-- [恩京书房](https://www.enjing.com/)
-- [各种书](http://www.gezhongshu.com/forum.php)
-- [MyDBFX](http://mydbfx.com/?m=202010)
-- [SXPDF](https://www.sxpdf.com/)
-- [PDF之家](http://pdf.018zy.com/)
+- [NMOD](https://www.nmod.net/)
+- [JEbook](http://www.jebook.org/bbs/forum-54-1.html)
+- [94FBR](https://94fbr.net/)
+- [SN9](https://sn9.us/dir/17192461-27868687-4e3441)
+- [545C](https://545c.com/dir/18000042-29172273-c7324c?29339938)
 - [EbookList](https://ebooklist.mobi/)
-- [淘书党](http://www.tbookk.com/)
-- [知识库](https://book.zhishikoo.com/)
-- [JS电子书](http://jsebook.com/)
 - [电子书分享](https://www.dzsfx.com/)
 - [书语录](http://www.ssylu.com/)
 - [心晴网](http://www.ixinqing.com/)
-- [XXURLS](https://www.xxurls.com/)
-- [Booksee](https://en.booksee.org/)
-- [WordPress书库](https://http561856124.wordpress.com/)
-- [SN9](https://sn9.us/dir/17192461-27868687-4e3441)
-- [94FBR](https://94fbr.net/)
-- [MyDBFX](http://mydbfx.com/)
-- [545C](https://545c.com/dir/18000042-29172273-c7324c?29339938)
-- [Reader Book House](https://readerbookhouse.ml/?i=1)
-- [金丝雀](http://www.jinsy.cc/)
-- [SaltTiger](https://salttiger.com/)
-- [BobZhang图书馆](http://bobzhang.dscloud.me/Library_ch/_catalog/index.html)
-- [Book899](http://book899.com/)
-- [NMOD](https://www.nmod.net/)
-- [JEbook](http://www.jebook.org/bbs/forum-54-1.html)
-- [52zcmm](https://52zcmm.com/)
-- [慧眼看](https://www.huiyankan.com/)
-- [天翼云分享](https://cloud.189.cn/web/share?code=qAvmYbUjQZFf)
-- [2Lib](https://2lib.org/Love-erotic-cat201)
 - [XZ577](https://www.xz577.com/)
 - [新书吧](http://www.newbook8.com/)
-- [鸠摩搜书](https://www.jiumodiary.com/)
-- [未来图书馆](https://bks.thefuture.top/)
-- [书单网](https://www.shudan.vip/)
-- [悦读指南](https://www.yuedu.pro/)
-- [聚能饭](https://www.junengfan.cn/bd)
-- [猫头鹰搜索](https://www.owlook.com.cn/)
-- [我帮找](http://www.wobangzhao.com/thread-5175-1-1.html)
+- [恩京书房](https://www.enjing.com/)
+- [知识库](https://book.zhishikoo.com/)
+- [SaltTiger](https://salttiger.com/) — 计算机书
+- [SoBooks](https://sobooks.cc/)
+- [苦瓜书盘](https://www.kgbook.com/)
+- [阅读书源](https://shuyuan.yiove.com/)
+- [经典电子书](https://github.com/kska32/ebooks)
+- [中文教科书](https://textbook.synaiv.com/)
+- [天翼云分享](https://cloud.189.cn/web/share?code=qAvmYbUjQZFf)
+- [WordPress 书库](https://http561856124.wordpress.com/)
+- [tmzn 书库](https://book.tmzn.top/)
+- [SaltyLeo 的书架](https://book.tstrs.me/)
+- [老画报](http://www.laohuabao.com/index.html)
+- [浙江图书馆连环画](http://wx.zhlhh.com/zhejianglib)
 
-### 书屋
+### Z-Library 与影子图书馆
 
-1. **亚伦·希勒尔·斯沃茨精神网站**：
-   - [Lorefree](https://ebook2.lorefree.com/)
+- [Z-Library 地址检测](https://zlib.pro/)
+- [Z-Library 镜像](https://zlib.knat.network/)
+- [Z-Library 最新地址](https://find.looks.wang) — 民间搜集
+- [Liber3](https://liber3.eth.limo/)
+- [Libgen](https://libgen.unblockit.tv/)
 
-2. **Zlibrary**：世界最大的电子图书馆
-   - [Book4you](https://book4you.org/)
-   - [Z-Library镜像](https://zh.zlib.life/s/?languages%5B%5D=chinese&order=date)
-   - [统一登录入口](https://zh.singlelogin.me/)
+### 公版与英文书
 
-3. **创世纪图书馆**：
-   - [Libgen](https://libgen.unblockit.tv/)
+- [Project Gutenberg](https://www.gutenberg.org/)
+- [Planet Ebook](https://www.planetebook.com/)
+- [PDF Drive](https://www.pdfdrive.com/)
+- [HathiTrust](https://www.hathitrust.org/)
+- [Manybooks](https://manybooks.net/)
+- [Booksee](https://en.booksee.org/)
+- [Bookboon](https://bookboon.com/en)
+- [Free-eBooks.net](https://www.free-ebooks.net/)
+- [OAPEN](https://oapen.org/) — 开放获取学术书
+- [Ebook Hunter](https://ebook-hunter.org/)
+- [CoderProg](https://coderprog.com/) — 编程书
+- [FreeBookCentre](http://www.freebookcentre.net/) — 计算机书
+- [AvxHome](https://avxhm.se/ebooks)
+- [WuxiaWorld](https://www.wuxiaworld.com/) — 网文英译
+- [Ink East](https://inkeast.com/) — 英译轻小说
+- [七彩英语](http://www.qcenglish.com/)
+- [英文小说网](http://novel.tingroom.com/)
+- [Bilinguis](http://zh.bilinguis.com/) — 双语阅读
+- [Bookyell](https://bookyell.com/) — 英文小说
 
-4. **三秋书屋**：
-   - [三秋书屋](https://www.sanqiu.cc/)
+### 图书馆与工具
 
-5. **英文网站**：
-   - [古登堡计划](https://www.gutenberg.org/)
-   - [Planet Ebook](https://www.planetebook.com/)
-   - [PDF Drive](https://www.pdfdrive.com/)
-   - [HathiTrust](https://www.hathitrust.org/)
-   - [World Mags](https://worldmags.net/)
-   - [Many Books](https://manybooks.net/)
+- [Open Library](https://openlibrary.org/)
+- [Internet Archive](https://archive.org/)
+- [Talk to Books](https://books.google.com/talktobooks/) — 语义搜书
+- [Goodreads](https://www.goodreads.com/)
+- [青空文库](https://www.aozora.gr.jp/) — 日文公版书
+- [推荐书籍](https://www.tjxz.cc/tag/books)
+- [Librum](https://github.com/Librum-Reader/Librum) — 开源电子书阅读器
+- [Calibre](https://calibre-ebook.com/) — 电子书管理
+- [LoudReader](https://www.loudreader.com/) — 浏览器阅读器
+- [FreeMdict](https://forum.freemdict.com/) — 词典文件
+- [Save Website](https://github.com/saveweb) — 网页存档组织
+- [中国成人文学网](https://www.xbookcn.net/) #NSFW
 
-6. **英语学习网站**：
-   - [推荐书籍](https://www.tjxz.cc/tag/books)
+### 杂志
 
-7. **青空文库**（日语经典）：
-   - [青空文库](https://www.aozora.gr.jp/)
-
-#### 杂志网站
-
-**英文杂志**：
 - [EMagazines](https://emagazines.site/)
-- [MG4F](https://mg4f.com/)
 - [Yige Plus](https://yigeplus.xyz/)
 - [Magazine Lib](https://magazinelib.com/)
-- [八点一刻](https://www.badianyike.com/)
 - [Down Magaz](https://downmagaz.net/)
 - [PDF Magazines](https://pdf-magazines.org/)
 - [PDF Magazines Club](https://pdfmagazines.club/sci-fi/)
-- [World of Magazine](https://www.worldofmagazine.com/)
-- [Mag Download](https://magdownload.org/category/language/english/)
-- [杂志爸爸](https://www.zazhibaba.com/)
-- [经济学人电子版](https://github.com/hehonghui/the-economist-ebooks)
-- [Yumpu](https://www.yumpu.com/en/magazines)
 - [PDF Magazines Download](https://pdf-magazines-download.com/)
+- [World of Magazine](https://www.worldofmagazine.com/)
+- [World Mags](https://worldmags.net/)
+- [Mag Download](https://magdownload.org/category/language/english/)
+- [Yumpu](https://www.yumpu.com/en/magazines)
+- [期刊网](http://new-qk.lifves.com/wap.php?url=aHR0cCUzQSUyRiUyRm5ldy1xay5saWZ2ZXMuY29tJTJG) — 中文杂志
 
-**中文杂志**：
-- [期刊网](http://new-qk.lifves.com/wap.php?url=aHR0cCUzQSUyRiUyRm5ldy1xay5saWZ2ZXMuY29tJTJG)
-
-#### 漫画网站
+### 漫画
 
 - [搜漫](https://www.soman.com/)
-- [X漫画](https://www.xmanhua.com/)
-- [看漫画啦](https://kanmanhuala.com/)
-- [1KKK漫画](https://www.1kkk.com/)
-- [漫画BZ](https://www.mangabz.com/)
+- [1KKK 漫画](https://www.1kkk.com/)
 - [漫画柜](https://www.mhgui.com/)
 - [漫白分](https://www.manbaifen.com/)
 - [咕咕漫画](http://www.gugu5.com/)
-- [猫飞漫画](https://www.maofly.com/)
 - [野漫](https://yemancomic.com/)
 
+## 软件
 
-## Software
+### 系统与激活
 
-### office
-
-- [E5 自动续订软件](https://e5renew.com/) ps: [密钥获取](https://blog.csdn.net/qq_33212020/article/details/119747634)
-
-- [E5 自动续订 web](https://mrmad.com.tw/office-365-e5-and-onedrive-5tb-free)
-
-- [HelloWindows](http://hellowindows.cn/)
-
-- [CMWTAT_Digital_Edition](https://github.com/TGSAN/CMWTAT_Digital_Edition)
-
+- [HelloWindows](http://hellowindows.cn/) — 系统镜像
+- [CMWTAT Digital Edition](https://github.com/TGSAN/CMWTAT_Digital_Edition)
 - [云萌](https://cmwtat.cloudmoe.com/cn.html)
+- [Microsoft Activation Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts)
+- [HEU KMS Activator](https://github.com/zbezj/HEU_KMS_Activator)
+- [Office 部署工具](https://config.office.com/deploymentsettings) — 版本自定义
+- [基于 KMS 的 GVLK](https://learn.microsoft.com/zh-cn/deployoffice/vlactivation/gvlks)
+- [部署与激活视频教程](https://www.youtube.com/watch?v=VSjRx7Hoa60)
+- [E5 自动续订](https://e5renew.com/)
+- [E5 续订说明](https://mrmad.com.tw/office-365-e5-and-onedrive-5tb-free)
+- [LKY OfficeTools](https://github.com/OdysseusYuan/LKY_OfficeTools)
+- [OFGB](https://github.com/xM4ddy/OFGB) — 关闭 Win11 广告
+- [Windows 工具合集](https://t.me/LCGFX/2536)
 
-- [Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts)
+### Office 模板
 
-- [LKY_OfficeTools](https://github.com/OdysseusYuan/LKY_OfficeTools)
+- [Office 模板](https://templates.office.com/zh-cn)
+- [OfficePlus](https://www.officeplus.cn/Template/Home.shtml)
 
-- [microsoft-template](https://templates.office.com/zh-cn)
-
-- [office-plus](https://www.officeplus.cn/Template/Home.shtml)
-
-- [sharekey](https://pkeytool.com/ShareKeys)
-
-- [重装系统](https://down.gxzyzd.com/list/resetcomputer)
-
-- [rogue_pe](https://www.roguepe.cn/index.html)
-
-- [HEU_KMS](https://github.com/zbezj/HEU_KMS_Activator)
-
-- [Windows 相关工具合集](https://t.me/LCGFX/2536)
-
-- [OFGB-关闭 win11 广告](https://github.com/xM4ddy/OFGB)
-
-- 官方工具部署激活
-
-  - [office 软件部署工具](https://www.microsoft.com/en-us/download/details.aspx)
-
-  - [office 版本自定义工具](https://config.office.com/deploymentsettings)
-
-  - [基于 KMS 的 GVLK](https://learn.microsoft.com/zh-cn/deployoffice/vlactivation/gvlks)
-
-  - [视频教程](https://www.youtube.com/watch?v=VSjRx7Hoa60)
-
-### untagged
+### 软件下载站
 
 - [便携软件管理](https://portableappk.com/)
-
 - [反斗软件](https://www.apprcn.com/category/system)
-
-- [awesome-windows](https://github.com/Awesome-Windows/Awesome/blob/master/README-cn.md#%E8%81%8A%E5%A4%A9%E5%AE%A2%E6%88%B7%E7%AB%AF)
-
-- [awesome-linux](https://github.com/luong-komorebi/Awesome-Linux-Software/blob/master/README_zh-CN.md)
-
-- [open-android](https://github.com/Trinea/android-open-project)
-
 - [osssr](https://www.osssr.com/)
-
 - [相逢储物站](https://www.xfyzyyb.xyz/)
-
 - [下次一定](https://www.iiice.cn/#/)
-
 - [如有享乐](https://51.ruyo.net/)
-
-- [freefordev](https://github.com/ripienaar/free-for-dev)
-
-- [apkpure](https://m.apkpure.com/)
-
-- [windows apps](https://amazing-apps.gitbook.io/windows-apps-that-amaze-us/zh-cn)
-
-- [400 多个站点和资源库](https://iamjesushusbands.gumroad.com/l/resource-lib)
-
-- [The Only List of Website and Resources You Will Ever Need](https://iamjesushusbands.medium.com/the-only-list-of-website-and-resources-you-will-ever-need-fc79873d38e4)
-
-- [奶酪清单](https://www.runningcheese.com/aaa)
-
-- [softpedia](https://www.softpedia.com/)
-
-- [progsoft](https://progsoft.net/zh-cn)
-
+- [Softpedia](https://www.softpedia.com/)
+- [ProgSoft](https://progsoft.net/zh-cn)
 - [黑鹰](https://www.lxapk.com/)
-
-- [Bypass Paywalls-绕过付费墙](https://gitlab.com/magnolia1234/bypass-paywalls-chrome-clean)
-
-- [付费墙工具贴](https://t.me/LCGFX/2941)
-
-- [绕过付费墙](https://freedium.cfd/)
-
-- [付费墙文章破解](https://paywallbuster.com/)
-
-- [opensourcealternative](https://www.opensourcealternative.to/)
-
-- [Jay 仓库-互联网资源](https://www.likejay.cn/)
-
-- [loudreader-浏览器阅读器](https://www.loudreader.com/)
-
-- [alternativeto-软件替代方案](https://alternativeto.net/)
-
-- [portableapps-便携软件](https://portableapps.com/apps)
-
-- [fileagle-安全下载平台](https://www.fileeagle.com/zh-CN/)
-
-- [saas 替代方案](https://saasblocks.io/)
-
-- [open-source-alternatives](https://www.opensourcealternative.to/)
-
-- [sourceforge-开源软件](https://sourceforge.net/)
-
-- [altapps](https://zh.altapps.net/)
-
-- [repack-Adobe](https://repack.me/)
-
-- [monkrus-Adobe](https://w14.monkrus.ws/)
-
-- [freemdict-字典文件分享](https://forum.freemdict.com/)
-
-- [coca-英语语料下载](https://www.english-corpora.org/coca/)
-
-- [virscan-病毒扫描](https://www.virscan.org/)
-
-- [virustotal-病毒扫描](https://www.virustotal.com/gui/home/upload)
-
-- [微步云-病毒扫描](https://s.threatbook.com/)
-
-- [哈勃-病毒扫描](https://habo.qq.com/)
-
-- [hackingtool](https://github.com/Z4nzu/hackingtool)
-
-- [MirrorSite](https://github.com/runningcheese/MirrorSite)
-
-- [topgrossing-chrome 流行插件](https://extpose.com/top-grossing)
-
-- [achieve-绕过付费墙](https://archive.ph/)
-
-- [idm-active](https://github.com/lstprjct/IDM-Activation-Script)
-
-- [edu 教育邮箱优惠](https://www.edumails.cn/edudajihe.html#xiao_lu_ban_gong_you_hui)
-
-- [awesome-oss-alternatives](https://github.com/RunaCapital/awesome-oss-alternatives)
-
 - [自学办公软件下载](https://www.yutu.cn/popsoft.html)
-
+- [APKPure](https://m.apkpure.com/)
+- [PortableApps](https://portableapps.com/apps)
 - [好软分享](https://github.com/yoyodadada/haoruanfenxiang)
 
-## Blogs/Websites
+### 替代方案
 
+- [AlternativeTo](https://alternativeto.net/)
+- [Open Source Alternative](https://www.opensourcealternative.to/)
+- [SaaS Blocks](https://saasblocks.io/)
+- [SourceForge](https://sourceforge.net/)
+- [AltApps](https://zh.altapps.net/)
+- [awesome-oss-alternatives](https://github.com/RunaCapital/awesome-oss-alternatives)
+- [Android 开源项目](https://github.com/Trinea/android-open-project)
+- [Awesome Linux Software](https://github.com/luong-komorebi/Awesome-Linux-Software/blob/master/README_zh-CN.md)
+- [Windows Apps That Amaze Us](https://amazing-apps.gitbook.io/windows-apps-that-amaze-us/zh-cn)
+- [free-for-dev](https://github.com/ripienaar/free-for-dev) — 免费开发者服务
+- [奶酪清单](https://www.runningcheese.com/aaa)
+- [400 多个站点和资源库](https://iamjesushusbands.gumroad.com/l/resource-lib)
+
+### 破解与付费墙
+
+- [repack.me](https://repack.me/) — Adobe 破解
+- [Bypass Paywalls](https://gitlab.com/magnolia1234/bypass-paywalls-chrome-clean)
+- [付费墙工具贴](https://t.me/LCGFX/2941)
+- [PaywallBuster](https://paywallbuster.com/)
+- [archive.today](https://archive.ph/) — 网页快照
+
+### 安全检测
+
+- [VirusTotal](https://www.virustotal.com/gui/home/upload)
+- [VirusScan](https://www.virscan.org/)
+- [微步云沙箱](https://s.threatbook.com/)
+- [HackingTool](https://github.com/Z4nzu/hackingtool) — 渗透测试工具集
+- [MirrorSite](https://github.com/runningcheese/MirrorSite) — 镜像站
+
+## 网站
+
+### 个人博客
+
+- [Bartosz Ciechanowski](https://ciechanow.ski/) — 交互式科普
 - [kaito's blog](http://kaito-kidd.com/archives/)
-
 - [保罗的小宇宙](https://paugram.com/)
-
 - [localmjj](https://www.locmjj.com/)
-
 - [rat's blog](https://www.moerats.com/)
-
-- [青衣十三楼](http://scz.617.cn:8/)
-
 - [东泽煮粥](https://eurychen.me/)
-
-- [Bartosz Ciechanowski](https://ciechanow.ski/)
-
-- [adoerww](https://adoerww.vercel.app/nav/)
-
-- [freelearninglist](https://freelearninglist.org/)
-
-- [deephn](https://deephn.org/)
-
-- [今日热榜](https://tophub.today/)
-
-- [buzzing](https://www.buzzing.cc/)
-
-- [anyknew](https://www.anyknew.com/#/)
-
-- [smashingmagazine](https://www.smashingmagazine.com/)
-
-- [metaphor](https://metaphor.systems/)
-
-- [其乐](https://keylol.com/)
-
-- [Upstract](https://upstract.com/)
-
-- [hnsummary](https://hackernews.betacat.io/)
-
-- [Smashing Magazine](https://www.smashingmagazine.com/)
-
-- [Save web](https://github.com/saveweb)
-
-- [德里达写作习惯](https://mindyourwriting.wordpress.com/2015/10/26/how-famous-researchers-work-derrida/)
-
-- [品云机场导航](https://52.mk/)
-
-- [DAC 导航](https://nwuzmed.ga/)
-
-- [PornDud\#NSFW](https://theporndude.com/zh)
-
-- [中文 newsletter](https://www.notion.so/700273d587b8412f83743160ab6b4e74?v=682827618e2642a197c849515053dfce)
-
-- [feddd-rss 订阅源](https://feeddd.org/feeds)
-
-- [directory-博客收集](https://ooh.directory/)
-
-- [readsometingwondeful](https://readsomethingwonderful.com/)
-
+- [青衣十三楼](http://scz.617.cn:8/)
+- [工程师博客](https://infos.imhcg.cn/) — 英文工程博客 RSS
+- [中文独立博客列表](https://github.com/timqian/chinese-independent-blogs)
+- [ooh.directory](https://ooh.directory/) — 博客目录
+- [Engineering Blogs](https://github.com/kilimchoi/engineering-blogs)
 - [boredreading](https://boredreading.com/)
-
-- [chiphell-科技测评](https://www.chiphell.com/)
-
-- [github 漫游指南](https://github.phodal.com/#/chapter/Github%E6%BC%AB%E6%B8%B8%E6%8C%87%E5%8D%97)
-
-- [好工具周刊](https://bestxtools.zhubai.love/)
-
+- [readsomethingwonderful](https://readsomethingwonderful.com/)
 - [奔跑中的奶酪](https://www.runningcheese.com/)
 
-- [Hacker New 深度检索](https://deephn.org/)
+### 聚合与资讯
 
-- [noise](https://www.noisesite.cn/)
-
-- [contentideas](https://contentideas.io/)
-
-- [暗网网址推荐](https://www.reddit.com/r/deepweb/comments/bom7xr/what_sites_and_links_should_rdeepweb_recommend/)
-
-- [Tony Dinh's Newsletter](https://news.tonydinh.com/p/my-solopreneur-story-zero-to-45kmo)
-
-- [stay anonymous](https://tmp.bearblog.dev/how-i-stay-reasonably-anonymous-online/)
-
-- [现代隐私保护指南](https://archlinuxstudio.github.io/ModernSecurityProtectionGuide/#/)
-
-- [List of Emerging Technologies](https://www.wikiwand.com/en/List_of_emerging_technologies)
-
-- [List of Exsiting Technologies Predicted in Science Fiction](https://www.wikiwand.com/en/List_of_existing_technologies_predicted_in_science_fiction)
-
-- [List of Hypothetical Technologies](https://www.wikiwand.com/en/List_of_hypothetical_technologies)
-
-- [Opensource Hereos](https://opensource-heroes.com/)
-
-- [世界电影史](https://www.scaruffi.com/cinema/best100.html)
-
-- [程序员应该访问的最佳网站中文版](https://github.com/tuteng/Best-websites-a-programmer-should-visit-zh)
-
-- [ubuweb-艺术作品库](https://ubu.com/)
-
-- [engineering-blogs](https://github.com/kilimchoi/engineering-blogs)
-
+- [今日热榜](https://tophub.today/)
+- [Buzzing](https://www.buzzing.cc/)
+- [AnyKnew](https://www.anyknew.com/#/)
+- [Upstract](https://upstract.com/)
+- [Hacker News Summary](https://hackernews.betacat.io/)
+- [DeepHN](https://deephn.org/) — HN 深度检索
+- [Chiphell](https://www.chiphell.com/) — 科技与硬件
+- [其乐](https://keylol.com/) — 游戏社区
+- [fun2k](https://fun2k.com/) — 娱乐资讯
 - [redditlist](https://redditlist.com/)
+- [品云机场导航](https://52.mk/)
+- [PornDude](https://theporndude.com/zh) #NSFW
 
-- [中国科普博览](https://www.kepu.net.cn/)
+### Awesome 列表
 
-- [awesome_list](https://asmen.icopy.site/)
-
-- [历史年轮](https://www.yearsmap.com/)
-
-- [awesome-selhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)
-
+- [awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)
 - [awesome-cloudflare](https://github.com/zhuima/awesome-cloudflare)
+- [awesome-osint](https://github.com/jivoi/awesome-osint)
+- [awesome-machine-learning-startups](https://github.com/gmberton/awesome-machine-learning-startups)
+- [awesome_list](https://asmen.icopy.site/) — Awesome 中文索引
+- [大厂开源项目](https://github.com/LeslieLeung/opensource-lighthouse)
+- [1000 个中国独立开发者项目](https://github.com/XiaomingX/1000-chinese-independent-developer-plus)
+- [程序员应该访问的最佳网站](https://github.com/tuteng/Best-websites-a-programmer-should-visit-zh)
+- [公开实时数据库](https://github.com/bytewax/awesome-public-real-time-datasets)
+- [freelearninglist](https://freelearninglist.org/)
+- [The Only List of Website and Resources](https://iamjesushusbands.medium.com/the-only-list-of-website-and-resources-you-will-ever-need-fc79873d38e4)
+- [GitHub 漫游指南](https://github.phodal.com/#/chapter/Github%E6%BC%AB%E6%B8%B8%E6%8C%87%E5%8D%97)
 
-- [中国古代人物可视化](https://tools.buyixiao.xyz/historical-figure-query)
+### 工具与参考
 
 - [1000userguide](https://1000userguide.com/#/)
-
-- [学习摩斯电码](https://www.perry.qa/morse)
-
-- [老生常谈](https://laosheng.top/)
-
-- [公开实时数据库](https://github.com/bytewax/awesome-public-real-time-datasets)
-
-- [海棠诗社](https://haitang.app/)
-
+- [老生常谈](https://laosheng.top/) — 生活服务入口
 - [高等院校三千所](https://laosheng.top/fuwu/yuanxiao)
-
-- [awesome-osint](https://github.com/jivoi/awesome-osint)
-
-- [全球实时航班交通](https://zh.flightaware.com/)
-
+- [学习摩斯电码](https://www.perry.qa/morse)
+- [海棠诗社](https://haitang.app/)
+- [中国古代人物可视化](https://tools.buyixiao.xyz/historical-figure-query)
+- [全球实时航班](https://zh.flightaware.com/)
+- [Skyline Webcams](https://www.skylinewebcams.com/) — 世界景区摄像头
+- [Birdify](https://birdify.co.uk/) — 世界各地的鸟鸣
+- [Localingual](https://www.localingual.com/) — 收听世界方言
+- [cantsleepreads](https://cantsleepreads.com/story/the-celebrated-jumping-frog) — 睡前故事
+- [Strand](https://strand.jinay.dev/) — 一起写故事
+- [中国科普博览](https://www.kepu.net.cn/)
+- [英语语料 COCA](https://www.english-corpora.org/coca/) — 语料库下载
+- [教育邮箱优惠](https://www.edumails.cn/edudajihe.html#xiao_lu_ban_gong_you_hui)
+- [Exa](https://metaphor.systems/) — 语义搜索
+- [adorerww](https://adoerww.vercel.app/nav/) — 导航站
+- [contentideas](https://contentideas.io/)
 - [独立开发者出海工具箱](https://indiehackertools.net/)
+- [Tony Dinh's Newsletter](https://news.tonydinh.com/p/my-solopreneur-story-zero-to-45kmo)
+- [中文 Newsletter 收集](https://www.notion.so/700273d587b8412f83743160ab6b4e74?v=682827618e2642a197c849515053dfce)
 
-- [中文独立博客列表](https://github.com/timqian/chinese-independent-blogs)
+### 隐私与安全
 
-- [大厂开源项目](https://github.com/LeslieLeung/opensource-lighthouse)
+- [现代隐私保护指南](https://archlinuxstudio.github.io/ModernSecurityProtectionGuide/#/)
+- [How I stay anonymous online](https://tmp.bearblog.dev/how-i-stay-reasonably-anonymous-online/)
+- [暗网网址推荐](https://www.reddit.com/r/deepweb/comments/bom7xr/what_sites_and_links_should_rdeepweb_recommend/)
 
-- [工程师博客](https://infos.imhcg.cn/)
+### 维基条目
 
-- [Locallingual-收听世界方言](https://www.localingual.com/)
-
-- [值得一读技术博客](daily-blog.chlinlearn.top)
-
-- [cantsleepreads-睡眠故事](https://cantsleepreads.com/story/the-celebrated-jumping-frog)
-
-- [Write stories with the world](https://strand.jinay.dev/)
-
-- [fun2k-娱乐资讯](https://fun2k.com/)
-
-- [birdify-世界各地的鸟声](https://birdify.co.uk/)
-
-- [skylinewebcams-世界景区摄像头](https://www.skylinewebcams.com/)
-
-- [1000个中国独立开发者项目汇总](https://github.com/XiaomingX/1000-chinese-independent-developer-plus)
-
-- [awesome-machine-learning-startups](https://github.com/gmberton/awesome-machine-learning-startups)
+- [List of Emerging Technologies](https://www.wikiwand.com/en/List_of_emerging_technologies)
+- [List of Existing Technologies Predicted in Science Fiction](https://www.wikiwand.com/en/List_of_existing_technologies_predicted_in_science_fiction)
+- [List of Hypothetical Technologies](https://www.wikiwand.com/en/List_of_hypothetical_technologies)
