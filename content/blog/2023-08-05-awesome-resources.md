@@ -239,7 +239,7 @@ date: 2023/08/05
 - [Gamer520](https://www.gamer520.com/)
 - [小妖怪](https://www.xyg688.com/)
 - [低端游戏](https://ddyx.me/GameList)
-- [PlayZip](https://koyso.com/)
+- [PlayZip](https://playzip.com/)
 - [flysheep](https://www.flysheep6.com)
 - [单机游戏合集](https://t.me/fku0007/6308)
 - [单机游戏合集 2](https://t.me/fku0007/7240)
